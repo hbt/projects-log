@@ -102,7 +102,7 @@ function generateIndex()
             } else {
                 createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
-                $url = 'blog/' . fixTitle($k, $v);
+                $url = '/projects-log/blog/' . fixTitle($k, $v);
                 $title = "[$k]($url)";
 
 
