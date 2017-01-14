@@ -6,6 +6,7 @@ $m = [
         'review todos / enhancements',
         'fix layout ',
         'add analytics',
+        'include title on top of page -- from map ',
         'make SEO friendly',
     ],
     'figure out the tone,philo behind the writing. self censorship? professional? personal? who gives a fuck cauz who will read it?',
