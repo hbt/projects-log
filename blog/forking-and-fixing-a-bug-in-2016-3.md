@@ -1,0 +1,202 @@
+---
+layout: layout
+title:  Forking and fixing a bug in 2016
+---
+
+
+# fixing the chromium white flash journey
+
+This documents how much of a pain in the ass software development still is in 2016. 
+
+
+## Project set up
+
+so you wanna fix a bug on chrome? Easy, download the project, build it, fix it and done. Right? Guys?
+
+
+Yes and no. 
+
+
+## downloading the project
+
+Clone the repository. Wait a few hours because this is Canada and Internet sucks. 
+
+We have the entire source code and its history. Now, let's build it. But first, configure it.
+
+## configure the project
+
+Look into the build instructions because chromium is too cool to use standard tools or stick to the same ones for more than a year. 
+Figure out what the fuck each tool does because the names are meaningless. 
+
+- gyp
+- gclient
+- ninja
+- gn
+
+can't build just yet. First, install the dependencies and hope to God your platform/OS version is supported. Luckily, we are. Ubuntu precise 64. 
+Install the dependencies and hope you don't break something else by updating a library and the install goes smoothly. 
+
+
+## build and fix
+
+Build the project. You can go shop for a noose and come back, it won't be done. Hours of compiling. 
+Hope the compilation doesn't break in the middle because some weird library hates you.
+
+## test the binary
+
+Binary works but it's a 2G. Make a change in the code and it takes 30m to compile the files. 
+Oops, forgot to configure the project and disable debugging symbols and other normal shit. 
+
+I guess, F me for asking for sane defaults out of the box, right?
+
+Back to configure and build but this time it only takes 2h instead of 5h. 
+
+## Finally ready
+
+Project is built, compiled, changing code doesnt take too long to compile (unless it's a popular header or template file).
+
+## Start an editor
+
+No idea which directory to pick to begin hunting this bug? Why not load the whole project. 
+30m to build file indices in IDE so I can have some decent autocompletion when typing a filename.
+
+## Go to symbol
+
+Nah, you don't need it. Remember, we are different. We don't use make files or CMake or any standard shit. So, CLion can't go anywhere. 
+Eclipse can but I haven't used eclipse. I don't have my themes, my preferences, my plugins, my vim bindings, nothing. 
+So, the choice is between sticking with an editor suite that I've been using for years but doesn't have a key feature or switching to Eclipse and waste time searching for features that I take for granted.
+
+
+Fuck "go to symbol", who needs it. I've got search. 
+
+Remember why we here.
+Oh right, the white flash bug. This gotta be some constant somewhere named white or some header file with the color code. 
+
+## Let the search begin
+
+Hunt every instance of white. Color codes, hex codes, html codes and bookmark the most interesting ones. 
+Like the ones mentioning background. 
+
+
+Hunt and change. 
+
+But wait, wait, wait. This is not software engineering, aren't you supposed to understand the architecture of the project, how the pages are rendered and life is created?
+
+Why not launch a debugger, click on the new tab button, then step through the code until you see the white flash?
+
+
+hahahahahahahahahaha. You poor soul. How long will it take to configure the debugger in CLion or find an editor? How do you debug it? Do I have to recompile it with debugging symbols on? What if the white flash appears post rendering and I completely miss the instruction? 
+Nope, searching for any mention of white would be faster than all of the above but good try.
+
+
+Eventually, with trial and error, three locations are found where when the color is switched to black, the white flash disappears. 
+
+
+Record the location, branch the code, revert all the shit I modified that is irrelevant and commit. 
+
+## Let's browse for a bit without white flash. 
+
+Woot, Woot. 
+No white flash.
+
+
+Oops, flash player is not working. Google around, you have to do additional shit to include it in the compile. 
+Look into how it's loaded in the default chromium, copy that. Pass the arguments to the binary. It works. But it crashes. 
+What the fuck? Look for different versions. Nope. Still crashes. 
+Test it on google chrome. It works. So, problem is not the flash player. 
+
+Look at the git log. Motherfucker modified the flash player recently. Revert to a tag, pull, rebuild. Flash player works.
+
+I hate this so much.
+
+
+## wanna share the work
+
+Easy, right? It's git! We have github and bitbucket. I will share it for free. 
+
+Oops. My upload connection sucks balls and the repo is enormous. 
+Alright, rent a VM, clone the repo and push. Less than 1$
+
+Clones in less than a few minutes. Fast Internet feels so good. 
+Not so fast, can't push to bitbucket. Repo has a limit of 2G and we have to use GitFS, delete large files and ask your mom. Fuck bitbucket. 
+What about github?
+
+git push. Wait for deltas, wait for compress (big big repo), crashes. 
+
+We have to push it in chunks. Something like this
+
+```
+git push -u bb_origin HEAD~300000:refs/heads/master
+git push bb_origin HEAD~200000:refs/heads/master
+git push bb_origin HEAD~100000:refs/heads/master
+git push bb_origin master
+```
+
+How small is the linux repo? Why doesnt the push command break it into chunks for me? Whatever. Push it into chunks.
+Nope, same error as bitbucket. 
+
+
+Alright, hope someone already uploaded chromium. Search around (github and bitbucket search feature sucks). A lot of repos, most out of date. Found one.
+Fork it. Merge. Push. 
+Boom.
+
+Shared my work. 
+
+Nobody will give a fuck about the code, how about producing binaries for quick testing?
+
+## sharing binaries
+
+Look for instructions online. Tons of outdated shit and scripts that dont exist. Google groups are useless and people not answering. 
+Fuck them. I will figure it out on my own. 
+
+Look around the repo. Find the script. Start reading them and they look like template and stuff being controlled by something else.
+Look at the build tools for a task.
+
+Found one. Google the task. Some old instructions but gives me a good idea. 
+Run the task. It crashes. Dependencies issues. Libraries compiled without version number. 
+Fuck that, ignore it. Produces deb files for ubuntu. 
+
+Test deb files. Doesn't work, libraries hate my guts. 
+Fix the libraries by copying them manually and using ldconfig.
+
+OK. It works. 
+
+Fuck it, just share the deb files and libraries separately and [provide instructions](https://github.com/hbtlabs/chromium-white-flash-fix). 
+
+## tell people about it
+
+Find the bug tracker, google around for hardcore users. See who gives a shit.
+
+[https://bugs.chromium.org/p/chromium/issues/detail?id=470669](https://bugs.chromium.org/p/chromium/issues/detail?id=470669)
+
+The deb file is not ideal but it works. 
+It would be great to build it for popular platforms like windows or macosx. 
+
+Let's look into that, ooh wait. I have to do all of the above but on windows and deal with those dependency/library problems. FFFFFF that.
+
+
+## I'm tired. 
+
+This is what's it's like to try to change code in a big project. 
+
+- You don't have access to fast Internet 
+- You don't have access to distributed compilation
+- You don't know which editors are best suited for the project considering the tools
+- You don't have experience debugging this particular project
+- You don't have the resources to ask which documentation is relevant and which is outdated
+- You don't have access to google internal tools to produce binaries for multiple platforms and share your work easily
+- You don't have access to mentors guiding you and answering your questions as you go
+
+
+Most of those things can't be changed but a few can. 
+Like having an easy way to just start working. Whether it's a VM with everything installed, configured and pre-compiled, just ready to take your code changes.
+Or some cloud tool to provide distributed computing/compilation at a fraction of the cost. 
+Whatever it is would be better than this gigantic waste of time and energy.
+
+
+## In the end, I prevail
+
+White flash is fixed. I can browse peacefully. Suck it. I don't need you.
+
+
+
