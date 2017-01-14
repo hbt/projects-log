@@ -16,6 +16,9 @@ Content index
     * [Sleazy marketing](/projects-log/blog/sleazy-marketing-6)
     * [Conclusion](/projects-log/blog/conclusion-7)
   * mouseless
+    * [me and the keyboard. a love story.](/projects-log/blog/me-and-the-keyboard-a-love-story-8)
+    * [bringing mouseless to the average user (brainstorming)](/projects-log/blog/bringing-mouseless-to-the-average-user-brainstorming-9)
+    * [fuck the average user. Stick to advanced users.](/projects-log/blog/fuck-the-average-user-stick-to-advanced-users-10)
 
 
 

@@ -13,6 +13,9 @@ $map = [
             'Conclusion' => '7',
         ],
         'mouseless' => [
+            'me and the keyboard. a love story.' => '8',
+            'bringing mouseless to the average user (brainstorming)' => '9',
+            'fuck the average user. Stick to advanced users.' => '10',
         ],
     ],
    
