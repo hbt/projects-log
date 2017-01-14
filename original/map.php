@@ -9,6 +9,7 @@ $map = [
             'Forking and fixing a bug in 2016' => '3',
             'thinking about vision and end goal' => '4',
             
+            
 //            'Sharing the fix' => '',
 //            "Feedback and what's next" => '',
 //            "Maintenance is the time sink of all software" => '',

@@ -25,7 +25,7 @@ main();
 
 function main()
 {
-    chdir(dirname(__FILE__) . '/../');
+    chdir(dirname(__FILE__) . '/../../');
     validate();
 
 
@@ -46,7 +46,7 @@ function main()
 function validate()
 {
     // where this file should be located
-    assert(file_exists('scripts/build-index.php'));
+    assert(file_exists('original/scripts/build-index.php'));
 
     // file that contains generated map
     assert(file_exists('index.md'));
@@ -60,7 +60,7 @@ function validate()
     assert(file_exists('blog'));
 
     // where jekyll files are generated
-    assert(file_exists('site'));
+    assert(file_exists('_site'));
 
     // where my files reside
     assert(file_exists('original'));
@@ -102,7 +102,7 @@ function generateIndex()
             } else {
                 createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
-                $url = '/blog/' . fixTitle($k, $v);
+                $url = 'blog/' . fixTitle($k, $v);
                 $title = "[$k]($url)";
 
 

@@ -1,7 +1,7 @@
 # generate index file + refresh on file changes
 
 cd original
-wf ../scripts/build-index.php
+wf scripts/build-index.php
 
 # build site 
 
