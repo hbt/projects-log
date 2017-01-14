@@ -8,10 +8,18 @@ assert_options(ASSERT_ACTIVE, true);
 assert_options(ASSERT_WARNING, true);
 assert_options(ASSERT_BAIL, true);
 
+/**
+ * Usage:
+ * wf scripts/build-index.php
+ *
+ * modify files in IDE and index is automatically rebuilt + markdown files converted
+ */
+
 
 /**
  * generates files using my custom structure in map.php
  * Eeasier to manipulate and reorganize content
+ * // TODO(hbt) ENHANCE replace by parser
  */
 main();
 
@@ -95,6 +103,7 @@ function generateIndex()
 
                 $level--;
             } else {
+                createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
                 $url = '/blog/' . fixTitle($k, $v);
                 $title = "[$k]($url)";
@@ -115,6 +124,22 @@ function generateIndex()
     $content = file_get_contents('index-tmpl.md');
     $content = str_ireplace('%%map%%', $index, $content);
     file_put_contents('index.md', $content);
+}
+
+function createFile($filename)
+{
+    $fp = SOURCE_DIR . $filename;
+    if(file_exists($fp)) 
+        return;
+    
+    $m = [];
+    preg_match('/\d+/', $filename, $m);
+    assert(is_numeric($m[0]));
+    assert(count($m) == 1);
+    
+    $fp = SOURCE_DIR . $m[0] . '.md';
+    touch($fp);
+    
 }
 
 /**
@@ -165,7 +190,7 @@ function copyFiles()
          * layout: post
          * title:  "Repeat Progress"
          * ---
-         * 
+         *
          */
         // add header to post content
         $content = file_get_contents(SOURCE_DIR . $v);
@@ -214,7 +239,7 @@ function buildMap(&$ret, $map)
 }
 
 /**
- * 
+ *
  */
 function createBlogDir()
 {
