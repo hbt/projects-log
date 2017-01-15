@@ -2,6 +2,14 @@
 
 $m = [
 
+    'structure' => [
+        'everything in original',
+        'run asciidoc and generate docs',
+        'check apache + gh works',
+
+        'document ',
+    ],
+
     'try asciidoctor instead' => [
         'test using asciidoctor instead of markdown -- http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/',
         'http://asciidoc.org/userguide.html',

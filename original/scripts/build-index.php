@@ -57,7 +57,7 @@ function validate()
     assert(stripos(file_get_contents('index-tmpl.md'), '%%map%%') !== false);
 
     // where the files in map are transformed. Directory is cleared. Store nothing there. 
-    assert(file_exists('blog'));
+    assert(file_exists('docs/blog'));
 
     // where jekyll files are generated
     assert(file_exists('docs'));
