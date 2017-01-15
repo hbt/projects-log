@@ -10,7 +10,11 @@ $m = [
     
     'add to projects + link',
     'figure out the tone,philo behind the writing. self censorship? professional? personal? who gives a fuck cauz who will read it?',
-    'write about chromium, mouseless,dotfiles,github-backup -- move stuff from old log here',
+    'write on' => [
+        'dotfiles',
+        'fitness / quantified self / health',
+        
+    ],
     'deprecate plmap',
     
     'enhance github pages ' => [
