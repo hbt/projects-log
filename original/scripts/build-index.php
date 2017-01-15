@@ -126,8 +126,8 @@ function generateIndex()
 function createFile($filename)
 {
     $fp = SOURCE_DIR . $filename;
-    if (file_exists($fp))
-        return;
+//    if (file_exists($fp))
+//        return;
 
     $m = [];
     preg_match('/\d+/', $filename, $m);
@@ -135,6 +135,16 @@ function createFile($filename)
     assert(count($m) == 1);
 
     $fp = SOURCE_DIR . $m[0] . '.adoc';
+    $md = SOURCE_DIR . $m[0] . '.md';
+    var_dump($md);
+    
+    
+    
+    if(file_exists($md)) {
+        file_put_contents($fp, file_get_contents($md));
+        unlink($md);
+    }
+    
     
     touch($fp);
 
