@@ -2,7 +2,12 @@
 
 $m = [
 
-    'test comment -- http://stackoverflow.com/questions/4823468/comments-in-markdown',
+    'try asciidoctor instead' => [
+        'test using asciidoctor instead of markdown -- http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/',
+        'http://asciidoc.org/userguide.html',
+        'convert projects.md',
+    ],
+    
     'add to projects + link',
     'figure out the tone,philo behind the writing. self censorship? professional? personal? who gives a fuck cauz who will read it?',
     'write about chromium, mouseless,dotfiles,github-backup -- move stuff from old log here',

@@ -8,6 +8,7 @@ $todos = [
             
         ],
         'improve documentation' => [
+            'use https://readthedocs.org/ or something similar',
             'fix readme',
             'add help page listing commands and descriptions',
             'add wiki for examples of css cvim, configs, custom functions, website configurations,',
@@ -30,6 +31,10 @@ $todos = [
         'contact watchers / forkers / pull requesters' => [
             
         ],
+    ],
+    'look into viable business models for open source' => [
+        't-shirts / coffee mugs and other merchandise of mouse hate - https://salt.bountysource.com/checkout/amount?team=neovim',
+        'be listed as a sponsor ',
     ],
 ];
 ?>
