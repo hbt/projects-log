@@ -134,7 +134,8 @@ function createFile($filename)
     assert(is_numeric($m[0]));
     assert(count($m) == 1);
 
-    $fp = SOURCE_DIR . $m[0] . '.md';
+    $fp = SOURCE_DIR . $m[0] . '.adoc';
+    
     touch($fp);
 
 }
@@ -152,7 +153,7 @@ function fixTitle($title, $filename)
     $ret = preg_replace('/[^a-z0-9]+/', '-', $ret);
     $ret = trimTrailingDash($ret);
 
-    $id = str_ireplace('.md', '', $filename);
+    $id = str_ireplace('.adoc', '', $filename);
     $ret .= '-' . $id;
 
     return $ret;
@@ -178,7 +179,7 @@ function copyFiles()
     $map = getInlineMap();
     foreach ($map as $k => $v) {
         $title = fixTitle($k, $v);
-        $filename = $title . '.md';
+        $filename = $title . '.adoc';
 
         /**
          *Example header
@@ -202,7 +203,7 @@ function copyFiles()
 
 
     // all files converted successfully 
-    assert(count(glob(TARGET_DIR . '*.md')) == count($map));
+    assert(count(glob(TARGET_DIR . '*.adoc')) == count($map));
 }
 
 function getPostHeaderTemplate()
@@ -239,9 +240,9 @@ function transformMap($map)
         if(is_array($v)) {
             return array_map($transform, $v);
         } else {
-            // postfix id with .md to match filename
+            // postfix id with .adoc to match filename
             if($v) {
-                $v .= '.md';
+                $v .= '.adoc';
             }
         }
         return $v;
@@ -267,7 +268,7 @@ function createBlogDir()
 {
     // clean old dir
     if (file_exists(TARGET_DIR)) {
-        $files = glob(TARGET_DIR . '/*.md');
+        $files = glob(TARGET_DIR . '/*.adoc');
 
         array_walk($files, function ($fn) {
             if (file_exists($fn) && is_file($fn)) {
