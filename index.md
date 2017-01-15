@@ -3,8 +3,7 @@ layout: post
 title:  "Projects log"
 ---
 
-tt
-
+test
 Content index
 
 * [test](/projects-log/blog/test-11)

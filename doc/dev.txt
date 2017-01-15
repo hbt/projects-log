@@ -1,3 +1,5 @@
+# generate the html and force github-pages to deliver that instead of whatever version/format it has. asciidoc doesnt work as expected on github pages and makes it a pain in the ass to test both
+
 # generate index file + refresh on file changes
 
 cd original
@@ -5,7 +7,7 @@ wf scripts/build-index.php
 
 # build site 
 
-jekyll s
+jekyll s -d dodcs
 
 # visit site 
 http://127.0.0.1:4000/blog/forking-and-fixing-a-bug-in-2016-3

@@ -1,6 +1,7 @@
 gems:
   - jekyll-asciidoc
 
+destination: docs
 asciidoc: {}
 asciidoctor: {}
 
