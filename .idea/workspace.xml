@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="" />
+    <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/test-11.asciidoc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/1.html" afterPath="$PROJECT_DIR$/docs/original/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/10.html" afterPath="$PROJECT_DIR$/docs/original/10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/11.adoc" afterPath="$PROJECT_DIR$/original/11.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/11.html" afterPath="$PROJECT_DIR$/docs/original/11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/2.html" afterPath="$PROJECT_DIR$/docs/original/2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/3.html" afterPath="$PROJECT_DIR$/docs/original/3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/4.html" afterPath="$PROJECT_DIR$/docs/original/4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/5.html" afterPath="$PROJECT_DIR$/docs/original/5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/6.html" afterPath="$PROJECT_DIR$/docs/original/6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/7.html" afterPath="$PROJECT_DIR$/docs/original/7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/8.html" afterPath="$PROJECT_DIR$/docs/original/8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/9.html" afterPath="$PROJECT_DIR$/docs/original/9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="$PROJECT_DIR$/docs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="$PROJECT_DIR$/docs/blog/bringing-mouseless-to-the-average-user-brainstorming-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/bringing-mouseless-to-the-average-user-brainstorming-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/docs/original/scripts/build-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/original/scripts/build-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/conclusion-7.html" afterPath="$PROJECT_DIR$/docs/blog/conclusion-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/conclusion-7.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/conclusion-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/forking-and-fixing-a-bug-in-2016-3.html" afterPath="$PROJECT_DIR$/docs/blog/forking-and-fixing-a-bug-in-2016-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/forking-and-fixing-a-bug-in-2016-3.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/forking-and-fixing-a-bug-in-2016-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="$PROJECT_DIR$/docs/blog/fuck-the-average-user-stick-to-advanced-users-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/fuck-the-average-user-stick-to-advanced-users-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index-tmpl.html" afterPath="$PROJECT_DIR$/docs/index-tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/layout.html" afterPath="$PROJECT_DIR$/_layouts/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/original/map.php" afterPath="$PROJECT_DIR$/docs/original/map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/me-and-the-keyboard-a-love-story-8.html" afterPath="$PROJECT_DIR$/docs/blog/me-and-the-keyboard-a-love-story-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/me-and-the-keyboard-a-love-story-8.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/me-and-the-keyboard-a-love-story-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/my-history-with-this-bug-2.html" afterPath="$PROJECT_DIR$/docs/blog/my-history-with-this-bug-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/my-history-with-this-bug-2.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/my-history-with-this-bug-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projects-log.iml" afterPath="$PROJECT_DIR$/.idea/projects-log.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/sleazy-marketing-6.html" afterPath="$PROJECT_DIR$/docs/blog/sleazy-marketing-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/sleazy-marketing-6.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/sleazy-marketing-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="$PROJECT_DIR$/docs/blog/someone-built-the-windows-binaries-based-on-my-work-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/someone-built-the-windows-binaries-based-on-my-work-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/test-11.adoc" afterPath="$PROJECT_DIR$/blog/test-11.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/test-11.html" afterPath="$PROJECT_DIR$/docs/blog/test-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/test-11.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/test-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/thinking-about-vision-and-end-goal-4.html" afterPath="$PROJECT_DIR$/docs/blog/thinking-about-vision-and-end-goal-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/thinking-about-vision-and-end-goal-4.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/thinking-about-vision-and-end-goal-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos.php" afterPath="$PROJECT_DIR$/todos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/todos.php" afterPath="$PROJECT_DIR$/docs/todos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blog/what-is-it-1.html" afterPath="$PROJECT_DIR$/docs/blog/what-is-it-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/projects-log/blog/what-is-it-1.html" afterPath="$PROJECT_DIR$/docs/projects-log/blog/what-is-it-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="projects-log.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,64 +76,18 @@
       <file leaf-file-name="map.php" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.571428">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.adoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/original/1.adoc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="11.adoc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/11.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-11.adoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.1">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state vertical-scroll-proportion="-24.7">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,30 +99,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20364416">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build-index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.535715">
-              <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-              <folding>
-                <element signature="e#1569#1749#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.34619507">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,12 +145,12 @@
         <option value="$PROJECT_DIR$/original/9.md" />
         <option value="$PROJECT_DIR$/original/10.md" />
         <option value="$PROJECT_DIR$/original/mouseless/todos.php" />
-        <option value="$PROJECT_DIR$/todos.php" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/original/11.md" />
+        <option value="$PROJECT_DIR$/todos.php" />
+        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
         <option value="$PROJECT_DIR$/original/11.adoc" />
         <option value="$PROJECT_DIR$/_layouts/layout.html" />
@@ -241,7 +224,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="original" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects-log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,7 +352,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -357,7 +386,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -483,55 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.535715">
-          <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-          <folding>
-            <element signature="e#1569#1749#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.571428">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/1.adoc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/11.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -550,7 +534,7 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -566,10 +550,55 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.428571">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30546623">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding>
+            <element signature="e#1568#1748#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/11.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.7">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20364416">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.34619507">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

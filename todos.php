@@ -6,8 +6,15 @@ $m = [
         'test using asciidoctor instead of markdown -- http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/',
         'http://asciidoc.org/userguide.html',
         'convert projects.md',
+        'review posts formatting since replaced by asciidocs',
+    ],
+
+    'reorg projects-log as project' => [
+        'fix dev.txt to use asciidoc + add ref on index page',
+        'fix layout page title + asciidoc css and assets',
     ],
     
+
     'add to projects + link',
     'figure out the tone,philo behind the writing. self censorship? professional? personal? who gives a fuck cauz who will read it?',
     'write on' => [
