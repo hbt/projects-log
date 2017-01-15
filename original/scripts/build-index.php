@@ -3,7 +3,7 @@
 <?php
 
 @define(SOURCE_DIR, 'original/');
-@define(TARGET_DIR, 'blog/');
+@define(TARGET_DIR, 'docs/blog/');
 assert_options(ASSERT_ACTIVE, true);
 assert_options(ASSERT_WARNING, true);
 assert_options(ASSERT_BAIL, true);
@@ -200,6 +200,10 @@ function copyFiles()
 
         $tfilename = TARGET_DIR . $filename;
         file_put_contents($tfilename, $content);
+        echo shell_exec('asciidoc ' . $tfilename);
+//        var_dump($tfilename);
+//        rename($tfilename . '.html', '../docs/blog/' . $tfilename . '.html');
+        
         assert(file_exists($tfilename));
     }
 
@@ -268,21 +272,21 @@ function buildMap(&$ret, $map)
  */
 function createBlogDir()
 {
-    // clean old dir
-    if (file_exists(TARGET_DIR)) {
-        $files = glob(TARGET_DIR . '/*.adoc');
-
-        array_walk($files, function ($fn) {
-            if (file_exists($fn) && is_file($fn)) {
-                unlink($fn);
-            }
-        });
-        rmdir(TARGET_DIR);
-        assert(file_exists(TARGET_DIR) === false);
-    }
-
-
-    mkdir(TARGET_DIR);
+//    // clean old dir
+//    if (file_exists(TARGET_DIR)) {
+//        $files = glob(TARGET_DIR . '/*.adoc');
+//
+//        array_walk($files, function ($fn) {
+//            if (file_exists($fn) && is_file($fn)) {
+//                unlink($fn);
+//            }
+//        });
+////        rmdir(TARGET_DIR);
+////        assert(file_exists(TARGET_DIR) === false);
+//    }
+//
+//
+//    mkdir(TARGET_DIR);
     assert(file_exists(TARGET_DIR));
 }
 

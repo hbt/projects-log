@@ -1,10 +1,6 @@
-gems:
-  - jekyll-asciidoc
+#gems:
+#  - jekyll-asciidoc
 
-destination: docs
-asciidoc: {}
-asciidoctor: {}
+destination: /tmp/_site
 
-asciidoc:
-  processor: asciidoctor
-  ext: asciidoc,adoc,ad
+source: docs

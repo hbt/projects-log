@@ -1,3 +1,9 @@
+---
+layout: layout
+title:  test
+---
+
+
 
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
