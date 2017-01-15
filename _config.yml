@@ -1,2 +1,5 @@
 gems:
   - jekyll-asciidoc
+
+asciidoc: {}
+asciidoctor: {}
