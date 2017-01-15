@@ -1,6 +1,7 @@
 <?php
 
 $map = [
+    'test' => '11',
     'what is it?' => '1',
 
     'projects' => [
