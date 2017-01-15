@@ -3,3 +3,7 @@ gems:
 
 asciidoc: {}
 asciidoctor: {}
+
+asciidoc:
+  processor: asciidoctor
+  ext: asciidoc,adoc,ad
