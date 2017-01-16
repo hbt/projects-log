@@ -1,8 +1,7 @@
-link:index[Home]
-
 = Someone built the windows binaries based on my work ;-)
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 
 

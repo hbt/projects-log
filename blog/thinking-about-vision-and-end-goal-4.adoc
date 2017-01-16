@@ -1,8 +1,7 @@
-link:index[Home]
-
 = thinking about vision and end goal
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 
 

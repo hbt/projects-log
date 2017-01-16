@@ -1,8 +1,7 @@
-link:index[Home]
-
 = bringing mouseless to the average user (brainstorming)
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 
 

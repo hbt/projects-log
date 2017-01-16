@@ -1,13 +1,11 @@
-link:index[Home]
-
 = test
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 
 
-
-= test2
+== test2
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments

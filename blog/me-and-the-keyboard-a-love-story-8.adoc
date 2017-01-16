@@ -1,8 +1,7 @@
-link:index[Home]
-
 = me and the keyboard. a love story.
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 
 

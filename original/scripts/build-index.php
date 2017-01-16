@@ -8,6 +8,7 @@
 assert_options(ASSERT_ACTIVE, true);
 assert_options(ASSERT_WARNING, true);
 assert_options(ASSERT_BAIL, true);
+// TODO(hbt) NEXT change so that 11.md be renamed from map and only use original as source/dest
 
 /**
  * Usage:
@@ -228,12 +229,15 @@ function copyFiles()
 
 function getPostHeaderTemplate()
 {
-    return <<<EOF
-link:index[Home]
 
+    // TODO(hbt) NEXT 
+//    link:index[Home]
+
+    return <<<EOF
 = %%title%%
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 EOF;
 

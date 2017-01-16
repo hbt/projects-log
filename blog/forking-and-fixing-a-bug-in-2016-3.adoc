@@ -1,8 +1,7 @@
-link:index[Home]
-
 = Forking and fixing a bug in 2016
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+:source-highlighter: pygments
 
 
 
