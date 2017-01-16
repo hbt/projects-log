@@ -1,9 +1,14 @@
 
+= test2
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+
+
+
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
 
 [source,ruby]
 puts "Hello, World!"
-
-
 
