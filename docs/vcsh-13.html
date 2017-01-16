@@ -430,11 +430,82 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <h1 id="_vcsh" class="sect0">vcsh</h1>
+<div class="sect1">
+<h2 id="_configure_vcsh">configure vcsh</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code data-lang="ruby"><span class="tok-nb">require</span> <span class="tok-s1">&#39;sinatra&#39;</span>
+<span class="tok-n">get</span> <span class="tok-s1">&#39;/hi&#39;</span> <span class="tok-k">do</span>
+  <span class="tok-s2">&quot;Hello World!&quot;</span>
+<span class="tok-k">end</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We have 4 environments minimium.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Desktop - local/personal environment</p>
+</li>
+<li>
+<p>laptop - still personal but slightly different than desktop</p>
+</li>
+<li>
+<p>servers - personal servers</p>
+</li>
+<li>
+<p>work servers - consulting/public servers</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This means 4 repositories.</p>
+</div>
+<div class="paragraph">
+<p>Each repository has 2 branches.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>common - anything in common between repositories</p>
+</li>
+<li>
+<p>private - the stuff that only pertains to that environment</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>All repositories are checked in on the desktop. One private branch and 3 common branches.</p>
+</div>
+<div class="paragraph">
+<p>The other environments only have access to their respective repositories.</p>
+</div>
+<div class="paragraph">
+<p>If something needs to be shared, it is shared on the common branch.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>vcsh init dotfiles
+vcsh init hbtlabs_dotfiles
 
+# hide all files from status unless I specifically add them
+# downside: if a new file is added to a tracked directory, it will not appear in status.
+vcsh  dotfiles_hbtlabs config --local status.showUntrackedFiles no
+
+vcsh enter dotfiles_hbtlabs
+
+# regular git commands
+git s</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-01-16 15:25:18 EST
+Last updated 2017-01-16 15:33:10 EST
 </div>
 </div>
 </body>

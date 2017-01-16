@@ -3,8 +3,8 @@
 $map = [
     'dotfiles' => [
         'previous projects' => '12',
-//        'vcsh' => '13',
-//        'future of dotfiles' => '14',
+        'vcsh set up' => '13',
+        'future of dotfiles' => '14',
     ],
     'mouseless' => [
         'me and the keyboard. a love story.' => '8',

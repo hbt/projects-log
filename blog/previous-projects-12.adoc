@@ -10,9 +10,9 @@ link:index[Home]
 == timeline
 
 - starting around 2003: accumulation of small scripts 
-- 2007: switching to linux (no longer needing windows for college work)
+- 2007: switching to linux 100% (no longer needing windows for college work)
 - 2008: beginning to store scripts, dotfiles, configuration and such under svn 
-- 2012: migrating from svn to config and organizing scripts/dotfiles. Nothing is ever lost and everything configured properly.
+- 2012: migrating from svn to config (git repo) and organizing scripts/dotfiles. Nothing is ever lost and everything configured properly.
 - 2016: migrating git repo to vcsh
 
 
@@ -45,7 +45,7 @@ This works out great except for:
 - extra work/maintenance
 
 
-In 2016, found out about [vcsh](https://github.com/RichiH/vcsh) which allows you to manage multiple git repositories.
+In 2016, found out about https://github.com/RichiH/vcsh which allows you to manage multiple git repositories.
 This is perfect as each environment can be its own repository and no more merge problems.
 
 

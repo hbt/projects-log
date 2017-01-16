@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/12.adoc" afterPath="$PROJECT_DIR$/original/12.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/13.adoc" afterPath="$PROJECT_DIR$/original/13.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/14.adoc" afterPath="$PROJECT_DIR$/original/14.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/conclusion-7.html" afterPath="$PROJECT_DIR$/docs/conclusion-7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/design-decisions-11.html" afterPath="$PROJECT_DIR$/docs/design-decisions-11.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" afterPath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/future-of-dotfiles-14.html" afterPath="$PROJECT_DIR$/docs/future-of-dotfiles-14.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" afterPath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" afterPath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/previous-projects-12.adoc" afterPath="$PROJECT_DIR$/blog/previous-projects-12.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/previous-projects-12.html" afterPath="$PROJECT_DIR$/docs/previous-projects-12.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" afterPath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/stick-to-advanced-users-10.html" afterPath="$PROJECT_DIR$/docs/stick-to-advanced-users-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" afterPath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/vcsh-13.html" afterPath="$PROJECT_DIR$/docs/vcsh-13.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/what-is-it-1.html" afterPath="$PROJECT_DIR$/docs/what-is-it-1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,21 +49,66 @@
         <entry file="file://$PROJECT_DIR$/original/map.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.392857">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.adoc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="14.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/original/14.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/13.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1666667">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.adoc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/12.adoc">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06122449">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.5">
+              <caret line="234" column="21" selection-start-line="234" selection-start-column="21" selection-end-line="234" selection-end-column="21" />
+              <folding>
+                <element signature="e#351#486#0#PHP" expanded="true" />
+                <element signature="e#489#642#0#PHP" expanded="true" />
+                <element signature="e#1027#1082#0#PHP" expanded="true" />
+                <element signature="e#1870#2050#0#PHP" expanded="true" />
+                <element signature="e#3463#3603#0#PHP" expanded="true" />
+                <element signature="e#4043#4094#0#PHP" expanded="true" />
+                <element signature="e#4260#4413#0#PHP" expanded="true" />
+                <element signature="e#6206#6216#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +176,10 @@
         <option value="$PROJECT_DIR$/doc/dev.txt" />
         <option value="$PROJECT_DIR$/original/11.adoc" />
         <option value="$PROJECT_DIR$/original/mouseless/todos.php" />
-        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/original/12.adoc" />
+        <option value="$PROJECT_DIR$/original/14.adoc" />
+        <option value="$PROJECT_DIR$/original/13.adoc" />
+        <option value="$PROJECT_DIR$/original/map.php" />
       </list>
     </option>
   </component>
@@ -558,23 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.964285">
-          <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
-          <folding>
-            <element signature="e#351#486#0#PHP" expanded="true" />
-            <element signature="e#489#642#0#PHP" expanded="true" />
-            <element signature="e#1027#1082#0#PHP" expanded="true" />
-            <element signature="e#1870#2050#0#PHP" expanded="true" />
-            <element signature="e#3463#3603#0#PHP" expanded="true" />
-            <element signature="e#4043#4094#0#PHP" expanded="true" />
-            <element signature="e#4260#4413#0#PHP" expanded="true" />
-            <element signature="e#6206#6216#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/conclusion-7.adoc">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -734,11 +771,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/map.php">
+    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="-9.5">
+          <caret line="234" column="21" selection-start-line="234" selection-start-column="21" selection-end-line="234" selection-end-column="21" />
+          <folding>
+            <element signature="e#351#486#0#PHP" expanded="true" />
+            <element signature="e#489#642#0#PHP" expanded="true" />
+            <element signature="e#1027#1082#0#PHP" expanded="true" />
+            <element signature="e#1870#2050#0#PHP" expanded="true" />
+            <element signature="e#3463#3603#0#PHP" expanded="true" />
+            <element signature="e#4043#4094#0#PHP" expanded="true" />
+            <element signature="e#4260#4413#0#PHP" expanded="true" />
+            <element signature="e#6206#6216#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,8 +793,38 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06122449">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/13.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1666667">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/14.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

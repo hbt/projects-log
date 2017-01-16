@@ -1,3 +1,12 @@
+link:index[Home]
+
+= vcsh set up
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+
+
+
 == configure vcsh
 
 [source,ruby]

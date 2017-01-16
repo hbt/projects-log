@@ -10,6 +10,16 @@
 link:previous-projects-12[previous projects]
 ++++
 </li>
+<li>
+++++
+link:vcsh-set-up-13[vcsh set up]
+++++
+</li>
+<li>
+++++
+link:future-of-dotfiles-14[future of dotfiles]
+++++
+</li>
 </ul>
 <li>mouseless</li><ul><li>
 ++++

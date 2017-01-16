@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>bringing mouseless to the average user (brainstorming)</title>
+<title>vcsh set up</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -429,86 +429,76 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<h1 id="_bringing_mouseless_to_the_average_user_brainstorming" class="sect0">bringing mouseless to the average user (brainstorming)</h1>
+<h1 id="_vcsh_set_up" class="sect0">vcsh set up</h1>
 <div class="sect1">
-<h2 id="_bringing_mouseless_to_the_average_user">bringing mouseless to the average user</h2>
+<h2 id="_configure_vcsh">configure vcsh</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>I&#8217;ve been thinking about building a mouseless chrome extension that I could sell for years.
-Since 2012, when discussing vrome, I thought about monetizing it somehow.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code data-lang="ruby"><span class="tok-nb">require</span> <span class="tok-s1">&#39;sinatra&#39;</span>
+<span class="tok-n">get</span> <span class="tok-s1">&#39;/hi&#39;</span> <span class="tok-k">do</span>
+  <span class="tok-s2">&quot;Hello World!&quot;</span>
+<span class="tok-k">end</span></code></pre>
+</div>
 </div>
 <div class="paragraph">
-<p>I think, it is pretty clear at this point that this would be useless.</p>
-</div>
-<div class="paragraph">
-<p>First:</p>
+<p>We have 4 environments minimium.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>the best chrome extension is cvim. In terms of functionality but also something I&#8217;d use, it is not the most popular though.</p>
+<p>Desktop - local/personal environment</p>
+</li>
+<li>
+<p>laptop - still personal but slightly different than desktop</p>
+</li>
+<li>
+<p>servers - personal servers</p>
+</li>
+<li>
+<p>work servers - consulting/public servers</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>The most popular is vimium. Mainly because it has a minimal feature set and is ideal for beginners.</p>
+<p>This means 4 repositories.</p>
 </div>
 <div class="paragraph">
-<p>The problem I have right now is any work to monetize the extension would consist of bringing mouseless to the average user.
-The average user who:</p>
+<p>Each repository has 2 branches.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>doesnt want to spent any time customizing stuff</p>
+<p>common - anything in common between repositories</p>
 </li>
 <li>
-<p>doesnt want to spend time learning</p>
-</li>
-<li>
-<p>expects things to work <strong>at their level</strong> out of the gate</p>
+<p>private - the stuff that only pertains to that environment</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>There are a few advantages to be gained by bringing to the average users but not enough to justify the amount of work + risk .</p>
+<p>All repositories are checked in on the desktop. One private branch and 3 common branches.</p>
 </div>
 <div class="paragraph">
-<p>Keep in mind, if I do this, there would be a big risk of people not showing up or being satisfied with the free versions etc.</p>
+<p>The other environments only have access to their respective repositories.</p>
 </div>
 <div class="paragraph">
-<p>The key technical advantages I&#8217;d gain are:</p>
+<p>If something needs to be shared, it is shared on the common branch.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>better hinttags and other user defined stuff&#8201;&#8212;&#8201;that&#8217;s assuming the majority of people are not passive and it&#8217;s worth having hinttags for sites that I dont visit</p>
-</li>
-<li>
-<p>better bug detection / software quality?</p>
-</li>
-</ul>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>vcsh init dotfiles
+vcsh init hbtlabs_dotfiles
+
+# hide all files from status unless I specifically add them
+# downside: if a new file is added to a tracked directory, it will not appear in status.
+vcsh  dotfiles_hbtlabs config --local status.showUntrackedFiles no
+
+vcsh enter dotfiles_hbtlabs
+
+# regular git commands
+git s</code></pre>
 </div>
-<div class="paragraph">
-<p>I cant think of what there is to gain really.</p>
-</div>
-<div class="paragraph">
-<p>Bringing it to the majority of users would be an education app. After they reach their education, they might be tempted to switch to the free version.</p>
-</div>
-<div class="paragraph">
-<p>It&#8217;s not like chromium-vim is super buggy.</p>
-</div>
-<div class="paragraph">
-<p>Maybe that would be the tool instead. An education/gamification app or book or whatever.</p>
-</div>
-<div class="paragraph">
-<p>Learn chromium-vim, pentadactyl etc. and would have documentation, gifs, community scripts, examples, wikis etc.</p>
-</div>
-<div class="paragraph">
-<p>Not sure where the monetization would be or even if there would be traffic but most importantly, what&#8217;s in it for me?</p>
-</div>
-<div class="paragraph">
-<p>I think I just need a break from this project for awhile. I had some ideas about yubnub like features, cli for the web and whatnot.</p>
 </div>
 </div>
 </div>
