@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>thinking about vision and end goal</title>
+<title>previous dotfiles projects</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -429,47 +429,99 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<h1 id="_thinking_about_vision_and_end_goal" class="sect0">thinking about vision and end goal</h1>
+<h1 id="_previous_dotfiles_projects" class="sect0">previous dotfiles projects</h1>
 <div class="sect1">
-<h2 id="_vision">vision</h2>
+<h2 id="_timeline">timeline</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>starting around 2003: accumulation of small scripts</p>
+</li>
+<li>
+<p>2007: switching to linux (no longer needing windows for college work)</p>
+</li>
+<li>
+<p>2008: beginning to store scripts, dotfiles, configuration and such under svn</p>
+</li>
+<li>
+<p>2012: migrating from svn to config and organizing scripts/dotfiles. Nothing is ever lost and everything configured properly.</p>
+</li>
+<li>
+<p>2016: migrating git repo to vcsh</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_key_requirements">the key requirements</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_version_control">version control</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ideally, I want the white flash bug fixed in google chrome so I dont have to maintain a fork in the first place.</p>
+<p>all customized files tracked and stored on a remote server. easy to revert, easy to experiment.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_multiple_environments">multiple environments</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The ability to login into a remote machine and have my aliases, functions, scripts etc. available without having to maintain multiple locations etc.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_share_between_environments">share between environments</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>have scripts/aliases for my local computer and public/common stuff for remote computers.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_tools_available">the tools available.</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In 2012, I implemented the symlink idea. dotfiles are symlinks and actual file is stored in folder under git.
+Managing multiple environments using git branches.</p>
 </div>
 <div class="paragraph">
-<p>However, since that&#8217;s not going to happen anytime soon and I have no interest in digging my heels into the codebase. Here. we. are.</p>
+<p>This works out great except for:</p>
 </div>
-<div class="paragraph">
-<p>There are 2 aspects to maintaining the fork:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p>stable binaries to be produced using the latest stable code</p>
+<p>dealing with merges and merge conflicts + picking what to commit etc. i.e a lot of work</p>
 </li>
 <li>
-<p>dealing with any merge conflicts as we update the code</p>
+<p>symlinks creating issues for certain files e.g .zhistory</p>
 </li>
-</ol>
+<li>
+<p>extra work/maintenance</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>Since the changes are minimal, merge conflicts shouldn&#8217;t be a problem.</p>
+<p>In 2016, found out about [vcsh](<a href="https://github.com/RichiH/vcsh" class="bare">https://github.com/RichiH/vcsh</a>) which allows you to manage multiple git repositories.
+This is perfect as each environment can be its own repository and no more merge problems.</p>
 </div>
 <div class="paragraph">
-<p>It would be great to somewhat automate the browser updating part. Problem is, it&#8217;s a giant pain in the ass and is time consuming to build for my platform, let alone other platforms. Dependency hell is waiting to happen, I just know it.</p>
-</div>
-<div class="paragraph">
-<p>Maybe have a VM and produce the binaries there.</p>
-</div>
-<div class="paragraph">
-<p>There is some demand online for a fix, maybe it can be made economically viable so the costs for renting a VM + keeping up the latest version is spread amongst collaborators and customers.</p>
+<p>During that time, oh-my-zsh, prezto and other frameworks surged. Frankly, I don&#8217;t think you need a framework.
+You can organize all your shell scripts under directories and source them. Essentially, that&#8217;s what those frameworks do.
+They don&#8217;t provide a solution for other dotfiles.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-01-16 15:25:51 EST
+Last updated 2017-01-16 15:24:32 EST
 </div>
 </div>
 </body>

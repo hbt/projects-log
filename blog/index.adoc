@@ -5,6 +5,12 @@
 
 ++++
 <ul>
+<li>dotfiles</li><ul><li>
+++++
+link:previous-projects-12[previous projects]
+++++
+</li>
+</ul>
 <li>mouseless</li><ul><li>
 ++++
 link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]

@@ -1,0 +1,46 @@
+== timeline
+
+- starting around 2003: accumulation of small scripts 
+- 2007: switching to linux (no longer needing windows for college work)
+- 2008: beginning to store scripts, dotfiles, configuration and such under svn 
+- 2012: migrating from svn to config and organizing scripts/dotfiles. Nothing is ever lost and everything configured properly.
+- 2016: migrating git repo to vcsh
+
+
+## the key requirements
+
+## version control
+
+all customized files tracked and stored on a remote server. easy to revert, easy to experiment.
+
+## multiple environments
+
+The ability to login into a remote machine and have my aliases, functions, scripts etc. available without having to maintain multiple locations etc.
+
+## share between environments
+
+have scripts/aliases for my local computer and public/common stuff for remote computers.
+
+
+
+## the tools available.
+
+
+In 2012, I implemented the symlink idea. dotfiles are symlinks and actual file is stored in folder under git. 
+Managing multiple environments using git branches.
+
+This works out great except for:
+
+- dealing with merges and merge conflicts + picking what to commit etc. i.e a lot of work
+- symlinks creating issues for certain files e.g .zhistory 
+- extra work/maintenance
+
+
+In 2016, found out about [vcsh](https://github.com/RichiH/vcsh) which allows you to manage multiple git repositories.
+This is perfect as each environment can be its own repository and no more merge problems.
+
+
+
+During that time, oh-my-zsh, prezto and other frameworks surged. Frankly, I don't think you need a framework. 
+You can organize all your shell scripts under directories and source them. Essentially, that's what those frameworks do. 
+They don't provide a solution for other dotfiles.
