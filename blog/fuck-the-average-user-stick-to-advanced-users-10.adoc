@@ -1,7 +1,6 @@
----
-layout: layout
-title:  fuck the average user. Stick to advanced users.
----
+= fuck the average user. Stick to advanced users.
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 

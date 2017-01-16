@@ -1,7 +1,6 @@
----
-layout: layout
-title:  me and the keyboard. a love story.
----
+= me and the keyboard. a love story.
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 ## a bit of history - mouseless

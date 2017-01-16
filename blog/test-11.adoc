@@ -1,7 +1,6 @@
----
-layout: layout
-title:  test
----
+= test
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 

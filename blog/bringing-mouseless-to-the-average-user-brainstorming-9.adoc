@@ -1,7 +1,6 @@
----
-layout: layout
-title:  bringing mouseless to the average user (brainstorming)
----
+= bringing mouseless to the average user (brainstorming)
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 ## bringing mouseless to the average user

@@ -1,7 +1,6 @@
----
-layout: layout
-title:  Forking and fixing a bug in 2016
----
+= Forking and fixing a bug in 2016
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 # fixing the chromium white flash journey

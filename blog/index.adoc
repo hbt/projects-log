@@ -1,57 +1,26 @@
-= Sample Page
+= Projects log
 :uri-asciidoctor: http://asciidoctor.org
-:source-highlighter: pygments
 :icons: font
 
 
-
-link:test-11[]
-
-
-NOTE: test2
-
-NOTE: test
-
-WARNING: test
-
-
-This is a sample page composed in AsciiDoc.
-Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
-
-[source,ruby]
-puts "Hello, World!"
-
 Content index
 
-* [test](/projects-log/blog/test-11)
-* [what is it?](/projects-log/blog/what-is-it-1)
+* link:test-11[]
+* link:what-is-it-1[]
 * projects
   * in progress
     * mouseless
-      * [me and the keyboard. a love story.](/projects-log/blog/me-and-the-keyboard-a-love-story-8)
+      * link:me-and-the-keyboard-a-love-story-8[]
       * increasing contributors
-        * [bringing mouseless to the average user (brainstorming)](/projects-log/blog/bringing-mouseless-to-the-average-user-brainstorming-9)
-        * [fuck the average user. Stick to advanced users.](/projects-log/blog/fuck-the-average-user-stick-to-advanced-users-10)
+        * link:bringing-mouseless-to-the-average-user-brainstorming-9[]
+        * link:fuck-the-average-user-stick-to-advanced-users-10[]
   * maintained and mature
     * chromium white flash fix
-      * [My history with this bug](/projects-log/blog/my-history-with-this-bug-2)
-      * [Forking and fixing a bug in 2016](/projects-log/blog/forking-and-fixing-a-bug-in-2016-3)
-      * [thinking about vision and end goal](/projects-log/blog/thinking-about-vision-and-end-goal-4)
-      * [Someone built the windows binaries based on my work ;-)](/projects-log/blog/someone-built-the-windows-binaries-based-on-my-work-5)
-      * [Sleazy marketing](/projects-log/blog/sleazy-marketing-6)
-      * [Conclusion](/projects-log/blog/conclusion-7)
+      * link:my-history-with-this-bug-2[]
+      * link:forking-and-fixing-a-bug-in-2016-3[]
+      * link:thinking-about-vision-and-end-goal-4[]
+      * link:someone-built-the-windows-binaries-based-on-my-work-5[]
+      * link:sleazy-marketing-6[]
+      * link:conclusion-7[]
 
 
-test-11.html[asd]
-
-
-{test}[asd]
-[test](test-11.html)
-
-http://ex.com/test-11.html[asd]
-
-{test}[asd]
-[test](test-11.html)
-
-[test](test-11)
-[test](test-11)

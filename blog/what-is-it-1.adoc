@@ -1,7 +1,6 @@
----
-layout: layout
-title:  what is it?
----
+= what is it?
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 # Purpose

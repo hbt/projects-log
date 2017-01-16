@@ -1,7 +1,6 @@
----
-layout: layout
-title:  My history with this bug
----
+= My history with this bug
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
 
 
 ## what is the white flash?

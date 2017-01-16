@@ -1,40 +1,9 @@
-= Sample Page
+= Projects log
 :uri-asciidoctor: http://asciidoctor.org
-:source-highlighter: pygments
 :icons: font
 
-
-
-link:test-11[]
-
-
-NOTE: test2
-
-NOTE: test
-
-WARNING: test
-
-
-This is a sample page composed in AsciiDoc.
-Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
-
-[source,ruby]
-puts "Hello, World!"
 
 Content index
 
 %%map%%
 
-test-11.html[asd]
-
-
-{test}[asd]
-[test](test-11.html)
-
-http://ex.com/test-11.html[asd]
-
-{test}[asd]
-[test](test-11.html)
-
-[test](test-11)
-[test](test-11)

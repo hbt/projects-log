@@ -113,9 +113,8 @@ function generateIndex()
             } else {
                 createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
-                $url = '/projects-log/blog/' . fixTitle($k, $v);
-                // TODO(hbt) NEXT fix adoc links
-                $title = "[$k]($url)";
+                $url =  fixTitle($k, $v);
+                $title = "link:$url" . "[]";
 
 
                 $line = $space . '* ' . $title;
@@ -228,10 +227,13 @@ function copyFiles()
 
 function getPostHeaderTemplate()
 {
-    return "---
-layout: %%layout%%
-title:  %%title%%
----";
+    return <<<EOF
+= %%title%%
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+EOF;
+
+    
 }
 
 function getInlineMap() 
