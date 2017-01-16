@@ -99,33 +99,34 @@ function generateIndex()
     {
         foreach ($map as $k => $v) {
 
-            $space = str_repeat(' ', $level * 2);
 
             if (is_array($v)) {
-                $line = $space . '* ' . $k;
-                $content .= $line;
                 $content .= "\n";
+                $content .= "<li>$k</li>";
 
-                $level++;
+                $content .= '<ul>';
                 buildIndex($content, $level, $v);
-
-                $level--;
+                $content .= '</ul>';
             } else {
                 createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
                 $url =  fixTitle($k, $v);
-                $title = "link:$url" . "[]";
+                $title = sprintf("link:$url%s", "[$k]");
 
-
-                $line = $space . '* ' . $title;
-                $content .= $line;
+                $content .= "<li>";
+                $content .= "\n++++\n";
+                $content .= $title;
+                $content .= "\n++++\n";
+                $content .= "</li>";
                 $content .= "\n";
             }
         }
     }
 
     $level = 0;
+    $content = '<ul>';
     buildIndex($content, $level, $map);
+    $content .= '</ul>';
 
     // copy to index.md
     $index = $content;

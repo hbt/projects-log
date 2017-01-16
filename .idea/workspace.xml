@@ -2,57 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/callouts/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/caution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/important.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/smallnew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/ASCIIMathML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/LaTeXMathML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/asciidoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/slidy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/toc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/asciidoc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/docbook-xsl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/slidy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/toc2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/xhtml11-quirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects-log/assets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects-log/blog" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/original/scripts/build-index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/conclusion-7.html" afterPath="$PROJECT_DIR$/docs/conclusion-7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" afterPath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/index-tmpl.adoc" afterPath="$PROJECT_DIR$/original/index-tmpl.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" afterPath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" afterPath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" afterPath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" />
@@ -85,41 +43,28 @@
       <file leaf-file-name="map.php" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state vertical-scroll-proportion="-2.7142856">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build-index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
-              <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#255#390#0#PHP" expanded="true" />
                 <element signature="e#393#546#0#PHP" expanded="true" />
                 <element signature="e#1025#1080#0#PHP" expanded="true" />
                 <element signature="e#1952#2132#0#PHP" expanded="true" />
-                <element signature="e#3465#3605#0#PHP" expanded="true" />
-                <element signature="e#4045#4096#0#PHP" expanded="true" />
-                <element signature="e#4262#4415#0#PHP" expanded="true" />
-                <element signature="e#6173#6183#0#PHP" expanded="true" />
+                <element signature="e#3564#3704#0#PHP" expanded="true" />
+                <element signature="e#4144#4195#0#PHP" expanded="true" />
+                <element signature="e#4361#4514#0#PHP" expanded="true" />
+                <element signature="e#6272#6282#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.adoc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/index.adoc">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46938777">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -130,8 +75,21 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5333333">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.766666">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/index.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.566667">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -178,7 +136,6 @@
         <option value="$PROJECT_DIR$/original/mouseless/todos.php" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/original/11.md" />
-        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/assets/stylesheets/asciidoc.css" />
         <option value="$PROJECT_DIR$/_layouts/layout.html" />
         <option value="$PROJECT_DIR$/original/11.adoc" />
@@ -187,8 +144,9 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/todos.php" />
         <option value="$PROJECT_DIR$/blog/test-11.adoc" />
-        <option value="$PROJECT_DIR$/blog/index.adoc" />
         <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
+        <option value="$PROJECT_DIR$/blog/index.adoc" />
+        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
       </list>
     </option>
@@ -530,10 +488,10 @@
             <element signature="e#393#546#0#PHP" expanded="true" />
             <element signature="e#1025#1080#0#PHP" expanded="true" />
             <element signature="e#1952#2132#0#PHP" expanded="true" />
-            <element signature="e#3465#3605#0#PHP" expanded="true" />
-            <element signature="e#4045#4096#0#PHP" expanded="true" />
-            <element signature="e#4262#4415#0#PHP" expanded="true" />
-            <element signature="e#6173#6183#0#PHP" expanded="true" />
+            <element signature="e#3564#3704#0#PHP" expanded="true" />
+            <element signature="e#4144#4195#0#PHP" expanded="true" />
+            <element signature="e#4361#4514#0#PHP" expanded="true" />
+            <element signature="e#6272#6282#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,22 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -698,30 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
+    <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
-          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
-          <folding>
-            <element signature="e#255#390#0#PHP" expanded="true" />
-            <element signature="e#393#546#0#PHP" expanded="true" />
-            <element signature="e#1025#1080#0#PHP" expanded="true" />
-            <element signature="e#1952#2132#0#PHP" expanded="true" />
-            <element signature="e#3465#3605#0#PHP" expanded="true" />
-            <element signature="e#4045#4096#0#PHP" expanded="true" />
-            <element signature="e#4262#4415#0#PHP" expanded="true" />
-            <element signature="e#6173#6183#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/index-tmpl.adoc">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5333333">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -731,9 +653,45 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46938777">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.566667">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/index-tmpl.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.766666">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7142856">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#255#390#0#PHP" expanded="true" />
+            <element signature="e#393#546#0#PHP" expanded="true" />
+            <element signature="e#1025#1080#0#PHP" expanded="true" />
+            <element signature="e#1952#2132#0#PHP" expanded="true" />
+            <element signature="e#3564#3704#0#PHP" expanded="true" />
+            <element signature="e#4144#4195#0#PHP" expanded="true" />
+            <element signature="e#4361#4514#0#PHP" expanded="true" />
+            <element signature="e#6272#6282#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

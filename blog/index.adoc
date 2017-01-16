@@ -10,32 +10,68 @@ asd
 </ul>
 ++++
 
-* level 1
-** level 2
-*** level 3
-**** level 4
-***** level 5
-****** level 5
-* level 1
 
-Content index
+Index
 
-* link:test-11[]
-* link:what-is-it-1[]
-* projects
-  * in progress
-    * mouseless
-      * link:me-and-the-keyboard-a-love-story-8[]
-      * increasing contributors
-        * link:bringing-mouseless-to-the-average-user-brainstorming-9[]
-        * link:fuck-the-average-user-stick-to-advanced-users-10[]
-  * maintained and mature
-    * chromium white flash fix
-      * link:my-history-with-this-bug-2[]
-      * link:forking-and-fixing-a-bug-in-2016-3[]
-      * link:thinking-about-vision-and-end-goal-4[]
-      * link:someone-built-the-windows-binaries-based-on-my-work-5[]
-      * link:sleazy-marketing-6[]
-      * link:conclusion-7[]
+++++
+<ul><li>
+++++
+link:test-11[test]
+++++
+</li>
 
+<li>mouseless</li><ul><li>
+++++
+link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]
+++++
+</li>
 
+<li>increasing contributors</li><ul><li>
+++++
+link:bringing-mouseless-to-the-average-user-brainstorming-9[bringing mouseless to the average user (brainstorming)]
+++++
+</li>
+<li>
+++++
+link:fuck-the-average-user-stick-to-advanced-users-10[fuck the average user. Stick to advanced users.]
+++++
+</li>
+</ul></ul>
+<li>chromium white flash fix</li><ul><li>
+++++
+link:my-history-with-this-bug-2[My history with this bug]
+++++
+</li>
+<li>
+++++
+link:forking-and-fixing-a-bug-in-2016-3[Forking and fixing a bug in 2016]
+++++
+</li>
+<li>
+++++
+link:thinking-about-vision-and-end-goal-4[thinking about vision and end goal]
+++++
+</li>
+<li>
+++++
+link:someone-built-the-windows-binaries-based-on-my-work-5[Someone built the windows binaries based on my work ;-)]
+++++
+</li>
+<li>
+++++
+link:sleazy-marketing-6[Sleazy marketing]
+++++
+</li>
+<li>
+++++
+link:conclusion-7[Conclusion]
+++++
+</li>
+</ul>
+<li>projects log</li><ul><li>
+++++
+link:what-is-it-1[what is it?]
+++++
+</li>
+</ul></ul>
+++++
