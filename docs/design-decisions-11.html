@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>thinking about vision and end goal</title>
+<title>design decisions</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -429,40 +429,91 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<h1 id="_thinking_about_vision_and_end_goal" class="sect0">thinking about vision and end goal</h1>
+<h1 id="_design_decisions" class="sect0">design decisions</h1>
 <div class="sect1">
-<h2 id="_vision">vision</h2>
+<h2 id="_asciidoctor">asciidoctor</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ideally, I want the white flash bug fixed in google chrome so I dont have to maintain a fork in the first place.</p>
+<p>Switched to using asciidoctor over markdown. Looks much better. Wasted time confusing asciidoc and asciidoctor thinking they were the same thing. God damn open source names.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_jekyll">jekyll</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>However, since that&#8217;s not going to happen anytime soon and I have no interest in digging my heels into the codebase. Here. we. are.</p>
+<p>Disregarded jekyll completely. I render the asciidoc to html myself and serve it via docs. Why? configuring github pages to match my local jekyll instances looks like its own hell.</p>
 </div>
-<div class="paragraph">
-<p>There are 2 aspects to maintaining the fork:</p>
 </div>
+</div>
+<div class="sect1">
+<h2 id="_final_design">final design</h2>
+<div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>stable binaries to be produced using the latest stable code</p>
+<p>directories</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><code>original</code> contains all posts. they are numbered and controlled via map.php for easier manipulation + reorganization</p>
 </li>
 <li>
-<p>dealing with any merge conflicts as we update the code</p>
+<p><code>blog</code> contains all posts renamed for url friendlyness. titles are dynamic. do not edit. generated from <code>original/scripts/build-index.php</code></p>
+</li>
+<li>
+<p><code>docs</code> contains all html stuff transformed blog. designed for github pages so it simply renders them as is and doesn&#8217;t do anything extra</p>
 </li>
 </ol>
 </div>
-<div class="paragraph">
-<p>Since the changes are minimal, merge conflicts shouldn&#8217;t be a problem.</p>
+</li>
+<li>
+<p>files</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><code>original/map.php</code> site map&#8201;&#8212;&#8201;used as the index. controls blog/[filenames]</p>
+</li>
+<li>
+<p><code>original/scripts/build-index.php</code> watch files and render blog + create html files in docs/</p>
+</li>
+<li>
+<p><code>original/index-tmpl.adoc</code> template files used to generate <code>blog/index.adoc</code></p>
+</li>
+</ol>
 </div>
-<div class="paragraph">
-<p>It would be great to somewhat automate the browser updating part. Problem is, it&#8217;s a giant pain in the ass and is time consuming to build for my platform, let alone other platforms. Dependency hell is waiting to happen, I just know it.</p>
+</li>
+</ol>
 </div>
-<div class="paragraph">
-<p>Maybe have a VM and produce the binaries there.</p>
 </div>
-<div class="paragraph">
-<p>There is some demand online for a fix, maybe it can be made economically viable so the costs for renting a VM + keeping up the latest version is spread amongst collaborators and customers.</p>
+</div>
+<div class="sect1">
+<h2 id="_usage">usage</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code># watch files and render blog + create html files in docs/
+cd original
+wf scripts/build-index.php
+
+# auto-create files, rename and organize
+map.php
+
+# wip/wgp
+commit changes and push</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_improvements">improvements</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>use jekyll at least locally to benefit from things such as layout and such. for now, layout is injected via header in <code>original/scripts/build-index.php</code></p>
+</li>
+</ol>
 </div>
 </div>
 </div>

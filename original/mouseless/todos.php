@@ -1,11 +1,15 @@
 <?php
 
 $todos = [
-    'create master / dev -- master = stable, dev = active dev',
+    'new branches' => [
+        'create master / dev -- master = stable, dev = active dev',
+        'create google-store branch .. without the chrome// stuff',
+        'document branches',
+    ],
     'polish existing features implementation',
     'get contributors to spread maintenance load + generate serependity' => [
         'read on community building #55' => [
-            
+
         ],
         'improve documentation' => [
             'use https://readthedocs.org/ or something similar',
@@ -29,7 +33,7 @@ $todos = [
         ],
 
         'contact watchers / forkers / pull requesters' => [
-            
+
         ],
     ],
     'look into viable business models for open source' => [

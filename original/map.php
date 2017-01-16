@@ -5,7 +5,7 @@ $map = [
         'me and the keyboard. a love story.' => '8',
         'increasing contributors' => [
             'bringing mouseless to the average user (brainstorming)' => '9',
-            'fuck the average user. Stick to advanced users.' => '10',
+            'Stick to advanced users.' => '10',
         ],
     ],
 
@@ -21,6 +21,7 @@ $map = [
 
     'projects log' => [
         'what is it?' => '1',
+        'design decisions' => '11',
     ],
 
 ];

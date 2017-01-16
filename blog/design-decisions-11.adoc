@@ -1,3 +1,12 @@
+link:index[Home]
+
+= design decisions
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+
+
+
 == asciidoctor
 
 Switched to using asciidoctor over markdown. Looks much better. Wasted time confusing asciidoc and asciidoctor thinking they were the same thing. God damn open source names. 

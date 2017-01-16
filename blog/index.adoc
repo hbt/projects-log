@@ -18,7 +18,7 @@ link:bringing-mouseless-to-the-average-user-brainstorming-9[bringing mouseless t
 </li>
 <li>
 ++++
-link:fuck-the-average-user-stick-to-advanced-users-10[fuck the average user. Stick to advanced users.]
+link:stick-to-advanced-users-10[Stick to advanced users.]
 ++++
 </li>
 </ul></ul>
@@ -56,6 +56,11 @@ link:conclusion-7[Conclusion]
 <li>projects log</li><ul><li>
 ++++
 link:what-is-it-1[what is it?]
+++++
+</li>
+<li>
+++++
+link:design-decisions-11[design decisions]
 ++++
 </li>
 </ul></ul>
