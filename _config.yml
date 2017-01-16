@@ -1,6 +1,7 @@
-#gems:
-#  - jekyll-asciidoc
+gems:
+  - jekyll-asciidoc
+  - asciidoctor
 
-destination: /tmp/_site
+destination: docs
 
-source: docs
+source: blog

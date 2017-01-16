@@ -2,8 +2,9 @@
 
 <?php
 
+// TODO(hbt) ENHANCE remove trailing slash necessity
 @define(SOURCE_DIR, 'original/');
-@define(TARGET_DIR, 'docs/blog/');
+@define(TARGET_DIR, 'blog/');
 assert_options(ASSERT_ACTIVE, true);
 assert_options(ASSERT_WARNING, true);
 assert_options(ASSERT_BAIL, true);
@@ -200,7 +201,7 @@ function copyFiles()
 
         $tfilename = TARGET_DIR . $filename;
         file_put_contents($tfilename, $content);
-        echo shell_exec('asciidoc ' . $tfilename);
+//        echo shell_exec('asciidoc ' . $tfilename);
 //        var_dump($tfilename);
 //        rename($tfilename . '.html', '../docs/blog/' . $tfilename . '.html');
         
