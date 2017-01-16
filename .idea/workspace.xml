@@ -2,196 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jekyll-metadata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.jekyll-metadata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/callouts/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/caution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/important.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/icons/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/callouts/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/caution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/important.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/icons/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/images/smallnew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/javascripts/ASCIIMathML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/javascripts/LaTeXMathML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/javascripts/asciidoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/javascripts/slidy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/javascripts/toc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/stylesheets/asciidoc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/stylesheets/docbook-xsl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/stylesheets/pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/stylesheets/slidy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/stylesheets/toc2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/stylesheets/xhtml11-quirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/conclusion-7.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/conclusion-7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/forking-and-fixing-a-bug-in-2016-3.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/forking-and-fixing-a-bug-in-2016-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/fuck-the-average-user-stick-to-advanced-users-10.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/me-and-the-keyboard-a-love-story-8.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/me-and-the-keyboard-a-love-story-8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/my-history-with-this-bug-2.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/my-history-with-this-bug-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/sleazy-marketing-6.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/sleazy-marketing-6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/test-11.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/test-11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/thinking-about-vision-and-end-goal-4.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/thinking-about-vision-and-end-goal-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/what-is-it-1.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blog/what-is-it-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/doc/dev.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index-tmpl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/map.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/mouseless/todos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/original/scripts/build-index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/callouts/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/caution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/important.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/icons/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/callouts/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/caution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/important.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/icons/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/images/smallnew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/javascripts/ASCIIMathML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/javascripts/LaTeXMathML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/javascripts/asciidoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/javascripts/slidy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/javascripts/toc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/stylesheets/asciidoc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/stylesheets/docbook-xsl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/stylesheets/pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/stylesheets/slidy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/stylesheets/toc2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/assets/stylesheets/xhtml11-quirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/conclusion-7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/forking-and-fixing-a-bug-in-2016-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/me-and-the-keyboard-a-love-story-8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/my-history-with-this-bug-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/sleazy-marketing-6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/test-11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/thinking-about-vision-and-end-goal-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/projects-log/blog/what-is-it-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/todos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index-tmpl.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/original/scripts/build-index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos.php" afterPath="$PROJECT_DIR$/todos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/index-tmpl.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/index-tmpl.adoc" afterPath="$PROJECT_DIR$/original/index-tmpl.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
     </list>
     <ignored path="projects-log.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -223,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todos.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10182208">
+            <state vertical-scroll-proportion="-3.392857">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
@@ -256,14 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-tmpl.adoc" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index-tmpl.adoc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/index-tmpl.adoc">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.10204082">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -308,7 +121,7 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-16.466667">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -383,10 +196,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/blog/index.adoc" />
-        <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
         <option value="$PROJECT_DIR$/todos.php" />
+        <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
       </list>
     </option>
   </component>
@@ -870,36 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/11.adoc">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4333334">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/index-tmpl.adoc">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -934,7 +717,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.466667">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -949,8 +732,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10182208">
+        <state vertical-scroll-proportion="-3.392857">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/11.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4333334">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/index-tmpl.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10204082">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
