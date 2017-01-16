@@ -12,12 +12,12 @@ link:previous-projects-12[previous projects]
 </li>
 <li>
 ++++
-link:vcsh-set-up-13[vcsh set up]
+link:vcsh-setup-13[vcsh setup]
 ++++
 </li>
 <li>
 ++++
-link:future-of-dotfiles-14[future of dotfiles]
+link:future-of-dotfiles-brainstorming-14[future of dotfiles (brainstorming)]
 ++++
 </li>
 </ul>

@@ -1,13 +1,13 @@
-link:index[Home]
-
-= bringing mouseless to the average user (brainstorming)
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
 
+link:index[Home]
+
+== bringing mouseless to the average user (brainstorming)
 
 
-## bringing mouseless to the average user
+
 
 I've been thinking about building a mouseless chrome extension that I could sell for years. 
 Since 2012, when discussing vrome, I thought about monetizing it somehow. 

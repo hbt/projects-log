@@ -1,17 +1,18 @@
-link:index[Home]
-
-= future of dotfiles
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
 
+link:index[Home]
+
+== future of dotfiles (brainstorming)
 
 
-## business
 
+## brainstorming
 
 A few improvements to the dotfiles could be made:
 
+```
 - replicate the work done with vcsh and all the scripts into one utility. 
 It would work with github/bitbucket and allow easy creation + management of environments and tracking of dotfiles
 automated detection of what people have and easily create shared commons etc.
@@ -35,13 +36,16 @@ Alternatives to this are that e.g screen, tmux
   - that is upvoted
   - i get it in my newsletter or feed
   - you are automatically subscribed to the programs you use and their associated tags
+```  
 
 Workflow from first principles:
+
+```
 - user installs ubuntu
 - user wants to customize something
 - user googles around 
 - user customizes but makes mistake
-- no easy revert
+- no easy revert (maybe in addition to git thing, make it dropbox sync simple)
 
 - user installs ubuntu
 - user wants to customize something
@@ -75,9 +79,11 @@ Workflow from first principles:
 - discovery
 - management & tracking
 - analytics & improving
+```
 
 
 Think about product growth ideas for related sites and read about their philosophy:
+
 - view jobs https://angel.co/stackshare
 - https://angel.co/stackshare/jobs/185071-product-manager-growth
 - view other stackshare tools for inspiration and study their business model

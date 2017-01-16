@@ -1,21 +1,14 @@
-link:index[Home]
-
-= vcsh set up
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
 
+link:index[Home]
+
+== vcsh setup
 
 
-== configure vcsh
 
-[source,ruby]
-----
-require 'sinatra'
-get '/hi' do
-  "Hello World!"
-end
-----
+== my setup 
 
 We have 4 environments minimium. 
 
@@ -56,3 +49,20 @@ git s
 
 ```
 
+[source,bash]
+----
+vcsh init dotfiles
+vcsh init hbtlabs_dotfiles 
+
+# hide all files from status unless I specifically add them
+# downside: if a new file is added to a tracked directory, it will not appear in status. 
+vcsh  dotfiles_hbtlabs config --local status.showUntrackedFiles no
+
+vcsh enter dotfiles_hbtlabs
+
+# regular git commands
+git s
+----
+
+
+Refs: this guide https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/ was of great help

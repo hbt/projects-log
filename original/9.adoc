@@ -1,4 +1,3 @@
-## bringing mouseless to the average user
 
 I've been thinking about building a mouseless chrome extension that I could sell for years. 
 Since 2012, when discussing vrome, I thought about monetizing it somehow. 

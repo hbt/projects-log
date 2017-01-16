@@ -44,10 +44,27 @@ function main()
     var_dump('================');
 }
 
+function asciidoctor_individual()
+{
+    $files = glob(TARGET_DIR . '*.adoc');
+    array_walk($files, function ($fn) {
+        if (file_exists($fn) && is_file($fn)) {
+//            $c = 'asciidoctor -v --doctype=book blog/what-is-it-1.adoc -o docs/what-is-it-1.html';
+            $bfn = basename($fn);
+            $bfn = substr($bfn, 0, strlen($bfn) - strlen('.adoc'));
+
+            $c = sprintf('asciidoctor  --doctype=book %s -o docs/%s.html 2>&1', $fn, $bfn);
+            var_dump($c);
+            echo shell_exec($c);
+        }
+    });
+
+}
+
 function asciidoctor()
 {
     chdir(dirname(__FILE__) . '/../../');
-    shell_exec(sprintf('asciidoctor --doctype=book -B %s -D ../docs %s/*.adoc', TARGET_DIR, TARGET_DIR));
+    echo shell_exec(sprintf('asciidoctor --doctype=book -B %s -D ../docs %s*.adoc', TARGET_DIR, TARGET_DIR));
 }
 
 /**
@@ -225,14 +242,16 @@ function copyFiles()
 function getPostHeaderTemplate()
 {
 
+    // TODO(hbt) ENHANCE add layout or include it 
 
     return <<<EOF
-link:index[Home]
-
-= %%title%%
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
+
+link:index[Home]
+
+== %%title%%
 
 EOF;
 
@@ -293,13 +312,13 @@ function createBlogDir()
 {
     // clean old dir
     if (file_exists(TARGET_DIR)) {
-        $files = glob(TARGET_DIR . '/*.adoc');
+        $files = glob(TARGET_DIR . '*.adoc');
         array_walk($files, function ($fn) {
             if (file_exists($fn) && is_file($fn)) {
                 unlink($fn);
             }
         });
-        $files = glob(TARGET_DIR . '/*.html');
+        $files = glob(TARGET_DIR . '*.html');
         array_walk($files, function ($fn) {
             if (file_exists($fn) && is_file($fn)) {
                 unlink($fn);

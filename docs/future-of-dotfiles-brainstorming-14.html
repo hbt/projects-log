@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>My history with this bug</title>
+<title>future of dotfiles (brainstorming)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -502,52 +502,102 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_my_history_with_this_bug">My history with this bug</h2>
+<h2 id="_future_of_dotfiles_brainstorming">future of dotfiles (brainstorming)</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="_what_is_the_white_flash">what is the white flash?</h2>
+<h2 id="_brainstorming">brainstorming</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The chromium white flash is this fucking annoying bug that has existed forever.
-Basically, a white flash appears whenever you change tabs, new tab, click a link, open a window, begin to relax. [explained here](<a href="http://youtu.be/HfJ_EwSTevI" class="bare">http://youtu.be/HfJ_EwSTevI</a>)
-Instead of browsing while enjoying ads ridden pages and lag, you have to experience the equivalent of getting flash banged in call of duty every few seconds.</p>
+<p>A few improvements to the dotfiles could be made:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>- replicate the work done with vcsh and all the scripts into one utility.
+It would work with github/bitbucket and allow easy creation + management of environments and tracking of dotfiles
+automated detection of what people have and easily create shared commons etc.
+
+- in addition to that, create a dotfiles community. A location where people can share their config, search for examples and such.
+It would also be a documentation tool like that readme program/site thing.
+dotfiles would be analyzed for common tricks. e.g this flag/option is used by 90% of people
+People who use this also use this e.g vimrc, idevim, cvim, pentadactyl
+Alternatives to this are that e.g screen, tmux
+
+- recommended files to track under dotfiles
+
+- browse themes and visual effects of prompts in gifs
+
+- web wizard, blog post, guide to customize stuff e.g custom the toolbar or gnome flashback through the web with the tool manipulating files tracked under and the user can revert
+
+
+- create mini reddit for each program
+  - example i subscribe to metacity
+  - someone posts something related to metacity and tiling new program
+  - that is upvoted
+  - i get it in my newsletter or feed
+  - you are automatically subscribed to the programs you use and their associated tags</code></pre>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_personal_history_of_frustration">personal history of frustration</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Like every problem in life, it&#8217;s only worth solving when it really pisses you off. My frustration with white flash has been building over the years slowly.</p>
+<p>Workflow from first principles:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>- user installs ubuntu
+- user wants to customize something
+- user googles around
+- user customizes but makes mistake
+- no easy revert (maybe in addition to git thing, make it dropbox sync simple)
+
+- user installs ubuntu
+- user wants to customize something
+- user cannot find right keywords
+- user cannot find ideas of what to customize e.g other window manager, tiling etc.
+- user looks up blogs/examples/themes online
+
+- user installs new program e.g bluetile
+- user wants to config and track it
+- user would like to browse example of configs, see popular settings
+
+- user moves to another computer
+- user would like to reuse aspects of config for new environment
+
+- user connects to new remote computer via ssh
+- user wants immediate access to specific programs and config
+
+- program author would like to analyze popular user settings
+
+- developer wants to reach specific users of a certain program to advertise new plugin or fix
+- advertise sponsored tools -- like stackshare.io
+
+- mutualism / stackshare / alternative.to
+- import / export / integrate with those tools and dotfiles
+- easily create your stackshare profile from your dotfiles
+
+- dotfiles documentation
+- like readme.io but for a dotfile
+
+- documentation
+- discovery
+- management &amp; tracking
+- analytics &amp; improving</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Think about product growth ideas for related sites and read about their philosophy:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>2007, began changing the background colors of site to relax my eyes in firefox.</p>
+<p>view jobs <a href="https://angel.co/stackshare" class="bare">https://angel.co/stackshare</a></p>
 </li>
 <li>
-<p>2008, began experiencing migraine and eye strain. It was a combination of poor sleeping habits, poor lighting and working during the evening</p>
+<p><a href="https://angel.co/stackshare/jobs/185071-product-manager-growth" class="bare">https://angel.co/stackshare/jobs/185071-product-manager-growth</a></p>
 </li>
 <li>
-<p>2009, none of the sleeping issues were addressed but used global stylesheets</p>
-</li>
-<li>
-<p>2010, browsing in black and white and switching to chrome on linux. The white flash story begins.</p>
-</li>
-<li>
-<p>2011-2013, white flashes appear but it&#8217;s not as bad because we have custom stylesheet injection reducing the effect.</p>
-</li>
-<li>
-<p>2013, chromium team [removes custom stylesheets](<a href="https://codereview.chromium.org/64843004" class="bare">https://codereview.chromium.org/64843004</a>) and I switch to firefox.</p>
-</li>
-<li>
-<p>2013-2016, using firefox and not experiencing any issues with white flashes except when I have to test something on chrome.</p>
-</li>
-<li>
-<p>2016, firefox is increasingly a dead end and chromium is becoming the default browser. Must switch to chrome and fix the white flash.</p>
+<p>view other stackshare tools for inspiration and study their business model</p>
 </li>
 </ul>
 </div>

@@ -1,13 +1,13 @@
-link:index[Home]
-
-= Someone built the windows binaries based on my work ;-)
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
 
+link:index[Home]
+
+== Someone built the windows binaries based on my work ;-)
 
 
-== windows bins
+
 
 Since getting the word out on the chromium bug tracker [https://bugs.chromium.org/p/chromium/issues/detail?id=470669](https://bugs.chromium.org/p/chromium/issues/detail?id=470669), people visited the repo and downloaded the binaries. 
 

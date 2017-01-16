@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>My history with this bug</title>
+<title>vcsh setup</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -502,54 +502,90 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_my_history_with_this_bug">My history with this bug</h2>
+<h2 id="_vcsh_setup">vcsh setup</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="_what_is_the_white_flash">what is the white flash?</h2>
+<h2 id="_my_setup">my setup</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The chromium white flash is this fucking annoying bug that has existed forever.
-Basically, a white flash appears whenever you change tabs, new tab, click a link, open a window, begin to relax. [explained here](<a href="http://youtu.be/HfJ_EwSTevI" class="bare">http://youtu.be/HfJ_EwSTevI</a>)
-Instead of browsing while enjoying ads ridden pages and lag, you have to experience the equivalent of getting flash banged in call of duty every few seconds.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_personal_history_of_frustration">personal history of frustration</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Like every problem in life, it&#8217;s only worth solving when it really pisses you off. My frustration with white flash has been building over the years slowly.</p>
+<p>We have 4 environments minimium.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>2007, began changing the background colors of site to relax my eyes in firefox.</p>
+<p>Desktop - local/personal environment</p>
 </li>
 <li>
-<p>2008, began experiencing migraine and eye strain. It was a combination of poor sleeping habits, poor lighting and working during the evening</p>
+<p>laptop - still personal but slightly different than desktop</p>
 </li>
 <li>
-<p>2009, none of the sleeping issues were addressed but used global stylesheets</p>
+<p>servers - personal servers</p>
 </li>
 <li>
-<p>2010, browsing in black and white and switching to chrome on linux. The white flash story begins.</p>
-</li>
-<li>
-<p>2011-2013, white flashes appear but it&#8217;s not as bad because we have custom stylesheet injection reducing the effect.</p>
-</li>
-<li>
-<p>2013, chromium team [removes custom stylesheets](<a href="https://codereview.chromium.org/64843004" class="bare">https://codereview.chromium.org/64843004</a>) and I switch to firefox.</p>
-</li>
-<li>
-<p>2013-2016, using firefox and not experiencing any issues with white flashes except when I have to test something on chrome.</p>
-</li>
-<li>
-<p>2016, firefox is increasingly a dead end and chromium is becoming the default browser. Must switch to chrome and fix the white flash.</p>
+<p>work servers - consulting/public servers</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>This means 4 repositories.</p>
+</div>
+<div class="paragraph">
+<p>Each repository has 2 branches.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>common - anything in common between repositories</p>
+</li>
+<li>
+<p>private - the stuff that only pertains to that environment</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>All repositories are checked in on the desktop. One private branch and 3 common branches.</p>
+</div>
+<div class="paragraph">
+<p>The other environments only have access to their respective repositories.</p>
+</div>
+<div class="paragraph">
+<p>If something needs to be shared, it is shared on the common branch.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>vcsh init dotfiles
+vcsh init hbtlabs_dotfiles
+
+# hide all files from status unless I specifically add them
+# downside: if a new file is added to a tracked directory, it will not appear in status.
+vcsh  dotfiles_hbtlabs config --local status.showUntrackedFiles no
+
+vcsh enter dotfiles_hbtlabs
+
+# regular git commands
+git s</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code data-lang="bash">vcsh init dotfiles
+vcsh init hbtlabs_dotfiles
+
+<span class="tok-c1"># hide all files from status unless I specifically add them</span>
+<span class="tok-c1"># downside: if a new file is added to a tracked directory, it will not appear in status.</span>
+vcsh  dotfiles_hbtlabs config --local status.showUntrackedFiles no
+
+vcsh enter dotfiles_hbtlabs
+
+<span class="tok-c1"># regular git commands</span>
+git s</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Refs: this guide <a href="https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/" class="bare">https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/</a> was of great help</p>
 </div>
 </div>
 </div>

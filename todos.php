@@ -1,6 +1,10 @@
 <?php
 
 $m = [
+    'fix error output',
+    'review doctype' => [
+        'doctype book vs article == the needed subsection -- maybe change titles?',
+    ],
 
     'review links' => [
         

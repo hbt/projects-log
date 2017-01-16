@@ -1,4 +1,3 @@
-== vision
 
 Ideally, I want the white flash bug fixed in google chrome so I dont have to maintain a fork in the first place. 
 

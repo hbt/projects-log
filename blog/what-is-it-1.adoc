@@ -1,9 +1,10 @@
-link:index[Home]
-
-= what is it?
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
+
+link:index[Home]
+
+== what is it?
 
 
 
