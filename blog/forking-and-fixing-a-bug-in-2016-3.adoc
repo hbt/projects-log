@@ -1,3 +1,5 @@
+link:index[Home]
+
 = Forking and fixing a bug in 2016
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
@@ -5,7 +7,7 @@
 
 
 
-# fixing the chromium white flash journey
+== fixing the chromium white flash journey
 
 This documents how much of a pain in the ass software development still is in 2016. 
 

@@ -37,18 +37,17 @@ function main()
     copyFiles();
 
     generateIndex();
-    
+
     asciidoctor();
 
 
     var_dump('================');
 }
 
-function asciidoctor() 
+function asciidoctor()
 {
     chdir(dirname(__FILE__) . '/../../');
-    // TODO(hbt) NEXT fix pygmentize not loading for whatever the fuck -- loading when executed on /tmp
-    shell_exec(sprintf('asciidoctor -B %s -D ../docs %s/*.adoc', TARGET_DIR, TARGET_DIR));
+    shell_exec(sprintf('asciidoctor --doctype=book -B %s -D ../docs %s/*.adoc', TARGET_DIR, TARGET_DIR));
 }
 
 /**
@@ -58,9 +57,6 @@ function validate()
 {
     // where this file should be located
     assert(file_exists('original/scripts/build-index.php'));
-
-    // file that contains generated map
-//    assert(file_exists('index.md'));
 
     // template file controlling index.md -- use %%map%% which will be replaced by generated map
     assert(file_exists(SOURCE_DIR . 'index-tmpl.adoc'));
@@ -78,7 +74,7 @@ function validate()
 
     // map location
     assert(file_exists('original/map.php'));
-    
+
 }
 
 function generateIndex()
@@ -111,7 +107,7 @@ function generateIndex()
             } else {
                 createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
-                $url =  fixTitle($k, $v);
+                $url = fixTitle($k, $v);
                 $title = sprintf("link:$url%s", "[$k]");
 
                 $content .= "<li>";
@@ -131,10 +127,10 @@ function generateIndex()
 
     // copy to index.md
     $index = $content;
-    $content = file_get_contents(SOURCE_DIR .  'index-tmpl.adoc');
+    $content = file_get_contents(SOURCE_DIR . 'index-tmpl.adoc');
     $content = str_ireplace('%%map%%', $index, $content);
     file_put_contents(TARGET_DIR . 'index.adoc', $content);
-    
+
 }
 
 function createFile($filename)
@@ -149,9 +145,8 @@ function createFile($filename)
     assert(count($m) == 1);
 
     $fp = SOURCE_DIR . $m[0] . '.adoc';
-    
-    
-    
+
+
     touch($fp);
 
 }
@@ -217,23 +212,23 @@ function copyFiles()
 //        echo shell_exec('asciidoc ' . $tfilename);
 //        var_dump($tfilename);
 //        rename($tfilename . '.html', '../docs/blog/' . $tfilename . '.html');
-        
+
         assert(file_exists($tfilename));
     }
 
 
     // all files converted successfully 
     // +1 is index file
-    assert(count(glob(TARGET_DIR . '*.adoc')) == count($map)+1);
+    assert(count(glob(TARGET_DIR . '*.adoc')) == count($map));
 }
 
 function getPostHeaderTemplate()
 {
 
-    // TODO(hbt) NEXT 
-//    link:index[Home]
 
     return <<<EOF
+link:index[Home]
+
 = %%title%%
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
@@ -241,10 +236,10 @@ function getPostHeaderTemplate()
 
 EOF;
 
-    
+
 }
 
-function getInlineMap() 
+function getInlineMap()
 {
     $ret = [];
     $map = getMap();
@@ -258,7 +253,7 @@ function getMap()
     include SOURCE_DIR . 'map.php';
     // array defined in map.php
     assert(isset($map));
-    
+
     $map = transformMap($map);
 
     return $map;
@@ -266,12 +261,12 @@ function getMap()
 
 function transformMap($map)
 {
-    $transform = function($v) use (&$transform) {
-        if(is_array($v)) {
+    $transform = function ($v) use (&$transform) {
+        if (is_array($v)) {
             return array_map($transform, $v);
         } else {
             // postfix id with .adoc to match filename
-            if($v) {
+            if ($v) {
                 $v .= '.adoc';
             }
         }
@@ -296,19 +291,25 @@ function buildMap(&$ret, $map)
  */
 function createBlogDir()
 {
-//    // clean old dir
-//    if (file_exists(TARGET_DIR)) {
-//        $files = glob(TARGET_DIR . '/*.adoc');
-//
-//        array_walk($files, function ($fn) {
-//            if (file_exists($fn) && is_file($fn)) {
-//                unlink($fn);
-//            }
-//        });
-////        rmdir(TARGET_DIR);
-////        assert(file_exists(TARGET_DIR) === false);
-//    }
-//
+    // clean old dir
+    if (file_exists(TARGET_DIR)) {
+        $files = glob(TARGET_DIR . '/*.adoc');
+        array_walk($files, function ($fn) {
+            if (file_exists($fn) && is_file($fn)) {
+                unlink($fn);
+            }
+        });
+        $files = glob(TARGET_DIR . '/*.html');
+        array_walk($files, function ($fn) {
+            if (file_exists($fn) && is_file($fn)) {
+                unlink($fn);
+            }
+        });
+
+//        rmdir(TARGET_DIR);
+//        assert(file_exists(TARGET_DIR) === false);
+    }
+
 //
 //    mkdir(TARGET_DIR);
 //    assert(file_exists(TARGET_DIR));

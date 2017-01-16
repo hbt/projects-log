@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_config.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/11.adoc" afterPath="$PROJECT_DIR$/original/11.adoc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/test-11.adoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/test-11.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/1.adoc" afterPath="$PROJECT_DIR$/original/1.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/3.adoc" afterPath="$PROJECT_DIR$/original/3.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/4.adoc" afterPath="$PROJECT_DIR$/original/4.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/5.adoc" afterPath="$PROJECT_DIR$/original/5.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/6.adoc" afterPath="$PROJECT_DIR$/original/6.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/7.adoc" afterPath="$PROJECT_DIR$/original/7.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/8.adoc" afterPath="$PROJECT_DIR$/original/8.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/9.adoc" afterPath="$PROJECT_DIR$/original/9.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" afterPath="$PROJECT_DIR$/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/original/scripts/build-index.php" />
@@ -13,7 +22,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" afterPath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/fuck-the-average-user-stick-to-advanced-users-10.adoc" afterPath="$PROJECT_DIR$/blog/fuck-the-average-user-stick-to-advanced-users-10.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/me-and-the-keyboard-a-love-story-8.adoc" afterPath="$PROJECT_DIR$/blog/me-and-the-keyboard-a-love-story-8.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" afterPath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/my-history-with-this-bug-2.adoc" afterPath="$PROJECT_DIR$/blog/my-history-with-this-bug-2.adoc" />
@@ -22,7 +33,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" afterPath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" afterPath="$PROJECT_DIR$/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/test-11.adoc" afterPath="$PROJECT_DIR$/blog/test-11.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/test-11.html" afterPath="$PROJECT_DIR$/docs/test-11.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" afterPath="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" afterPath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" />
@@ -60,56 +70,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.964285">
-              <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
-              <folding>
-                <element signature="e#351#486#0#PHP" expanded="true" />
-                <element signature="e#489#642#0#PHP" expanded="true" />
-                <element signature="e#1121#1176#0#PHP" expanded="true" />
-                <element signature="e#2048#2228#0#PHP" expanded="true" />
-                <element signature="e#3660#3800#0#PHP" expanded="true" />
-                <element signature="e#4240#4291#0#PHP" expanded="true" />
-                <element signature="e#4457#4610#0#PHP" expanded="true" />
-                <element signature="e#6447#6457#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11.adoc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/original/11.adoc">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12244898">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-11.adoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="todos.php" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.75">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/9.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.3">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/3.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2666667">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/4.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/5.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/original/7.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -153,11 +183,22 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/todos.php" />
         <option value="$PROJECT_DIR$/blog/index.adoc" />
-        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
         <option value="$PROJECT_DIR$/blog/test-11.adoc" />
-        <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
         <option value="$PROJECT_DIR$/original/11.adoc" />
+        <option value="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" />
+        <option value="$PROJECT_DIR$/original/map.php" />
+        <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
+        <option value="$PROJECT_DIR$/blog/conclusion-7.adoc" />
+        <option value="$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc" />
+        <option value="$PROJECT_DIR$/original/3.adoc" />
+        <option value="$PROJECT_DIR$/original/6.adoc" />
+        <option value="$PROJECT_DIR$/original/1.adoc" />
+        <option value="$PROJECT_DIR$/original/8.adoc" />
+        <option value="$PROJECT_DIR$/original/9.adoc" />
+        <option value="$PROJECT_DIR$/original/4.adoc" />
+        <option value="$PROJECT_DIR$/original/5.adoc" />
+        <option value="$PROJECT_DIR$/original/7.adoc" />
       </list>
     </option>
   </component>
@@ -386,7 +427,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="7" />
+    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -488,12 +529,12 @@
           <folding>
             <element signature="e#351#486#0#PHP" expanded="true" />
             <element signature="e#489#642#0#PHP" expanded="true" />
-            <element signature="e#1121#1176#0#PHP" expanded="true" />
-            <element signature="e#2048#2228#0#PHP" expanded="true" />
-            <element signature="e#3660#3800#0#PHP" expanded="true" />
-            <element signature="e#4240#4291#0#PHP" expanded="true" />
-            <element signature="e#4457#4610#0#PHP" expanded="true" />
-            <element signature="e#6447#6457#0#PHP" expanded="true" />
+            <element signature="e#1027#1082#0#PHP" expanded="true" />
+            <element signature="e#1870#2050#0#PHP" expanded="true" />
+            <element signature="e#3463#3603#0#PHP" expanded="true" />
+            <element signature="e#4043#4094#0#PHP" expanded="true" />
+            <element signature="e#4260#4413#0#PHP" expanded="true" />
+            <element signature="e#6206#6216#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -578,16 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/1.adoc">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.392857">
@@ -596,29 +627,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7142856">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.adoc">
+    <entry file="file://$PROJECT_DIR$/original/11.adoc">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.566667">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.4333334">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -634,13 +649,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/original/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.7142856">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -648,27 +668,148 @@
     <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.964285">
-          <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
+          <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
           <folding>
             <element signature="e#351#486#0#PHP" expanded="true" />
             <element signature="e#489#642#0#PHP" expanded="true" />
-            <element signature="e#1121#1176#0#PHP" expanded="true" />
-            <element signature="e#2048#2228#0#PHP" expanded="true" />
-            <element signature="e#3660#3800#0#PHP" expanded="true" />
-            <element signature="e#4240#4291#0#PHP" expanded="true" />
-            <element signature="e#4457#4610#0#PHP" expanded="true" />
-            <element signature="e#6447#6457#0#PHP" expanded="true" />
+            <element signature="e#1027#1082#0#PHP" expanded="true" />
+            <element signature="e#1870#2050#0#PHP" expanded="true" />
+            <element signature="e#3463#3603#0#PHP" expanded="true" />
+            <element signature="e#4043#4094#0#PHP" expanded="true" />
+            <element signature="e#4260#4413#0#PHP" expanded="true" />
+            <element signature="e#6206#6216#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/11.adoc">
+    <entry file="file://$PROJECT_DIR$/blog/conclusion-7.adoc">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12244898">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="-20.9">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.866667">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/6.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6333333">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/what-is-it-1.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6333333">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/1.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.233334">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/8.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/9.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.3">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/3.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2666667">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/4.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/5.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/7.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>

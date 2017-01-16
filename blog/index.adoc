@@ -4,12 +4,7 @@
 
 
 ++++
-<ul><li>
-++++
-link:test-11[test]
-++++
-</li>
-
+<ul>
 <li>mouseless</li><ul><li>
 ++++
 link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]

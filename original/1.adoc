@@ -1,4 +1,4 @@
-# Purpose
+== Purpose
 
 - Provide a written log for each project.
- -Tracking design decisions, progress, problems and solutions
+- Tracking design decisions, progress, problems and solutions

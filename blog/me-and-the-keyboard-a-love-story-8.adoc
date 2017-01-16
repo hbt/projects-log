@@ -1,3 +1,5 @@
+link:index[Home]
+
 = me and the keyboard. a love story.
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
@@ -11,12 +13,13 @@
 I've been accumulating keyboard shortcuts for years. 
 It peaked around my time using editors and IDE and my obsession of removing the mouse. 
 
+=== 2009
 Around 2009, I started using vim heavily in a mod and started looking into adding keyboard shortcut to phpmyadmin .
 
-2010
+=== 2010
 Instead I found out about vimium, pretty sure it was on hackernews. I then jumped on it, looked into the code and [forked it adding many features](https://github.com/hbt/vimium) 
 
-2011
+=== 2011 / 2012
 Afterwards, I found out about vrome, but the code quality felt much better. Jumped in, [forked it, added a bunch of features.](https://github.com/hbt/vrome)
 
 I contacted the author jinzhu and he gave me admin access.
@@ -26,11 +29,16 @@ He then proceeded to rewrite the whole extension in coffeescript with no discuss
 In reality though, a lot of my work was translated to coffeescript and he did a good job keeping the best parts and giving me credit as a retired author a few years later.
 Better communication would have helped us both.
 
+
+=== 2013
+
 Around 2013, I got really tired of the white flash bug combined with the lack of stylesheet injections. 
 Also, the vrome extension didnt allow me the level of customization I needed. 
 
 I switched to firefox, picked pentadactyl and used that for years. The same firefox version until a small update which created too much work to justify updating the browser. 
 
+
+=== 2016
 
 In 2016, I had a browser that was clunky, didnt work very often, would crash with timeouts and connection reset, some pages werent supported or looked buggy, it was overall slow and tedious. I could not update the damn thing without risk breaking pentadactyl or doing more work to fix it again. 
 

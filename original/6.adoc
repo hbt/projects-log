@@ -1,4 +1,4 @@
-# marketing chromium white flash fix
+== marketing chromium white flash fix
 
 since the windows binaries have been produced and the github repo has gained some work. I want to get more contributors for several reasons:
 

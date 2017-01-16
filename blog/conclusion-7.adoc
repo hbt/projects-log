@@ -1,3 +1,5 @@
+link:index[Home]
+
 = Conclusion
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
@@ -5,9 +7,11 @@
 
 
 
+== $$$
 Definitely not worth monetizing. The white flash crowd is loud but they are not that numerous. 
 Although, I do get 50 unique visitors a week now as of Jan 2017. Very few follow through and download the binaries (for ubuntu).
 Shoulda tracked the windows ones.
+
 
 
 
@@ -29,5 +33,3 @@ Still worth fixing for myself and still worth sharing since other people built o
 
 
 Putting the project on hold for now.
-
-[//]: # (test comment)

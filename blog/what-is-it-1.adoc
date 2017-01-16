@@ -1,3 +1,5 @@
+link:index[Home]
+
 = what is it?
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
@@ -5,7 +7,7 @@
 
 
 
-# Purpose
+== Purpose
 
 - Provide a written log for each project.
- -Tracking design decisions, progress, problems and solutions
+- Tracking design decisions, progress, problems and solutions

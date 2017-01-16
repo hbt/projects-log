@@ -16,7 +16,7 @@ The average user who:
 
 - doesnt want to spent any time customizing stuff
 - doesnt want to spend time learning 
-- expects things to work etc. 
+- expects things to work **at their level** out of the gate
 
 
 There are a few advantages to be gained by bringing to the average users but not enough to justify the amount of work + risk . 

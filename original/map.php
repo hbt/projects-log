@@ -1,8 +1,6 @@
 <?php
 
 $map = [
-    'test' => '11',
-    
     'mouseless' => [
         'me and the keyboard. a love story.' => '8',
         'increasing contributors' => [
