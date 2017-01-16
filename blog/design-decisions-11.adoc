@@ -41,6 +41,10 @@ map.php
 
 # wip/wgp 
 commit changes and push
+
+# hide changes in docs
+git-assume-status docs/*.html
+
 ```
 
 == improvements
