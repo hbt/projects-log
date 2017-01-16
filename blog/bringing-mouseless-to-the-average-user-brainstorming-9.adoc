@@ -1,6 +1,9 @@
+link:index[Home]
+
 = bringing mouseless to the average user (brainstorming)
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 
 
 ## bringing mouseless to the average user

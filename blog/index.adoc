@@ -2,16 +2,6 @@
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 
-++++
-<ul>
-<li>
-asd
-</li>
-</ul>
-++++
-
-
-Index
 
 ++++
 <ul><li>

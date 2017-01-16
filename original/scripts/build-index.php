@@ -229,9 +229,12 @@ function copyFiles()
 function getPostHeaderTemplate()
 {
     return <<<EOF
+link:index[Home]
+
 = %%title%%
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 EOF;
 
     

@@ -1,6 +1,9 @@
+link:index[Home]
+
 = Conclusion
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 
 
 Definitely not worth monetizing. The white flash crowd is loud but they are not that numerous. 

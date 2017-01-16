@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" afterPath="$PROJECT_DIR$/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/original/scripts/build-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/conclusion-7.adoc" afterPath="$PROJECT_DIR$/blog/conclusion-7.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/conclusion-7.html" afterPath="$PROJECT_DIR$/docs/conclusion-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc" afterPath="$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" afterPath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/fuck-the-average-user-stick-to-advanced-users-10.adoc" afterPath="$PROJECT_DIR$/blog/fuck-the-average-user-stick-to-advanced-users-10.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/index-tmpl.adoc" afterPath="$PROJECT_DIR$/original/index-tmpl.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/me-and-the-keyboard-a-love-story-8.adoc" afterPath="$PROJECT_DIR$/blog/me-and-the-keyboard-a-love-story-8.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" afterPath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/my-history-with-this-bug-2.adoc" afterPath="$PROJECT_DIR$/blog/my-history-with-this-bug-2.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" afterPath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/sleazy-marketing-6.adoc" afterPath="$PROJECT_DIR$/blog/sleazy-marketing-6.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" afterPath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" afterPath="$PROJECT_DIR$/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/test-11.adoc" afterPath="$PROJECT_DIR$/blog/test-11.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/test-11.html" afterPath="$PROJECT_DIR$/docs/test-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" afterPath="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" afterPath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/what-is-it-1.adoc" afterPath="$PROJECT_DIR$/blog/what-is-it-1.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/what-is-it-1.html" afterPath="$PROJECT_DIR$/docs/what-is-it-1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,8 +63,8 @@
       <file leaf-file-name="build-index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37406215">
+              <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
               <folding>
                 <element signature="e#255#390#0#PHP" expanded="true" />
                 <element signature="e#393#546#0#PHP" expanded="true" />
@@ -63,7 +73,7 @@
                 <element signature="e#3564#3704#0#PHP" expanded="true" />
                 <element signature="e#4144#4195#0#PHP" expanded="true" />
                 <element signature="e#4361#4514#0#PHP" expanded="true" />
-                <element signature="e#6272#6282#0#PHP" expanded="true" />
+                <element signature="e#6291#6301#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +85,21 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.766666">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-11.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2666667">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,7 +112,7 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.566667">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -144,9 +167,9 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/todos.php" />
         <option value="$PROJECT_DIR$/blog/test-11.adoc" />
-        <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
         <option value="$PROJECT_DIR$/blog/index.adoc" />
         <option value="$PROJECT_DIR$/original/map.php" />
+        <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
         <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
       </list>
     </option>
@@ -491,7 +514,7 @@
             <element signature="e#3564#3704#0#PHP" expanded="true" />
             <element signature="e#4144#4195#0#PHP" expanded="true" />
             <element signature="e#4361#4514#0#PHP" expanded="true" />
-            <element signature="e#6272#6282#0#PHP" expanded="true" />
+            <element signature="e#6291#6301#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -629,17 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2666667">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/mouseless/todos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.75">
@@ -654,7 +666,18 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.566667">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/test-11.adoc">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2666667">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -664,8 +687,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.766666">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.9">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -680,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37406215">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding>
             <element signature="e#255#390#0#PHP" expanded="true" />
             <element signature="e#393#546#0#PHP" expanded="true" />
@@ -690,7 +713,7 @@
             <element signature="e#3564#3704#0#PHP" expanded="true" />
             <element signature="e#4144#4195#0#PHP" expanded="true" />
             <element signature="e#4361#4514#0#PHP" expanded="true" />
-            <element signature="e#6272#6282#0#PHP" expanded="true" />
+            <element signature="e#6291#6301#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

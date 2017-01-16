@@ -1,6 +1,9 @@
+link:index[Home]
+
 = what is it?
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 
 
 # Purpose

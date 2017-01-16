@@ -1,6 +1,9 @@
+link:index[Home]
+
 = My history with this bug
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 
 
 ## what is the white flash?

@@ -1,6 +1,9 @@
+link:index[Home]
+
 = Sleazy marketing
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 
 
 # marketing chromium white flash fix

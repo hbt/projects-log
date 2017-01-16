@@ -1,6 +1,9 @@
+link:index[Home]
+
 = test
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
+
 
 
 
