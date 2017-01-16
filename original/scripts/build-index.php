@@ -36,9 +36,18 @@ function main()
     copyFiles();
 
     generateIndex();
+    
+    asciidoctor();
 
 
     var_dump('================');
+}
+
+function asciidoctor() 
+{
+    chdir(dirname(__FILE__) . '/../../');
+    // TODO(hbt) NEXT fix pygmentize not loading for whatever the fuck -- loading when executed on /tmp
+    shell_exec(sprintf('asciidoctor -B %s -D ../docs %s/*.adoc', TARGET_DIR, TARGET_DIR));
 }
 
 /**
@@ -50,15 +59,15 @@ function validate()
     assert(file_exists('original/scripts/build-index.php'));
 
     // file that contains generated map
-    assert(file_exists('index.md'));
+//    assert(file_exists('index.md'));
 
     // template file controlling index.md -- use %%map%% which will be replaced by generated map
-    assert(file_exists('index-tmpl.md'));
+    assert(file_exists(SOURCE_DIR . 'index-tmpl.adoc'));
 
-    assert(stripos(file_get_contents('index-tmpl.md'), '%%map%%') !== false);
+    assert(stripos(file_get_contents(SOURCE_DIR . 'index-tmpl.adoc'), '%%map%%') !== false);
 
     // where the files in map are transformed. Directory is cleared. Store nothing there. 
-    assert(file_exists('docs/blog'));
+    assert(file_exists(TARGET_DIR));
 
     // where jekyll files are generated
     assert(file_exists('docs'));
@@ -68,6 +77,7 @@ function validate()
 
     // map location
     assert(file_exists('original/map.php'));
+    
 }
 
 function generateIndex()
@@ -104,6 +114,7 @@ function generateIndex()
                 createFile($v);
                 assert(file_exists(SOURCE_DIR . $v));
                 $url = '/projects-log/blog/' . fixTitle($k, $v);
+                // TODO(hbt) NEXT fix adoc links
                 $title = "[$k]($url)";
 
 
@@ -119,9 +130,10 @@ function generateIndex()
 
     // copy to index.md
     $index = $content;
-    $content = file_get_contents('index-tmpl.md');
+    $content = file_get_contents(SOURCE_DIR .  'index-tmpl.adoc');
     $content = str_ireplace('%%map%%', $index, $content);
-    file_put_contents('index.md', $content);
+    file_put_contents(TARGET_DIR . 'index.adoc', $content);
+    
 }
 
 function createFile($filename)
@@ -210,7 +222,8 @@ function copyFiles()
 
 
     // all files converted successfully 
-    assert(count(glob(TARGET_DIR . '*.adoc')) == count($map));
+    // +1 is index file
+    assert(count(glob(TARGET_DIR . '*.adoc')) == count($map)+1);
 }
 
 function getPostHeaderTemplate()
@@ -288,7 +301,7 @@ function createBlogDir()
 //
 //
 //    mkdir(TARGET_DIR);
-    assert(file_exists(TARGET_DIR));
+//    assert(file_exists(TARGET_DIR));
 }
 
 

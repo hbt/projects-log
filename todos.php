@@ -2,6 +2,9 @@
 
 $m = [
 
+    'review links' => [
+        
+    ],
     'structure' => [
         'everything in original',
         'run asciidoc and generate docs',
@@ -9,6 +12,7 @@ $m = [
 
         'document ',
     ],
+    'move scripts to project root and use cd',
 
     'try asciidoctor instead' => [
         'test using asciidoctor instead of markdown -- http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/',

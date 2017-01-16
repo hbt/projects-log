@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>Sample Page</title>
+<title>bringing mouseless to the average user</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -417,139 +417,98 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<style>
-/* Pygments styles disabled. Pygments is not available. */
-</style>
 </head>
 <body class="article">
 <div id="header">
-<h1>Sample Page</h1>
 </div>
 <div id="content">
+<hr>
 <div class="paragraph">
-<p><a href="test-11" class="bare">test-11</a></p>
+<p>layout: layout
+title:  bringing mouseless to the average user (brainstorming)
+---</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-test2
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-test
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-warning" title="Warning"></i>
-</td>
-<td class="content">
-test
-</td>
-</tr>
-</table>
+<div class="sect1">
+<h2 id="_bringing_mouseless_to_the_average_user">bringing mouseless to the average user</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve been thinking about building a mouseless chrome extension that I could sell for years.
+Since 2012, when discussing vrome, I thought about monetizing it somehow.</p>
 </div>
 <div class="paragraph">
-<p>This is a sample page composed in AsciiDoc.
-Jekyll converts it to HTML using <a href="http://asciidoctor.org">Asciidoctor</a>.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="pygments highlight"><code data-lang="ruby">puts "Hello, World!"</code></pre>
-</div>
+<p>I think, it is pretty clear at this point that this would be useless.</p>
 </div>
 <div class="paragraph">
-<p>Content index</p>
+<p>First:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>[test](/projects-log/blog/test-11)</p>
-</li>
-<li>
-<p>[what is it?](/projects-log/blog/what-is-it-1)</p>
-</li>
-<li>
-<p>projects</p>
-</li>
-<li>
-<p>in progress</p>
-</li>
-<li>
-<p>mouseless</p>
-</li>
-<li>
-<p>[me and the keyboard. a love story.](/projects-log/blog/me-and-the-keyboard-a-love-story-8)</p>
-</li>
-<li>
-<p>increasing contributors</p>
-</li>
-<li>
-<p>[bringing mouseless to the average user (brainstorming)](/projects-log/blog/bringing-mouseless-to-the-average-user-brainstorming-9)</p>
-</li>
-<li>
-<p>[fuck the average user. Stick to advanced users.](/projects-log/blog/fuck-the-average-user-stick-to-advanced-users-10)</p>
-</li>
-<li>
-<p>maintained and mature</p>
-</li>
-<li>
-<p>chromium white flash fix</p>
-</li>
-<li>
-<p>[My history with this bug](/projects-log/blog/my-history-with-this-bug-2)</p>
-</li>
-<li>
-<p>[Forking and fixing a bug in 2016](/projects-log/blog/forking-and-fixing-a-bug-in-2016-3)</p>
-</li>
-<li>
-<p>[thinking about vision and end goal](/projects-log/blog/thinking-about-vision-and-end-goal-4)</p>
-</li>
-<li>
-<p>[Someone built the windows binaries based on my work ;-)](/projects-log/blog/someone-built-the-windows-binaries-based-on-my-work-5)</p>
-</li>
-<li>
-<p>[Sleazy marketing](/projects-log/blog/sleazy-marketing-6)</p>
-</li>
-<li>
-<p>[Conclusion](/projects-log/blog/conclusion-7)</p>
+<p>the best chrome extension is cvim. In terms of functionality but also something I&#8217;d use, it is not the most popular though.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>test-11.html[asd]</p>
+<p>The most popular is vimium. Mainly because it has a minimal feature set and is ideal for beginners.</p>
 </div>
 <div class="paragraph">
-<p>{test}[asd]
-[test](test-11.html)</p>
+<p>The problem I have right now is any work to monetize the extension would consist of bringing mouseless to the average user.
+The average user who:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>doesnt want to spent any time customizing stuff</p>
+</li>
+<li>
+<p>doesnt want to spend time learning</p>
+</li>
+<li>
+<p>expects things to work etc.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p><a href="http://ex.com/test-11.html">asd</a></p>
+<p>There are a few advantages to be gained by bringing to the average users but not enough to justify the amount of work + risk .</p>
 </div>
 <div class="paragraph">
-<p>{test}[asd]
-[test](test-11.html)</p>
+<p>Keep in mind, if I do this, there would be a big risk of people not showing up or being satisfied with the free versions etc.</p>
 </div>
 <div class="paragraph">
-<p>[test](test-11)
-[test](test-11)</p>
+<p>The key technical advantages I&#8217;d gain are:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>better hinttags and other user defined stuff&#8201;&#8212;&#8201;that&#8217;s assuming the majority of people are not passive and it&#8217;s worth having hinttags for sites that I dont visit</p>
+</li>
+<li>
+<p>better bug detection / software quality?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>I cant think of what there is to gain really.</p>
+</div>
+<div class="paragraph">
+<p>Bringing it to the majority of users would be an education app. After they reach their education, they might be tempted to switch to the free version.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;s not like chromium-vim is super buggy.</p>
+</div>
+<div class="paragraph">
+<p>Maybe that would be the tool instead. An education/gamification app or book or whatever.</p>
+</div>
+<div class="paragraph">
+<p>Learn chromium-vim, pentadactyl etc. and would have documentation, gifs, community scripts, examples, wikis etc.</p>
+</div>
+<div class="paragraph">
+<p>Not sure where the monetization would be or even if there would be traffic but most importantly, what&#8217;s in it for me?</p>
+</div>
+<div class="paragraph">
+<p>I think I just need a break from this project for awhile. I had some ideas about yubnub like features, cli for the web and whatnot.</p>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">

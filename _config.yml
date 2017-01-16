@@ -1,7 +1,13 @@
-gems:
-  - jekyll-asciidoc
-  - asciidoctor
-
-destination: docs
-
-source: blog
+#gems:
+#  - jekyll-asciidoc
+#  - asciidoctor
+#
+#asciidoctor: {}
+#
+#asciidoc:
+#  processor: asciidoctor
+#  ext: asciidoc,adoc,ad
+#  
+#destination: docs
+#
+#source: blog
