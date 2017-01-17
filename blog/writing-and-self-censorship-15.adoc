@@ -20,20 +20,25 @@ link:index[Home]
 
 
 
-5. WRITING
+== writing quality
 
-Benefits: Whether it’s emails or journaling or writing fiction or posting a political rant on Facebook, writing well is fast becoming one of the most important life skills in the 21st century. So much of your life today is spent in front of a screen and through social media, email and messaging apps, so if you can’t communicate well through writing, you’re putting yourself at a monstrous disadvantage.
+There is something therapeutic about writing. It helps clear the mind and structure your thoughts. 
 
-If reading allows you to inhabit other people’s minds for a brief period of time, learning to write well is like cleaning your house before the guests come over — it forces you to learn how to structure your thoughts more coherently, string together rational arguments, and tell stories in cogent and insightful ways. But not only that, it makes you a better and more insightful thinker. As Flannery O’Connor said, “I don’t know what I think until I write it down.”
+However, it's okay to just write and ramble. Not every post has to be polished and held to extreme standards. Why not?
+Because you wouldn't bother writing in the first place. 
 
-It’s also therapeutic. In fact, of all of the hokey pokey woo-woo self-help practices, journaling and writing out one’s thoughts and feelings on a regular basis has been shown to have calming and therapeutic effects.24
+There is no interest in even polishing older posts to be more structured or readable. 
 
-Adoption Strategy: Easiest way here is to start a journal. There are some cool apps to journal on your computer. Or you can do it the old-fashioned way, by hand.25
+Generally, the goal is to clear your mind about a project/decision/problem. Most of the posts are works in progress. 
 
-Hey, remember pen and paper?
-Hey, remember pen and paper?
-The important thing here is to not limit yourself. Use writing as a tool of self-discovery; write your feelings, ideas, fantasies. And if you feel like going on a tangent about calculus problems that stumped you, do that too.
+== watch that tone
 
-If you get ballsy, you can even start a blog at a site like WordPress or Medium and go public with your ideas.
+Frustration and anger are part of software development. You cannot spend your days digging into other people's minds and attempting
+to understand what were they thinking implementing it this way or designing that way without going a little mad. 
 
-The point here is to develop a consistent habit of 1) uninhibited self-expression and 2) practice formulating your thoughts in a highly coherent way so that others may understand them. Start with 30 days. As usual, don’t judge yourself. At first, make simply showing up the only requirement for success.
+Also, shit doen't always work as expected and it can be frustrating. So, cursing comes easy with this type of writing.
+
+
+Lastly, self censorship. One reason to not write under your own name is the deluge of professional online victims waiting to make you as miserable as they are. 
+Hopefully, they won't be reading in the first place ;-)
+

@@ -1,0 +1,97 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== eat your own dog food eventually stops working
+
+
+
+The repeated mantra to founders: "Eat your own dog food"
+
+
+What they don't tell you is eventually you stop eating your own dog food because there is too much of it. 
+
+
+The startup path:
+
+- you experience a problem 
+- you solve it 
+- you find a small niche and share the solution as is
+- they love but XYZ could be added 
+- you don't need XYZ, but you add it anyway
+- May as well add ABC to please another market segment and generate more revenue/growth. That niche is too small.
+- you build a business around it
+- success/profit, booze & bikinis
+
+
+== About that building business part...
+
+
+- How much work and how many features have been developed for yourself vs for users because they really wanted them?
+- Out of all your features, customer acquisition/retention tactics, how many of them do you use constantly?
+- How often do you rely on bugs from users instead of discovering them yourself because after all, you eat your own dog food?
+- How many ideas for improvements come from users rather than your own team?
+
+
+The reality is, you reach a point where you're 90% satisfied with the solution as it is but you still have to work full time implementing and polishing stuff for users. 
+
+- Making it dummy proof so the product works as expected without any prior knowledge of the domain. 
+- Developing integrations for services you don't use but know will lead to more users
+
+
+Maybe, that's how companies eventually start to suck. People are responsible for the feature they introduced but never use it. When it breaks, hopefully some script will notify the team before your users do and reconsider your competence.
+
+
+== Distorted incentives
+
+"Eating your own dog food" is enough to motivate you and push you in the beginning. Once your problem is solved, your product is considered mature by your standards, are you still working for yourself?
+
+What are your incentives? Build a better product or acquire more users and please them by integrating whatever they tell you.
+
+We all have integrity until the sales guy shows up and tells you: "I have a client who will pay a shit load of money for this small feature"
+
+What do you say? No? Good luck keeping that sales guy after taking away his commission and denying your company revenue.
+Yes? May as well go consulting while you're at it, what happened to product vision and whatnot?
+
+
+== Fuck it mode
+
+Eventually, you reach the "fuck it" mode. Let's just make some fucking money. You only focus on your metrics, your enterprise sales are off the roof and your product becomes a cluster fuck of features and a maintenance nightmare. Meanwhile you're employing a bunch of interchangeable developers because they haven't built a single thing that isn't used by more than 10 people from company XYZ. 
+
+
+But, hey, you're making money. The core product is still pretty cool and solves your problem. All that other shit is delegated anyway and now, you're a job creator. Congrats. 
+
+Keep milking it until the acquisition.
+
+
+== Maybe we need a new mantra
+
+How about 
+
+. "work sucks but it makes money, so why not?"
+. "At least it's passive income, could be worse"
+. "I could be maintaining legacy code, oh wait, nevermind, I forgot the cluster fuck of features that don't fit our design and have nothing to do with the initial vision"
+. "Investor mindset: if it has a high ROI, do it"
+
+
+== Or maybe...
+
+Maybe the mantra is too selfish and unrealistic in the first place. 
+If you are lucky enough to build a product that solves your problem *AND* the solution is accepted as is by your niche market *AND* your niche pays enough to make the whole thing economically sustainable; then, you are eating your own dog food.
+
+Otherwise, you are working for others; to create value in their lives. And yes, sometimes parts of your product are gonna suck because you don't use them personally. 
+Accept it. Move on. 

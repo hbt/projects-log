@@ -1,0 +1,91 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== not all business is worth it
+
+
+
+It is increasingly clear to me that a business is the only best path forward. 
+
+
+All other forms of generating income involve tying yourself to someone and reliquinishing a great deal of freedom and power. 
+
+The classics:
+
+=== Employee
+
+Money path:
+
+. Join a company. 
+. Generate value beyond the job you got hired to do. 
+. Hope you get compensated fairly and not screwed.
+
+Upsides:
+
+. stable salary regardless of value generated. "Just doing my job"
+
+Downsides:
+
+. general lack of freedom 
+. can be a deadend in terms of generating more income (compartmentalized organizations, bureaucracies, poor network opportunities etc.)
+. compensation for generated value comes much later and is out of your control
+- dealing with legacy code and junk created by others. Almost always.
+
+
+
+=== Consulting
+
+Money path:
+
+. get clients
+. get work done
+. bill them
+
+Upsides:
+
+. 100% freedom and flexibility in picking clients, working for more than one, not working at all. You choose.
+. potential for passive income through retainers, pay per performance, padding managed costs (e.g infrastructure) and partnerships
+
+Downsides:
+
+. client work can be pointless
+. generally an exchange of your time for money with limited growth opportunities except for unicorn clients
+- unicorn clients don't always work in domain you have any interest in
+- dealing with legacy code and junk created by others. Almost always.
+
+
+
+=== Business
+
+Money path:
+
+- unclear until it is
+
+
+Upsides:
+
+- eat your own dog food
+- work on domain and problems you are interested in
+- all benefits from consulting and employee when done right with little downside
+- more people breathing down your neck but much less power over your life
+
+Downside:
+
+- 80/20 rule. 20% is good enough for you, 80% is about work you don't care about but is needed to get users. 
+- all aspects have to be handled. marketing, sales, advertising. There is no excuse for "This part of the job sucks, I'm not doing it".  Do it or hire/delegate. 
+- it never really ends until you sell or get acquired or hire someone to run it.

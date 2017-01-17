@@ -243,7 +243,6 @@ function getPostHeaderTemplate()
 
     // TODO(hbt) ENHANCE add layout or include it 
     // TODO(hbt) NEXT apply header to index.md
-    // TODO(hbt) NEXT fix home
 
     return <<<EOF
 :uri-asciidoctor: http://asciidoctor.org
