@@ -263,7 +263,7 @@ function getPostHeaderTemplate()
 </script>
 ++++
 
-link:index[Home]
+link:index[Home2]
 
 == %%title%%
 

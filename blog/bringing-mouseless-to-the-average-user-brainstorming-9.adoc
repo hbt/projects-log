@@ -16,7 +16,7 @@
 </script>
 ++++
 
-link:index[Home]
+link:index[Home2]
 
 == bringing mouseless to the average user (brainstorming)
 

@@ -16,7 +16,7 @@
 </script>
 ++++
 
-link:index[Home]
+link:index[Home2]
 
 == Someone built the windows binaries based on my work ;-)
 

@@ -16,7 +16,7 @@
 </script>
 ++++
 
-link:index[Home]
+link:index[Home2]
 
 == Forking and fixing a bug in 2016
 
