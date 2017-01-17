@@ -5,6 +5,7 @@
 
 ++++
 <ul>
+<li>nanopay</li><ul></ul>
 <li>dotfiles</li><ul><li>
 ++++
 link:previous-projects-12[previous projects]
@@ -88,6 +89,11 @@ link:what-is-it-1[what is it?]
 <li>
 ++++
 link:tech-design-decisions-11[tech design decisions]
+++++
+</li>
+<li>
+++++
+link:writing-and-self-censorship-15[writing and self censorship]
 ++++
 </li>
 </ul>

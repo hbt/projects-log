@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>rough prototype</title>
+<title>writing and self censorship</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -502,95 +502,37 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_rough_prototype">rough prototype</h2>
+<h2 id="_writing_and_self_censorship">writing and self censorship</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Prototyping the dotfiles discovery idea</p>
-</div>
-<div class="sect2">
-<h3 id="_obtaining_data_set">obtaining data set</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_clone_popular_repo_containing_dotfiles">clone popular repo containing dotfiles</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="pygments highlight"><code>g cl git@github.com:mathiasbynens/dotfiles.git</code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_get_all_forks">get all forks</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="pygments highlight"><code>curl "https://api.github.com/repos/mathiasbynens/dotfiles/forks?per_page=100" &gt; /tmp/forks.txt</code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_load_json_into_javascript_console_and_extract_string">load json into javascript console and extract string</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="pygments highlight"><code data-lang="javascript"><span class="tok-nx">f</span><span class="tok-p">.</span><span class="tok-nx">forEach</span><span class="tok-p">((</span><span class="tok-nx">o</span><span class="tok-p">)</span> <span class="tok-o">=&gt;</span> <span class="tok-p">{</span>
-<span class="tok-nx">console</span><span class="tok-p">.</span><span class="tok-nx">log</span><span class="tok-p">(</span><span class="tok-sb">`git remote add </span><span class="tok-si">${</span><span class="tok-nx">o</span><span class="tok-p">.</span><span class="tok-nx">owner</span><span class="tok-p">.</span><span class="tok-nx">login</span><span class="tok-si">}</span><span class="tok-sb"> git@github.com:</span><span class="tok-si">${</span><span class="tok-nx">o</span><span class="tok-p">.</span><span class="tok-nx">full_name</span><span class="tok-si">}</span><span class="tok-sb">.git`</span><span class="tok-p">)</span>
-<span class="tok-p">})</span></code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_transform_output_with_vim_macro">transform output with vim macro</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_load_remotes_and_fetch">load remotes and fetch</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="pygments highlight"><code>git fetch --all</code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_searching_using_git_across_all_forks">searching using git across all forks</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="pygments highlight"><code># anything changes to .screenrc across all forks
-git log --all --remotes=\* -- '*.screenrc'
-
-# any changes to .screenrc across all forks and referring to bind-sym
-git log --all --remotes=\* -- '*.screenrc'
-
-git log --pickaxe-all --all --remotes=\* -S"bind" -- '*.screenrc'</code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_improvements">improvements</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>use github search to find more dotfiles</p>
-</li>
-<li>
-<p>use ack-grep</p>
-</li>
-<li>
-<p>better sorting to prevent useless files</p>
-</li>
-<li>
-<p>better search display of search results than git log</p>
+<p>WRITING</p>
 </li>
 </ol>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_conclusion">conclusion</h3>
 <div class="paragraph">
-<p>This prototype was limited to one repo. The most popular dotfiles repo. It doesn&#8217;t account for the tons of repositories out there.
-A better solution would be to use github search and produce a better interface for the results.</p>
+<p>Benefits: Whether it’s emails or journaling or writing fiction or posting a political rant on Facebook, writing well is fast becoming one of the most important life skills in the 21st century. So much of your life today is spent in front of a screen and through social media, email and messaging apps, so if you can’t communicate well through writing, you’re putting yourself at a monstrous disadvantage.</p>
 </div>
 <div class="paragraph">
-<p>However, no idea how to monetize it to reduce the computational costs other than direct pay.</p>
+<p>If reading allows you to inhabit other people’s minds for a brief period of time, learning to write well is like cleaning your house before the guests come over — it forces you to learn how to structure your thoughts more coherently, string together rational arguments, and tell stories in cogent and insightful ways. But not only that, it makes you a better and more insightful thinker. As Flannery O’Connor said, “I don’t know what I think until I write it down.”</p>
 </div>
+<div class="paragraph">
+<p>It’s also therapeutic. In fact, of all of the hokey pokey woo-woo self-help practices, journaling and writing out one’s thoughts and feelings on a regular basis has been shown to have calming and therapeutic effects.24</p>
+</div>
+<div class="paragraph">
+<p>Adoption Strategy: Easiest way here is to start a journal. There are some cool apps to journal on your computer. Or you can do it the old-fashioned way, by hand.25</p>
+</div>
+<div class="paragraph">
+<p>Hey, remember pen and paper?
+Hey, remember pen and paper?
+The important thing here is to not limit yourself. Use writing as a tool of self-discovery; write your feelings, ideas, fantasies. And if you feel like going on a tangent about calculus problems that stumped you, do that too.</p>
+</div>
+<div class="paragraph">
+<p>If you get ballsy, you can even start a blog at a site like WordPress or Medium and go public with your ideas.</p>
+</div>
+<div class="paragraph">
+<p>The point here is to develop a consistent habit of 1) uninhibited self-expression and 2) practice formulating your thoughts in a highly coherent way so that others may understand them. Start with 30 days. As usual, don’t judge yourself. At first, make simply showing up the only requirement for success.</p>
 </div>
 </div>
 </div>

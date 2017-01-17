@@ -1,0 +1,65 @@
+Prototyping the dotfiles discovery idea
+
+=== obtaining data set
+
+=== clone popular repo containing dotfiles
+
+```
+g cl git@github.com:mathiasbynens/dotfiles.git
+```
+
+=== get all forks 
+```
+curl "https://api.github.com/repos/mathiasbynens/dotfiles/forks?per_page=100" > /tmp/forks.txt
+```
+
+
+=== load json into javascript console and extract string
+
+[source, javascript]
+----
+
+f.forEach((o) => {
+console.log(`git remote add ${o.owner.login} git@github.com:${o.full_name}.git`)
+})
+
+----
+
+
+=== transform output with vim macro
+
+=== load remotes and fetch 
+
+```
+git fetch --all
+
+```
+
+=== searching using git across all forks
+
+```
+# anything changes to .screenrc across all forks
+git log --all --remotes=\* -- '*.screenrc'
+
+# any changes to .screenrc across all forks and referring to bind-sym 
+git log --all --remotes=\* -- '*.screenrc'
+
+git log --pickaxe-all --all --remotes=\* -S"bind" -- '*.screenrc'
+
+```
+
+
+=== improvements
+
+. use github search to find more dotfiles
+. use ack-grep 
+. better sorting to prevent useless files
+. better search display of search results than git log
+
+
+=== conclusion
+
+This prototype was limited to one repo. The most popular dotfiles repo. It doesn't account for the tons of repositories out there. 
+A better solution would be to use github search and produce a better interface for the results.
+
+However, no idea how to monetize it to reduce the computational costs other than direct pay. 
