@@ -24,20 +24,6 @@ The other environments only have access to their respective repositories.
 If something needs to be shared, it is shared on the common branch.
 
 
-```
-vcsh init dotfiles
-vcsh init hbtlabs_dotfiles 
-
-# hide all files from status unless I specifically add them
-# downside: if a new file is added to a tracked directory, it will not appear in status. 
-vcsh  dotfiles_hbtlabs config --local status.showUntrackedFiles no
-
-vcsh enter dotfiles_hbtlabs
-
-# regular git commands
-git s
-
-```
 
 [source,bash]
 ----

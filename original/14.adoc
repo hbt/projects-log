@@ -77,3 +77,27 @@ Think about product growth ideas for related sites and read about their philosop
 - view jobs https://angel.co/stackshare
 - https://angel.co/stackshare/jobs/185071-product-manager-growth
 - view other stackshare tools for inspiration and study their business model
+
+
+== summary
+
+
+=== book / guide for dotfiles
+
+. promote new project
+// TODO(hbt) NEXT find the link listing all the dotfiles tools 
+. offers guide based on current state and compare different dotfiles management tools/solutions
+
+=== dotfiles management & tracking
+
+. vcsh improvements (syncing, auto-detecting files, tight integration (like etckeeper), easier set up + manipulation)
+. extend to etckeeper
+. sane integrations with zsh/bash/fish 
+
+=== dotfiles documentation + configuration
+
+. one location for all configurations of all projects (wiki?)
+. track users modifications, examples, analysis and such
+. build communities around tools ala stackshare
+. discovery
+// TODO(hbt) NEXT think how could this be extended to other stuff that involves customizations

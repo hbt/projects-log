@@ -1,10 +1,12 @@
 :uri-asciidoctor: http://asciidoctor.org
 :icons: font
 :source-highlighter: pygments
+:nofooter:
+
 
 link:index[Home]
 
-== design decisions
+== tech design decisions
 
 
 
