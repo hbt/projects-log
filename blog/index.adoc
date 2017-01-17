@@ -15,12 +15,23 @@ link:previous-projects-12[previous projects]
 link:vcsh-setup-13[vcsh setup]
 ++++
 </li>
-<li>
+
+<li>future of dotfiles</li><ul><li>
 ++++
-link:future-of-dotfiles-brainstorming-14[future of dotfiles (brainstorming)]
+link:brainstorming-ideas-14[brainstorming ideas]
 ++++
 </li>
-</ul>
+<li>
+++++
+link:analysis-16[analysis]
+++++
+</li>
+<li>
+++++
+link:rough-prototype-17[rough prototype]
+++++
+</li>
+</ul></ul>
 <li>mouseless</li><ul><li>
 ++++
 link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]

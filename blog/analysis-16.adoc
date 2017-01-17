@@ -1,0 +1,93 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+
+link:index[Home]
+
+== analysis
+
+
+
+== book idea
+
+=== existing work
+
+After a bit of research, most of it looks done
+
+. https://dotfiles.github.io/
+offers list of dotfiles solutions and quick comparison
+
+. https://github.com/webpro/awesome-dotfiles
+offers guides for vcsh and how to set up
+
+
+== vcsh improvements
+
+=== improvements analysis
+
+. vcsh improvements (syncing, auto-detecting files, tight integration (like etckeeper), easier set up + manipulation)
+. extend to etckeeper
+. sane integrations with zsh/bash/fish 
+
+Conclusion:
+
+. This will either turn into a bash script nightmare or require a python/ruby dependency dissuading many users. 
+. Little reason to implement since already satisfied with current solution
+. Improvements are too minor to justify paying and big risk of "do what I mean syndrome" with feature like auto-detection, tight integration etc.
+
+
+=== dotfiles community
+
+Found one http://dotshare.it/
+
+The sharing part is solved via github. dotshare.it offers a centralized location but users have to manually upload their config. 
+It's more about presenting your config to the world.
+
+==== Key problems:
+
+- discovery -- finding examples and options usage
+- understanding the configuration -- reliance on comments on config if any or looking up documentation (no integration)
+
+==== Current solutions:
+
+. clunky github search by filename and option and browsing each file
+.. https://github.com/search?utf8=%E2%9C%93&q=.pentadactylrc+in%3Apath&type=Code&ref=searchresults
+. documentation is scattered and no linkage between the 2
+
+
+==== vision 
+
+
+- github dotfiles are scanned 
+- project documentation is loaded / converted like an API and linkable instead of raw text
+- view a dotfile, options/commands are clickable with ref to documentation instead of relying on live comments
+- ability to view alternatives e.g `bind-sym` would display alternative usage/examples for that command
+
+
+==== Roadmap
+
+===== building db
+
+. as a user, I want to search .screenrc configurations. I use github search and search by filename but have to browse a bunch of empty or redundant files
+.. dotfiles would index github dotfiles, analyze them (by commands/options usage, length etc.) and display the most interesting ones
+.. when reading the file, it would be linked to the program manual
+
+
+===== improving documentation
+
+. as a user, I want to look up a definition from a file `e.g screenrc bind-sym` and find other examples + read what it means
+.. dotfiles makes `bind-sym` clickable and refs to documentation
+.. dotfiles lists examples of other configs using `bind-sym`
+.. dotfiles imports program documentation and makes reversable -- i.e click from the documentation and find examples/usage
+.. dotfiles provides a visualization for specific commands e.g set prompt or themes 
+
+NOTE: The idea of linking documentation to code is a good one but not new and often poorly executed due to its complexity. Example: linking API documentation to code examples on github. Kinda like the old google code search.
+
+
+===== beyond dotfiles
+
+dotfiles. as a user, I customize other programs such as IDE (code templates, settings etc.), chrome extensions (mouseless mappings/settings), gnome (.config/dconf) and dump those customizations into a file for backups. Can these be improved/analyzed/discovered?
+
+

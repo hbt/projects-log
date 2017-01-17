@@ -1,0 +1,12 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+
+link:index[Home]
+
+== rough prototype
+
+
+

@@ -85,8 +85,7 @@ Think about product growth ideas for related sites and read about their philosop
 === book / guide for dotfiles
 
 . promote new project
-// TODO(hbt) NEXT find the link listing all the dotfiles tools 
-. offers guide based on current state and compare different dotfiles management tools/solutions
+. offers guide based on current state and compare different dotfiles management tools/solutions 
 
 === dotfiles management & tracking
 
@@ -100,4 +99,3 @@ Think about product growth ideas for related sites and read about their philosop
 . track users modifications, examples, analysis and such
 . build communities around tools ala stackshare
 . discovery
-// TODO(hbt) NEXT think how could this be extended to other stuff that involves customizations
