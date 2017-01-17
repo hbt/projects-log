@@ -2,18 +2,10 @@
 
 $todos = [
 
-    'review ideas from brainstorm and breakdown' => [
-        'github search',
-        'vcsh/etckeeper and alternatives + OSS',
-        
-    ],
 
     'future directions inv' => [
-
         'create dotfiles for laptop + empower',
         'review creation process and document',
-        'see if worth improving/simplifying and issues you run into',
-        'consider writing book / blog series on dotfiles instead',
     ],
 
     'reorg' => [
