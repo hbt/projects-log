@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== eat your own dog food eventually stops working
+== when eat your own dog food stops working
 
 
 

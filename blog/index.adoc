@@ -103,12 +103,12 @@ link:not-all-business-is-worth-it-18[not all business is worth it]
 </li>
 <li>
 ++++
-link:eat-your-own-dog-food-eventually-stops-working-19[eat your own dog food eventually stops working]
+link:when-eat-your-own-dog-food-stops-working-19[when eat your own dog food stops working]
 ++++
 </li>
 <li>
 ++++
-link:inv-open-source-monetization-models-[inv open source monetization models]
+link:inv-open-source-monetization-models-20[inv open source monetization models]
 ++++
 </li>
 </ul></ul>

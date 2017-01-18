@@ -20,3 +20,5 @@ link:index[Home]
 
 
 
+https://en.wikipedia.org/wiki/Business_models_for_open-source_software
+https://techcrunch.com/2016/02/09/the-money-in-open-source-software/

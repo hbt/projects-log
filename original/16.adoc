@@ -24,6 +24,7 @@ Conclusion:
 . This will either turn into a bash script nightmare or require a python/ruby dependency dissuading many users. 
 . Little reason to implement since already satisfied with current solution
 . Improvements are too minor to justify paying and big risk of "do what I mean syndrome" with feature like auto-detection, tight integration etc.
+. majority of work would be into making it dummy proof for beginners with minimal knowledge of git etc. .. kinda like dropbox / rsync+ssh or s3
 
 
 === dotfiles community
@@ -52,6 +53,7 @@ It's more about presenting your config to the world.
 - project documentation is loaded / converted like an API and linkable instead of raw text
 - view a dotfile, options/commands are clickable with ref to documentation instead of relying on live comments
 - ability to view alternatives e.g `bind-sym` would display alternative usage/examples for that command
+- creates a one stop shot for everything git related
 
 
 ==== Roadmap

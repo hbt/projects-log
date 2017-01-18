@@ -2,12 +2,11 @@
 
 $m = [
     'write on' => [
-        'figure out the tone,philo behind the writing. self censorship? professional? personal? who gives a fuck cauz who will read it?',
-        'fitness / quantified self / health',
         'nanopay',
         'intelligence',
         'software deliberate practice',
         'softwarestash',
+        'fitness / quantified self / health',
     ],
 
     'admin' => [
