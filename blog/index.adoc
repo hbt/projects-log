@@ -5,6 +5,12 @@
 
 ++++
 <ul>
+<li>cliweb</li><ul><li>
+++++
+link:vision-20[vision]
+++++
+</li>
+</ul>
 <li>dotfiles</li><ul><li>
 ++++
 link:previous-projects-12[previous projects]
@@ -104,11 +110,6 @@ link:not-all-business-is-worth-it-18[not all business is worth it]
 <li>
 ++++
 link:when-eat-your-own-dog-food-stops-working-19[when eat your own dog food stops working]
-++++
-</li>
-<li>
-++++
-link:inv-open-source-monetization-models-20[inv open source monetization models]
 ++++
 </li>
 </ul></ul>

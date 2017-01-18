@@ -2,6 +2,11 @@
 
 $m = [
     'write on' => [
+        'cw' => [
+            'next',
+            'focus on $ ',
+            'review nanopay',
+        ],
         'nanopay',
         'intelligence',
         'software deliberate practice',
@@ -16,6 +21,7 @@ $m = [
         ],
 
         'hosting' => [
+            'review if github pages cache could be invalidated by html headers ',
             'host on hbtlabs.com fucking tired of github pages and whatever bullshit stops working',
         ],
 
