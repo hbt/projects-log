@@ -9,7 +9,11 @@ $m = [
         ],
         'nanopay',
         'intelligence',
-        'software deliberate practice',
+        'software deliberate practice' => [
+            'trash/accelerate-software.php:2',
+            'trash/code-readability.php:2',
+            'trash/humanscoding.com/humanscoding.com-todos.php:6',
+        ],
         'softwarestash',
         'fitness / quantified self / health',
     ],

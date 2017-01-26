@@ -1,6 +1,11 @@
 <?php
 $todos = [
-    'review previous work',
+    'review previous work' => [
+
+        'trash/ai/ai.php:6',
+        'view trash/transhumanjourney-trash/intelligence-journey/pmap.php:2',
+        'trash/superintelligence.php:6',
+    ],
 
     'omohundro basic drives',
     'https://selfawaresystems.files.wordpress.com/2008/01/ai_drives_final.pdf',
