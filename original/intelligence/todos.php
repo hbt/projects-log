@@ -7,6 +7,10 @@ $todos = [
         'trash/superintelligence.php:6',
     ],
 
+    'vision' => [
+        'api evangelist blog alike. mainly me making sense of stuff and hopefully benefiting by people contacting me about related stuff. ',
+    ],
+
     'omohundro basic drives',
     'https://selfawaresystems.files.wordpress.com/2008/01/ai_drives_final.pdf',
 

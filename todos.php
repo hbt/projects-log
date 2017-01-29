@@ -2,11 +2,6 @@
 
 $m = [
     'write on' => [
-        'cw' => [
-            'next',
-            'focus on $ ',
-            'review nanopay',
-        ],
         'nanopay',
         'intelligence',
         'software deliberate practice' => [
@@ -15,7 +10,7 @@ $m = [
             'trash/humanscoding.com/humanscoding.com-todos.php:6',
         ],
         'softwarestash',
-        'fitness / quantified self / health',
+        'fitness / quantified self / health -- optimal health, strength training, nutrition',
     ],
 
     'admin' => [

@@ -10,7 +10,13 @@
 link:vision-20[vision]
 ++++
 </li>
-</ul>
+
+<li>research</li><ul><li>
+++++
+link:investigate-similar-ideas-21[investigate similar ideas]
+++++
+</li>
+</ul></ul>
 <li>dotfiles</li><ul><li>
 ++++
 link:previous-projects-12[previous projects]

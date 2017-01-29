@@ -80,7 +80,6 @@ I believe Zapier is a greater threat than API marketplaces.
 
 
 
-// TODO(hbt) NEXT migrate to another file
 == workflows
 
 === User input
@@ -99,7 +98,23 @@ NOTE: specific hooks available e.g if/forEach/unless
 
 NOTE: value is displayed, progress bar available for long actions
 
-// TODO(hbt) NEXT add example with youtube-dl and strings / file manipulation + dropbox + mp3 player
+Example by converting my current youtube downloader script:
+
+. enter url(s)
+. cw detects youtube url and offers actions. one them is download to mp4 file but the user could search for mp3 and based on previous recipies, cw would know it needs first to download it as mp4 then pass it to the mp3 converter
+. select download action and specify what to do with output (where to store it). Different storage options are available (dropbox, ssh (if user added a personal server), s3 etc.)
+. from "mp4 file output", cw lists other actions of what can be done with it. One of them being convert to mp3
+. user selects that + picks where to store the mp3
+. user can save script, bookmark it. cw offers browser extension + mobile app to ease calling scripts and creating new ones
+
+
+. in the background, all actions are provided on the cloud and do specific things
+. url gets broadcasted to all apis to return a list of available actions (or vice-versa). Developers would register the inputs they can handle and match with their program's actions. They would also register the type of outputs. That registry is used to find paths and list actions. Registry doesn't need to be built manually, it can be determined dynamically as well if needed.
+. url gets passed as JSON api call to youtube-dl which in turns produces a JSON file URL of the stored content
+. it also produces invoices/bills for consumed bandwidth / resources. again, machine learning can be applied to provide accurate estimates based on previous runs
+. from the browser, using an extension, when visiting youtube, the user can list saved actions, browse for more or fork them and customize to his needs
+
+
 
 
 === Reduce programming plumbing
@@ -112,7 +127,6 @@ NOTE: value is displayed, progress bar available for long actions
 
 === Monetization open source
 
-// TODO(hbt) NEXT write on vm hosting, message passing , commoditazation, pay per use
 
 === Hire
 
