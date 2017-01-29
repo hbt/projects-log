@@ -47,6 +47,7 @@ Although a lot of what I want is the equivalent of distributed functions.
 . http://proces.io/
 . https://azuqua.com/
 . https://flow.microsoft.com/en-us/
+. https://cloud.google.com/dataflow/
 
 
 == link aggregators 
@@ -73,11 +74,24 @@ Although a lot of what I want is the equivalent of distributed functions.
 . focus on customer workflow (easy creation, billing, managing etc.) -- no major differentiators there and should be done later
 . easy site / app building  -- late
 
+== faas
 
+. https://webtask.io/
+. https://github.com/serverless/serverless
+. good faas review 2016 https://martinfowler.com/articles/serverless.html
+
+== api management
+
+. http://blog.cloud-elements.com/convergence-api-management-ipaas-ready
 
 == conclusion
 
-. ipaas etl were the keywords I was looking for and describe the application domain
+. ipaas etl serverless computing (function as a service faas) were the keywords I was looking for and describe the application domain
 . multiple services exist but no where near what I want. Need to further review them if they can be built upon. 
 . focusing on end user apps is most likely the wrong way to go. It is necessary though but maybe easier to connect to an aggregator instead. Focus should be on OSS and software inacessible to most users (due to complex install, hidden features etc.)
 . it should be as easy as a google input but gets things done.
+
+// TODO(hbt) NEXT update vision doc about wolframalpha + restify/dockerfy/saas/faas/paas git repos
+// TODO(hbt) NEXT inv wolframalpha new apis
+// TODO(hbt) NEXT think about atomic approach to end goal: apify, restify, dockerize, faas, wolfram etc.
+// TODO(hbt) NEXT read https://www.mulesoft.com/resources/cloudhub/what-is-ipaas-gartner-provides-reference-model
