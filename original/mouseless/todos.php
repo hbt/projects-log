@@ -2,18 +2,12 @@
 
 $todos = [
     'next'   => [
-        'fixes'                                     => [
-            59,
-            60,
-            57,
-        ],
-
         'continue work on doc + polishing features' => [
-            'view NEXT items',
-            'change language mouseless regarding contributions - encourage sharing custom functions / frontend functions. put frontend stuff in the tips page and if it needs backend or is too complex in frontend, send pull request ',
             'map gv gifv',
             'publish + link projects-log as blog + todos',
         ],
+
+        'merge https://github.com/dhda/chromium-vim/commit/07e968a65fecf5687850f6a8191610108b3b8538',
 
     ],
 
