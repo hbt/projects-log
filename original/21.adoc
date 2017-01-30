@@ -8,7 +8,6 @@ Although a lot of what I want is the equivalent of distributed functions.
 
 == alternatives
 
-// TODO(hbt) NEXT quick review of services if they can be built upon
 . Zapier https://zapier.com/
 . mulesoft https://www.mulesoft.com/
 . workato https://www.workato.com/
@@ -30,7 +29,6 @@ Although a lot of what I want is the equivalent of distributed functions.
 
 == link aggregators 
 
-// TODO(hbt) NEXT find ipaas saas and other acronyms
 . ipaas - integration platform as a service. https://www.google.ca/search?q=ipaas&oq=ipaas&aqs=chrome..69i57j0l5.1093j0j4&sourceid=chrome&ie=UTF-8
 . https://www.getapp.com/it-management-software/a/zapier/alternatives
 . http://alternativeto.net/software/zapier/?license=opensource
@@ -69,7 +67,4 @@ Although a lot of what I want is the equivalent of distributed functions.
 . focusing on end user apps is most likely the wrong way to go. It is necessary though but maybe easier to connect to an aggregator instead. Focus should be on OSS and software inacessible to most users (due to complex install, hidden features etc.)
 . it should be as easy as a google input but gets things done.
 
-// TODO(hbt) NEXT update vision doc about wolframalpha + restify/dockerfy/saas/faas/paas git repos
-// TODO(hbt) NEXT inv wolframalpha new apis
-// TODO(hbt) NEXT think about atomic approach to end goal: apify, restify, dockerize, faas, wolfram etc.
-// TODO(hbt) NEXT read https://www.mulesoft.com/resources/cloudhub/what-is-ipaas-gartner-provides-reference-model
+

@@ -1,0 +1,121 @@
+// TODO(hbt) NEXT update vision doc about wolframalpha + restify/dockerfy/saas/faas/paas git repos
+// TODO(hbt) NEXT think about atomic approach to end goal: apify, restify, dockerize, faas, wolfram etc.
+
+
+Most of the ipaas tools are focused on small/big companies, official apis and integrations. It also looks heavily curated and very limited.
+ None of them cater to the multitude of smaller apis, programs etc.
+ 
+Maybe there elastic.io but their sign up requires a sales representative and they've been around 3 years. So, maybe it's bullshit. 
+
+
+What I want hasn't changed. 
+
+I want to:
+
+. remove the plumbing from programming
+. have a big library of apis/functions to manipulate and transform data
+. get things done quicker, automate quicker
+. build stuff that lasts and is economically sustainable
+
+
+== breakdown
+
+=== remove the plumbing from programming
+
+Let's face it. The majority of time spent  programming isn't writing fancy/unique algorithms, it's connecting shit together. It's essential and well worth the investment as the alternative is to reinvent the wheel. 
+
+However, the task is far from pleasant. You are dealing with other people's designs, mindsets, ways of thinking and organzing information. If they spent enough time, it might be polished enough, clear enough and easy to use/integrate. Otherwise, you are decrypting shit to get it to work the way you need it to. 
+
+
+When plumbing fails, you get the hammer and start bending things to your will. i.e hacking.
+
+
+With cw, we can get a lot of the plumbing out of the way by:
+
+. using faas / saas
+. having versioned control, contained, restified systems
+. jvm like library but on the cloud 
+. much easier way to program when combined with data mining (all the scripts/functions etc) + machine learning (predicting what you want, solve programming problems)
+
+
+=== have a big library of apis/functions 
+
+
+Data/information manipulation is at the core of computing. Currently, the simplest abstract is a cloud API or remote/distributed procedure.
+
+Worst case scenarios are:
+
+. installing package manager + the right library version for its api
+. digging through the api to figure out how it works and how to use it. figure out the common patterns, it's a whole job.
+. dealing with dependencies (other libs, conflicting versions, new/older platforms, not supported stuff etc.) 
+
+
+faas solves a lot of those problems. saas + containers/microservices can solve the rest.
+you can write your program that does its job and only worry about the input instead of the client's platform/installed libraries/dependencies/compatibility etc.
+
+
+Having a wealth of functions that are organized or at least smart (recognizes inputs, context aware, uses machine learning etc.) that you can plug to transform your inputs.
+
+I haven't thought decided about the complexity of those inputs yet (data properties).
+
+===  get things done quicker, automate quicker
+
+With tools like that you can stitch things together much quicker. Not having to install, configure anything. The focus is strictly on the task at hand and that's assuming you're the first in the world to build it. Otherwise, you have access to the hive mind.
+
+
+=== intelligent programming
+
+There's a wealth of data to be accumulated and used to enhance programming and getting things done.
+ 
+Example:
+
+. match inputs to actions that can transform them
+. searching/discovering actions based on inputs. i.e "what can you do with X"
+. suggesting a transformation path to convert inputs i.e "I want to do X, but first you have to do Y & Z. Path is recognized because you're not the first person to do X"
+
+
+== Thinking about a prototype
+
+
+I want to build a prototype to clear some of the ideas/concepts. It's not an MVP but more of a proof of concept. 
+
+
+I think "strings/arrays/numeric/dates" would be a great start. It would be a tool capable of transforming/manipulating strings easily and stitch together a bunch of cool programs I already have:
+
+. string search (ack-grep, fuzzy finder) 
+. highlight
+. all string functions from languages/frameworks/utilities (underscore)
+. formatters, beautifiers, highlighters
+. validators/detectors/matchers (email,url etc.)
+. pattern recognizers (ala import.io / awk)
+
+
+All the challenges can be found in building that utility:
+
+. visualizing + handling (UI)
+. discovery problems (UX)
+. passing parameters + variables (UX)
+. how to faas tools from other languages/frameworks
+. versioning 
+etc.
+
+
+Focusing on a basic piece of data, a string would help me clear up what I want out of that tool.
+
+
+kinda like :
+
+. http://codebeautify.org/
+. http://textmechanic.com/
+. http://www.online-toolz.com/tools/string-functions.php
+. http://string-functions.com/
+. https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28string_functions%29
+. http://www.freeformatter.com/string-utilities.html
+. http://www.convertstring.com/
+. https://www.functions-online.com/string.html
+. http://manytools.org/http-html-text/string-manipulation/
+. http://onlinephpfunctions.com/categories/String+Manipulation
+. https://strfunc.net/
+. http://tools.knowledgewalls.com/onlinestringmanipulationtool
+. http://string-op.com/
+

@@ -15,7 +15,6 @@ $m = [
 
     'admin' => [
 
-        'add cli alias to monitor files -- cd origin; ./scripts/build-index,.php',
 
         'enhance dev' => [
             'move scripts to project root and use cd',

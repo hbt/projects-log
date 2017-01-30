@@ -16,6 +16,11 @@ link:vision-20[vision]
 link:investigate-similar-ideas-21[investigate similar ideas]
 ++++
 </li>
+<li>
+++++
+link:redefining-vision-22[redefining vision]
+++++
+</li>
 </ul></ul>
 <li>dotfiles</li><ul><li>
 ++++

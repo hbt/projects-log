@@ -2,8 +2,17 @@
 
 $t = [
 
-    'inv ipaas and other buzzwords',
-    'inv ETL -- extract transform load',
+    'inv' => [
+        'protocol buffers / communication between languages',
+        'exp' => [
+            'ruby and php string conversion',
+        ],
+    ],
+
+    'crawk?' => [
+        'awk on CRACK. CRAWK!',
+    ],
+
     'inv differentiators' => [
         '.g publishing services',
         'api managers 3scale, mashery, monkey',
