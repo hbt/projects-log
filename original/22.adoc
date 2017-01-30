@@ -1,7 +1,3 @@
-// TODO(hbt) NEXT update vision doc about wolframalpha + restify/dockerfy/saas/faas/paas git repos
-// TODO(hbt) NEXT think about atomic approach to end goal: apify, restify, dockerize, faas, wolfram etc.
-
-
 Most of the ipaas tools are focused on small/big companies, official apis and integrations. It also looks heavily curated and very limited.
  None of them cater to the multitude of smaller apis, programs etc.
  
@@ -74,48 +70,4 @@ Example:
 . suggesting a transformation path to convert inputs i.e "I want to do X, but first you have to do Y & Z. Path is recognized because you're not the first person to do X"
 
 
-== Thinking about a prototype
-
-
-I want to build a prototype to clear some of the ideas/concepts. It's not an MVP but more of a proof of concept. 
-
-
-I think "strings/arrays/numeric/dates" would be a great start. It would be a tool capable of transforming/manipulating strings easily and stitch together a bunch of cool programs I already have:
-
-. string search (ack-grep, fuzzy finder) 
-. highlight
-. all string functions from languages/frameworks/utilities (underscore)
-. formatters, beautifiers, highlighters
-. validators/detectors/matchers (email,url etc.)
-. pattern recognizers (ala import.io / awk)
-
-
-All the challenges can be found in building that utility:
-
-. visualizing + handling (UI)
-. discovery problems (UX)
-. passing parameters + variables (UX)
-. how to faas tools from other languages/frameworks
-. versioning 
-etc.
-
-
-Focusing on a basic piece of data, a string would help me clear up what I want out of that tool.
-
-
-kinda like :
-
-. http://codebeautify.org/
-. http://textmechanic.com/
-. http://www.online-toolz.com/tools/string-functions.php
-. http://string-functions.com/
-. https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28string_functions%29
-. http://www.freeformatter.com/string-utilities.html
-. http://www.convertstring.com/
-. https://www.functions-online.com/string.html
-. http://manytools.org/http-html-text/string-manipulation/
-. http://onlinephpfunctions.com/categories/String+Manipulation
-. https://strfunc.net/
-. http://tools.knowledgewalls.com/onlinestringmanipulationtool
-. http://string-op.com/
 

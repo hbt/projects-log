@@ -21,6 +21,11 @@ link:investigate-similar-ideas-21[investigate similar ideas]
 link:redefining-vision-22[redefining vision]
 ++++
 </li>
+<li>
+++++
+link:brainstorming-prototype-23[brainstorming prototype]
+++++
+</li>
 </ul></ul>
 <li>dotfiles</li><ul><li>
 ++++

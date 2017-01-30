@@ -3,10 +3,6 @@
 $t = [
 
     'inv' => [
-        'protocol buffers / communication between languages',
-        'exp' => [
-            'ruby and php string conversion',
-        ],
     ],
 
     'crawk?' => [

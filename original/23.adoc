@@ -1,0 +1,63 @@
+== Thinking about a prototype
+
+I want to build a prototype to clear some of the ideas/concepts. It's not an MVP but more of a proof of concept. 
+
+
+I think "strings/arrays/numeric/dates" would be a great start. It would be a tool capable of transforming/manipulating strings easily and stitch together a bunch of cool programs I already have:
+
+. string search (ack-grep, fuzzy finder) 
+. highlight
+. all string functions from languages/frameworks/utilities (underscore)
+. formatters, beautifiers, highlighters
+. validators/detectors/matchers (email,url etc.)
+. pattern recognizers (ala import.io / awk)
+
+
+All the challenges can be found in building that utility:
+
+. visualizing + handling (UI)
+. discovery problems (UX)
+. passing parameters + variables (UX)
+. how to faas tools from other languages/frameworks
+. versioning 
+etc.
+
+
+Focusing on a basic piece of data, a string would help me clear up what I want out of that tool.
+
+
+kinda like :
+
+. http://codebeautify.org/
+. http://textmechanic.com/
+. http://www.online-toolz.com/tools/string-functions.php
+. http://string-functions.com/
+. https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28string_functions%29
+. http://www.freeformatter.com/string-utilities.html
+. http://www.convertstring.com/
+. https://www.functions-online.com/string.html
+. http://manytools.org/http-html-text/string-manipulation/
+. http://onlinephpfunctions.com/categories/String+Manipulation
+. https://strfunc.net/
+. http://tools.knowledgewalls.com/onlinestringmanipulationtool
+. http://string-op.com/
+
+
+== Versions
+
+. ability to call any string function from a language as a service
+. cli version / wrapper 
+. add support for advanced libraries
+. add support for multiple languages and inter-language communication
+. faaas / saas simple utilities / projects
+. web UI 
+. billing
+. ability to extend faas library and publish easily (aliases, examples, forks etc.)
+
+
+== technical concerns
+
+. calling from a single language is easy enough and providing a simple cli/wrapper around it
+. calling for multiple languages would require json conversion. no need to get more complicated than that (e.g protocol buffers or such) since it is only strings at the moment
+. ideally configuring the language + libraries should be done in a container. if we use containers, we can't use aws lambda but maybe iron.io. for now, one container exposed as a service that contains everything for strings.
+. billing is also tricky. I want a demo/free version but the goal is to get people to use it and build the library. However, no way I'm operating the servers at a cost.

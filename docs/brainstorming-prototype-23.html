@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>redefining vision</title>
+<title>brainstorming prototype</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -510,132 +510,167 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_redefining_vision">redefining vision</h2>
+<h2 id="_brainstorming_prototype">brainstorming prototype</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_thinking_about_a_prototype">Thinking about a prototype</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Most of the ipaas tools are focused on small/big companies, official apis and integrations. It also looks heavily curated and very limited.
- None of them cater to the multitude of smaller apis, programs etc.</p>
+<p>I want to build a prototype to clear some of the ideas/concepts. It&#8217;s not an MVP but more of a proof of concept.</p>
 </div>
 <div class="paragraph">
-<p>Maybe there elastic.io but their sign up requires a sales representative and they&#8217;ve been around 3 years. So, maybe it&#8217;s bullshit.</p>
-</div>
-<div class="paragraph">
-<p>What I want hasn&#8217;t changed.</p>
-</div>
-<div class="paragraph">
-<p>I want to:</p>
+<p>I think "strings/arrays/numeric/dates" would be a great start. It would be a tool capable of transforming/manipulating strings easily and stitch together a bunch of cool programs I already have:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>remove the plumbing from programming</p>
+<p>string search (ack-grep, fuzzy finder)</p>
 </li>
 <li>
-<p>have a big library of apis/functions to manipulate and transform data</p>
+<p>highlight</p>
 </li>
 <li>
-<p>get things done quicker, automate quicker</p>
+<p>all string functions from languages/frameworks/utilities (underscore)</p>
 </li>
 <li>
-<p>build stuff that lasts and is economically sustainable</p>
+<p>formatters, beautifiers, highlighters</p>
+</li>
+<li>
+<p>validators/detectors/matchers (email,url etc.)</p>
+</li>
+<li>
+<p>pattern recognizers (ala import.io / awk)</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>All the challenges can be found in building that utility:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>visualizing + handling (UI)</p>
+</li>
+<li>
+<p>discovery problems (UX)</p>
+</li>
+<li>
+<p>passing parameters + variables (UX)</p>
+</li>
+<li>
+<p>how to faas tools from other languages/frameworks</p>
+</li>
+<li>
+<p>versioning
+etc.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Focusing on a basic piece of data, a string would help me clear up what I want out of that tool.</p>
+</div>
+<div class="paragraph">
+<p>kinda like :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://codebeautify.org/" class="bare">http://codebeautify.org/</a></p>
+</li>
+<li>
+<p><a href="http://textmechanic.com/" class="bare">http://textmechanic.com/</a></p>
+</li>
+<li>
+<p><a href="http://www.online-toolz.com/tools/string-functions.php" class="bare">http://www.online-toolz.com/tools/string-functions.php</a></p>
+</li>
+<li>
+<p><a href="http://string-functions.com/" class="bare">http://string-functions.com/</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28string_functions%29" class="bare">https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28string_functions%29</a></p>
+</li>
+<li>
+<p><a href="http://www.freeformatter.com/string-utilities.html" class="bare">http://www.freeformatter.com/string-utilities.html</a></p>
+</li>
+<li>
+<p><a href="http://www.convertstring.com/" class="bare">http://www.convertstring.com/</a></p>
+</li>
+<li>
+<p><a href="https://www.functions-online.com/string.html" class="bare">https://www.functions-online.com/string.html</a></p>
+</li>
+<li>
+<p><a href="http://manytools.org/http-html-text/string-manipulation/" class="bare">http://manytools.org/http-html-text/string-manipulation/</a></p>
+</li>
+<li>
+<p><a href="http://onlinephpfunctions.com/categories/String+Manipulation" class="bare">http://onlinephpfunctions.com/categories/String+Manipulation</a></p>
+</li>
+<li>
+<p><a href="https://strfunc.net/" class="bare">https://strfunc.net/</a></p>
+</li>
+<li>
+<p><a href="http://tools.knowledgewalls.com/onlinestringmanipulationtool" class="bare">http://tools.knowledgewalls.com/onlinestringmanipulationtool</a></p>
+</li>
+<li>
+<p><a href="http://string-op.com/" class="bare">http://string-op.com/</a></p>
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_breakdown">breakdown</h2>
+<h2 id="_versions">Versions</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_remove_the_plumbing_from_programming">remove the plumbing from programming</h3>
-<div class="paragraph">
-<p>Let&#8217;s face it. The majority of time spent  programming isn&#8217;t writing fancy/unique algorithms, it&#8217;s connecting shit together. It&#8217;s essential and well worth the investment as the alternative is to reinvent the wheel.</p>
-</div>
-<div class="paragraph">
-<p>However, the task is far from pleasant. You are dealing with other people&#8217;s designs, mindsets, ways of thinking and organzing information. If they spent enough time, it might be polished enough, clear enough and easy to use/integrate. Otherwise, you are decrypting shit to get it to work the way you need it to.</p>
-</div>
-<div class="paragraph">
-<p>When plumbing fails, you get the hammer and start bending things to your will. i.e hacking.</p>
-</div>
-<div class="paragraph">
-<p>With cw, we can get a lot of the plumbing out of the way by:</p>
-</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>using faas / saas</p>
+<p>ability to call any string function from a language as a service</p>
 </li>
 <li>
-<p>having versioned control, contained, restified systems</p>
+<p>cli version / wrapper</p>
 </li>
 <li>
-<p>jvm like library but on the cloud</p>
+<p>add support for advanced libraries</p>
 </li>
 <li>
-<p>much easier way to program when combined with data mining (all the scripts/functions etc) + machine learning (predicting what you want, solve programming problems)</p>
+<p>add support for multiple languages and inter-language communication</p>
+</li>
+<li>
+<p>faaas / saas simple utilities / projects</p>
+</li>
+<li>
+<p>web UI</p>
+</li>
+<li>
+<p>billing</p>
+</li>
+<li>
+<p>ability to extend faas library and publish easily (aliases, examples, forks etc.)</p>
 </li>
 </ol>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_have_a_big_library_of_apis_functions">have a big library of apis/functions</h3>
-<div class="paragraph">
-<p>Data/information manipulation is at the core of computing. Currently, the simplest abstract is a cloud API or remote/distributed procedure.</p>
 </div>
-<div class="paragraph">
-<p>Worst case scenarios are:</p>
-</div>
+<div class="sect1">
+<h2 id="_technical_concerns">technical concerns</h2>
+<div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>installing package manager + the right library version for its api</p>
+<p>calling from a single language is easy enough and providing a simple cli/wrapper around it</p>
 </li>
 <li>
-<p>digging through the api to figure out how it works and how to use it. figure out the common patterns, it&#8217;s a whole job.</p>
+<p>calling for multiple languages would require json conversion. no need to get more complicated than that (e.g protocol buffers or such) since it is only strings at the moment</p>
 </li>
 <li>
-<p>dealing with dependencies (other libs, conflicting versions, new/older platforms, not supported stuff etc.)</p>
+<p>ideally configuring the language + libraries should be done in a container. if we use containers, we can&#8217;t use aws lambda but maybe iron.io. for now, one container exposed as a service that contains everything for strings.</p>
+</li>
+<li>
+<p>billing is also tricky. I want a demo/free version but the goal is to get people to use it and build the library. However, no way I&#8217;m operating the servers at a cost.</p>
 </li>
 </ol>
-</div>
-<div class="paragraph">
-<p>faas solves a lot of those problems. saas + containers/microservices can solve the rest.
-you can write your program that does its job and only worry about the input instead of the client&#8217;s platform/installed libraries/dependencies/compatibility etc.</p>
-</div>
-<div class="paragraph">
-<p>Having a wealth of functions that are organized or at least smart (recognizes inputs, context aware, uses machine learning etc.) that you can plug to transform your inputs.</p>
-</div>
-<div class="paragraph">
-<p>I haven&#8217;t thought decided about the complexity of those inputs yet (data properties).</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_get_things_done_quicker_automate_quicker">get things done quicker, automate quicker</h3>
-<div class="paragraph">
-<p>With tools like that you can stitch things together much quicker. Not having to install, configure anything. The focus is strictly on the task at hand and that&#8217;s assuming you&#8217;re the first in the world to build it. Otherwise, you have access to the hive mind.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_intelligent_programming">intelligent programming</h3>
-<div class="paragraph">
-<p>There&#8217;s a wealth of data to be accumulated and used to enhance programming and getting things done.</p>
-</div>
-<div class="paragraph">
-<p>Example:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>match inputs to actions that can transform them</p>
-</li>
-<li>
-<p>searching/discovering actions based on inputs. i.e "what can you do with X"</p>
-</li>
-<li>
-<p>suggesting a transformation path to convert inputs i.e "I want to do X, but first you have to do Y &amp; Z. Path is recognized because you&#8217;re not the first person to do X"</p>
-</li>
-</ol>
-</div>
 </div>
 </div>
 </div>
