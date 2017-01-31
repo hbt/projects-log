@@ -4,6 +4,7 @@ email: "hassenbentanfous@gmail.com"
 description: ""
 baseurl: "http://hbtlabs.github.io/projects-log"
 url: "http://hbtlabs.github.io/projects-log"
+future: true
 
 # Build settings
 markdown: kramdown
