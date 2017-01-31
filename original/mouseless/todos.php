@@ -6,6 +6,7 @@ $todos = [
             'fix tips/faq page',
             'map gv gifv',
             'publish + link projects-log as blog + todos',
+            'add github hook to auto-update mouseless.hbtlabs',
         ],
 
         'merge https://github.com/dhda/chromium-vim/commit/07e968a65fecf5687850f6a8191610108b3b8538',
