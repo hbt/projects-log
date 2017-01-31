@@ -1,0 +1,11 @@
+# Site settings
+title: "projects log"
+email: "hassenbentanfous@gmail.com"
+description: "projects log"
+baseurl: "http://hbt.github.io/projects-log"
+url: "http://hbt.github.io/projects-log"
+future: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
