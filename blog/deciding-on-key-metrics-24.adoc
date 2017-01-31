@@ -1,0 +1,49 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== deciding on key metrics
+
+
+
+
+It's easy to get lost with next features. Metrics kinda help maintain focus on what matters.
+
+
+== What matters is what the user wants
+
+
+. get what they want
+. get it done with the least amount of effort
+. get it done as fast as possible
+. get it done for the least amount of money
+
+
+This translates to:
+
+. a rich library of functions/api/integrations to get things done
+. minimal effort required to stitch things together using a UI or vocal interface 
+. reduce execution time of functions
+. reduce cost of cloud computing
+
+
+So, any feature should:
+
+. increase the number of functions
+. decrease the number of steps to get things done
+. decrease the computing time
+. decrease the price

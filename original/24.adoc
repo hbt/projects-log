@@ -1,0 +1,27 @@
+
+It's easy to get lost with next features. Metrics kinda help maintain focus on what matters.
+
+
+== What matters is what the user wants
+
+
+. get what they want
+. get it done with the least amount of effort
+. get it done as fast as possible
+. get it done for the least amount of money
+
+
+This translates to:
+
+. a rich library of functions/api/integrations to get things done
+. minimal effort required to stitch things together using a UI or vocal interface 
+. reduce execution time of functions
+. reduce cost of cloud computing
+
+
+So, any feature should:
+
+. increase the number of functions
+. decrease the number of steps to get things done
+. decrease the computing time
+. decrease the price

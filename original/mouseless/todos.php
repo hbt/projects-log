@@ -3,6 +3,7 @@
 $todos = [
     'next'   => [
         'continue work on doc + polishing features' => [
+            'fix tips/faq page',
             'map gv gifv',
             'publish + link projects-log as blog + todos',
         ],
@@ -12,7 +13,7 @@ $todos = [
     ],
 
 
-    'review' => [
+    'review this stuff ... some of it already done' => [
 
         'new branches'                                                       => [
             'create master / dev -- master = stable, dev = active dev',
