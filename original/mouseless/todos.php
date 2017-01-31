@@ -3,6 +3,7 @@
 $todos = [
     'next'   => [
         'continue work on doc + polishing features' => [
+            'improve install -- use <<>> and have zip version first',
             'fix tips/faq page',
             'map gv gifv',
             'publish + link projects-log as blog + todos',

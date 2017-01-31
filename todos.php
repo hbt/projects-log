@@ -1,6 +1,15 @@
 <?php
 
 $m = [
+    'small' => [
+        'define top task for each project',
+        'define success metrics',
+        'link todos.php',
+    ],
+    
+    
+    
+    
     'write on' => [
         'nanopay',
         'intelligence',

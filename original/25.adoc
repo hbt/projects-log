@@ -1,0 +1,40 @@
+
+Been thinking about the future of open source and it's becoming increasingly clear that this platform would be essential.
+
+
+Currently, if you write OSS, you can push it to github and that's about it. The hosting aspect is handled. Which is great but what about all the other aspects:
+
+- publishing the code 
+- reaching an audience
+- monetizing your work 
+- having your work easily integrated 
+
+
+With something like cw, you could write your function/utility, push it on github and it would be available on the platform:
+
+- users can find it ala google search
+- use it easily (web UI + apis/cli/apps etc)
+- not worry about scaling it (serverless computing / faas)
+- have it integrated to a wealth of existing apis
+- gather a wealth of data on how people use it and how it could be improved/optimized
+
+You don't have to do:
+
+- marketing/sales
+- figure out pricing / billing / invoice
+- customer support
+- releases / platforms / version management / dependencies / software management / plumbing crap
+
+
+Just focus on the core system functionality, the actual value and making it better
+
+
+I can't recall the name of that company that had a blockchain p2p revenue sharing based on contribution startup building idea but collected 20% of revenues not even profits. Anyway, those incentives could be applied in a system like this. 
+
+You have a lot of incentives:
+
+- keep prices low
+- maintain and merge optimizations
+- revenue share based on OSS contributions
+
+Even if you keep it proprietary, it would have to be google good. Otherwise, people can switch easily to another search engine that produces the same/better results.

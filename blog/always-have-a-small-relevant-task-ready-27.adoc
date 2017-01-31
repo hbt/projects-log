@@ -1,0 +1,67 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== Always have a small relevant task ready
+
+
+
+
+
+== Rambling about the past
+
+With small side projects, things that tends to happen are:
+
+- things get out of control. too much information, too much to do and it is poorly structured, organized and prioritized 
+- other stuff gets in the way, new projects, life, enthusiasm wears off etc.
+
+
+Some side projects start as a "what if?" or "that'd be fun thing to have" and it's fine to stop after that. Because you never really had a clear goal that fit into a vision of how that project would make your life so much better. 
+
+It was an interesting to explore, you explored it, learned and that's about it. 
+ 
+ 
+I generally don't feel bad about abandoning projects but I used to. Every project had to be turned into something polished because after all, people were gonna see it and I had users demanding features and bugs. lol. That's *when* I had users. Usually, it was "meh".
+
+
+Still, I can remember the enthusiasm I felt when I was a student and found a new cool api and was so excited to build something on top of it just to see what could be done with it.  
+
+
+Nowadays however, I rarely have that level of excitement. I do, but the shit I want to build is so complex that enthusiasm is not enough. It cannot be done over a weekend, it takes weeks to build, iterate, refine, learn more, acquire more resources, think "is this a good long term investment and how will it improve my life" etc.
+
+
+TL;DR A lot more thought goes into side projects then I use to.
+
+
+== The fucking point
+
+The point is, having a small task (no more than 30m) that is 100% relevant and is the most important thing you could do to move that project forward really helps.
+
+Taking the time to document that task before finishing off. 
+
+Next time you want to revisit a project, it is not this grueling thing where you have to decide what to work on, where was I, load all this information and have to organize it etc. 
+
+No, you just pick that small task and get it done then define the next small / relevant task. That's it. 
+
+I already have todos.php files for each project, I should add them to the map as clickable stuff and have a clear / small task at the top on what would be the biggest difference maker to improve this project. 
+
+
+== Also
+
+Also, I find metrics really help. Clarifying what is the metric you use to judge the success of that project really helps you focus and priotize features. 
+
+For a lot of projects, I don't have clear metrics and really, I often don't want *exactly* what I want.

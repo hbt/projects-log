@@ -5,13 +5,19 @@
 
 ++++
 <ul>
-<li>cliweb</li><ul><li>
+<li>thinking about software</li><ul><li>
+++++
+link:figuring-it-out-26[figuring it out]
+++++
+</li>
+</ul>
+<li>cliweb</li><ul>
+<li>brainstorming</li><ul><li>
 ++++
 link:vision-20[vision]
 ++++
 </li>
-
-<li>research</li><ul><li>
+<li>
 ++++
 link:investigate-similar-ideas-21[investigate similar ideas]
 ++++
@@ -29,6 +35,11 @@ link:brainstorming-prototype-23[brainstorming prototype]
 <li>
 ++++
 link:deciding-on-key-metrics-24[deciding on key metrics]
+++++
+</li>
+<li>
+++++
+link:future-of-oss-25[future of OSS]
 ++++
 </li>
 </ul></ul>
@@ -120,6 +131,11 @@ link:tech-design-decisions-11[tech design decisions]
 <li>
 ++++
 link:writing-and-self-censorship-15[writing and self censorship]
+++++
+</li>
+<li>
+++++
+link:always-have-a-small-relevant-task-ready-27[Always have a small relevant task ready]
 ++++
 </li>
 </ul>
