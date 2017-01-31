@@ -1,6 +1,10 @@
 <?php
 
 $todos = [
+    'top' => [
+        'rethink end goal of what would make it better. mainly being aware of new workflows/commands/utilities and improving current workflow. learn zsh better. ',
+        'think about success metrics',
+    ],
 
 
     'future directions inv' => [

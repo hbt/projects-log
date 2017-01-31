@@ -1,19 +1,23 @@
 <?php
 
 $todos = [
-    'next'   => [
-        'continue work on doc + polishing features' => [
-            'improve install -- use <<>> and have zip version first',
-            'fix tips/faq page',
-            'map gv gifv',
-            'publish + link projects-log as blog + todos',
-            'add github hook to auto-update mouseless.hbtlabs',
+    'top'                                           => [
+        'rethink metrics and publish on official - nb commands, nb errors, nb contributions/forks (start thanks/credit page)',
+
+        'next' => [
+            'continue work on doc + polishing features' => [
+                'improve install -- use <<>> and have zip version first',
+                'fix tips/faq page',
+                'publish + link projects-log as blog + todos',
+                'add github hook to auto-update mouseless.hbtlabs',
+                'map gv gifv',
+            ],
+
+            'merge https://github.com/dhda/chromium-vim/commit/07e968a65fecf5687850f6a8191610108b3b8538',
+
         ],
 
-        'merge https://github.com/dhda/chromium-vim/commit/07e968a65fecf5687850f6a8191610108b3b8538',
-
     ],
-
 
     'review this stuff ... some of it already done' => [
 

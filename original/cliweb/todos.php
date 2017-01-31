@@ -1,8 +1,21 @@
 <?php
 
 $t = [
+    'top' => [
+        'add metrics and clarify',
+        'think about design of php docker service for strings',
+    ],
 
-    'inv' => [
+    'prototype' => [
+        'think about design ',
+        'build docker service exposing strings functions for php',
+        'build wrapper contacting service for processing',
+        'add ruby/js string functions and communication + wrapper example of cross-communication',
+        'think about how it would be extended -- function registration, aliases, registry, robot(google search), matchers etc.',
+        'think about docker orchestration kubernetes',
+        'add other utility functions to manipulate dates and review sites for useful utilities and how they would be matched, organized and found',
+        'build semi complex examples with arrays, if/foreach/ boolean and cross-language and create crawk',
+        'think about webui and seo friendly way of finding functions/recipies/examples etc.',
     ],
 
     'crawk?' => [
