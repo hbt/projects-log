@@ -1,0 +1,10 @@
+# Site settings
+title: hbtlabs
+email: "hassenbentanfous@gmail.com"
+description: ""
+baseurl: "http://hbtlabs.github.io/projects-log"
+url: "http://hbtlabs.github.io/projects-log"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
