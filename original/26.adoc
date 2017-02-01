@@ -73,3 +73,5 @@ I want to restructure it (or attempt to turn rambling into structured thoughts),
 
 Those are the big 3 themes around this project. Not sure yet of the best structure but right now, the goal is to go through the material quickly, familiarize myself with it again then build an outline. 
 
+
+They are highly related though. Maybe one project, increase software productivity/effectiveness or something along those lines. Approached both from an individual perspective and software.

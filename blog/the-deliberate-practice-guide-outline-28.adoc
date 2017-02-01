@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== the deliberate practice guide
+== the deliberate practice guide - outline
 
 
 
@@ -25,4 +25,14 @@ Software deliberate practice guide. A-Z guide covering the journey of self impro
 Ha. So fucking corny. 
 
 
-outline in 28.php
+outline in link:28.php
+link:the-deliberate-practice-guide-28[the deliberate practice guide]
+
+
+It's difficult to organize the content, write it and research it; at the same time. 
+
+
+The way I envision this project is a site tracking resources related to deliberate practice and increasing software productivity, an attempt should be made to provide a step by step guide for self improvement.
+
+I need to search for similar sites first.
+

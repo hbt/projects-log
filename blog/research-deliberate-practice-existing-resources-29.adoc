@@ -1,0 +1,50 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== research deliberate practice existing resources
+
+
+
+
+== keywords
+
+. increase software productivity
+. software deliberate practice
+. programming deliberate practice
+. programming self improvement
+
+
+== results 
+
+. scientific approach to increasing software productivity http://blog.ninlabs.com/2012/02/memory-2-0-attentive-memory/
+. measure developer impediments (remove friction) instead of developer productivity http://dev9.com/article/2015/1/the-myth-of-developer-productivity
+. book on personal self improvement journey. somewhat generic content. https://hkelkar.com/2015/12/31/being-craftsman-the-book/
+. business approach to increasing software productivity http://www.leanessays.com/2003/11/software-development-productivity.html
+
+. generic but relevant https://blog.binarymist.net/2013/03/02/how-to-increase-software-developer-productivity/
+. generic but could be good marketing https://www.quora.com/What-are-the-best-ways-to-increase-productivity-as-a-web-developer-programmer
+
+
+== quotes
+
+. http://dev9.com/article/2015/1/the-myth-of-developer-productivity
+So what do we do? Code is the output, but it's not really what we do. If we were just transcribing something into code, that's basically data entry. We're knowledge workers. We take inexact problems and create exact solutions. Imagine if managers were capable of exactly specifying the system they want built. They would have to explain it so finely-grained that it would be programming. That's what we do. We are people who exactly detail how a system works. Our code is the be-all, end-all specification for what the software does. We are people that write specifications, digest knowledge, and solve problems.
+Most people are incapable of breaking a problem down to the level required for computer code to solve it. This isn't to say that they can't learn, but it's a skill you must nurture. Imagine a parent (P) trying to teach a kid (K) how to make a grilled cheese sandwich:
+Ask a doctor what their job is. Is it talking to people? Is it writing prescriptions? Maybe it's taking inexact problems from imperfect people with imperfect information, then trying to diagnose and fix or ameliorate problems, within the constraints of cost, time, side effects, and a million other things. Sound familiar?
+
+

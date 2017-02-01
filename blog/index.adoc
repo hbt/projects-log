@@ -7,12 +7,17 @@
 <ul>
 <li>thinking about software</li><ul><li>
 ++++
-link:figuring-it-out-26[figuring it out]
+link:3-related-ideas-26[3 related ideas]
 ++++
 </li>
 <li>
 ++++
-link:the-deliberate-practice-guide-28[the deliberate practice guide]
+link:the-deliberate-practice-guide-outline-28[the deliberate practice guide - outline]
+++++
+</li>
+<li>
+++++
+link:research-deliberate-practice-existing-resources-29[research deliberate practice existing resources]
 ++++
 </li>
 </ul>
