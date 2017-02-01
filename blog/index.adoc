@@ -10,6 +10,11 @@
 link:figuring-it-out-26[figuring it out]
 ++++
 </li>
+<li>
+++++
+link:the-deliberate-practice-guide-28[the deliberate practice guide]
+++++
+</li>
 </ul>
 <li>cliweb</li><ul>
 <li>brainstorming</li><ul><li>
@@ -43,6 +48,23 @@ link:future-of-oss-25[future of OSS]
 ++++
 </li>
 </ul></ul>
+<li>mouseless</li><ul><li>
+++++
+link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]
+++++
+</li>
+
+<li>increasing contributors</li><ul><li>
+++++
+link:bringing-mouseless-to-the-average-user-brainstorming-9[bringing mouseless to the average user (brainstorming)]
+++++
+</li>
+<li>
+++++
+link:stick-to-advanced-users-10[Stick to advanced users.]
+++++
+</li>
+</ul></ul>
 <li>dotfiles</li><ul><li>
 ++++
 link:previous-projects-12[previous projects]
@@ -70,23 +92,27 @@ link:rough-prototype-17[rough prototype]
 ++++
 </li>
 </ul></ul>
-<li>mouseless</li><ul><li>
+<li>projects log</li><ul><li>
 ++++
-link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]
-++++
-</li>
-
-<li>increasing contributors</li><ul><li>
-++++
-link:bringing-mouseless-to-the-average-user-brainstorming-9[bringing mouseless to the average user (brainstorming)]
+link:what-is-it-1[what is it?]
 ++++
 </li>
 <li>
 ++++
-link:stick-to-advanced-users-10[Stick to advanced users.]
+link:tech-design-decisions-11[tech design decisions]
 ++++
 </li>
-</ul></ul>
+<li>
+++++
+link:writing-and-self-censorship-15[writing and self censorship]
+++++
+</li>
+<li>
+++++
+link:always-have-a-small-relevant-task-ready-27[Always have a small relevant task ready]
+++++
+</li>
+</ul>
 <li>chromium white flash fix</li><ul><li>
 ++++
 link:my-history-with-this-bug-2[My history with this bug]
@@ -115,27 +141,6 @@ link:sleazy-marketing-6[Sleazy marketing]
 <li>
 ++++
 link:conclusion-7[Conclusion]
-++++
-</li>
-</ul>
-<li>projects log</li><ul><li>
-++++
-link:what-is-it-1[what is it?]
-++++
-</li>
-<li>
-++++
-link:tech-design-decisions-11[tech design decisions]
-++++
-</li>
-<li>
-++++
-link:writing-and-self-censorship-15[writing and self censorship]
-++++
-</li>
-<li>
-++++
-link:always-have-a-small-relevant-task-ready-27[Always have a small relevant task ready]
 ++++
 </li>
 </ul>

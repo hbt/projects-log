@@ -42,7 +42,7 @@ That's definitely a big thing I learned about projects. Make sure you have your 
 
 What I want is a mixture of two things:
 
-. exploring deliberate practice out of self interest to become better. Improving myself as a software engineer generally means being able to build quality stuff quicker, accomplish my goals/vision faster regardless of problem complexity. 
+. exploring deliberate practice out of self interest to become better. Improving myself as a software engineer generally means being able to build quality stuff quicker, accomplish my goals/vision faster relative to problem complexity. 
 . the second thing, I want what I should have had when I started. Kinda of like a guide from A to Z on how to learn programming and progressively get better. I already have several ideas on how to build that guide without repeating existing information out there. 
 
 
@@ -55,7 +55,7 @@ But, some topics have been talked to so vaguely and so repetitively that I would
 
 In addition to the cw project, I wrote a lot on the future of software, automation, intelligence etc. 
 
-A lot of it was kinda original until I googled the subject matter, found the right keywords and realized they are entire institutes with people a lot smarter than me who dedicated their lives to those topics. The subject of superintelligence was one of them. The future institute or whatever the name of the place where Nick Bostrom worked at.
+A lot of it was kinda original until I googled the subject matter, found the right keywords and realized there are entire institutes with people a lot smarter than me who dedicated their lives to those topics. The subject of superintelligence was one of them. The future institute or whatever the name of the place where Nick Bostrom worked at.
 
 == The development cycle and accelerating 
 
@@ -66,3 +66,10 @@ This is somewhat related to deliberate practice but goes beyond individual self 
 
 So, tons of this writing is on my little journal for my prying eyes only (and the cloud watchers) but I don't want to simply do a copy / paste and share it. 
 I want to restructure it (or attempt to turn rambling into structured thoughts), clear it up for myself. It would help me decide on upcoming projects and how to design them.
+
+
+
+---
+
+Those are the big 3 themes around this project. Not sure yet of the best structure but right now, the goal is to go through the material quickly, familiarize myself with it again then build an outline. 
+

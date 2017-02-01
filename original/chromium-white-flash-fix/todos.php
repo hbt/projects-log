@@ -7,6 +7,7 @@ $todos = [
         ',
     ],
 
+    'review old essay/api.txt ',
 
     'ubuntu easy update' => [
         'using a ppa',
