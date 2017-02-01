@@ -2,6 +2,8 @@
 
 $todos = [
     'top' => [
+
+// TODO(hbt) NEXT do quick review of results of old searches here
         'resources for deliberate practice',
         'figure out vision, end result and metrics',
     ],

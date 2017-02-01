@@ -9,11 +9,13 @@
 
 == results 
 
+
 . scientific approach to increasing software productivity http://blog.ninlabs.com/2012/02/memory-2-0-attentive-memory/
 . measure developer impediments (remove friction) instead of developer productivity http://dev9.com/article/2015/1/the-myth-of-developer-productivity
 . book on personal self improvement journey. somewhat generic content. https://hkelkar.com/2015/12/31/being-craftsman-the-book/
 . business approach to increasing software productivity http://www.leanessays.com/2003/11/software-development-productivity.html
 
+. time/task management http://www.stevepavlina.com/blog/2007/05/33-rules-to-boost-your-productivity/
 . generic but relevant https://blog.binarymist.net/2013/03/02/how-to-increase-software-developer-productivity/
 . generic but could be good marketing https://www.quora.com/What-are-the-best-ways-to-increase-productivity-as-a-web-developer-programmer
 
