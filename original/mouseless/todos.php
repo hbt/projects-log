@@ -15,6 +15,7 @@ $todos = [
 
         'next' => [
             'continue work on doc + polishing features' => [
+                'add vivaldi note',
                 'improve install -- use <<>> and have zip version first',
                 'fix tips/faq page',
                 'add thanks page',

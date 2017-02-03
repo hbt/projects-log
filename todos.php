@@ -5,6 +5,7 @@ $m = [
         'define top task for each project',
         'define success metrics',
         'link todos.php',
+        'brainstorm how to enhance metrics',
     ],
 
 

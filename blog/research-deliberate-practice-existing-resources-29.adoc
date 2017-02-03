@@ -47,6 +47,7 @@ link:index[Home]
 . ericsson latest work - book peak https://www.youtube.com/watch?v=uoUHlZP094Q
 . research https://scholar.google.ca/scholar?q=deliberate+practice+&btnG=&hl=en&as_sdt=0%2C5&as_vis=1  https://scholar.google.ca/scholar?q=deliberate+practice+software&btnG=&hl=en&as_sdt=0%2C5&as_vis=1
 . deliberate practice strategies https://www.redgreencode.com/deliberate-practice-for-software-developers/
+. The Cambridge Handbook of Expertise and Expert Performance https://books.google.ca/books?id=voWlHWw980UC&printsec=frontcover&dq=The+Cambridge+Handbook+of+Expertise+and+Expert+Performance&hl=en&sa=X&redir_esc=y#v=onepage&q=The%20Cambridge%20Handbook%20of%20Expertise%20and%20Expert%20Performance&f=false
 . deliberate practice tips http://expertenough.com/2327/deliberate-practice-steps
 . developer level up (find how it was promoted) https://gist.github.com/jasonrudolph/1133830#file_programming_achievements.md
 . book https://en.wikipedia.org/wiki/The_Pragmatic_Programmer
