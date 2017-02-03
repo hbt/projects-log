@@ -21,6 +21,11 @@ $todos = [
             'https://twitter.com/search?q=software%20deliberate%20practice&src=typd',
         ],
     ],
+
+
+    'deliberate practice resources for software engineers' => [
+        'find catch title for site -- softwaredeliberatepractice softwareselfimprovement deliberateengineering ',
+    ],
 ];
 
 ?>

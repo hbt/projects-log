@@ -20,7 +20,13 @@ link:the-deliberate-practice-guide-outline-28[the deliberate practice guide - ou
 link:research-deliberate-practice-existing-resources-29[research deliberate practice existing resources]
 ++++
 </li>
-</ul>
+<li>
+++++
+link:2-core-ideas-31[2 core ideas]
+++++
+</li>
+
+<li>deliberate practice resources for software engineers</li><ul></ul></ul>
 <li>cliweb</li><ul>
 <li>brainstorming</li><ul><li>
 ++++

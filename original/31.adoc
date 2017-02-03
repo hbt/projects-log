@@ -1,0 +1,19 @@
+== Accelerate the software cycle
+
+The site will:
+
+- analyze every step of the software development cycle. 
+- list current tools and alternatives 
+- historical view of tools/solutions and problem identification (root problem)
+- future tools to 10x improvements or eliminate/automate 
+
+== Deliberate practice resources for software engineers
+
+Site will:
+
+- list resources and strategies to enhance as a software engineer
+- attempt to structure content based on a path
+
+
+
+Since most of it is content + writing, I can do the work here and publish properly when ready.
