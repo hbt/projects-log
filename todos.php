@@ -2,7 +2,6 @@
 
 $m = [
     'top' => [
-        'fix cases where names are similar and files are not generated -- e.g success metrics => 32',
     ],
 
     'write on' => [

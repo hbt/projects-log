@@ -1,17 +1,37 @@
 <?php
 
 $todos = [
-    'top'   => [
+    'top'            => [
         'reorg todos',
         'look into accdev end vision + target audience and monetization path',
-        
+
         'look into accdev outline',
-        
+
         'resources for deliberate practice',
         'figure out vision, end result and metrics',
     ],
 
-    'reorg' => [
+    'roadmap accdev' => [
+        'get outline' => [
+
+        ],
+        'confirm pattern mvp foreach outline item
+        '     => [
+
+        ],
+        'marketing' => [
+
+            'find demographics' => [
+
+            ],
+
+            'think how to reach them' => [
+
+            ],
+        ],
+    ],
+
+    'reorg'          => [
         'softwarestash'                                        => [
             'development cycle and existing tools -- like startupstash - braintstorm ways of eliminating/enhancing the step - clear up the goal behind the step. why do it ',
             'finding similar software ' => [
