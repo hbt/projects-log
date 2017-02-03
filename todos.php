@@ -2,8 +2,6 @@
 
 $m = [
     'top' => [
-        'add analytics',
-        'add to projects list',
         'fix cases where names are similar and files are not generated -- e.g success metrics => 32',
     ],
 
