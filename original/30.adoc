@@ -1,0 +1,35 @@
+
+== List of metrics
+
+. <<nb contributors>>
+. frequently used commands justifying their maintenance
+
+== nb contributors 
+
+This metric is the reason why the fork is public and maintained. Contributors offer improvements and enhancements to existing work.
+
+Measured in docs/thanks or nb pull requests https://github.com/hbt/mouseless/pulls?utf8=%E2%9C%93&q=is%3Apr
+
+=== Increasing nb contributors (ideas)
+
+. monitor forks and merge work + notify 
+. reply when possible to enhancements / reports and build user rapport
+. get more users hoping some of them will turn out to be contributors
+
+As of now, the biggest difference makers are:
+
+- monitoring and merging forks  (do it weekly)
+- replying on issue reports when users sound/look advanced and could turn into contributors (judgment call)
+- start tracking commands usage https://github.com/hbt/mouseless/issues/45
+
+
+Getting more users hoping some of them will turn out to be contributors is not worth pursuing. Mainly because contributors will either fork the repo regardless to make their changes or look at the forks network / issue manager and notice my fork. 
+Beyond that, users might be satisfied with current chromium-vim version and not interested in switching.
+
+Related metrics to watch for: 
+
+. nb support requests
+. average response time
+. average merge time
+. average release time
+

@@ -2,17 +2,7 @@
 
 $todos = [
     'top'                                           => [
-        'rethink metrics and publish on official - nb commands, nb errors, nb contributions/forks (start thanks/credit page)',
-        'metrics' => [
-            // TODO(hbt) NEXT justify metrics
-            'nb contributors or nb contributions H',
-            'nb support requests L',
-            'average response time',
-            'average merge time',
-            'average release time',
-            'frequently used commands justifying their maintenance',
-        ],
-
+        
         'next' => [
             'continue work on doc + polishing features' => [
                 'add vivaldi note',
@@ -30,6 +20,20 @@ $todos = [
 
         ],
 
+    ],
+
+    'weekly checklist' => [
+        'review forks -- last count 119',
+        'review commits + merge ',
+        'merge' => [
+            'checkout ',
+            'fetch e.g git pull git://github.com/rosshadden/mouseless.git fix/editing-divs',
+            'merge in dev',
+            'notify author',
+            'update changelog',
+            'add to docs/thanks',
+            'update docs/commands',
+        ],
     ],
 
     'review this stuff ... some of it already done' => [

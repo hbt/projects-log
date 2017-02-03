@@ -69,7 +69,12 @@ link:bringing-mouseless-to-the-average-user-brainstorming-9[bringing mouseless t
 link:stick-to-advanced-users-10[Stick to advanced users.]
 ++++
 </li>
-</ul></ul>
+</ul><li>
+++++
+link:project-success-metrics-30[project success metrics]
+++++
+</li>
+</ul>
 <li>dotfiles</li><ul><li>
 ++++
 link:previous-projects-12[previous projects]
