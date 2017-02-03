@@ -3,16 +3,17 @@
 $map = [
 
     'thinking about software'  => [
-        '3 related ideas'                                 => '26',
-        'the deliberate practice guide - outline'         => '28',
-        'research deliberate practice existing resources' => '29',
-        '2 core ideas'                                    => '31',
-        'success metrics' => '32',
+        '3 related ideas'                                      => '26',
+        'the deliberate practice guide - outline'              => '28',
+        'research deliberate practice existing resources'      => '29',
+        '2 core ideas'                                         => '31',
+        'success metrics'                                      => '32',
 
         'deliberate practice resources for software engineers' => [
+           
         ],
 
-        'accelerate software development cycle' => [
+        'accelerate software development cycle'                => [
         ],
     ],
 
@@ -34,7 +35,7 @@ $map = [
             'bringing mouseless to the average user (brainstorming)' => '9',
             'Stick to advanced users.'                               => '10',
         ],
-        'success metrics'            => '30',
+        'success metrics'                    => '30',
     ],
 
 
