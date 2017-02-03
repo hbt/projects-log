@@ -25,8 +25,14 @@ link:research-deliberate-practice-existing-resources-29[research deliberate prac
 link:2-core-ideas-31[2 core ideas]
 ++++
 </li>
+<li>
+++++
+link:success-metrics-32[success metrics]
+++++
+</li>
 
-<li>deliberate practice resources for software engineers</li><ul></ul></ul>
+<li>deliberate practice resources for software engineers</li><ul></ul>
+<li>accelerate software development cycle</li><ul></ul></ul>
 <li>cliweb</li><ul>
 <li>brainstorming</li><ul><li>
 ++++
@@ -77,7 +83,7 @@ link:stick-to-advanced-users-10[Stick to advanced users.]
 </li>
 </ul><li>
 ++++
-link:project-success-metrics-30[project success metrics]
+link:success-metrics-30[success metrics]
 ++++
 </li>
 </ul>

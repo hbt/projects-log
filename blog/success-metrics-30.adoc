@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== project success metrics
+== success metrics
 
 
 
