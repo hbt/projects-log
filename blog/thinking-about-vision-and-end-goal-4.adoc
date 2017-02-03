@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== thinking about vision and end goal
+== thinking-about-vision-and-end-goal-4
 
 
 

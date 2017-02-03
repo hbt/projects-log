@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== Stick to advanced users.
+== stick-to-advanced-users-10
 
 
 

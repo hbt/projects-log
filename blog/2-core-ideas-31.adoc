@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== 2 core ideas
+== 2-core-ideas-31
 
 
 

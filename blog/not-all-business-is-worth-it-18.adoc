@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== not all business is worth it
+== not-all-business-is-worth-it-18
 
 
 

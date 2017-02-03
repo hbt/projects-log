@@ -2,7 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/software/todos.php" afterPath="$PROJECT_DIR$/original/software/todos.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/project-metrics-32.adoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/2-core-ideas-31.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/3-related-ideas-26.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/always-have-a-small-relevant-task-ready-26.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/always-have-a-small-relevant-task-ready-27.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/analysis-16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/book-15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/book-16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/brainstorming-ideas-14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/brainstorming-prototype-23.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/bringing-mouseless-to-the-average-user-brainstorming-9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/conclusion-7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deciding-on-key-metrics-24.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/design-11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/design-decisions-11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/eat-your-own-dog-food-eventually-stops-working-19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/figuring-it-out-26.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/forking-and-fixing-a-bug-in-2016-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fuck-the-average-user-stick-to-advanced-users-10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/future-of-dotfiles-14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/future-of-dotfiles-brainstorming-14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/future-of-oss-25.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/inv-open-source-monetization-models-.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/inv-open-source-monetization-models-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/investigate-similar-ideas-21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/investigating-existing-work-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/me-and-the-keyboard-a-love-story-8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/metrics-32.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/my-history-with-this-bug-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/not-all-business-is-worth-it-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/previous-dotfiles-projects-12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/previous-projects-12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project-metrics-32.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/project-success-metrics-30.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/redefinig-vision-22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/redefining-vision-22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/research-deliberate-practice-existing-resources-29.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/rough-prototype-17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/sleazy-marketing-6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/someone-built-the-windows-binaries-based-on-my-work-5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/ssuccess-metrics-32.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/stick-to-advanced-users-10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/success-metrics-30.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tech-design-decisions-11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/test-11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/the-deliberate-practice-guide-28.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/the-deliberate-practice-guide-outline-28.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/thinking-about-vision-and-end-goal-4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/vcsh-13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/vcsh-set-up-13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/vcsh-setup-13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/vision-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/vision-21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/what-is-it-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/when-eat-your-own-dog-food-stops-working-19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/writing-and-self-censorship-15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/writing-choosing-tone-and-self-censorship-15.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/2-core-ideas-31.adoc" afterPath="$PROJECT_DIR$/blog/2-core-ideas-31.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/3-related-ideas-26.adoc" afterPath="$PROJECT_DIR$/blog/3-related-ideas-26.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/always-have-a-small-relevant-task-ready-27.adoc" afterPath="$PROJECT_DIR$/blog/always-have-a-small-relevant-task-ready-27.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/analysis-16.adoc" afterPath="$PROJECT_DIR$/blog/analysis-16.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/brainstorming-ideas-14.adoc" afterPath="$PROJECT_DIR$/blog/brainstorming-ideas-14.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/brainstorming-prototype-23.adoc" afterPath="$PROJECT_DIR$/blog/brainstorming-prototype-23.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" afterPath="$PROJECT_DIR$/blog/bringing-mouseless-to-the-average-user-brainstorming-9.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/scripts/build-index.php" afterPath="$PROJECT_DIR$/original/scripts/build-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/conclusion-7.adoc" afterPath="$PROJECT_DIR$/blog/conclusion-7.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/deciding-on-key-metrics-24.adoc" afterPath="$PROJECT_DIR$/blog/deciding-on-key-metrics-24.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc" afterPath="$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/future-of-oss-25.adoc" afterPath="$PROJECT_DIR$/blog/future-of-oss-25.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/investigate-similar-ideas-21.adoc" afterPath="$PROJECT_DIR$/blog/investigate-similar-ideas-21.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/me-and-the-keyboard-a-love-story-8.adoc" afterPath="$PROJECT_DIR$/blog/me-and-the-keyboard-a-love-story-8.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/my-history-with-this-bug-2.adoc" afterPath="$PROJECT_DIR$/blog/my-history-with-this-bug-2.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/not-all-business-is-worth-it-18.adoc" afterPath="$PROJECT_DIR$/blog/not-all-business-is-worth-it-18.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/previous-projects-12.adoc" afterPath="$PROJECT_DIR$/blog/previous-projects-12.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/redefining-vision-22.adoc" afterPath="$PROJECT_DIR$/blog/redefining-vision-22.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/research-deliberate-practice-existing-resources-29.adoc" afterPath="$PROJECT_DIR$/blog/research-deliberate-practice-existing-resources-29.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/rough-prototype-17.adoc" afterPath="$PROJECT_DIR$/blog/rough-prototype-17.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/sleazy-marketing-6.adoc" afterPath="$PROJECT_DIR$/blog/sleazy-marketing-6.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" afterPath="$PROJECT_DIR$/blog/someone-built-the-windows-binaries-based-on-my-work-5.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/stick-to-advanced-users-10.adoc" afterPath="$PROJECT_DIR$/blog/stick-to-advanced-users-10.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/success-metrics-30.adoc" afterPath="$PROJECT_DIR$/blog/success-metrics-30.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/tech-design-decisions-11.adoc" afterPath="$PROJECT_DIR$/blog/tech-design-decisions-11.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/the-deliberate-practice-guide-outline-28.adoc" afterPath="$PROJECT_DIR$/blog/the-deliberate-practice-guide-outline-28.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" afterPath="$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/vcsh-setup-13.adoc" afterPath="$PROJECT_DIR$/blog/vcsh-setup-13.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/vision-20.adoc" afterPath="$PROJECT_DIR$/blog/vision-20.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/what-is-it-1.adoc" afterPath="$PROJECT_DIR$/blog/what-is-it-1.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/when-eat-your-own-dog-food-stops-working-19.adoc" afterPath="$PROJECT_DIR$/blog/when-eat-your-own-dog-food-stops-working-19.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/writing-and-self-censorship-15.adoc" afterPath="$PROJECT_DIR$/blog/writing-and-self-censorship-15.adoc" />
     </list>
     <ignored path="projects-log.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +116,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="map.php" pinned="true" current-in-tab="false">
+      <file leaf-file-name="map.php" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.428571">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.22400858">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="31.adoc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="31.adoc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/31.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36734694">
-              <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,6 +144,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.071429">
               <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.857142">
+              <caret line="286" column="14" selection-start-line="286" selection-start-column="14" selection-end-line="286" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -134,11 +236,11 @@
         <option value="$PROJECT_DIR$/original/31.adoc" />
         <option value="$PROJECT_DIR$/original/index-tmpl.adoc" />
         <option value="$PROJECT_DIR$/original/32.adoc" />
-        <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/todos.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
         <option value="$PROJECT_DIR$/original/software/todos.php" />
+        <option value="$PROJECT_DIR$/original/scripts/build-index.php" />
+        <option value="$PROJECT_DIR$/original/map.php" />
       </list>
     </option>
   </component>
@@ -316,7 +418,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -703,36 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/analysis-16.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/brainstorming-ideas-14.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vcsh-setup-13.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -770,36 +842,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/analysis-16.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/brainstorming-ideas-14.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vcsh-setup-13.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
@@ -922,46 +964,6 @@
         <state vertical-scroll-proportion="0.1383975">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/conclusion-7.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.9">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/forking-and-fixing-a-bug-in-2016-3.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.866667">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/what-is-it-1.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6333333">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/thinking-about-vision-and-end-goal-4.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.233334">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/original/3.adoc">
@@ -1132,46 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36734694">
           <caret line="26" column="142" selection-start-line="26" selection-start-column="142" selection-end-line="26" selection-end-column="142" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/brainstorming-ideas-14.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vcsh-setup-13.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/analysis-16.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/vision-20.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.4">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
@@ -1377,17 +1339,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.9666667">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/32.adoc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2666667">
@@ -1420,18 +1371,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.642858">
-          <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/software/28.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.571428">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/scripts/build-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.857142">
+          <caret line="286" column="14" selection-start-line="286" selection-start-column="14" selection-end-line="286" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1444,23 +1395,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/31.adoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36734694">
-          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22400858">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== My history with this bug
+== my-history-with-this-bug-2
 
 
 

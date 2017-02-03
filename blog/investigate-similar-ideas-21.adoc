@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== investigate similar ideas
+== investigate-similar-ideas-21
 
 
 

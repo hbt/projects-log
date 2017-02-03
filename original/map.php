@@ -7,10 +7,9 @@ $map = [
         'the deliberate practice guide - outline'              => '28',
         'research deliberate practice existing resources'      => '29',
         '2 core ideas'                                         => '31',
-        'project metrics'                                      => '32',
+        'success metrics'                                      => '32',
 
         'deliberate practice resources for software engineers' => [
-
         ],
 
         'accelerate software development cycle'                => [

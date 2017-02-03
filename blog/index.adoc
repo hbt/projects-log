@@ -38,7 +38,7 @@ link:2-core-ideas-31[2 core ideas]
 </li>
 <li>
 ++++
-link:project-metrics-32[project metrics]
+link:success-metrics-32[success metrics]
 ++++
 </li>
 

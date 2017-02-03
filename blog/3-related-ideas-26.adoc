@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== 3 related ideas
+== 3-related-ideas-26
 
 
 

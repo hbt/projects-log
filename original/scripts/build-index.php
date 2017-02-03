@@ -205,7 +205,7 @@ function copyFiles()
 {
     $map = getInlineMap();
     foreach ($map as $k => $v) {
-        $title = fixTitle($k, $v);
+        $title = $k;
         $filename = $title . '.adoc';
 
         /**
@@ -311,7 +311,8 @@ function buildMap(&$ret, $map)
         if (is_array($v)) {
             buildMap($ret, $v);
         } elseif (file_exists(SOURCE_DIR . $v)) {
-            $ret[$k] = $v;
+            $title = fixTitle($k, $v);
+            $ret[$title] = $v;
         }
     }
 }
