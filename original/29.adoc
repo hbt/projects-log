@@ -7,17 +7,33 @@
 . programming self improvement
 
 
-== results 
+
+== results  increase software productivity
 
 
 . scientific approach to increasing software productivity http://blog.ninlabs.com/2012/02/memory-2-0-attentive-memory/
 . measure developer impediments (remove friction) instead of developer productivity http://dev9.com/article/2015/1/the-myth-of-developer-productivity
 . book on personal self improvement journey. somewhat generic content. https://hkelkar.com/2015/12/31/being-craftsman-the-book/
 . business approach to increasing software productivity http://www.leanessays.com/2003/11/software-development-productivity.html
-
 . time/task management http://www.stevepavlina.com/blog/2007/05/33-rules-to-boost-your-productivity/
 . generic but relevant https://blog.binarymist.net/2013/03/02/how-to-increase-software-developer-productivity/
 . generic but could be good marketing https://www.quora.com/What-are-the-best-ways-to-increase-productivity-as-a-web-developer-programmer
+
+
+== results  software deliberate practice
+
+. ericsson latest work - book peak https://www.youtube.com/watch?v=uoUHlZP094Q
+. research https://scholar.google.ca/scholar?q=deliberate+practice+&btnG=&hl=en&as_sdt=0%2C5&as_vis=1  https://scholar.google.ca/scholar?q=deliberate+practice+software&btnG=&hl=en&as_sdt=0%2C5&as_vis=1
+. deliberate practice strategies https://www.redgreencode.com/deliberate-practice-for-software-developers/
+. deliberate practice tips http://expertenough.com/2327/deliberate-practice-steps
+. developer level up (find how it was promoted) https://gist.github.com/jasonrudolph/1133830#file_programming_achievements.md
+. book https://en.wikipedia.org/wiki/The_Pragmatic_Programmer
+. famous 10 years http://norvig.com/21-days.html
+. multiple learning methods through practice https://en.wikipedia.org/wiki/Practice_(learning_method)
+. 10x programmer http://www.construx.com/10x_Software_Development/Origins_of_10X_%E2%80%93_How_Valid_is_the_Underlying_Research_/
+. questioning deliberate practice vs natural talent https://www.redgreencode.com/making-sense-of-the-deliberate-practice-debate/
+. list of deliberate practices methods for programming https://www.todaysoftmag.com/article/507/how-a-software-craftsman-learns-deliberate-practice
+. good tips https://simpleprogrammer.com/2015/10/09/deliberate-practice-for-programmers-a-framework-for-learning-on-the-job/
 
 
 == quotes

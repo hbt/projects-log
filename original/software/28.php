@@ -10,6 +10,10 @@ $outline = [
         'similar to writing therapeutic and helps structure. computers as a tool to think',
         'mechanical turk and cognitive automation',
     ],
+    'deliberate practice' => [
+        'definition applied to software. why that over other definition',
+        'ref peak book',
+    ],
     'how to build an interest for it'                         => [
 
         'do you have an interest in technology?' => [
