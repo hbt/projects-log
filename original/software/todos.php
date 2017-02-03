@@ -2,6 +2,11 @@
 
 $todos = [
     'top'   => [
+        'reorg todos',
+        'look into accdev end vision + target audience and monetization path',
+        
+        'look into accdev outline',
+        
         'resources for deliberate practice',
         'figure out vision, end result and metrics',
     ],
