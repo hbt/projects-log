@@ -2,10 +2,9 @@
 
 $m = [
     'top' => [
-        'fix projects-log on hbtlabs  + add hook and disable gh version',
-        'add homepage link',
         'add analytics',
         'add to projects list',
+        'fix cases where names are similar and files are not generated -- e.g success metrics => 32',
     ],
 
     'write on' => [
