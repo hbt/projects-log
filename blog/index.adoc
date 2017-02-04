@@ -52,7 +52,7 @@ link:vision-20[vision]
 </li>
 <li>
 ++++
-link:investigate-similar-ideas-21[investigate similar ideas]
+link:research-and-investigate-similar-ideas-21[research and investigate similar ideas]
 ++++
 </li>
 <li>

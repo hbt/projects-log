@@ -3,6 +3,7 @@
 $t = [
     'top' => [
         'add metrics and clarify',
+        // TODO(hbt) NEXT organize 21 and include bookmarks
         'think about design of php docker service for strings',
     ],
 
@@ -20,6 +21,7 @@ $t = [
 
     'crawk?' => [
         'awk on CRACK. CRAWK!',
+        'functionshub.com -- fh',
     ],
 
     'inv differentiators' => [

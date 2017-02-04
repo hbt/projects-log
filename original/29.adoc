@@ -18,6 +18,8 @@
 . time/task management http://www.stevepavlina.com/blog/2007/05/33-rules-to-boost-your-productivity/
 . generic but relevant https://blog.binarymist.net/2013/03/02/how-to-increase-software-developer-productivity/
 . generic but could be good marketing https://www.quora.com/What-are-the-best-ways-to-increase-productivity-as-a-web-developer-programmer
+. great blog http://softwarecreation.org/2010/the-toolkit-for-increasing-productivity-of-software-teams/
+
 
 
 == results  software deliberate practice

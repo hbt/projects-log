@@ -13,15 +13,36 @@ $todos = [
 
     'roadmap accdev' => [
         'get outline' => [
+            // TODO(hbt) NEXT build outline of dev cycle + tools and some writing -- mainly for self for now
+            'model based dev',
+            'requirements engineering',
+            'http://blog.prof.so/2012/05/top-10-software-engineering-challenges.html',
+            'https://en.wikipedia.org/wiki/Computer-aided_software_engineering',
+            'pair programming',
+            'peer review',
 
+            'static analysis' => [
+                'https://sonarqube.com/about',
+            ],
+            'visualize software' => [
+                'software visualization' => [
+                    'https://softvis.wordpress.com/books/',
+                    'https://scitools.com/feature-category/graphing/',
+                    'https://softvis.wordpress.com/tools/',
+                ],
+            ],
+
+            'code readability' => [
+                'review book pdf readable code',
+            ],
         ],
         'confirm pattern mvp foreach outline item
         '     => [
 
         ],
-        'marketing' => [
+        'marketing'   => [
 
-            'find demographics' => [
+            'find demographics'       => [
 
             ],
 
