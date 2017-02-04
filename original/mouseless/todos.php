@@ -2,27 +2,22 @@
 
 $todos = [
     'top'                                           => [
-        
+
         'next' => [
-            'continue work on doc + polishing features' => [
-                'add vivaldi note',
-                'improve install -- use <<>> and have zip version first',
-                'fix tips/faq page',
-                'add thanks page',
-                'publish + link projects-log as blog + todos',
-                'add github hook to auto-update mouseless.hbtlabs',
-                'map gv gifv',
-            ],
 
-            'merge https://github.com/dhda/chromium-vim/commit/07e968a65fecf5687850f6a8191610108b3b8538',
-            'add the google version branch',
             'fix review below',
+            'fix TODOs left in code + docs',
+// TODO(hbt) NEXT migrate commands from config such as copyDescription -- custom functions as new commands + log ticket
 
+
+            'next week' => [
+
+            ],
         ],
 
     ],
 
-    'weekly checklist' => [
+    'weekly checklist'                              => [
         'review forks -- last count 119',
         'review commits + merge ',
         'merge' => [
