@@ -2,6 +2,18 @@
 
 $map = [
 
+    'cliweb'                   => [
+        'brainstorming' => [
+            'vision'                                 => '20',
+            'research and investigate similar ideas' => '21',
+            'redefining vision'                      => '22',
+            'brainstorming prototype'                => '23',
+            'deciding on key metrics'                => '24',
+            'future of OSS'                          => '25',
+        ],
+        'roadmap' => '33',
+    ],
+
     'thinking about software'  => [
         '3 related ideas'                                      => '26',
         'the deliberate practice guide - outline'              => '28',
@@ -16,16 +28,6 @@ $map = [
         ],
     ],
 
-    'cliweb'                   => [
-        'brainstorming' => [
-            'vision'                                 => '20',
-            'research and investigate similar ideas' => '21',
-            'redefining vision'                      => '22',
-            'brainstorming prototype'                => '23',
-            'deciding on key metrics'                => '24',
-            'future of OSS'                          => '25',
-        ]
-    ],
 
 
     'mouseless'                => [

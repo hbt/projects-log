@@ -49,23 +49,16 @@ Although a lot of what I want is the equivalent of distributed functions.
 . https://cloud.google.com/dataflow/
 
 
-== link aggregators 
+== link aggregators tracking zappo alternatives
 
 . ipaas - integration platform as a service. https://www.google.ca/search?q=ipaas&oq=ipaas&aqs=chrome..69i57j0l5.1093j0j4&sourceid=chrome&ie=UTF-8
 . https://www.getapp.com/it-management-software/a/zapier/alternatives
-. http://alternativeto.net/software/zapier/?license=opensource
-. http://alternativeto.net/software/zapier/?license=commercial
-. http://alternativeto.net/software/zapier/?license=free
 . http://alternativeto.net/software/zapier/
-. http://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/
+. comparison + review tool https://comparisons.financesonline.com/zapier-vs-workato
 
 
-== comparison + review tool
 
-. https://comparisons.financesonline.com/zapier-vs-workato
-
-
-== differentiators
+== differentiators from zappo and others
 
 . focus on open source tools, easy access, publishing + monetization instead of hooking to company xyz API
 . focus on developers workflow (writing, publishing, testing, monetizing) -- plenty of room since most companies dont cater to developers, especially OSS
@@ -82,14 +75,15 @@ Although a lot of what I want is the equivalent of distributed functions.
 
 . http://blog.cloud-elements.com/convergence-api-management-ipaas-ready
 
-== More reading
+== People who wrote about it and get it
 
+. http://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/
 . perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  Applications can and ultimately should be replaced by programming environments, explicitly recognized as such, in which the user interactively creates, executes, inspects and composes programs. In this model, interaction with the computer is fundamentally an act of creation, the creative act of programming, of assembling language to express ideas, access information, and automate tasks
-. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html
-. http://unisonweb.org/2015-05-07/about.html
+. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
 . subtext idea spreadsheet http://www.subtext-lang.org/
 . UI for programming http://worrydream.com/LearnableProgramming/
 . eve programming http://witheve.com/
+
 
 == conclusion
 
