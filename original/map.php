@@ -67,8 +67,15 @@ $map = [
 
 
     'business'                 => [
-        'not all business is worth it'             => '18',
-        'when eat your own dog food stops working' => '19',
+        // TODO(hbt) NEXT write incentives / philosophy
+        // TODO(hbt) NEXT write brainstorming problems/solution
+        // TODO(hbt) NEXT write writing vision docs + what should be in them .. roadmap? 
+        // TODO(hbt) NEXT write business/market analysis 
+        // TODO(hbt) NEXT mvp + design . 80/20, ROI
+        'rambling' => [
+            'not all business is worth it'             => '18',
+            'when eat your own dog food stops working' => '19',
+        ],
     ],
 
 ];

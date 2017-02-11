@@ -12,6 +12,7 @@ This means the site must have:
 - list of strategies to attain expertise (from beginner to expert) -- learn to code / getting a software job / soft skills / AI
 - why a particular strategy is a good investment and the expected return -- learning to code = information economy and ability to manipulate that information, extend your mind and automate the world around 
 - metrics to measure your progress in said task and why those metrics are relevant and whether you should increase/decrease them -- touch typing = speed, how frequently you look for keys etc.
+- clear feedback loop - 
 - list of existing resources/tools related to achieving strategy -- e.g flash cards software to learn apis, touch typing software to practice on the keyboard etc.
 - mentorship -- forums where people can ask those who achieved it 
 
@@ -21,7 +22,7 @@ This means the site must have:
 - self improvement 
 - potential monetization (mentorships, jobs, sponsored content)
 - building reputation in community + gamification & achievements (e.g stackoverflow?)
-- 
+- ability to fork + contribute easily + see other people's work
 
 
 == Monetization
@@ -40,3 +41,22 @@ This means the site must have:
 . extend to other areas of interests (e.g nutrition, intelligence, health quantification)
 . api idea for gamification + deliberate practice -- knowledge tree / skills tree type thing . maybe even with unlocks, achievements etc. 
 
+
+== design brainstorming
+
+. collaborative / wiki style? / curated
+. watch/star resources -- same as github and be notified to ease maintenance
+. add people as admin and give them rights
+. voting system for pull requests.
+. since the focus is on software, consider working around github, maybe gists?
+
+
+== sites
+
+. masteryjourney.com
+. expertjourney.com
+. deliberatepractice.io
+. dbhub.io
+
+
+// TODO(hbt) NEXT integrates notes from todos -- acc-dev e.g mental representation and mentorships (peak book)

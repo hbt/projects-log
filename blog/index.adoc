@@ -187,7 +187,8 @@ link:conclusion-7[Conclusion]
 ++++
 </li>
 </ul>
-<li>business</li><ul><li>
+<li>business</li><ul>
+<li>rambling</li><ul><li>
 ++++
 link:not-all-business-is-worth-it-18[not all business is worth it]
 ++++
@@ -197,5 +198,5 @@ link:not-all-business-is-worth-it-18[not all business is worth it]
 link:when-eat-your-own-dog-food-stops-working-19[when eat your own dog food stops working]
 ++++
 </li>
-</ul></ul>
+</ul></ul></ul>
 ++++
