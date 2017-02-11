@@ -1,7 +1,15 @@
 <?php
 
 $todos = [
+
+
     'top'            => [
+        'do business analysis',
+        'vision - ',
+        'https://www.executestrategy.net/blog/write-good-vision-statement/',
+        'determine mvp + roadmap',
+
+
         'reorg todos',
         'look into accdev end vision + target audience and monetization path',
 
@@ -21,7 +29,7 @@ $todos = [
             'pair programming',
             'peer review',
 
-            'static analysis' => [
+            'static analysis'    => [
                 'https://sonarqube.com/about',
             ],
             'visualize software' => [
@@ -32,7 +40,7 @@ $todos = [
                 ],
             ],
 
-            'code readability' => [
+            'code readability'   => [
                 'review book pdf readable code',
             ],
         ],

@@ -16,6 +16,39 @@
 
 ++++
 <ul>
+<li>thinking about software</li><ul><li>
+++++
+link:3-related-ideas-26[3 related ideas]
+++++
+</li>
+<li>
+++++
+link:the-deliberate-practice-guide-outline-28[the deliberate practice guide - outline]
+++++
+</li>
+<li>
+++++
+link:research-deliberate-practice-existing-resources-29[research deliberate practice existing resources]
+++++
+</li>
+<li>
+++++
+link:2-core-ideas-31[2 core ideas]
+++++
+</li>
+<li>
+++++
+link:success-metrics-32[success metrics]
+++++
+</li>
+
+<li>deliberate practice resources for software engineers</li><ul><li>
+++++
+link:vision-34[vision]
+++++
+</li>
+</ul>
+<li>accelerate software development cycle</li><ul></ul></ul>
 <li>cliweb</li><ul>
 <li>brainstorming</li><ul><li>
 ++++
@@ -53,34 +86,6 @@ link:roadmap-33[roadmap]
 ++++
 </li>
 </ul>
-<li>thinking about software</li><ul><li>
-++++
-link:3-related-ideas-26[3 related ideas]
-++++
-</li>
-<li>
-++++
-link:the-deliberate-practice-guide-outline-28[the deliberate practice guide - outline]
-++++
-</li>
-<li>
-++++
-link:research-deliberate-practice-existing-resources-29[research deliberate practice existing resources]
-++++
-</li>
-<li>
-++++
-link:2-core-ideas-31[2 core ideas]
-++++
-</li>
-<li>
-++++
-link:success-metrics-32[success metrics]
-++++
-</li>
-
-<li>deliberate practice resources for software engineers</li><ul></ul>
-<li>accelerate software development cycle</li><ul></ul></ul>
 <li>mouseless</li><ul><li>
 ++++
 link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]

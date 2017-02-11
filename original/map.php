@@ -2,6 +2,20 @@
 
 $map = [
 
+
+    'thinking about software'  => [
+        '3 related ideas'                                      => '26',
+        'the deliberate practice guide - outline'              => '28',
+        'research deliberate practice existing resources'      => '29',
+        '2 core ideas'                                         => '31',
+        'success metrics'                                      => '32',
+        'deliberate practice resources for software engineers' => [
+            'vision' => '34',
+        ],
+        'accelerate software development cycle'                => [
+        ],
+    ],
+
     'cliweb'                   => [
         'brainstorming' => [
             'vision'                                 => '20',
@@ -11,24 +25,8 @@ $map = [
             'deciding on key metrics'                => '24',
             'future of OSS'                          => '25',
         ],
-        'roadmap' => '33',
+        'roadmap'       => '33',
     ],
-
-    'thinking about software'  => [
-        '3 related ideas'                                      => '26',
-        'the deliberate practice guide - outline'              => '28',
-        'research deliberate practice existing resources'      => '29',
-        '2 core ideas'                                         => '31',
-        'success metrics'                                      => '32',
-
-        'deliberate practice resources for software engineers' => [
-        ],
-
-        'accelerate software development cycle'                => [
-        ],
-    ],
-
-
 
     'mouseless'                => [
         'me and the keyboard. a love story.' => '8',

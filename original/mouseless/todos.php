@@ -8,6 +8,7 @@ $todos = [
             'fix review below',
             'fix TODOs left in code + docs',
 // TODO(hbt) NEXT migrate commands from config such as copyDescription -- custom functions as new commands + log ticket
+            'pick next tickets',
 
 
             'next week' => [
