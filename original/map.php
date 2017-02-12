@@ -13,7 +13,6 @@ $map = [
         ],
         'deliberate practice resources for software engineers' => [
             'vision' => '34',
-            // TODO(hbt) NEXT inv deliberate practice app
             // TODO(hbt) NEXT mvp / roadmap / path  / marketing
             // TODO(hbt) NEXT read more on deliberate practice and really understand it -- differnece with purposeful practice
             // TODO(hbt) NEXT create system overview + metrics / lead/lag + features/experiments and goals
@@ -21,6 +20,7 @@ $map = [
             'market analysis' => '36',
             'monetization' => '38',
             'mvp' => '35',
+            'roadmap' => '39',
         ],
     ],
 

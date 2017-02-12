@@ -52,20 +52,12 @@ This means the site must have:
 
 == Monetization
 
-- the most obvious is sponsored tools / advertisement
-- related businesses promoted (aka content marketing)
-- mentorship/mentee for people who achieved a particular strategy or are working on getting there. / could translate to job board / consulting
-- a new type of resume / gamification aspect where skills are completed and measured + displayed as public profile
-- applied to companies / official projects -- step by step on how to master a product and measured completion + resources (e.g complex products like mouseless with a great learning where a deliberate practice hub api is provided)
+moved to 38
 
 
 == roadmap
 
-. determine mvp and data structures (mostly content at this point)
-. focus on software development and build high value strategies/content
-. extend to other areas of interests (e.g nutrition, intelligence, health quantification)
-. api idea for gamification + deliberate practice -- knowledge tree / skills tree type thing . maybe even with unlocks, achievements etc. 
-
+39
 
 == design brainstorming
 

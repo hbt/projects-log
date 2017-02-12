@@ -1,0 +1,33 @@
+== metrics
+
+. sponsored content
+.. visitors 
+... high value content
+.. contributions
+... quick response time for pull requests
+
+== mvp 
+
+// TODO(hbt) NEXT find pattern
+. list resources
+
+== marketing mvp to get feedback + contributions
+
+. flag as awesome list + get on awesome -- find other lists to get traction
+. collect emails / twitter / github stars for followups
+. have website + list of features/roadmap
+
+== tracking
+
+. star/watch/notify skills 
+. mark skills as mastered
+
+== 
+
+
+== reorg
+
+. determine mvp and data structures (mostly content at this point)
+. focus on software development and build high value strategies/content
+. extend to other areas of interests (e.g nutrition, intelligence, health quantification)
+. api idea for gamification + deliberate practice -- knowledge tree / skills tree type thing . maybe even with unlocks, achievements etc. 

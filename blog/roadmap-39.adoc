@@ -1,0 +1,55 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== roadmap-39
+
+
+
+== metrics
+
+. sponsored content
+.. visitors 
+... high value content
+.. contributions
+... quick response time for pull requests
+
+== mvp 
+
+// TODO(hbt) NEXT find pattern
+. list resources
+
+== marketing mvp to get feedback + contributions
+
+. flag as awesome list + get on awesome -- find other lists to get traction
+. collect emails / twitter / github stars for followups
+. have website + list of features/roadmap
+
+== tracking
+
+. star/watch/notify skills 
+. mark skills as mastered
+
+== 
+
+
+== reorg
+
+. determine mvp and data structures (mostly content at this point)
+. focus on software development and build high value strategies/content
+. extend to other areas of interests (e.g nutrition, intelligence, health quantification)
+. api idea for gamification + deliberate practice -- knowledge tree / skills tree type thing . maybe even with unlocks, achievements etc. 
