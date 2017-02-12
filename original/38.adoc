@@ -19,7 +19,9 @@ build audience to promote related businesses/projects (turning the site into con
 
 == mentorship
 
-// TODO(hbt) NEXT inv exist sites
+. existing sites
+.. https://hackhands.com/how-it-works/
+.. https://www.codementor.io/u/dashboard
 
 == mastered skills display
 

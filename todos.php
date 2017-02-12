@@ -2,6 +2,7 @@
 
 $m = [
     'top' => [
+        'fix post title -- e.g http://localhost:7075/sales-38 should be sales and not sales-38',
     ],
 
     'write on' => [

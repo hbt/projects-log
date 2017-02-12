@@ -13,6 +13,7 @@ $map = [
         ],
         'deliberate practice resources for software engineers' => [
             'vision' => '34',
+            // TODO(hbt) NEXT create system overview + metrics / lead/lag + features/experiments and goals
             'features/ideas list'  => '37',
             'market analysis' => '36',
             'sales' => '38',
