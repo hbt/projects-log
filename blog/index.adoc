@@ -60,7 +60,7 @@ link:market-analysis-36[market analysis]
 </li>
 <li>
 ++++
-link:sales-38[sales]
+link:monetization-38[monetization]
 ++++
 </li>
 <li>
