@@ -9,10 +9,14 @@ $map = [
         'research deliberate practice existing resources'      => '29',
         '2 core ideas'                                         => '31',
         'success metrics'                                      => '32',
+        'accelerate software development cycle'                => [
+        ],
         'deliberate practice resources for software engineers' => [
             'vision' => '34',
-        ],
-        'accelerate software development cycle'                => [
+            'features/ideas list'  => '37',
+            'market analysis' => '36',
+            'sales' => '38',
+            'mvp' => '35',
         ],
     ],
 

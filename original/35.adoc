@@ -1,0 +1,11 @@
+== goals of mvp
+
+. attract initial contributors for more content / resources -- ala awesome-XXX
+. gather list of interested visitors + ways to do followups (twitter,github stars, newsletter etc.)
+
+== core features
+
+. list of high value strategies
+. an attempt to organize content from beginner to advanced. providing a path / guidance
+. capture emails / or stars / watchers for followups and revisits
+. edit/fork me on github to encourage contributors from the start

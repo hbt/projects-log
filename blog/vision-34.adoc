@@ -20,6 +20,7 @@ link:index[Home]
 
 
 
+// TODO(hbt) NEXT review this file
 == Deliberate practice hub
 
 I want a site where there is a step by step roadmap on how to achieve expertise on a particular subject. 
@@ -37,6 +38,8 @@ This means the site must have:
 - clear feedback loop - 
 - list of existing resources/tools related to achieving strategy -- e.g flash cards software to learn apis, touch typing software to practice on the keyboard etc.
 - mentorship -- forums where people can ask those who achieved it 
+- mental representations -- thinking of vim as a language and finding common patterns
+- tagged resources
 
 
 == incentives
@@ -73,12 +76,20 @@ This means the site must have:
 . since the focus is on software, consider working around github, maybe gists?
 
 
-== sites
+== site names ideas
 
-. masteryjourney.com
+. masteryjourney.com *
 . expertjourney.com
 . deliberatepractice.io
-. dbhub.io
+. dphub.io
+
+== example
+
+touch type
+
+. why? - time spent searching for keys or looking at the keyboard. interrupts flow of thought. slows you down. 
+. metrics -
+. resources - touch type tools
+. tags - keyboard (view related - e.g mouseless browsing, ide keyboard shortcuts, terminal vim etc.)
 
 
-// TODO(hbt) NEXT integrates notes from todos -- acc-dev e.g mental representation and mentorships (peak book)

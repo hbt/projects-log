@@ -1,0 +1,61 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== sales-38
+
+
+
+
+== Monetization
+
+
+- the most obvious is sponsored tools / advertisement
+- related businesses promoted (aka content marketing)
+- mentorship/mentee for people who achieved a particular strategy or are working on getting there. / could translate to job board / consulting
+- a new type of resume / gamification aspect where skills are completed and measured + displayed as public profile
+- applied to companies / official projects -- step by step on how to master a product and measured completion + resources (e.g complex products like mouseless with a great learning where a deliberate practice hub api is provided)
+
+
+== sponsors / advertisement
+
+Need content + stream of visitor + sales to contact sponsors where we believe the conversion rate will be high
+
+== related businesses
+
+build audience to promote related businesses/projects (turning the site into content marketing?)
+
+== mentorship
+
+// TODO(hbt) NEXT inv exist sites
+
+== mastered skills display
+
+for resumes or for tracking progress (api for tools to send progress)
+jobs board where jobs list mastered skills instead of plain text vague statements
+similar to what stackshare has done for  technologies in use. apply to required skills 
+
+== api for custom pages 
+
+api to create a guide with list of skills and metrics/progress api users can plug into to measure their progress + mastery of a product
+e.g learning excel and providing tracking + feedback loop + forums related to each skill/step
+
+
+== test skills
+
+specific tools to test skills 
+interview process?

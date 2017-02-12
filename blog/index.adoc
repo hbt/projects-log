@@ -42,13 +42,33 @@ link:success-metrics-32[success metrics]
 ++++
 </li>
 
+<li>accelerate software development cycle</li><ul></ul>
 <li>deliberate practice resources for software engineers</li><ul><li>
 ++++
 link:vision-34[vision]
 ++++
 </li>
-</ul>
-<li>accelerate software development cycle</li><ul></ul></ul>
+<li>
+++++
+link:features-ideas-list-37[features/ideas list]
+++++
+</li>
+<li>
+++++
+link:market-analysis-36[market analysis]
+++++
+</li>
+<li>
+++++
+link:sales-38[sales]
+++++
+</li>
+<li>
+++++
+link:mvp-35[mvp]
+++++
+</li>
+</ul></ul>
 <li>cliweb</li><ul>
 <li>brainstorming</li><ul><li>
 ++++

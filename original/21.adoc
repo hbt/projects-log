@@ -49,6 +49,15 @@ Although a lot of what I want is the equivalent of distributed functions.
 . https://funktion.fabric8.io/
 . https://github.com/bigcompany/hook.io
 
+== interesting ui for faas
+
+. https://github.com/cantino/huginn
+. https://treeline.io/
+. https://news.ycombinator.com/item?id=13623852
+. https://states-language.net/spec.html
+. https://www.google.ca/search?q=finite+state+machine+library&oq=finite+state+machine+library&aqs=chrome..69i57j0l5.7704j0j4&sourceid=chrome&ie=UTF-8
+. https://jsplumbtoolkit.com/
+
 == faas frameworks
 
 . https://github.com/serverless/serverless

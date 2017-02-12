@@ -1,0 +1,18 @@
+
+== guideline
+
+. clear ROI on metrics
+. prioritized by highest ROI
+. more like experiments than features. should be easy to remove/revert/disable/toggle/deploy for target audience only etc.
+
+
+
+== features (reorg/review)
+
+. rename strategies to skills?
+. star / follow particular strategy and be notified of new tools / resources
+. track mastered skills - if already mastered, mark it as "mastered" 
+. define your path by starring strategies and marking them as done. Compare paths with others and fork when needed
+. ipaas with tools to measure progress and display
+. display public profile of mastered skills, wip and tbd
+. display this list of enhancements and get people to upvote the ones they want implemented
