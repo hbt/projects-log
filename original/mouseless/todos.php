@@ -4,8 +4,8 @@ $todos = [
     'top'                                           => [
 
         'next' => [
+            '76',
 
-            'mouseless check todos +  82 83 81 76',
             'pick next tickets',
 
 
@@ -27,7 +27,19 @@ $todos = [
             'update changelog',
             'add to docs/thanks',
             'update docs/commands',
+            'asciidocs',
         ],
+    ],
+
+    'commit checklist' => [
+        'commit on dev',
+        'commit msg contains ticket number',
+        'update commands.adoc/settings.adoc',
+        'update changelog',
+        'asciidocs',
+        'review diff',
+        'push',
+        'close ticket',
     ],
 
 ];
