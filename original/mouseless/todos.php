@@ -5,9 +5,7 @@ $todos = [
 
         'next' => [
 
-            'fix review below',
-            'fix TODOs left in code + docs',
-// TODO(hbt) NEXT migrate commands from config such as copyDescription -- custom functions as new commands + log ticket
+            'mouseless check todos +  82 83 81 76',
             'pick next tickets',
 
 
@@ -19,7 +17,7 @@ $todos = [
     ],
 
     'weekly checklist'                              => [
-        'review forks -- last count 119',
+        'review forks -- last count 118',
         'review commits + merge ',
         'merge' => [
             'checkout ',
@@ -32,39 +30,5 @@ $todos = [
         ],
     ],
 
-    'review this stuff ... some of it already done' => [
-
-        'new branches'                                                       => [
-            'create master / dev -- master = stable, dev = active dev',
-            'create google-store branch .. without the chrome// stuff',
-            'document branches',
-        ],
-        'polish existing features implementation',
-        'get contributors to spread maintenance load + generate serependity' => [
-            'improve documentation'                        => [
-                'fix readme',
-                'add help page listing commands and descriptions',
-                'add wiki for examples of css cvim, configs, custom functions, website configurations,',
-                'get github-pages' => [
-                    'what is it',
-                    'targeted audience at this stage',
-                    'alternatives',
-                    'commands',
-                    'how to contribute' => [
-                        'answer user questions',
-                        'pull requests',
-                        'spread the word to the right audience',
-                    ],
-                    'wiki',
-                    'faq',
-                ],
-                'create releases - zip files / tag for easy download',
-            ],
-
-            'contact watchers / forkers / pull requesters' => [
-
-            ],
-        ],
-    ],
 ];
 ?>
