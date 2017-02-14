@@ -13,14 +13,16 @@ $map = [
         ],
         'deliberate practice resources for software engineers' => [
             'vision' => '34',
-            // TODO(hbt) NEXT read more on deliberate practice and really understand it -- differnece with purposeful practice
             // TODO(hbt) NEXT mvp / roadmap / path  / marketing
             // TODO(hbt) NEXT create system overview + metrics / lead/lag + features/experiments and goals
             'features/ideas list'  => '37',
-            'market analysis' => '36',
+            // TODO(hbt) NEXT do market analysis as a brainstorming technique to find more ideas about the industry + understand different customer segments. no need to dig too deep at the moment
+//            'market analysis' => '36',
             'monetization' => '38',
             'mvp' => '35',
             'roadmap' => '39',
+            'marketing' => '41',
+            'prototype' => '40',
         ],
     ],
 
@@ -77,7 +79,7 @@ $map = [
     'business'                 => [
         // TODO(hbt) NEXT write incentives / philosophy
         // TODO(hbt) NEXT write brainstorming problems/solution
-        // TODO(hbt) NEXT write writing vision docs + what should be in them .. roadmap? 
+        // TODO(hbt) NEXT write writing vision docs + what should be in them .. roadmap?  - https://www.executestrategy.net/blog/write-good-vision-statement/
         // TODO(hbt) NEXT write business/market analysis 
         // TODO(hbt) NEXT mvp + design . 80/20, ROI
         'rambling' => [

@@ -1,0 +1,28 @@
+== reddit
+
+. https://www.reddit.com/r/learnprogramming/ has 300K. Take the top post + sidebar of recommend resources/FAQ
+. https://www.reddit.com/r/programming/ 700K
+. https://www.reddit.com/r/coding/
+. https://www.reddit.com/r/ProgrammerTIL/ 
+. https://www.reddit.com/r/AskProgramming/ any users posting on how to get better, improve and such. develop reputation.
+. https://www.reddit.com/r/web_design/
+. https://www.reddit.com/r/webdev/
+. other related subreddit list https://www.reddit.com/r/learnprogramming/wiki/index#wiki_miscellaneous
+
+
+== HN
+
+. SHOW HN tag. Find the best time. Hit or miss.
+. parrot on releveant discussions
+
+
+== Featured niche articles that appear high on SEO
+
+. http://lifehacker.com/the-best-resources-to-learn-to-code-1517844722
+. quora
+. stackoverflow and niche stack sites
+
+== niche sites to learn programming
+
+. http://codeforces.com/topic/48102/diff/en1/en2?locale=en
+. list of them https://www.slant.co/topics/965/~best-websites-to-learn-to-code

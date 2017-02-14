@@ -3,23 +3,17 @@
 $todos = [
 
 
-    'top'            => [
-        'do business analysis',
-        'vision - ',
-        'https://www.executestrategy.net/blog/write-good-vision-statement/',
+    'top'                 => [
         'determine mvp + roadmap',
 
 
-        'reorg todos',
-        'look into accdev end vision + target audience and monetization path',
-
-        'look into accdev outline',
-
-        'resources for deliberate practice',
-        'figure out vision, end result and metrics',
     ],
 
-    'roadmap accdev' => [
+    'deliberate practice' => [
+
+    ],
+
+    'roadmap accdev'      => [
         'get outline' => [
             // TODO(hbt) NEXT build outline of dev cycle + tools and some writing -- mainly for self for now
             'model based dev',
@@ -60,7 +54,7 @@ $todos = [
         ],
     ],
 
-    'reorg'          => [
+    'reorg'               => [
         'softwarestash'                                        => [
             'development cycle and existing tools -- like startupstash - braintstorm ways of eliminating/enhancing the step - clear up the goal behind the step. why do it ',
             'finding similar software ' => [

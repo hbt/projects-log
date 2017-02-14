@@ -28,9 +28,10 @@ link:index[Home]
 .. contributions
 ... quick response time for pull requests
 
+(moved to mindmap)
+
 == mvp 
 
-// TODO(hbt) NEXT find pattern
 . list resources
 
 == marketing mvp to get feedback + contributions
@@ -43,8 +44,6 @@ link:index[Home]
 
 . star/watch/notify skills 
 . mark skills as mastered
-
-== 
 
 
 == reorg

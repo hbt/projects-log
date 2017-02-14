@@ -42,8 +42,8 @@ build audience to promote related businesses/projects (turning the site into con
 == mentorship
 
 . existing sites
-.. https://hackhands.com/how-it-works/
-.. https://www.codementor.io/u/dashboard
+.. https://hackhands.com/how-it-works/ (paid stackoverflow version)
+.. https://www.codementor.io/u/dashboard (turned into freelancing)
 
 == mastered skills display
 

@@ -55,11 +55,6 @@ link:features-ideas-list-37[features/ideas list]
 </li>
 <li>
 ++++
-link:market-analysis-36[market analysis]
-++++
-</li>
-<li>
-++++
 link:monetization-38[monetization]
 ++++
 </li>
@@ -71,6 +66,16 @@ link:mvp-35[mvp]
 <li>
 ++++
 link:roadmap-39[roadmap]
+++++
+</li>
+<li>
+++++
+link:marketing-41[marketing]
+++++
+</li>
+<li>
+++++
+link:prototype-40[prototype]
 ++++
 </li>
 </ul></ul>

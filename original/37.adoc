@@ -16,3 +16,6 @@
 . ipaas with tools to measure progress and display
 . display public profile of mastered skills, wip and tbd
 . display this list of enhancements and get people to upvote the ones they want implemented
+
+
+also check  mind map ideas node
