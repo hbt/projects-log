@@ -73,7 +73,6 @@ $outline = [
     'increase the complexity slowly and keep it relevant'     => [
         'played games and understanding of simple program structures. if/logic/loop/modularity/systems thinking etc.',
         'start with simple programs and again keep it relevant to you. -- ',
-
     ],
 
     'build your tecksavvineess '                              => [
@@ -91,7 +90,6 @@ $outline = [
 
     'pick a language'                                         => [
         'now it gets serious. notice that many people jump to this step first then are completely overwhelmed by info, or stop caring or lose interest ',
-
         'how to master a language',
         'kata? meh -- good exploration',
         'understanding apis and function',
@@ -99,7 +97,6 @@ $outline = [
         'understanding the goal of a language, its history, why it was invented and maybe you are using the wrong one for your purposes',
         'start exploring the api',
         'getting excited at the possibilities',
-
         'recommend ruby, php but depends on goals',
     ],
 
@@ -114,7 +111,6 @@ $outline = [
         'api recall',
         'getting things done quicker',
         'you may think about the quality of your code but chances are you dont know what code quality is. it kinda feels right to you -- add quote about producing shit and not giving up',
-
         'introspect' => [
             'think about your work, how could you improve and realize youre most likely wrong but should still explore it. ',
         ],
@@ -123,8 +119,6 @@ $outline = [
     'improve your writing'                                    => [
         'keep a journal of your progress and record your ideas, how to improve, etc. -- add link to projects-log',
         'dont be embarassed by your work, build social resilience and share your stuff.',
-
-
     ],
 
     'unrelated skills that still matter / personal development'                      => [

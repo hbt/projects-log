@@ -20,15 +20,123 @@ link:index[Home]
 
 
 
+goal 
+. intelligence definition 
+. reduce time , eleminate waste (by removing) instead of focusing on increasing productivity (by adding)
+
+
 motivation
-building mindset
-problem solving
-zapier like tools and automate
-learn to program
+. desire to self improve, extend your mind, information processing, automation, gain perspective, empower yourself
+. motivation videos related to programming
+.. finding things to automate - zapier + alternatives + android automation kits
+.. excel / google spreadsheets / forms
+.. applying to domains/hobbies/topics in your life - connect to hobby e.g nutrition, biology, time management, politics etc.
+.. create long term goals and break them into 25m chunks fitting a plan. adjust and move
+.. focus on problems you are experiencing and how to break them down and solve them in chunks
+.. 80/20 ROI mindset pomodoro
+. 'build it through tv shows, science fiction, visiting museums, youtube videos, cultural movements (e.g transhumanism), books etc.',
+.. study other stem fields to acquire domain knowledge and apply your programming skills
+'repetitive actions',
+building simple program to manage your daily life -- simple algorithm. how to do the dishes, checklist on cleaning your house etc.',
+    'increase the complexity slowly and keep it relevant'     => [
+        'played games and understanding of simple program structures. if/logic/loop/modularity/systems thinking etc.',
+        'start with simple programs and again keep it relevant to you. -- ',
+    ],
+. be systematic in your work and look for patterns where there is waste / room for automation / knowledge gaps worth investing    
+. investor mindset
+. fail quickly
 
-automate 
-connect to hobby e.g nutrition, biology, time management, politics etc.
 
-learn to google / use SO
+problem solving mindset
+. puzzle games
+. problem solving strategies
+.. not limited to programming / puzzle games - car simulation repair (diagnosing, thinking in systems, algorithmic steps, goal oriented, process oriented, domain relevant)
+
+
+systems thinking and algorithmic thinking
+. building systems
+. thinking in systems
+
+learn to type
+
 
 learn english
+.. tv shows / movies subtitles
+.. google translate pages
+.. comic books
+.. reddit + online communities
+
+learn to google 
+.. google search tips
+.. use SO
+
+master most used applications
+. terminal
+.. bash/zsh/fish
+.. dotfiles management
+.. customization
+.. useful utilities and aliases
+. browser
+. editor
+
+version control
+
+learn a language
+    'pick a language'                                         => [
+        'now it gets serious. notice that many people jump to this step first then are completely overwhelmed by info, or stop caring or lose interest ',
+        'how to master a language',
+        'kata? meh -- good exploration',
+        'understanding apis and function',
+        'understanding different programming paradigms and ways of thinking and structuring',
+        'understanding the goal of a language, its history, why it was invented and maybe you are using the wrong one for your purposes',
+        'start exploring the api',
+        'getting excited at the possibilities',
+        'recommend ruby, php but depends on goals',
+    ],
+    
+code quality
+    learning from writers - picking your style and improving
+    readability books
+    
+    
+'improve your writing'                                    => [
+    'keep a journal of your progress and record your ideas, how to improve, etc. -- add link to projects-log',
+    'dont be embarassed by your work, build social resilience and share your stuff.',
+],
+
+master php/x
+. language and its history -- pick the right tool
+. community
+. core language
+. api 
+. ecosystem
+. frameworks 
+
+
+
+building portfolio / resume
+
+jobs
+. getting noticed
+    'demonstrating you can create value',
+    'target dont spam',
+. applying 
+. interview
+. delivering 
+. compensation
+. 
+
+
+'improve your writing'                                    => [
+    'keep a journal of your progress and record your ideas, how to improve, etc. -- add link to projects-log',
+    'dont be embarassed by your work, build social resilience and share your stuff.',
+],
+
+
+
+
+======
+
+
+
+
