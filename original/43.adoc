@@ -1,0 +1,7 @@
+I don't know if I should have jumped to the prototype right away. 
+
+Doing the market analysis + research helped me find niche communities like r/learnprogramming, freecodecamp, read several posts on how beginners are struggling and find tons of resources for beginners.
+
+If I jumped directly to prototype, I would have written a lot of text that is repetitive and it would be yet another resource online amongst many with some original content but mostly redundant stuff.
+
+I do think however spending too much time on brainstorming features + monetization was kind of a waste. However, I did not feel comfortable pushing the project without that brainstorming. It felt like working on a deadend or small task that was going nowhere. I needed a long term vision to fuel the short term goals. 

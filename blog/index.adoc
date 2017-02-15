@@ -75,7 +75,17 @@ link:marketing-41[marketing]
 </li>
 <li>
 ++++
-link:prototype-40[prototype]
+link:prototype-content-40[prototype content]
+++++
+</li>
+<li>
+++++
+link:conclusion-42[conclusion]
+++++
+</li>
+<li>
+++++
+link:lessons-learned-43[lessons learned]
 ++++
 </li>
 </ul></ul>

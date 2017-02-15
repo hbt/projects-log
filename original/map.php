@@ -16,6 +16,7 @@ $map = [
             // TODO(hbt) NEXT think about the trust system idea to make it scale -- using merge/commit-tracking/forking -- linux style 
             // TODO(hbt) NEXT mvp / roadmap / path  / marketing
             // TODO(hbt) NEXT create system overview + metrics / lead/lag + features/experiments and goals
+            // TODO(hbt) NEXT inv fake news trust
             'features/ideas list'  => '37',
             // TODO(hbt) NEXT do market analysis as a brainstorming technique to find more ideas about the industry + understand different customer segments. no need to dig too deep at the moment
 //            'market analysis' => '36',
@@ -23,7 +24,9 @@ $map = [
             'mvp' => '35',
             'roadmap' => '39',
             'marketing' => '41',
-            'prototype' => '40',
+            'prototype content' => '40',
+            'conclusion' => '42',
+            'lessons learned' => '43',
         ],
     ],
 

@@ -1,0 +1,26 @@
+I find the content in the prototype redundant. 
+
+The problem with deliberate practice site is the amount of granularity and hand holding.
+For example, freecodecamp qualifies as deliberate practice. You pick a specific skill like HTML then go through a series of steps, with feedback, metrics and other gamification aspects to master that chunk. At the end, you accumulated enough chunks and know html.
+
+Where to go from there?
+
+That really depends on your goals. Do you want to dig deeper beyond html and learn html5? what about css? what about improving the quality of your html by using linters and such? what about the text editor and having autocomplete?
+
+There are tons of improvements to make because even something as simple as html, is a process with a lot of steps, tools etc. all of which could be improved; especially for beginners. 
+
+
+Now where would you go to even think about that? Something like https://github.com/sindresorhus/awesome is a great resource. 
+It also scales well. Trusted maintainers to link/pull from, standard format (quality control), minimal complexity (e.g the scala maintainer handles pull requests on scala, not you)
+
+
+I think the resources for deliberate practice are there but because goals vary widly when it comes to cognitive tasks, it is difficult to organize content and determine what would be in the someone's best interest to improve skill xyz. 
+
+
+
+== future / improvements
+
+I really like https://github.com/sindresorhus/awesome and extending it to other topics would be fantastic. 
+A list of curated resources for specific subjects. The problem with google is the lack of exploration/discovery. 
+This is somewhat similar to bookmarking systems though. 
+
