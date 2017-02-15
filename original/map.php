@@ -13,6 +13,7 @@ $map = [
         ],
         'deliberate practice resources for software engineers' => [
             'vision' => '34',
+            // TODO(hbt) NEXT think about the trust system idea to make it scale -- using merge/commit-tracking/forking -- linux style 
             // TODO(hbt) NEXT mvp / roadmap / path  / marketing
             // TODO(hbt) NEXT create system overview + metrics / lead/lag + features/experiments and goals
             'features/ideas list'  => '37',
