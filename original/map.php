@@ -3,33 +3,6 @@
 $map = [
 
 
-    'thinking about software'  => [
-        '3 related ideas'                                      => '26',
-        'the deliberate practice guide - outline'              => '28',
-        'research deliberate practice existing resources'      => '29',
-        '2 core ideas'                                         => '31',
-        'success metrics'                                      => '32',
-        'accelerate software development cycle'                => [
-        ],
-        'deliberate practice resources for software engineers' => [
-            'vision' => '34',
-            // TODO(hbt) NEXT think about the trust system idea to make it scale -- using merge/commit-tracking/forking -- linux style 
-            // TODO(hbt) NEXT mvp / roadmap / path  / marketing
-            // TODO(hbt) NEXT create system overview + metrics / lead/lag + features/experiments and goals
-            // TODO(hbt) NEXT inv fake news trust
-            'features/ideas list'  => '37',
-            // TODO(hbt) NEXT do market analysis as a brainstorming technique to find more ideas about the industry + understand different customer segments. no need to dig too deep at the moment
-//            'market analysis' => '36',
-            'monetization' => '38',
-            'mvp' => '35',
-            'roadmap' => '39',
-            'marketing' => '41',
-            'prototype content' => '40',
-            'conclusion' => '42',
-            'lessons learned' => '43',
-        ],
-    ],
-
     'cliweb'                   => [
         'brainstorming' => [
             'vision'                                 => '20',
@@ -41,6 +14,30 @@ $map = [
         ],
         'roadmap'       => '33',
     ],
+
+
+    'thinking about software'  => [
+        '3 related ideas'                                      => '26',
+        'the deliberate practice guide - outline'              => '28',
+        'research deliberate practice existing resources'      => '29',
+        '2 core ideas'                                         => '31',
+        'success metrics'                                      => '32',
+        // TODO(hbt) NEXT revisit idea -- quick blog/curated list/ process flow idnetification
+        'accelerate software development cycle'                => [
+        ],
+        'deliberate practice resources for software engineers' => [
+            'vision'              => '34',
+            'features/ideas list' => '37',
+            'monetization'        => '38',
+            'mvp'                 => '35',
+            'roadmap'             => '39',
+            'marketing'           => '41',
+            'prototype content'   => '40',
+            'conclusion'          => '42',
+            'lessons learned'     => '43',
+        ],
+    ],
+
 
     'mouseless'                => [
         'me and the keyboard. a love story.' => '8',

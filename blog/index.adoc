@@ -16,6 +16,43 @@
 
 ++++
 <ul>
+<li>cliweb</li><ul>
+<li>brainstorming</li><ul><li>
+++++
+link:vision-20[vision]
+++++
+</li>
+<li>
+++++
+link:research-and-investigate-similar-ideas-21[research and investigate similar ideas]
+++++
+</li>
+<li>
+++++
+link:redefining-vision-22[redefining vision]
+++++
+</li>
+<li>
+++++
+link:brainstorming-prototype-23[brainstorming prototype]
+++++
+</li>
+<li>
+++++
+link:deciding-on-key-metrics-24[deciding on key metrics]
+++++
+</li>
+<li>
+++++
+link:future-of-oss-25[future of OSS]
+++++
+</li>
+</ul><li>
+++++
+link:roadmap-33[roadmap]
+++++
+</li>
+</ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]
@@ -89,43 +126,6 @@ link:lessons-learned-43[lessons learned]
 ++++
 </li>
 </ul></ul>
-<li>cliweb</li><ul>
-<li>brainstorming</li><ul><li>
-++++
-link:vision-20[vision]
-++++
-</li>
-<li>
-++++
-link:research-and-investigate-similar-ideas-21[research and investigate similar ideas]
-++++
-</li>
-<li>
-++++
-link:redefining-vision-22[redefining vision]
-++++
-</li>
-<li>
-++++
-link:brainstorming-prototype-23[brainstorming prototype]
-++++
-</li>
-<li>
-++++
-link:deciding-on-key-metrics-24[deciding on key metrics]
-++++
-</li>
-<li>
-++++
-link:future-of-oss-25[future of OSS]
-++++
-</li>
-</ul><li>
-++++
-link:roadmap-33[roadmap]
-++++
-</li>
-</ul>
 <li>mouseless</li><ul><li>
 ++++
 link:me-and-the-keyboard-a-love-story-8[me and the keyboard. a love story.]
