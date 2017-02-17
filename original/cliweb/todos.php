@@ -2,8 +2,9 @@
 
 $t = [
     'top' => [
+        'add mindmap + log idea from 44 amongst others',
+        'add github experiment with webtask then try the docker like ones ironworker faas + serverless + kubernetes? -- check 21 links',
         'think about design of php/ruby/js docker service for strings and how to add new functions and make them available as services',
-        'add mindmap',
     ],
 
     'experiments' => [
