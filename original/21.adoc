@@ -27,7 +27,7 @@ Although a lot of what I want is the equivalent of distributed functions.
 . https://cloud.google.com/dataflow/
 
 
-== link aggregators tracking zappo alternatives
+== link aggregators tracking zapier alternatives
 
 . ipaas - integration platform as a service. https://www.google.ca/search?q=ipaas&oq=ipaas&aqs=chrome..69i57j0l5.1093j0j4&sourceid=chrome&ie=UTF-8
 . https://www.getapp.com/it-management-software/a/zapier/alternatives
@@ -36,12 +36,17 @@ Although a lot of what I want is the equivalent of distributed functions.
 
 
 
-== differentiators from zappo and others
+== differentiators from zapier and others
 
 . focus on open source tools, easy access, publishing + monetization instead of hooking to company xyz API
 . focus on developers workflow (writing, publishing, testing, monetizing) -- plenty of room since most companies dont cater to developers, especially OSS
 . focus on customer workflow (easy creation, billing, managing etc.) -- no major differentiators there and should be done later
 . easy site / app building  -- late
+
+== oss zapier ifttt 
+
+. https://github.com/muesli/beehive
+. https://github.com/cantino/huginn
 
 == faas services
 

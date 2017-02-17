@@ -52,6 +52,11 @@ link:future-of-oss-25[future of OSS]
 link:roadmap-33[roadmap]
 ++++
 </li>
+<li>
+++++
+link:experiments-44[experiments]
+++++
+</li>
 </ul>
 <li>thinking about software</li><ul><li>
 ++++

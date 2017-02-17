@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>research-and-investigate-similar-ideas-21</title>
+<title>experiments-44</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -510,287 +510,62 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_research_and_investigate_similar_ideas_21">research-and-investigate-similar-ideas-21</h2>
+<h2 id="_experiments_44">experiments-44</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gist_of_experiment">Gist of experiment</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>I&#8217;d like to investigate similar ideas before even thinking about the technical design.</p>
+<p>A quick experiment centered around this idea is to build an awk equivalent utility tool.</p>
 </div>
 <div class="paragraph">
-<p>Maybe it can be built on top of Zapier or an existing platform instead of building everything from scratch.</p>
+<p>It would be available via the cli, you can transform strings like linux pipe commands and using multiple functions or straight up using the php wrapper.</p>
 </div>
 <div class="paragraph">
-<p>Although a lot of what I want is the equivalent of distributed functions.</p>
+<p>You should also be able to add new functions, publish them and make them available in the cloud.</p>
+</div>
+<div class="paragraph">
+<p>Limiting data type to strings only for now.</p>
+</div>
+<div class="paragraph">
+<p>There are already tools to provide faas. see if those can be reused + wrapped up and built upon. This way, I can focus on the wrapper instead of services + infrastructure.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_alternatives_to_zapier">alternatives to zapier</h2>
+<h2 id="_flow">flow</h2>
 <div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Zapier <a href="https://zapier.com/" class="bare">https://zapier.com/</a></p>
+<p>add function that inserts block of text between 2 identified blocks &#8201;&#8212;&#8201;regex example <a href="http://www.perlmonks.org/?node_id=7633" class="bare">http://www.perlmonks.org/?node_id=7633</a></p>
 </li>
 <li>
-<p>mulesoft <a href="https://www.mulesoft.com/" class="bare">https://www.mulesoft.com/</a></p>
+<p>publish version on cloud</p>
 </li>
 <li>
-<p>workato <a href="https://www.workato.com/" class="bare">https://www.workato.com/</a></p>
+<p>write fh wrapper for cloud calls and multi strings functions</p>
 </li>
 <li>
-<p>built.io <a href="https://www.built.io/" class="bare">https://www.built.io/</a></p>
-</li>
-<li>
-<p>automate.io <a href="https://automate.io/" class="bare">https://automate.io/</a></p>
-</li>
-<li>
-<p><a href="https://www.integromat.com/en/" class="bare">https://www.integromat.com/en/</a></p>
-</li>
-<li>
-<p><a href="https://bip.io/" class="bare">https://bip.io/</a></p>
-</li>
-<li>
-<p><a href="https://fr8.co/" class="bare">https://fr8.co/</a></p>
-</li>
-<li>
-<p><a href="https://www.cloudpipes.com/" class="bare">https://www.cloudpipes.com/</a></p>
-</li>
-<li>
-<p><a href="https://cloudwork.com/" class="bare">https://cloudwork.com/</a></p>
-</li>
-<li>
-<p><a href="https://www.elastic.io/" class="bare">https://www.elastic.io/</a></p>
-</li>
-<li>
-<p>yahoo pipes</p>
-</li>
-<li>
-<p><a href="https://skyvia.com/data-integration/" class="bare">https://skyvia.com/data-integration/</a></p>
-</li>
-<li>
-<p><a href="http://proces.io/" class="bare">http://proces.io/</a></p>
-</li>
-<li>
-<p><a href="https://azuqua.com/" class="bare">https://azuqua.com/</a></p>
-</li>
-<li>
-<p><a href="https://flow.microsoft.com/en-us/" class="bare">https://flow.microsoft.com/en-us/</a></p>
-</li>
-<li>
-<p><a href="https://cloud.google.com/dataflow/" class="bare">https://cloud.google.com/dataflow/</a></p>
+<p>cat file | fh "function_call('bl_start', 'bl_end', 'insert_text').trim()"</p>
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_link_aggregators_tracking_zapier_alternatives">link aggregators tracking zapier alternatives</h2>
+<h2 id="_tools">tools</h2>
 <div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>ipaas - integration platform as a service. <a href="https://www.google.ca/search?q=ipaas&amp;oq=ipaas&amp;aqs=chrome..69i57j0l5.1093j0j4&amp;sourceid=chrome&amp;ie=UTF-8" class="bare">https://www.google.ca/search?q=ipaas&amp;oq=ipaas&amp;aqs=chrome..69i57j0l5.1093j0j4&amp;sourceid=chrome&amp;ie=UTF-8</a></p>
+<p><a href="http://swagger.io/" class="bare">http://swagger.io/</a></p>
 </li>
 <li>
-<p><a href="https://www.getapp.com/it-management-software/a/zapier/alternatives" class="bare">https://www.getapp.com/it-management-software/a/zapier/alternatives</a></p>
-</li>
-<li>
-<p><a href="http://alternativeto.net/software/zapier/" class="bare">http://alternativeto.net/software/zapier/</a></p>
-</li>
-<li>
-<p>comparison + review tool <a href="https://comparisons.financesonline.com/zapier-vs-workato" class="bare">https://comparisons.financesonline.com/zapier-vs-workato</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_differentiators_from_zapier_and_others">differentiators from zapier and others</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>focus on open source tools, easy access, publishing + monetization instead of hooking to company xyz API</p>
-</li>
-<li>
-<p>focus on developers workflow (writing, publishing, testing, monetizing)&#8201;&#8212;&#8201;plenty of room since most companies dont cater to developers, especially OSS</p>
-</li>
-<li>
-<p>focus on customer workflow (easy creation, billing, managing etc.)&#8201;&#8212;&#8201;no major differentiators there and should be done later</p>
-</li>
-<li>
-<p>easy site / app building &#8201;&#8212;&#8201;late</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_oss_zapier_ifttt">oss zapier ifttt</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://github.com/muesli/beehive" class="bare">https://github.com/muesli/beehive</a></p>
-</li>
-<li>
-<p><a href="https://github.com/cantino/huginn" class="bare">https://github.com/cantino/huginn</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_faas_services">faas services</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://webtask.io/" class="bare">https://webtask.io/</a></p>
-</li>
-<li>
-<p><a href="https://funktion.fabric8.io/" class="bare">https://funktion.fabric8.io/</a></p>
-</li>
-<li>
-<p><a href="https://github.com/bigcompany/hook.io" class="bare">https://github.com/bigcompany/hook.io</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_interesting_ui_for_faas">interesting ui for faas</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://github.com/cantino/huginn" class="bare">https://github.com/cantino/huginn</a></p>
-</li>
-<li>
-<p><a href="https://treeline.io/" class="bare">https://treeline.io/</a></p>
-</li>
-<li>
-<p><a href="https://news.ycombinator.com/item?id=13623852" class="bare">https://news.ycombinator.com/item?id=13623852</a></p>
-</li>
-<li>
-<p><a href="https://states-language.net/spec.html" class="bare">https://states-language.net/spec.html</a></p>
-</li>
-<li>
-<p><a href="https://www.google.ca/search?q=finite+state+machine+library&amp;oq=finite+state+machine+library&amp;aqs=chrome..69i57j0l5.7704j0j4&amp;sourceid=chrome&amp;ie=UTF-8" class="bare">https://www.google.ca/search?q=finite+state+machine+library&amp;oq=finite+state+machine+library&amp;aqs=chrome..69i57j0l5.7704j0j4&amp;sourceid=chrome&amp;ie=UTF-8</a></p>
-</li>
-<li>
-<p><a href="https://jsplumbtoolkit.com/" class="bare">https://jsplumbtoolkit.com/</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_faas_frameworks">faas frameworks</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://github.com/serverless/serverless" class="bare">https://github.com/serverless/serverless</a></p>
-</li>
-<li>
-<p><a href="https://github.com/openwhisk/openwhisk" class="bare">https://github.com/openwhisk/openwhisk</a></p>
-</li>
-<li>
-<p><a href="https://www.iron.io/" class="bare">https://www.iron.io/</a></p>
-</li>
-<li>
-<p><a href="https://github.com/iron-io/functions" class="bare">https://github.com/iron-io/functions</a> <a href="https://www.iron.io/hot-functions-ironfunctions/" class="bare">https://www.iron.io/hot-functions-ironfunctions/</a></p>
-</li>
-<li>
-<p><a href="https://github.com/Miserlou/Zappa" class="bare">https://github.com/Miserlou/Zappa</a></p>
-</li>
-<li>
-<p><a href="https://github.com/skippbox/kubeless" class="bare">https://github.com/skippbox/kubeless</a></p>
-</li>
-<li>
-<p><a href="https://github.com/search?q=topic%3Aserverless-framework&amp;type=Repositories" class="bare">https://github.com/search?q=topic%3Aserverless-framework&amp;type=Repositories</a></p>
-</li>
-<li>
-<p><a href="https://github.com/search?q=topic%3Aserverless&amp;type=Repositories" class="bare">https://github.com/search?q=topic%3Aserverless&amp;type=Repositories</a></p>
-</li>
-<li>
-<p><a href="https://github.com/alexellis/faas" class="bare">https://github.com/alexellis/faas</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_containers">containers</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://www.iron.io/microcontainers-tiny-portable-containers/" class="bare">https://www.iron.io/microcontainers-tiny-portable-containers/</a></p>
-</li>
-<li>
-<p><a href="http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html" class="bare">http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html</a></p>
-</li>
-<li>
-<p>containers management <a href="https://kubernetes.io/" class="bare">https://kubernetes.io/</a></p>
-</li>
-<li>
-<p>dockerfy <a href="https://github.com/bfirsh/serverless-docker" class="bare">https://github.com/bfirsh/serverless-docker</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_people_who_wrote_about_it_and_get_it">People who wrote about it and get it</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>good faas review 2016 <a href="https://martinfowler.com/articles/serverless.html" class="bare">https://martinfowler.com/articles/serverless.html</a></p>
-</li>
-<li>
-<p><a href="http://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/" class="bare">http://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/</a></p>
-</li>
-<li>
-<p>perfect explanation of the problem and solution <a href="http://pchiusano.github.io/2013-05-22/future-of-software.html" class="bare">http://pchiusano.github.io/2013-05-22/future-of-software.html</a>  Applications can and ultimately should be replaced by programming environments, explicitly recognized as such, in which the user interactively creates, executes, inspects and composes programs. In this model, interaction with the computer is fundamentally an act of creation, the creative act of programming, of assembling language to express ideas, access information, and automate tasks</p>
-</li>
-<li>
-<p>followup <a href="http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html" class="bare">http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html</a> <a href="http://unisonweb.org/2015-05-07/about.html" class="bare">http://unisonweb.org/2015-05-07/about.html</a></p>
-</li>
-<li>
-<p>subtext idea spreadsheet <a href="http://www.subtext-lang.org/" class="bare">http://www.subtext-lang.org/</a></p>
-</li>
-<li>
-<p>UI for programming <a href="http://worrydream.com/LearnableProgramming/" class="bare">http://worrydream.com/LearnableProgramming/</a></p>
-</li>
-<li>
-<p>eve programming <a href="http://witheve.com/" class="bare">http://witheve.com/</a></p>
-</li>
-<li>
-<p><a href="http://blog.cloud-elements.com/convergence-api-management-ipaas-ready" class="bare">http://blog.cloud-elements.com/convergence-api-management-ipaas-ready</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_conclusion">conclusion</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>ipaas etl serverless computing (function as a service faas) were the keywords I was looking for and describe the application domain</p>
-</li>
-<li>
-<p>multiple services exist but no where near what I want. Need to further review them if they can be built upon.</p>
-</li>
-<li>
-<p>focusing on end user apps is most likely the wrong way to go. It is necessary though but maybe easier to connect to an aggregator instead. Focus should be on OSS and software inacessible to most users (due to complex install, hidden features etc.)</p>
-</li>
-<li>
-<p>it should be as easy as a google input but gets things done.</p>
+<p><a href="https://webtask.io/cli#" class="bare">https://webtask.io/cli#</a></p>
 </li>
 </ol>
 </div>

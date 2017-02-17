@@ -1,0 +1,46 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== experiments-44
+
+
+
+== Gist of experiment 
+A quick experiment centered around this idea is to build an awk equivalent utility tool. 
+
+It would be available via the cli, you can transform strings like linux pipe commands and using multiple functions or straight up using the php wrapper. 
+
+You should also be able to add new functions, publish them and make them available in the cloud. 
+
+Limiting data type to strings only for now. 
+
+There are already tools to provide faas. see if those can be reused + wrapped up and built upon. This way, I can focus on the wrapper instead of services + infrastructure. 
+
+== flow
+
+. add function that inserts block of text between 2 identified blocks  -- regex example http://www.perlmonks.org/?node_id=7633
+. publish version on cloud
+. write fh wrapper for cloud calls and multi strings functions
+. cat file | fh "function_call('bl_start', 'bl_end', 'insert_text').trim()"
+
+== tools 
+
+. http://swagger.io/
+. https://webtask.io/cli#
+
+

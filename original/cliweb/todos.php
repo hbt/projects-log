@@ -2,9 +2,19 @@
 
 $t = [
     'top' => [
-        'add metrics and clarify',
-        // TODO(hbt) NEXT organize 21 and include bookmarks
-        'think about design of php docker service for strings',
+        'think about design of php/ruby/js docker service for strings and how to add new functions and make them available as services',
+        'add mindmap',
+    ],
+
+    'experiments' => [
+        'provide function as a service using existing tools',
+        'wrapper example' => [
+            'nodejs 2 functions replace and substring that support params',
+            'write ruby wrapper calling functions with webtask and accepting input',
+        ],
+        'webtask' => [
+            'replace webtask by something more flexible -- serverless? kubernetes?',
+        ],
     ],
 
     'prototype' => [
