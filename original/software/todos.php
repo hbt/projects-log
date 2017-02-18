@@ -15,7 +15,7 @@ $todos = [
 
     'roadmap accdev'      => [
         'get outline' => [
-            // TODO(hbt) NEXT build outline of dev cycle + tools and some writing -- mainly for self for now
+            // TODO(hbt) build outline of dev cycle + tools and some writing -- mainly for self for now
             'model based dev',
             'requirements engineering',
             'http://blog.prof.so/2012/05/top-10-software-engineering-challenges.html',

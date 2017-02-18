@@ -20,7 +20,6 @@ link:index[Home]
 
 
 
-// TODO(hbt) NEXT review this file -- some info copied / broken down into other files e.g monetization. less of vision doc and more brainstorming
 == Deliberate practice hub
 
 I want a site where there is a step by step roadmap on how to achieve expertise on a particular subject. 

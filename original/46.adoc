@@ -1,0 +1,2 @@
+
+. local fh -- based on the functions you use in your program, create a docker image with all of them for local use to acc speed

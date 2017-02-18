@@ -24,7 +24,7 @@ link:vision-20[vision]
 </li>
 <li>
 ++++
-link:research-and-investigate-similar-ideas-21[research and investigate similar ideas]
+link:research-and-bookmarks-21[research and bookmarks]
 ++++
 </li>
 <li>
@@ -47,14 +47,24 @@ link:deciding-on-key-metrics-24[deciding on key metrics]
 link:future-of-oss-25[future of OSS]
 ++++
 </li>
-</ul><li>
+<li>
 ++++
-link:roadmap-33[roadmap]
+link:take-over-the-world-45[take over the world]
 ++++
 </li>
 <li>
 ++++
-link:experiments-44[experiments]
+link:ideas-dump-46[ideas dump]
+++++
+</li>
+</ul><li>
+++++
+link:investigate-faas-frameworks-and-tools-44[investigate faas frameworks and tools]
+++++
+</li>
+<li>
+++++
+link:roadmap-33[roadmap]
 ++++
 </li>
 </ul>

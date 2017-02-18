@@ -4,17 +4,19 @@ $map = [
 
 
     'cliweb'                   => [
-        'brainstorming' => [
-            'vision'                                 => '20',
-            'research and investigate similar ideas' => '21',
-            'redefining vision'                      => '22',
-            'brainstorming prototype'                => '23',
-            'deciding on key metrics'                => '24',
-            'future of OSS'                          => '25',
+        'brainstorming'                         => [
+            'vision'                  => '20',
+            'research and bookmarks'  => '21',
+            'redefining vision'       => '22',
+            'brainstorming prototype' => '23',
+            'deciding on key metrics' => '24',
+            'future of OSS'           => '25',
+            'take over the world'     => '45',
+            'ideas dump'              => '46',
         ],
-        'roadmap'       => '33',
-        'experiments'       => '44',
-        
+        'investigate faas frameworks and tools' => '44',
+        'roadmap'                               => '33',
+
     ],
 
 
@@ -24,7 +26,7 @@ $map = [
         'research deliberate practice existing resources'      => '29',
         '2 core ideas'                                         => '31',
         'success metrics'                                      => '32',
-        // TODO(hbt) NEXT revisit idea -- quick blog/curated list/ process flow idnetification
+        // TODO(hbt) revisit idea -- quick blog/curated list/ process flow idnetification
         'accelerate software development cycle'                => [
         ],
         'deliberate practice resources for software engineers' => [
@@ -80,11 +82,11 @@ $map = [
 
 
     'business'                 => [
-        // TODO(hbt) NEXT write incentives / philosophy
-        // TODO(hbt) NEXT write brainstorming problems/solution
-        // TODO(hbt) NEXT write writing vision docs + what should be in them .. roadmap?  - https://www.executestrategy.net/blog/write-good-vision-statement/
-        // TODO(hbt) NEXT write business/market analysis 
-        // TODO(hbt) NEXT mvp + design . 80/20, ROI
+        // TODO(hbt) write incentives / philosophy
+        // TODO(hbt) write brainstorming problems/solution
+        // TODO(hbt) write writing vision docs + what should be in them .. roadmap?  - https://www.executestrategy.net/blog/write-good-vision-statement/
+        // TODO(hbt) write business/market analysis 
+        // TODO(hbt) mvp + design . 80/20, ROI
         'rambling' => [
             'not all business is worth it'             => '18',
             'when eat your own dog food stops working' => '19',

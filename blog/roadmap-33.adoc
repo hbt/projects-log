@@ -20,14 +20,42 @@ link:index[Home]
 
 
 
+
 == functions registry
 
-== strings prototype
+. map strings functions and provide as lambda or over ecs
+. registry supports dataType search / discovery 
+. limit to simple data types before introducing complex data structures (google protocol buffers)
+. registry contains
+.. function definition data types (in and out), parameters, function name, aliases, namespaces
+.. docs description, examples
+.. source code link, lambda/docker/ecs link, rest link
+.. function version
+.. nb times runs / issues reported (flagged not working) / comments / Q&A / nb users -- logging each time user runs a function
+.. price, execution time, resources consumed
+
+== php/ruby wrapper
+
+. can make chained commands
+
+== cli wrapper
+
+. similar ui to hook.io  - using unix pipes
+. supports chained commands 
 
 == UI
 
-== dockerfy
+. jsplumbkit or similar
+. ui reverse engineered from functions registry
 
-== faasify
+== user can create own functions
 
-== 
+. faasify - aws lambda / serverless
+. dockerfy complex services e.g youtube-dl
+
+== replicate youtube-dl workflow
+
+. fh client on local computer or dropbox?
+
+
+
