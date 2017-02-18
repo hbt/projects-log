@@ -22,7 +22,7 @@ There are already tools to provide faas. see if those can be reused + wrapped up
 . https://webtask.io/cli#
 
 
-== experiment 
+== experimenting with webtask
 
 wrote 2 functions with webtask. problem is limitations in the language, environment etc. 
 I need full flexibility and that means firing docker containers without whatever is inside of them.
@@ -34,19 +34,30 @@ Or maybe offer option for user to run on lowest or highest speed in the future.
 
 == more flexible tools to investigate
 
-// TODO(hbt) NEXT priotritize
-. https://github.com/fission/fission
-. https://github.com/iron-io/functions
-. https://github.com/alexellis/faas
-. https://github.com/serverless/serverless
-. https://github.com/bigcompany/hook.io
-. https://github.com/Stackvana/microcule
 
-// TODO(hbt) NEXT review more in 21
+
+. aws lambda https://aws.amazon.com/lambda/
+. aws ec2 container service https://aws.amazon.com/ecs/
+. https://github.com/serverless/serverless most popular 
+. Kubernetes https://en.wikipedia.org/wiki/Kubernetes#History https://kubernetes.io/ https://platform9.com/blog/compare-kubernetes-vs-ecs/
+. https://github.com/bigcompany/hook.io related to microcule
+. https://github.com/Stackvana/microcule functinos and processes
+. https://github.com/alexellis/faas package processes as functions
+. https://github.com/funktionio built on top of Kubernetes (but many languages?)
+. https://github.com/iron-io/functions functions only (but many languages?)
+. https://github.com/fission/fission functions only (nodeJS and python only) doesnt look well maintained (outdated docs and such)
+
 
 also check the topics tags for more
 . lambda
 . functions
 . serverless
 . functions-as-a-service
-. 
+
+Conclusion:
+
+Using aws lambda + ecs should cover all needs. ecs supports docker and orchestration like kubernetes + you get all the aws services. 
+lamba despite its limitations can be used for smaller functions.
+
+In addition, there is plenty of docs, support, community, tools etc. compared to other services. 
+It's easier to start with that than gamble on smaller startups and such

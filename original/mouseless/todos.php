@@ -17,7 +17,7 @@ $todos = [
     ],
 
     'weekly checklist'                              => [
-        'review forks -- last count 118',
+        'review forks -- last count 119',
         'review commits + merge ',
         'merge' => [
             'checkout ',
@@ -32,6 +32,7 @@ $todos = [
     ],
 
     'commit checklist' => [
+        'issue is elimnated and cannot be reopened',
         'commit on dev',
         'commit msg contains ticket number',
         'update commands.adoc/settings.adoc',
