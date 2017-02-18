@@ -3,7 +3,6 @@
 $t = [
     'top' => [
 
-        'fix ssl issue -- bak folder + delete from past month',
         'add mindmap + log idea from 44 amongst others',
         'marketing , metrics braintstorm',
 
