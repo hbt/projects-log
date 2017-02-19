@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/experiments-44.adoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/research-and-investigate-similar-ideas-21.adoc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/33.adoc" afterPath="$PROJECT_DIR$/original/33.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/34.adoc" afterPath="$PROJECT_DIR$/original/34.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/44.adoc" afterPath="$PROJECT_DIR$/original/44.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/experiments-44.html" afterPath="$PROJECT_DIR$/docs/experiments-44.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.adoc" afterPath="$PROJECT_DIR$/blog/index.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/roadmap-33.adoc" afterPath="$PROJECT_DIR$/blog/roadmap-33.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/roadmap-33.html" afterPath="$PROJECT_DIR$/docs/roadmap-33.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/software/todos.php" afterPath="$PROJECT_DIR$/original/software/todos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/vision-34.adoc" afterPath="$PROJECT_DIR$/blog/vision-34.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="" />
     <ignored path="projects-log.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
