@@ -4,9 +4,7 @@ $todos = [
     'top'                                           => [
 
         'next' => [
-            '72',
-            '80',
-            '76',
+            '95',
 
             'pick next tickets',
 
@@ -19,7 +17,7 @@ $todos = [
     ],
 
     'weekly checklist'                              => [
-        'review forks -- last count 119',
+        'review forks -- last count 121',
         'review commits + merge ',
         'check original fork' => [
             'git co 1995',
@@ -35,7 +33,7 @@ $todos = [
             'update changelog',
             'add to docs/thanks',
             'update docs/commands',
-            'asciidocs',
+            './scripts/generate-docs',
         ],
     ],
 
@@ -45,7 +43,7 @@ $todos = [
         'commit msg contains ticket number',
         'update commands.adoc/settings.adoc',
         'update changelog',
-        'asciidocs',
+        './scripts/generate-docs',
         'review diff',
         'push',
         'close ticket',
