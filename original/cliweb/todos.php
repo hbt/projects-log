@@ -1,6 +1,25 @@
 <?php
 
 $t = [
+
+    'reading' => [
+        'api evangelist' => [
+            'inv' => [
+                'https://apiblueprint.org/',
+                'http://swagger.io/',
+            ],
+
+            'notes' => [
+                'documentation - examples, request help (jobs)',
+                'uptime/availability',
+                'exploration/console (google)',
+                'auth management of 3rd party services (zapier)',
+                'support - report unexpected output',
+                'stats and mangement - apigee, 3scale, mashape, mashery',
+            ],
+        ]
+    ],
+    
     'top' => [
 
         'add mindmap + log idea from 44 amongst others',
@@ -45,7 +64,7 @@ $t = [
 
     'inv differentiators' => [
         '.g publishing services',
-        'api managers 3scale, mashery, monkey',
+        'api managers 3scale, mashery, mashape api marketplace',
         'nanopay',
         'protocol buffers',
         'review api evangelist blog',
