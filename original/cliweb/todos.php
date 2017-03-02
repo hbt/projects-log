@@ -2,50 +2,63 @@
 
 $t = [
 
-    'reading' => [
-        'api evangelist' => [
-            'inv' => [
+    'reading'             => [
+        'api evangelist'  => [
+            'inv'   => [
                 'https://apiblueprint.org/',
                 'http://swagger.io/',
             ],
 
             'notes' => [
-                'documentation - examples, request help (jobs)',
-                'uptime/availability',
+                'documentation' => [
+                    'code samples of usage',
+                    'recipies involving a function',
+                ],
+                'support'       => [
+                    'report unexpected output',
+                    'request help (jobs)',
+                    'supported/official apis ala redhat',
+                ],
+                'usability'     => [
+                    'focus on removing plumbing between apis -- converting data and such',
+                    'auth management of 3rd party services (zapier)',
+                ],
                 'exploration/console (google)',
-                'auth management of 3rd party services (zapier)',
-                'support - report unexpected output',
-                'stats and mangement - apigee, 3scale, mashape, mashery',
-            ],
-        ]
-    ],
-    
-    'top' => [
-
-        'add mindmap + log idea from 44 amongst others',
-        'marketing , metrics braintstorm',
-
-        'quick docker examples + inv flow - create image, deploy, turn on/off ala lambda' => [
-            
+                'management'    => [
+                    'existing stuff like dashboards, stats, metrics, logging etc. -- consider using a third party for now',
+                    'uptime/availability',
+                    'stats and mangement - apigee, 3scale, mashape, mashery',
+                ],
+            ]
         ],
-        
-        
-        'add github experiment with webtask then try the docker like ones ironworker faas + serverless + kubernetes? -- check 21 links',
-        'think about design of php/ruby/js docker service for strings and how to add new functions and make them available as services',
-    ],
 
-    'experiments' => [
-        'provide function as a service using existing tools',
+        'top'             => [
+
+            'add mindmap + log idea from 44 amongst others',
+            'marketing , metrics braintstorm',
+
+            'quick docker examples + inv flow - create image, deploy, turn on/off ala lambda' => [
+
+            ],
+
+
+            'add github experiment with webtask then try the docker like ones ironworker faas + serverless + kubernetes? -- check 21 links',
+            'think about design of php/ruby/js docker service for strings and how to add new functions and make them available as services',
+        ],
+
+        'experiments'     => [
+            'provide function as a service using existing tools',
+        ],
         'wrapper example' => [
             'nodejs 2 functions replace and substring that support params',
             'write ruby wrapper calling functions with webtask and accepting input',
         ],
-        'webtask' => [
+        'webtask'         => [
             'replace webtask by something more flexible -- serverless? kubernetes?',
         ],
     ],
 
-    'prototype' => [
+    'prototype'           => [
         'think about design ',
         'build docker service exposing strings functions for php',
         'build wrapper contacting service for processing',
@@ -57,7 +70,7 @@ $t = [
         'think about webui and seo friendly way of finding functions/recipies/examples etc.',
     ],
 
-    'crawk?' => [
+    'crawk?'              => [
         'awk on CRACK. CRAWK!',
         'functionshub.com -- fh',
     ],
