@@ -4,7 +4,6 @@ $todos = [
     'top'                                           => [
 
         'next' => [
-            '95',
 
             'pick next tickets',
 
