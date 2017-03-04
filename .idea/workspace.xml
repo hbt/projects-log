@@ -63,8 +63,8 @@
       <file leaf-file-name="todos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/cliweb/todos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59056807">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.6312969">
+              <caret line="29" column="221" selection-start-line="29" selection-start-column="221" selection-end-line="29" selection-end-column="221" />
               <folding />
             </state>
           </provider>
@@ -363,7 +363,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1866,8 +1866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/original/cliweb/todos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59056807">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.6312969">
+          <caret line="29" column="221" selection-start-line="29" selection-start-column="221" selection-end-line="29" selection-end-column="221" />
           <folding />
         </state>
       </provider>

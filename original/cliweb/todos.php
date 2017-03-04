@@ -18,10 +18,16 @@ $t = [
                     'report unexpected output',
                     'request help (jobs)',
                     'supported/official apis ala redhat',
+                    'premium support for devs and regular users',
+                    'distinguish between LTS (long term supported) functions and partner functions -- avoid google/netflix api deprecation and incompatibility',
                 ],
                 'usability'     => [
                     'focus on removing plumbing between apis -- converting data and such',
                     'auth management of 3rd party services (zapier)',
+                    'google api explorer https://developers.google.com/apis-explorer/#p/drive/v3/drive.comments.create',
+                    'spec out a recipe for someone else to code',
+                    'integrate / embed create your own recipe in other sites / across site. e.g billing and alerting + what to do. specify a recipe and associate to a feature/page',
+                    'build widgets/apps/sites that can easily connect to recipes in functionshub -- e.g http://developer.wolframalpha.com/widgetbuilder/ http://127.0.0.1:4000/2011/06/22/widget-builder-environment-for-apis/',
                 ],
                 'exploration/console (google)',
                 'management'    => [
