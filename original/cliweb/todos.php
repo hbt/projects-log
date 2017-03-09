@@ -5,8 +5,20 @@ $t = [
     'reading'             => [
         'api evangelist'  => [
             'inv'   => [
+                'https://bip.io/docs',
+                'http://cloud-elements.com/formula-builder/',
                 'https://apiblueprint.org/',
                 'http://swagger.io/',
+                'apicraft - https://groups.google.com/forum/?fromgroups#!forum/api-craft',
+                'https://apiant.com/',
+                'https://en.wikipedia.org/wiki/Pipeline_(software)',
+            ],
+            'ideas' => [
+                'restgit - https://apievangelist.com/2012/06/11/restgit-deploying-apis-from-my-github/',
+                'dockerapp -- same security granularity as android apps',
+                'embeddable functions (input/output) - widgets/apps/buttons etc.',
+                'system design / use case for namespaces -- list actors/functions/workflows etc. e.g gmail and grasp domain ',
+                'finding apis or apis finding you - https://apievangelist.com/2012/09/10/what-if-apis-should-be-finding-developers-instead-of-developers-discovering-apis/',
             ],
 
             'notes' => [
