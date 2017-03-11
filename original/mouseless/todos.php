@@ -1,7 +1,7 @@
 <?php
 
 $todos = [
-    'top'                                           => [
+    'top'              => [
 
         'next' => [
 
@@ -15,7 +15,7 @@ $todos = [
 
     ],
 
-    'weekly checklist'                              => [
+    'weekly checklist' => [
         'review forks -- last count 123',
         'review commits + merge ',
         'check original fork' => [
@@ -26,10 +26,12 @@ $todos = [
         ],
         'merge pull requests' => [
             'checkout ',
-            'fetch e.g git pull git://github.com/rosshadden/mouseless.git fix/editing-divs',
-            'tarao' => [
-                'g co -b tarao',
-                'git pull git://github.com/tarao/chromium-vim.git tarao:tarao',
+            'examples' => [
+                'fetch e.g git pull git://github.com/rosshadden/mouseless.git fix/editing-divs',
+                'tarao' => [
+                    'g co -b tarao',
+                    'git pull git://github.com/tarao/chromium-vim.git tarao:tarao',
+                ],
             ],
             'merge in dev',
             'notify author',
