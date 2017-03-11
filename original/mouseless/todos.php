@@ -16,7 +16,7 @@ $todos = [
     ],
 
     'weekly checklist'                              => [
-        'review forks -- last count 121',
+        'review forks -- last count 123',
         'review commits + merge ',
         'check original fork' => [
             'git co 1995',
@@ -27,6 +27,10 @@ $todos = [
         'merge pull requests' => [
             'checkout ',
             'fetch e.g git pull git://github.com/rosshadden/mouseless.git fix/editing-divs',
+            'tarao' => [
+                'g co -b tarao',
+                'git pull git://github.com/tarao/chromium-vim.git tarao:tarao',
+            ],
             'merge in dev',
             'notify author',
             'update changelog',
