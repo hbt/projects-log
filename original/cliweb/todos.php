@@ -19,6 +19,9 @@ $t = [
                 'embeddable functions (input/output) - widgets/apps/buttons etc.',
                 'system design / use case for namespaces -- list actors/functions/workflows etc. e.g gmail and grasp domain ',
                 'finding apis or apis finding you - https://apievangelist.com/2012/09/10/what-if-apis-should-be-finding-developers-instead-of-developers-discovering-apis/',
+                'etl businesses' => [
+                    'https://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/',
+                ],
             ],
 
             'notes' => [
