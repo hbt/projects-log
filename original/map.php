@@ -4,18 +4,18 @@ $map = [
 
 
     'cliweb'                   => [
-        'brainstorming'                         => [
-            'vision'                  => '20',
-            'research and bookmarks'  => '21',
-            'redefining vision'       => '22',
-            'brainstorming prototype' => '23',
-            'deciding on key metrics' => '24',
-            'future of OSS'           => '25',
-            'take over the world'     => '45',
-            'ideas dump'              => '46',
+        'brainstorming' => [
+            'vision'                                => '20',
+            'research and bookmarks'                => '21',
+            'redefining vision'                     => '22',
+            'brainstorming prototype'               => '23',
+            'deciding on key metrics'               => '24',
+            'future of OSS'                         => '25',
+            'take over the world'                   => '45',
+            'ideas dump'                            => '46',
             'investigate faas frameworks and tools' => '44',
         ],
-        'roadmap'                               => '33',
+        'roadmap'       => '33',
 
     ],
 
