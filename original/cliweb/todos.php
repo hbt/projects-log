@@ -2,6 +2,71 @@
 
 $t = [
 
+
+    'strings prototype'              => [
+        'inv string functions' => [
+            'http://stringjs.com/',
+            'https://sugarjs.com/',
+            'https://google.github.io/closure-library/api/goog.string.html',
+            'https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html',
+            'http://gabceb.github.io/underscore.string.site/',
+            'http://php.net/manual/en/ref.strings.php',
+            'http://locutus.io/php/',
+            'https://github.com/kvz/locutus',
+            'https://docs.python.org/3/library/stdtypes.html',
+            'https://ruby-doc.org/core-2.2.0/String.html',
+        ],
+        'think UX / api ',
+        'prototoype'           => [
+            'create cli wrapper that can be used inline like ' => [
+                'fh "function" "param1" "param2" and then pipe ',
+                'do it in php for now',
+            ],
+            'wrapper'                                          => [
+                'takes piped input',
+                'takes params ',
+                'makes request to http ',
+                'print output',
+
+                'idea' => [
+                    'inline piping / chaining ',
+                ],
+            ],
+            'http' => [
+                'gets request',
+                'check function exists',
+                'exec function with params',
+                'return output',
+
+                'idea' => [
+                    'use github for functions registry' => [
+                        'registry repo',
+                        'strings folder',
+                        'users can contribute via forks',
+                        'versions as revisions / tags',
+                        'one file per function',
+                        'folders as namespaces?',
+                        'users can overwrite using their forks',
+                        'file example' => [
+                            'name - e.g implode',
+                            'description',
+                            'alias - e.g join',
+                            'params/arguments/optional/required',
+                            'version',
+                            'examples',
+                            'code???? - link to docker image with process/file exposed as a service',
+
+                        ],
+                    ],
+                    'case insensitive',
+                    'check function exists using registry',
+                    'check params prior to exec function ',
+                    'useful error messages',
+                ],
+            ],
+        ]
+    ],
+
     'reading api evangelist archive' => [
         'inv'   => [
             'https://bip.io/docs',
@@ -53,22 +118,6 @@ $t = [
         ]
     ],
 
-    'crawk'                         => [
-        'inv string functions' => [
-            'http://stringjs.com/',
-            'https://sugarjs.com/',
-            'https://google.github.io/closure-library/api/goog.string.html',
-            'https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html',
-            'http://gabceb.github.io/underscore.string.site/',
-            'http://php.net/manual/en/ref.strings.php',
-            'http://locutus.io/php/',
-            'https://github.com/kvz/locutus',
-            'https://docs.python.org/3/library/stdtypes.html',
-            'https://ruby-doc.org/core-2.2.0/String.html',
-        ],
-        'think UX / api ',
-        'prototoype',
-    ],
 
     'reorg'                          => [
 
