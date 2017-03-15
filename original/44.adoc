@@ -37,10 +37,10 @@ Or maybe offer option for user to run on lowest or highest speed in the future.
 
 . aws lambda https://aws.amazon.com/lambda/
 . aws ec2 container service https://aws.amazon.com/ecs/
-. https://github.com/serverless/serverless most popular 
+. https://github.com/serverless/serverless most popular  on github
 . Kubernetes https://en.wikipedia.org/wiki/Kubernetes#History https://kubernetes.io/ https://platform9.com/blog/compare-kubernetes-vs-ecs/
 . https://github.com/bigcompany/hook.io related to microcule
-. https://github.com/Stackvana/microcule functinos and processes
+. https://github.com/Stackvana/microcule functinos and processes -- good streaming implementation for piping . used by hook.io
 . https://github.com/alexellis/faas package processes as functions
 . https://github.com/funktionio built on top of Kubernetes (but many languages?)
 . https://github.com/iron-io/functions functions only (but many languages?)

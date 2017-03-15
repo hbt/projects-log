@@ -47,16 +47,25 @@ $t = [
                         'one file per function',
                         'folders as namespaces?',
                         'users can overwrite using their forks',
-                        'file example' => [
-                            'name - e.g implode',
-                            'description',
-                            'alias - e.g join',
-                            'params/arguments/optional/required',
-                            'version',
-                            'examples',
-                            'code???? - link to docker image with process/file exposed as a service',
-
+                        'examples' => [
+                            'implode' => [
+                                'use https://github.com/iron-io/functions',
+                                'file example' => [
+                                    'name - e.g implode',
+                                    'description',
+                                    'alias - e.g join',
+                                    'params/arguments/optional/required',
+                                    'version',
+                                    'examples',
+                                    'code???? - link to docker image with process/file exposed as a service',
+                                ],
+                            ],
+                            'youtube-dl' => [
+                                'inv using iron.io or faas or monecule',
+                            ],
                         ],
+                        
+                        
                     ],
                     'case insensitive',
                     'check function exists using registry',
