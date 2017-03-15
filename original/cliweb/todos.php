@@ -50,6 +50,19 @@ $t = [
                         'examples' => [
                             'implode' => [
                                 'use https://github.com/iron-io/functions',
+                                'iron-io' => [
+                                    'docker account',
+                                    'sample',
+                                    'create and push',
+                                    'curl',
+                                    'enhance' => [
+                                        'add cvim buffer/tabs  search',
+                                        'document process for both ',
+                                        'pick 2 strings functions and write official with chain',
+                                        
+
+                                    ],
+                                ],
                                 'file example' => [
                                     'name - e.g implode',
                                     'description',
