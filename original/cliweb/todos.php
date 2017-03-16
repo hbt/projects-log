@@ -4,6 +4,16 @@ $t = [
 
 
     'strings prototype'              => [
+
+        'reorg' => [
+            '. build full example with multiple string functions and piping using fn run
+. run test of iron functions on aws lambda -- already has fn commands
+. write more on vision of all systems + ideas to further clarify things
+. look into reusing containers . especially for strings and maybe if it can be accelerated further by keeping the container around (i saw a blog post from iron on that)
+. think about billing and how to monitor resources. i can clearly monitor a container and bill accordingly but what if multiple users use the same container, do we need an additional api for billing. is it an early optimization?',
+
+        ],
+        
         'inv string functions' => [
             'http://stringjs.com/',
             'https://sugarjs.com/',

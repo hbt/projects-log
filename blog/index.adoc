@@ -57,7 +57,7 @@ link:take-over-the-world-45[take over the world]
 link:ideas-dump-46[ideas dump]
 ++++
 </li>
-</ul><li>
+<li>
 ++++
 link:investigate-faas-frameworks-and-tools-44[investigate faas frameworks and tools]
 ++++
@@ -68,6 +68,12 @@ link:roadmap-33[roadmap]
 ++++
 </li>
 </ul>
+<li>experimenting with tech</li><ul><li>
+++++
+link:iron-functions-47[iron functions]
+++++
+</li>
+</ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]

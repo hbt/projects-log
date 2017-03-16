@@ -1,0 +1,134 @@
+
+
+==  objectives
+
+. experiment with existing tech like hook.io and iron.io to prevent waste of time/energy implementing existing stuff and doing it poorly
+. clarify overall system design 
+
+
+== executing raw code using iron functions
+
+=== installer docker - use deb files
+
+https://apt.dockerproject.org/repo/pool/main/d/docker-engine/
+
+sudo dpkg -i debfile
+sudo apt-get install -f
+
+docker version >= 1.12 needed
+
+=== run iron functions server
+
+server is used later on to accept calls and relay messages + start/stop docker containers
+
+install fn server
+
+```
+cd /tmp/gg
+docker run --rm -it --name functions -v ${PWD}/data:/app/data -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 iron/functions
+```
+
+
+=== install fn cli tool
+
+used to create functions 
+
+```
+curl -LSs https://goo.gl/VZrL8t | sh
+```
+
+
+=== run raw php function 
+
+clone repo and run the php example in
+
+https://github.com/iron-io/functions/tree/master/examples/hello/php
+
+```
+gcl https://github.com/iron-io/functions
+cd examples/hello/php
+fn build
+fn run
+fn apps create hello
+```
+
+assuming the docker iron functions is running on server 8080 and data directory is the same, this will create a db file in the data directory. when iron server container is stopped, the data (apps created) is not lost
+
+
+although, you can use the fn apps to create routes, you can also bypass the iron server completely. 
+it doesn't seem to cache the docker image to reduce execution time. 
+i dont see a difference between `
+
+```
+echo '{"name": "hh"}' | fn call hello2 /hello
+```
+
+and 
+ 
+```
+echo '{"name": "hh"}' | fn run
+```
+
+the latter doesnt require the iron functions server, nor apps or routes.
+
+
+
+=== notes of raw functions
+
+many languages are supported but the func.yaml file is not predictable. specifying the runtime doesn't always work and not sure what it's based on. Not 100% dockerfile and not well documented. 
+
+multiple languages are supported and you are basically building a docker image to run the function, which means you can put whatever you want in it in terms of dependencies
+
+
+=== running a process 
+
+Example using youtube-dl
+
+First, create the dockerfile
+
+```
+FROM atlassian/ubuntu-minimal
+
+
+#COPY conf/ /opt/docker/
+
+# Install development environment
+RUN apt-get update
+RUN apt-get install -y python curl
+RUN curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+RUN python get-pip.py
+RUN pip install youtube-dl
+```
+
+docker build . 
+
+docker run -t -i ... 
+
+this allows you to run youtube-dl via docker. 
+However, in order to restify, it might be worth to use https://github.com/Stackvana/microcule and build a rest interface over it. 
+or faas https://github.com/alexellis/faas
+microcule is used by hook.io and battle tested though.
+
+otherwise, write a function for it (wrapper) which calls the shell script and handles the JSON.
+
+=== conclusion
+
+these two experiments cover most of the early functions in the registry. either raw code or a wrapper of existing processes/projects functionality.
+
+a lot of improvements need to be made in terms of coordination but i'm much more concerned on scaling and billing. 
+
+Scaling issue would mean the difference between managing the infrastructure or building on top of aws lambda; allowing me to focus on user visible stuff and optimize this later
+billing issue is related to scaling.
+
+
+=== improvements and further experiments
+
+. build full example with multiple string functions and piping using fn run
+. run test of iron functions on aws lambda -- already has fn commands
+. write more on vision of all systems + ideas to further clarify things
+. look into reusing containers . especially for strings and maybe if it can be accelerated further by keeping the container around (i saw a blog post from iron on that)
+. think about billing and how to monitor resources. i can clearly monitor a container and bill accordingly but what if multiple users use the same container, do we need an additional api for billing. is it an early optimization?
+
+
+
+

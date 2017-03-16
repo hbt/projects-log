@@ -4,7 +4,7 @@ $map = [
 
 
     'cliweb'                   => [
-        'brainstorming' => [
+        'brainstorming'           => [
             'vision'                                => '20',
             'research and bookmarks'                => '21',
             'redefining vision'                     => '22',
@@ -15,6 +15,10 @@ $map = [
             'ideas dump'                            => '46',
             'investigate faas frameworks and tools' => '44',
             'roadmap'                               => '33',
+        ],
+        'experimenting with tech' => [
+            'iron functions' => '47',
+           
         ],
 
     ],
