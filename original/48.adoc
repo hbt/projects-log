@@ -1,0 +1,66 @@
+
+== doc objective
+
+. clarify vision + structure of systems
+. organize thought
+
+
+== end goal
+
+. list of functions callable over the cloud abstracting complex functionality into simple + accessible calls and executable over any platform
+
+
+== function registry
+
+. list of functions. similar to dockerhub or github. create functionshub
+. easy to add new ones, fork and collaborate
+. google index equivalent of functions
+. can run registry over cloud or local
+. community owned
+
+=== metrics
+
+. nb functions
+
+=== flaws/concerns
+
+. dealing with contributions, custom functions and forking
+. no technical advantage  - google search algo vs google index
+
+=== leap forwards
+
+. github/dockerhub like hosting for OSS
+. accessibility, ease of use, ease of mashups (no install, piping/mashing up)
+
+
+=== design
+
+. REST api definition 
+. reliable intercommunication for mashups (json versioning, protocol buffers)
+. integration with platform (matchers, logging, issue reporting etc.)
+. inline testing
+. versioning
+. pricing / billing
+. optimized
+. oss
+
+== function hosting
+
+. built on of registry
+. hosting + billing per use
+. offers caching, storage and other range of APIs to make it easier to run/write/debug/analyze functions
+. offers hidden optimizations
+
+
+
+== UI
+
+. built on top of registry and hosting
+. multiple UIs (cli, language wrappers, web, mobile, api) 
+. mash functions together with ease (inv nimbletext and complex piping)
+
+
+== UX
+
+. must be mainstream friendly without sacrificing power users. powerful and easy
+

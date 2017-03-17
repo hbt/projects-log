@@ -1,0 +1,88 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== clarifying-vision-48
+
+
+
+
+== doc objective
+
+. clarify vision + structure of systems
+. organize thought
+
+
+== end goal
+
+. list of functions callable over the cloud abstracting complex functionality into simple + accessible calls and executable over any platform
+
+
+== function registry
+
+. list of functions. similar to dockerhub or github. create functionshub
+. easy to add new ones, fork and collaborate
+. google index equivalent of functions
+. can run registry over cloud or local
+. community owned
+
+=== metrics
+
+. nb functions
+
+=== flaws/concerns
+
+. dealing with contributions, custom functions and forking
+. no technical advantage  - google search algo vs google index
+
+=== leap forwards
+
+. github/dockerhub like hosting for OSS
+. accessibility, ease of use, ease of mashups (no install, piping/mashing up)
+
+
+=== design
+
+. REST api definition 
+. reliable intercommunication for mashups (json versioning, protocol buffers)
+. integration with platform (matchers, logging, issue reporting etc.)
+. inline testing
+. versioning
+. pricing / billing
+. optimized
+. oss
+
+== function hosting
+
+. built on of registry
+. hosting + billing per use
+. offers caching, storage and other range of APIs to make it easier to run/write/debug/analyze functions
+. offers hidden optimizations
+
+
+
+== UI
+
+. built on top of registry and hosting
+. multiple UIs (cli, language wrappers, web, mobile, api) 
+. mash functions together with ease (inv nimbletext and complex piping)
+
+
+== UX
+
+. must be mainstream friendly without sacrificing power users. powerful and easy
+
