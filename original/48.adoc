@@ -60,6 +60,50 @@ Example: a function that operates on youtube content would have a matcher for yo
 a function for downloading videos would appear for both
 
 
+- name
+
+camelCase only? free names? both?
+
+
+- aliases
+
+same as descriptions. domain dependent. indexOf, stripos means nothing to mainstream. findCharacterPosition might.
+
+- description
+
+names, aliases and description are the main ways of searching and understanding what a function does. 
+followed by examples (the inline tests)
+
+- namespace
+
+to allow custom names and deal with conflict between functions with same names/aliases
+also to organize functions 
+
+- tags
+
+not too sure about that. maybe something similar to github topics? 
+Find better ways to enhance discoverability
+
+- data type
+
+kind of like a class name. a function expecting a data type as input, expects a specific JSON definition / structure. 
+users can then convert between data types if needed. Example: YouTubeVideo DailyMotionVideo which will have different JSON structures since it is written by different people. Maybe different field names and such. Machine learning will come into play to create auto converters. 
+Once we have a converter, then the functions from dailymotion can be used by youtube.
+This allows further transformation of inputs and increases matchers
+
+It should be strong typed but might result in converters nightmare. Not sure how to avoid that and still have complex custom structures. 
+
+- matchers
+
+list of boolean assertions to run against input to see if this function can handle it. 
+
+Allow for second degree matchers.
+Example: a function that only handles files but a url is submitted. thanks to converters url to file (i.e download), it can now handle it. 
+
+- user notes 
+
+in addition to description, for users to find them later
+
 - inline testing
 
 input/output assertions

@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/48.adoc" afterPath="$PROJECT_DIR$/original/48.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/clarifying-vision-48.adoc" afterPath="$PROJECT_DIR$/blog/clarifying-vision-48.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/clarifying-vision-48.html" afterPath="$PROJECT_DIR$/docs/clarifying-vision-48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="projects-log.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +40,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.877551">
-              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9183673">
+              <caret line="126" column="113" selection-start-line="126" selection-start-column="113" selection-end-line="126" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -2230,8 +2226,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.877551">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9183673">
+          <caret line="126" column="113" selection-start-line="126" selection-start-column="113" selection-end-line="126" selection-end-column="113" />
           <folding />
         </state>
       </provider>
