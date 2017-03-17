@@ -126,7 +126,7 @@ billing issue is related to scaling.
 . build full example with multiple string functions and piping using fn run
 . run test of iron functions on aws lambda -- already has fn commands
 . write more on vision of all systems + ideas to further clarify things
-. look into reusing containers . especially for strings and maybe if it can be accelerated further by keeping the container around (i saw a blog post from iron on that)
+. look into reusing containers . especially for strings and maybe if it can be accelerated further by keeping the container around (i saw a blog post from iron on that) -- possible using hot functions https://github.com/iron-io/functions/blob/master/docs/hot-functions.md
 . think about billing and how to monitor resources. i can clearly monitor a container and bill accordingly but what if multiple users use the same container, do we need an additional api for billing. is it an early optimization?
 
 
