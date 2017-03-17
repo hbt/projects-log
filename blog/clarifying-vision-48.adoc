@@ -54,17 +54,81 @@ link:index[Home]
 . github/dockerhub like hosting for OSS
 . accessibility, ease of use, ease of mashups (no install, piping/mashing up)
 
-
 === design
 
-. REST api definition 
-. reliable intercommunication for mashups (json versioning, protocol buffers)
-. integration with platform (matchers, logging, issue reporting etc.)
-. inline testing
+. database + api
+. tools to manipulate registry
+. avoid the need for private/custom registries but design for it. goal is to create a hub not isolated nodes
+. push integration with other functionshub services instead of modularity. 
+
+=== function definition
+
+- REST api definition 
+
+reuse swagger or raml or other similar tool. Make it easier to port existing definitions of APIs to function registry. 
+People already use annotations to specify their APIs, generate docs etc.
+
+each function is a REST api with all best practices applied.
+
+- reliable intercommunication for mashups (json versioning, protocol buffers)
+
+will be using JSON communication over REST for now. However, something like protocol buffers must be implemented. 
+Key advantage is dealing with versioning, api changes and ease of mashups. Example: api definition changes (e.g name change) and its dependencies could be auto-updated instead of frozen to one version. Or, optimization is made and could result in reduced billing.
+
+- integration with platform (matchers, logging, issue reporting etc.)
+
+matchers are essential to detect input + data types and promote functions. Discoverability. 
+Example: a function that operates on youtube content would have a matcher for youtube urls but wouldn't appear when a dailymotion URL is inserted.
+a function for downloading videos would appear for both
+
+
+- inline testing
+
+input/output assertions
+
+- manifest versioning 
+
+a clear manifest with paths to upgrade. Example: if we introduce matchers in future versions, we can auto-update functions in the registry.
+
 . versioning
+
+REST api version
+
 . pricing / billing
-. optimized
-. oss
+
+custom pricing
+
+
+=== cloud hosting integrations function definition
+
+. issue tracking, reliability, status
+. stackoverflow like Q&A for support on each function and its version -- reuse api or buy stackexchange subdomain?
+. logging - all inputs/ouputs, exec time and resources consumed (memory, bandwidth)
+. analytics - replicate or differ to api providers functionality
+
+
+
+=== workflows
+
+tools can be developed to accelerate workflow and make it easier to fork, develop functions. 
+A lot of these features should be part of functions hosting.
+Key goal here is to define a function for the registry
+
+- adding a new function
+
+. fork registry repo
+. create folder for data type and namespace
+. write function definition
+. write function and embed into docker
+. write tests
+
+- alternative way
+
+. write inline function in your language in a file
+. submit file url 
+. system analyzes function and creates fucntion definition skeleton. Annotations can control definition.
+. system auto-fills with sane defaults regarding namespace and other function definition details
+
 
 == function hosting
 
@@ -78,11 +142,12 @@ link:index[Home]
 == UI
 
 . built on top of registry and hosting
-. multiple UIs (cli, language wrappers, web, mobile, api) 
+. multiple UIs (cli, language wrappers, web, mobile, api, voice (smart assistant)) 
 . mash functions together with ease (inv nimbletext and complex piping)
 
 
 == UX
 
 . must be mainstream friendly without sacrificing power users. powerful and easy
+. machine learning - learn from usage and enhance UX. Example: functions often used together and recommendations, how people build functions and improvements in UI, smart assistant
 

@@ -605,30 +605,170 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<p>database + api</p>
+</li>
+<li>
+<p>tools to manipulate registry</p>
+</li>
+<li>
+<p>avoid the need for private/custom registries but design for it. goal is to create a hub not isolated nodes</p>
+</li>
+<li>
+<p>push integration with other functionshub services instead of modularity.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_function_definition">function definition</h3>
+<div class="ulist">
+<ul>
+<li>
 <p>REST api definition</p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p>reuse swagger or raml or other similar tool. Make it easier to port existing definitions of APIs to function registry.
+People already use annotations to specify their APIs, generate docs etc.</p>
+</div>
+<div class="paragraph">
+<p>each function is a REST api with all best practices applied.</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>reliable intercommunication for mashups (json versioning, protocol buffers)</p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p>will be using JSON communication over REST for now. However, something like protocol buffers must be implemented.
+Key advantage is dealing with versioning, api changes and ease of mashups. Example: api definition changes (e.g name change) and its dependencies could be auto-updated instead of frozen to one version. Or, optimization is made and could result in reduced billing.</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>integration with platform (matchers, logging, issue reporting etc.)</p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p>matchers are essential to detect input + data types and promote functions. Discoverability.
+Example: a function that operates on youtube content would have a matcher for youtube urls but wouldn&#8217;t appear when a dailymotion URL is inserted.
+a function for downloading videos would appear for both</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>inline testing</p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p>input/output assertions</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>manifest versioning</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>a clear manifest with paths to upgrade. Example: if we introduce matchers in future versions, we can auto-update functions in the registry.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>versioning</p>
 </li>
+</ol>
+</div>
+<div class="paragraph">
+<p>REST api version</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>pricing / billing</p>
 </li>
+</ol>
+</div>
+<div class="paragraph">
+<p>custom pricing</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cloud_hosting_integrations_function_definition">cloud hosting integrations function definition</h3>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>optimized</p>
+<p>issue tracking, reliability, status</p>
 </li>
 <li>
-<p>oss</p>
+<p>stackoverflow like Q&amp;A for support on each function and its version&#8201;&#8212;&#8201;reuse api or buy stackexchange subdomain?</p>
+</li>
+<li>
+<p>logging - all inputs/ouputs, exec time and resources consumed (memory, bandwidth)</p>
+</li>
+<li>
+<p>analytics - replicate or differ to api providers functionality</p>
 </li>
 </ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_workflows">workflows</h3>
+<div class="paragraph">
+<p>tools can be developed to accelerate workflow and make it easier to fork, develop functions.
+A lot of these features should be part of functions hosting.
+Key goal here is to define a function for the registry</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>adding a new function</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>fork registry repo</p>
+</li>
+<li>
+<p>create folder for data type and namespace</p>
+</li>
+<li>
+<p>write function definition</p>
+</li>
+<li>
+<p>write function and embed into docker</p>
+</li>
+<li>
+<p>write tests</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>alternative way</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>write inline function in your language in a file</p>
+</li>
+<li>
+<p>submit file url</p>
+</li>
+<li>
+<p>system analyzes function and creates fucntion definition skeleton. Annotations can control definition.</p>
+</li>
+<li>
+<p>system auto-fills with sane defaults regarding namespace and other function definition details</p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -663,7 +803,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>built on top of registry and hosting</p>
 </li>
 <li>
-<p>multiple UIs (cli, language wrappers, web, mobile, api)</p>
+<p>multiple UIs (cli, language wrappers, web, mobile, api, voice (smart assistant))</p>
 </li>
 <li>
 <p>mash functions together with ease (inv nimbletext and complex piping)</p>
@@ -679,6 +819,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ol class="arabic">
 <li>
 <p>must be mainstream friendly without sacrificing power users. powerful and easy</p>
+</li>
+<li>
+<p>machine learning - learn from usage and enhance UX. Example: functions often used together and recommendations, how people build functions and improvements in UI, smart assistant</p>
 </li>
 </ol>
 </div>
