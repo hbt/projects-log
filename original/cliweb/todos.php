@@ -26,6 +26,12 @@ $t = [
             'https://docs.python.org/3/library/stdtypes.html',
             'https://ruby-doc.org/core-2.2.0/String.html',
         ],
+        'systems involved summary' => [
+            'iron functions' => 'build and run functions - abstract docker commands',
+            'strings image' => 'docker container containing strings functions',
+            'string functions' => 'actual code',
+            '' => '',
+        ],
         'think UX / api ',
         'prototoype'           => [
             'create cli wrapper that can be used inline like ' => [

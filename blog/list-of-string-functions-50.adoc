@@ -1,0 +1,35 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== list-of-string-functions-50
+
+
+
+
+== list of string functions 
+
+http://stringjs.com/
+https://sugarjs.com/
+https://google.github.io/closure-library/api/goog.string.html
+https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html
+http://gabceb.github.io/underscore.string.site/
+http://php.net/manual/en/ref.strings.php
+http://locutus.io/php/
+https://github.com/kvz/locutus
+https://docs.python.org/3/library/stdtypes.html
+https://ruby-doc.org/core-2.2.0/String.html

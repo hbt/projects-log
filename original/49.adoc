@@ -1,0 +1,58 @@
+
+== end goal
+
+build a tool capable of manipulating strings. 
+Goal is not the tool itself since:
+
+- already has tools like nimbletext textmechanic awk etc.
+- 300ms docker container start. 
+
+
+However, building a string prototype will allow:
+
+- raw code across languages and interlinked
+- focus on function registry definition
+- focus on wrappers + uis
+- focus on scaling and distributed computing
+- identifying services + areas of optimization e.g hot functions / container reuse
+
+
+
+After this tool is developed and the infrastructure systems identified,  any code can be executed and abstracted using.
+Next is to apply this to processes and replicate the youtube-dl experiment.
+
+== UX 
+
+fh = functionshub cli tool
+
+
+Examples (wip):
+
+for each row, add row length at the end
+
+wrapper:
+
+fh split "\n"
+fh map 
+  row append row.length
+fh join "\n"  
+
+cli:
+
+cat file | fh split "\n" | map | append 1.size | endmap | join "\n"
+
+ruby:
+
+v = File.read
+arr = fh(v).split("\n")
+arr.map do |a|
+  fha = fh(a)
+  fha.append(fha.size())
+v = fh(arr).join("\n")  
+
+
+ruby with arrays on fh:
+
+v = File.read
+fh(v).split("\n").map('
+

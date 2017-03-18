@@ -78,7 +78,18 @@ link:iron-functions-47[iron functions]
 link:clarifying-vision-48[clarifying vision]
 ++++
 </li>
-</ul>
+
+<li>strings prototype</li><ul><li>
+++++
+link:end-goal-49[end goal]
+++++
+</li>
+<li>
+++++
+link:list-of-string-functions-50[list of string functions]
+++++
+</li>
+</ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]

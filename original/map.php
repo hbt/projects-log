@@ -20,6 +20,12 @@ $map = [
             'iron functions' => '47',
         ],
         'clarifying vision' => '48',
+        'strings prototype' => [
+            'end goal' => '49',
+            'list of string functions' => '50',
+            
+
+        ],
         
 
     ],
