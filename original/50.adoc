@@ -1,13 +1,13 @@
 
 == list of string functions 
 
-http://stringjs.com/
-https://sugarjs.com/
-https://google.github.io/closure-library/api/goog.string.html
-https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html
-http://gabceb.github.io/underscore.string.site/
-http://php.net/manual/en/ref.strings.php
-http://locutus.io/php/
-https://github.com/kvz/locutus
-https://docs.python.org/3/library/stdtypes.html
-https://ruby-doc.org/core-2.2.0/String.html
+- http://stringjs.com/
+- https://sugarjs.com/
+- https://google.github.io/closure-library/api/goog.string.html
+- https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html
+- http://gabceb.github.io/underscore.string.site/
+- http://php.net/manual/en/ref.strings.php
+- http://locutus.io/php/
+- https://github.com/kvz/locutus
+- https://docs.python.org/3/library/stdtypes.html
+- https://ruby-doc.org/core-2.2.0/String.html

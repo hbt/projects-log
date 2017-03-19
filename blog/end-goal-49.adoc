@@ -47,7 +47,10 @@ Next is to apply this to processes and replicate the youtube-dl experiment.
 
 fh = functionshub cli tool
 
+focus on one UI at a time. 
 
+
+```
 Examples (wip):
 
 for each row, add row length at the end
@@ -76,5 +79,6 @@ v = fh(arr).join("\n")
 ruby with arrays on fh:
 
 v = File.read
-fh(v).split("\n").map('
+fh(v).split("\n").map(... 
 
+```
