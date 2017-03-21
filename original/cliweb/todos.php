@@ -5,6 +5,23 @@ $t = [
 
     'strings prototype'              => [
 
+        'brainstorm' => [
+            'write wrapper examples' => [
+                'raw functions' => [
+                    'select a few strings + array functions ',
+                    'write example',
+                ],
+                'processes' => [
+                    'full youtube-dl example',
+                ],
+            ],
+
+
+            'UI/UX first' => [
+                'prototype quick UI based on design ideas around flowcharts, function customization, pipelining, variables etc. == do it on paper',
+            ],
+        ],
+
         'reorg' => [
             '. build full example with multiple string functions and piping using fn run
 . run test of iron functions on aws lambda -- already has fn commands
