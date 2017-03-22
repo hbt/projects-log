@@ -1,0 +1,34 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== vision-51
+
+
+
+
+
+== target users
+
+focus on developers from the start. 
+build it for developers since it will help increase the nb functions and usage. 
+Market for regular users.
+If you focus on users first, you need a set of functions for that demographic. e.g you build string functions and now you are competing with other software offering text manipulation who have better interfaces and such. 
+
+focus on allowing developers to build, release their stuff and use/integrate it with other people's stuff
+
+focus on OSS community but it doesn't mean shit is free.

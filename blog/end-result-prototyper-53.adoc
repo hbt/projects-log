@@ -1,0 +1,89 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== end-result-prototyper-53
+
+
+
+
+== a few string functions
+
+. substring
+. replace
+. append
+. length
+
+== UX wrapper for raw function calls
+
+```
+
+str = "say hello world to world"
+
+# wrap input and exec action
+fh(str).substring(0, 10)
+
+# wrap input and exec a chain of functions
+fh(str).fn1().fn2().fn3()
+fh(str).substring(0, 4).replace('hello', 'bye').append('end')
+
+# direct call to an action
+fh.substring(str, 0, 10)
+
+# pick a namespace and exec action if the same name exists across multiple namespaces and matches input
+fh(str).call('string', 'substring', [0, 10])
+
+# pick a namespace and exec action if you use more than one namespace
+fh(str).call('hbt/string', 'substring', [0, 10])
+
+# same as above but less arguments
+fh(str).call('hbt/string/substring', [0, 10])
+
+
+# only use my string functions and forget about functionshub string namespace
+fh.useStrict 'hbt/string'
+
+# use my functions first. If not found, check functionshub/string
+fh.use 'hbt/string'
+
+# use my namespaces and defined functions above others
+fh.use 'hbt'
+
+# use mine first, then bob's then fh
+fh.use ['hbt/string', 'bob/string']
+fh(str).substring(0, 10)
+
+
+
+```
+
+
+== UX wrapper for processes
+
+youtube example. Download video, convert it to mp3, upload mp3 to my phone
+
+```
+
+fh.downloadVideo('https://www.youtube.com/watch?v=w3KuJVni5zQ').toMP3().uploadGDrive('mp3')
+
+
+mp3 = fh.downloadVideo('https://www.youtube.com/watch?v=w3KuJVni5zQ').toMP3()
+fh.selectDevice('phone').download(mp3, '/sdcard/Download/mp3')
+
+# stream progress or use api?
+
+```

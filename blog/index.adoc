@@ -89,6 +89,22 @@ link:end-goal-49[end goal]
 link:list-of-string-functions-50[list of string functions]
 ++++
 </li>
+<li>
+++++
+link:end-result-prototyper-53[end result prototyper]
+++++
+</li>
+</ul>
+<li>mvp brainstorming</li><ul><li>
+++++
+link:vision-51[vision]
+++++
+</li>
+<li>
+++++
+link:metrics-52[metrics]
+++++
+</li>
 </ul></ul>
 <li>thinking about software</li><ul><li>
 ++++

@@ -1,0 +1,12 @@
+
+
+== target users
+
+focus on developers from the start. 
+build it for developers since it will help increase the nb functions and usage. 
+Market for regular users.
+If you focus on users first, you need a set of functions for that demographic. e.g you build string functions and now you are competing with other software offering text manipulation who have better interfaces and such. 
+
+focus on allowing developers to build, release their stuff and use/integrate it with other people's stuff
+
+focus on OSS community but it doesn't mean shit is free.
