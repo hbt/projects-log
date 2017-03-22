@@ -5,6 +5,55 @@ $t = [
 
     'strings prototype'              => [
 
+        'plan' => [
+            
+            'domains' => [
+                'buy functionshub.com',
+                'github handle',
+                'twitter handle',
+                'aws account',
+                'review passwds',
+            ],
+            
+            'create example with raw functions' => [
+                'unknowns' => [
+
+                    'protocol buffers or reinvent wheel with json',
+                    'inv faas vs iron functions',
+                    'inv microcule wrappers + communication',
+                    'decide on architecture . server within docker container?',
+                    'communication json and streams -- inv streams meaning exactly',
+                    'scaling requests -- lambda, ec2 orchestration?',
+                ],
+
+                'server' => [
+                    'api.functionshub.com',
+                    'validate call against registry',
+                    'execs call',
+                    'output with type',
+
+                ],
+
+                'create ruby wrapper' => [
+                    'bb repo',
+                    'fh handle + call server',
+                    'send post',
+                    'verbose mode',
+                    'token=X function=x/y/z or function=z params[array]',
+                ],
+                
+                
+
+                'create docker container of string functions' => [
+                    'server relays request to function',
+                    'function execs and returns output',
+                ],
+            ],
+            'create example with process functions' => [
+                'inv using microcule to wrap processes and communicate',
+            ]
+        ],
+
         'brainstorm'               => [
             'write wrapper examples' => [
                 'raw functions' => [
@@ -21,6 +70,7 @@ $t = [
                 'prototype quick UI based on design ideas around flowcharts, function customization, pipelining, variables etc. == do it on paper',
             ],
         ],
+
 
         'reorg'                    => [
             '. build full example with multiple string functions and piping using fn run

@@ -91,7 +91,7 @@ link:list-of-string-functions-50[list of string functions]
 </li>
 <li>
 ++++
-link:end-result-prototyper-53[end result prototyper]
+link:end-result-prototype-53[end result prototype]
 ++++
 </li>
 </ul>

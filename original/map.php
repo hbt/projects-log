@@ -23,7 +23,7 @@ $map = [
         'strings prototype'       => [
             'end goal'                 => '49',
             'list of string functions' => '50',
-            'end result prototyper' => '53',
+            'end result prototype' => '53',
         ],
 
         'mvp brainstorming'       => [
