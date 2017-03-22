@@ -3,7 +3,7 @@
 $map = [
 
 
-    'cliweb'                   => [
+    'functionshub'                   => [
         'brainstorming'           => [
             'vision'                                => '20',
             'research and bookmarks'                => '21',
