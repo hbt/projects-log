@@ -55,28 +55,28 @@ Examples (wip):
 
 for each row, add row length at the end
 
-wrapper:
+== wrapper:
 
 fh split "\n"
 fh map 
   row append row.length
 fh join "\n"  
 
-cli:
+== cli:
 
 cat file | fh split "\n" | map | append 1.size | endmap | join "\n"
 
-ruby:
+== ruby:
 
 v = File.read
-arr = fh(v).split("\n")
+arr = fh(v).split("\n") // or fh(v).namespace.split("\n")
 arr.map do |a|
   fha = fh(a)
   fha.append(fha.size())
 v = fh(arr).join("\n")  
 
 
-ruby with arrays on fh:
+== ruby with arrays on fh:
 
 v = File.read
 fh(v).split("\n").map(... 

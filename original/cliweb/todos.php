@@ -2,27 +2,88 @@
 
 $t = [
 
+    'profits roadmap'                => [
+        'revenues' => [
+            'pay per use computing' => [
+                'nb users' => [
+                    'nb functions' => [
+
+                        'function' => [
+                            'nb calls' => [
+                                
+                            ],
+                            'speed of execution' => [
+                                
+                            ],
+                        ],
+                    ],
+                    'usability' => [
+                        'feedback speed and relevancy' => [
+                            
+                        ],
+                        'nb relevant actions matched per input' => [
+                            
+                        ],
+                        'time to find action in search' => [
+                            'nb aliases relevant to context/domain' => [
+                                
+                            ],
+
+                            'nb users abandoning action search' => [
+
+                            ],
+                        ],
+                        'function complexity level' => [
+                            'usage of variables, multiple inputs/outputs, other functions, complex functions' => [
+                                
+                            ],
+                        ],
+                    ],
+                ],
+                'nb developers' => [
+                    'nb steps and time from dev to functionshub deploy' => [
+                        
+                    ],
+                    'revenue' => [
+                        
+                    ],
+                    
+                ],
+            ],
+            'service'                => [
+                'redhat like maintenance'     => [
+
+                ],
+                'jobs / contracting platform' => [
+
+                ],
+                'human api. rabbittask'       => [
+
+                ],
+            ],
+        ],
+    ],
 
     'strings prototype'              => [
 
-        'brainstorm' => [
+        'brainstorm'               => [
             'write wrapper examples' => [
                 'raw functions' => [
                     'select a few strings + array functions ',
                     'write example',
                 ],
-                'processes' => [
+                'processes'     => [
                     'full youtube-dl example',
                 ],
             ],
 
 
-            'UI/UX first' => [
+            'UI/UX first'            => [
                 'prototype quick UI based on design ideas around flowcharts, function customization, pipelining, variables etc. == do it on paper',
             ],
         ],
 
-        'reorg' => [
+        'reorg'                    => [
             '. build full example with multiple string functions and piping using fn run
 . run test of iron functions on aws lambda -- already has fn commands
 . write more on vision of all systems + ideas to further clarify things
@@ -30,8 +91,8 @@ $t = [
 . think about billing and how to monitor resources. i can clearly monitor a container and bill accordingly but what if multiple users use the same container, do we need an additional api for billing. is it an early optimization?',
 
         ],
-        
-        'inv string functions' => [
+
+        'inv string functions'     => [
             'http://stringjs.com/',
             'https://sugarjs.com/',
             'https://google.github.io/closure-library/api/goog.string.html',
@@ -44,13 +105,13 @@ $t = [
             'https://ruby-doc.org/core-2.2.0/String.html',
         ],
         'systems involved summary' => [
-            'iron functions' => 'build and run functions - abstract docker commands',
-            'strings image' => 'docker container containing strings functions',
+            'iron functions'   => 'build and run functions - abstract docker commands',
+            'strings image'    => 'docker container containing strings functions',
             'string functions' => 'actual code',
-            '' => '',
+            ''                 => '',
         ],
         'think UX / api ',
-        'prototoype'           => [
+        'prototoype'               => [
             'create cli wrapper that can be used inline like ' => [
                 'fh "function" "param1" "param2" and then pipe ',
                 'do it in php for now',
@@ -65,7 +126,7 @@ $t = [
                     'inline piping / chaining ',
                 ],
             ],
-            'http' => [
+            'http'                                             => [
                 'gets request',
                 'check function exists',
                 'exec function with params',
@@ -81,9 +142,9 @@ $t = [
                         'folders as namespaces?',
                         'users can overwrite using their forks',
                         'examples' => [
-                            'implode' => [
+                            'implode'    => [
                                 'use https://github.com/iron-io/functions',
-                                'iron-io' => [
+                                'iron-io'      => [
                                     'docker account',
                                     'sample',
                                     'create and push',
@@ -92,7 +153,7 @@ $t = [
                                         'add cvim buffer/tabs  search',
                                         'document process for both ',
                                         'pick 2 strings functions and write official with chain',
-                                        
+
 
                                     ],
                                 ],
@@ -110,8 +171,8 @@ $t = [
                                 'inv using iron.io or faas or monecule',
                             ],
                         ],
-                        
-                        
+
+
                     ],
                     'case insensitive',
                     'check function exists using registry',
