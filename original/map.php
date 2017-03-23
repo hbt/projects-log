@@ -4,10 +4,10 @@ $map = [
 
 
     'functionshub'             => [
-        'bookmarks'               => '54',
-        'brainstorming'           => [
+        'bookmarks and ideas dump' => '54',
+        'brainstorming'            => [
             'vision'                                => '20',
-            'research and bookmarks'                => '21',
+            'research'                              => '21',
             'redefining vision'                     => '22',
             'brainstorming prototype'               => '23',
             'deciding on key metrics'               => '24',
@@ -16,17 +16,17 @@ $map = [
             'investigate faas frameworks and tools' => '44',
             'roadmap'                               => '33',
         ],
-        'experimenting with tech' => [
+        'experimenting with tech'  => [
             'iron functions' => '47',
         ],
-        'clarifying vision'       => '48',
-        'strings prototype'       => [
+        'clarifying vision'        => '48',
+        'strings prototype'        => [
             'end goal'                 => '49',
             'list of string functions' => '50',
             'end result prototype'     => '53',
         ],
 
-        'mvp brainstorming'       => [
+        'mvp brainstorming'        => [
             'vision'  => '51',
             'metrics' => '52',
         ],

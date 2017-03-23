@@ -18,7 +18,7 @@
 <ul>
 <li>functionshub</li><ul><li>
 ++++
-link:bookmarks-54[bookmarks]
+link:bookmarks-and-ideas-dump-54[bookmarks and ideas dump]
 ++++
 </li>
 
@@ -29,7 +29,7 @@ link:vision-20[vision]
 </li>
 <li>
 ++++
-link:research-and-bookmarks-21[research and bookmarks]
+link:research-21[research]
 ++++
 </li>
 <li>

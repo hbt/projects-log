@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== bookmarks-54
+== bookmarks-and-ideas-dump-54
 
 
 
@@ -107,7 +107,7 @@ Place to track bookmarks and related ideas until I find something better
 . UI for programming http://worrydream.com/LearnableProgramming/
 . eve programming http://witheve.com/
 . http://blog.cloud-elements.com/convergence-api-management-ipaas-ready
-. good eagle view but lots of noise http://apievangelist.com/archive/
+. good eagle view on API industry but lots of noise http://apievangelist.com/archive/
 
 
 == fh machine learning 
