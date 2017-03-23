@@ -21,11 +21,6 @@
 link:bookmarks-54[bookmarks]
 ++++
 </li>
-<li>
-++++
-link:ideas-dump-46[ideas dump]
-++++
-</li>
 
 <li>brainstorming</li><ul><li>
 ++++

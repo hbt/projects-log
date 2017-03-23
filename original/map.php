@@ -5,7 +5,6 @@ $map = [
 
     'functionshub'             => [
         'bookmarks'               => '54',
-        'ideas dump'              => '46',
         'brainstorming'           => [
             'vision'                                => '20',
             'research and bookmarks'                => '21',

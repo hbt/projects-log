@@ -4,14 +4,3 @@
 check file 54
 
 
-== fh web UI
-
-. interesting UI https://treeline.io/
-. cool flowcharts for system design and conditions/loop https://jsplumbtoolkit.com/ 
-
-
-== fh blog writing 
-
-. perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  - Since the solution he implemented is much different but we both agree on the problem. outline your solution 
-.. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
-. google acquisition writing 
