@@ -3,7 +3,9 @@
 $map = [
 
 
-    'functionshub'                   => [
+    'functionshub'             => [
+        'bookmarks'               => '54',
+        'ideas dump'              => '46',
         'brainstorming'           => [
             'vision'                                => '20',
             'research and bookmarks'                => '21',
@@ -12,7 +14,6 @@ $map = [
             'deciding on key metrics'               => '24',
             'future of OSS'                         => '25',
             'take over the world'                   => '45',
-            'ideas dump'                            => '46',
             'investigate faas frameworks and tools' => '44',
             'roadmap'                               => '33',
         ],
@@ -23,7 +24,7 @@ $map = [
         'strings prototype'       => [
             'end goal'                 => '49',
             'list of string functions' => '50',
-            'end result prototype' => '53',
+            'end result prototype'     => '53',
         ],
 
         'mvp brainstorming'       => [

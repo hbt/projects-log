@@ -1,0 +1,85 @@
+
+Place to track bookmarks and related ideas until I find something better
+
+
+== ipaas - integration platform as a service. alternatives
+
+. Zapier https://zapier.com/
+. mulesoft https://www.mulesoft.com/
+. workato https://www.workato.com/
+. built.io https://www.built.io/
+. automate.io https://automate.io/
+. https://www.integromat.com/en/
+. https://bip.io/
+. https://fr8.co/
+. https://www.cloudpipes.com/
+. https://cloudwork.com/
+. https://www.elastic.io/
+. yahoo pipes
+. https://skyvia.com/data-integration/
+. http://proces.io/
+. https://azuqua.com/
+. https://flow.microsoft.com/en-us/
+. https://cloud.google.com/dataflow/
+. ipaas - integration platform as a service. https://www.google.ca/search?q=ipaas&oq=ipaas&aqs=chrome..69i57j0l5.1093j0j4&sourceid=chrome&ie=UTF-8
+. https://www.getapp.com/it-management-software/a/zapier/alternatives
+. http://alternativeto.net/software/zapier/
+. comparison + review tool https://comparisons.financesonline.com/zapier-vs-workato
+
+
+== oss zapier ifttt 
+
+. https://github.com/muesli/beehive
+. https://github.com/cantino/huginn
+. https://news.ycombinator.com/item?id=13623852
+
+== faas services
+
+. https://webtask.io/
+. https://funktion.fabric8.io/
+. https://github.com/bigcompany/hook.io
+. https://taskmill.io/ limited to JS
+. aws lambda https://aws.amazon.com/lambda/
+. aws ec2 container service https://aws.amazon.com/ecs/
+
+== faas frameworks
+
+. https://github.com/serverless/serverless most popular  on github when it comes to faas
+. https://github.com/bigcompany/hook.io related to microcule
+. https://github.com/Stackvana/microcule functinos and processes -- good streaming implementation for piping . used by hook.io
+. https://github.com/alexellis/faas package processes as functions
+. https://github.com/funktionio built on top of Kubernetes (but many languages?)
+. https://github.com/iron-io/functions - hot functions implementation is clumsy. starts and stops containers with a server on top for routing
+. https://github.com/fission/fission functions only (nodeJS and python only) doesnt look well maintained (outdated docs and such)
+. dockerfy https://github.com/bfirsh/serverless-docker
+. functions as docker containers https://github.com/bfirsh/funker
+
+== container orchestration
+
+. Kubernetes https://en.wikipedia.org/wiki/Kubernetes#History https://kubernetes.io/ https://platform9.com/blog/compare-kubernetes-vs-ecs/
+. http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html
+. https://docs.docker.com/engine/swarm/
+
+
+== api definition and documentation
+ 
+. http://swagger.io/ aka OpenAPI
+. https://apiblueprint.org/
+. http://raml.org/
+. more and comparisons http://nordicapis.com/top-specification-formats-for-rest-apis/
+
+== containers
+
+. https://www.iron.io/microcontainers-tiny-portable-containers/
+
+
+== great writing on faas and future of programming
+
+. good faas review 2016 https://martinfowler.com/articles/serverless.html
+. the archive is worth reading through - last at Jan 2014 or 2013 (check history) http://apievangelist.com/2013/02/10/bringing-etl-to-the-masses-with-apis/
+. perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  Applications can and ultimately should be replaced by programming environments, explicitly recognized as such, in which the user interactively creates, executes, inspects and composes programs. In this model, interaction with the computer is fundamentally an act of creation, the creative act of programming, of assembling language to express ideas, access information, and automate tasks
+. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
+. subtext idea spreadsheet http://www.subtext-lang.org/
+. UI for programming http://worrydream.com/LearnableProgramming/
+. eve programming http://witheve.com/
+. http://blog.cloud-elements.com/convergence-api-management-ipaas-ready

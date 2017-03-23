@@ -16,7 +16,17 @@
 
 ++++
 <ul>
-<li>functionshub</li><ul>
+<li>functionshub</li><ul><li>
+++++
+link:bookmarks-54[bookmarks]
+++++
+</li>
+<li>
+++++
+link:ideas-dump-46[ideas dump]
+++++
+</li>
+
 <li>brainstorming</li><ul><li>
 ++++
 link:vision-20[vision]
@@ -50,11 +60,6 @@ link:future-of-oss-25[future of OSS]
 <li>
 ++++
 link:take-over-the-world-45[take over the world]
-++++
-</li>
-<li>
-++++
-link:ideas-dump-46[ideas dump]
 ++++
 </li>
 <li>

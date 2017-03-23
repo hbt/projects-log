@@ -1,9 +1,12 @@
 
+NOTE: Majority of links migrated to 54 and 46. in sync with functionshub folder on chrome
+
 I'd like to investigate similar ideas before even thinking about the technical design.
 
 Maybe it can be built on top of Zapier or an existing platform instead of building everything from scratch. 
 
 Although a lot of what I want is the equivalent of distributed functions. 
+
 
 
 == alternatives to zapier
