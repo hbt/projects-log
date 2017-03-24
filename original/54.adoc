@@ -56,6 +56,7 @@ Place to track bookmarks and related ideas until I find something better
 
 == container orchestration
 
+. https://www.nomadproject.io/ popular from this post https://www.hashicorp.com/c1m/
 . Kubernetes https://en.wikipedia.org/wiki/Kubernetes#History https://kubernetes.io/ https://platform9.com/blog/compare-kubernetes-vs-ecs/
 . http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html
 . https://docs.docker.com/engine/swarm/
@@ -145,6 +146,7 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 
 . interesting UI https://treeline.io/
 . cool flowcharts for system design and conditions/loop https://jsplumbtoolkit.com/ 
+. rich input https://news.ycombinator.com/item?id=13940594
 
 
 == fh UX

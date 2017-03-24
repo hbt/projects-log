@@ -31,7 +31,6 @@ $t = [
                     'validate call against registry',
                     'execs call',
                     'output with type',
-
                 ],
 
                 'create ruby wrapper' => [
