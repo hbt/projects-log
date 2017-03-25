@@ -42,6 +42,13 @@ Place to track bookmarks and related ideas until I find something better
 . aws lambda https://aws.amazon.com/lambda/
 . aws ec2 container service https://aws.amazon.com/ecs/
 
+
+== cloud computing hosting
+
+. google cloud computing (also supports containers and other integrated services. free trial. good discounts)
+. aws containers
+. joyent (billed by minute instead of hour)
+
 == faas frameworks
 
 . https://github.com/serverless/serverless most popular  on github when it comes to faas

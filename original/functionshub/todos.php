@@ -26,6 +26,11 @@ $t = [
                     'scaling requests -- lambda, ec2 orchestration?',
                 ],
 
+                'strings docker' => [
+                    'faas orchestration or iron functions?',
+                    '',
+                ],
+
                 'server' => [
                     'api.functionshub.com',
                     'validate call against registry',
