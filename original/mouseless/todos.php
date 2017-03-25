@@ -16,7 +16,7 @@ $todos = [
     ],
 
     'weekly checklist' => [
-        'review forks -- last count 123',
+        'review forks -- last count 124',
         'review commits + merge ',
         'check original fork' => [
             'git co 1995',
