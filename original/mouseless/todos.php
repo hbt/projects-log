@@ -16,7 +16,7 @@ $todos = [
     ],
 
     'weekly checklist' => [
-        'review forks -- last count 124',
+        'review forks -- last count 125',
         'review commits + merge ',
         'check original fork' => [
             'git co 1995',
@@ -52,6 +52,10 @@ $todos = [
         'review diff',
         'push',
         'close ticket',
+    ],
+
+    'releease' => [
+        'https://hbt.github.io/mouseless/tips.html#_how_to_do_a_release',
     ],
 
 ];
