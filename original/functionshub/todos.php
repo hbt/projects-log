@@ -5,14 +5,21 @@ $t = [
     'end2end' => [
         'fh' => [
 
+            'tag line' => 'Automate Anything Anywhere',
+
             'next' => [
 
                 'added curl tests' => [
                     'tests docker image using json over http',
 
                     '' => [
-                        // TODO(hbt) NEXT fix the functionshub npm install + mapping directory (maybe use docker-compose instead)
-                        // TODO(hbt) NEXT run speed test by optimizing it - (fix the build, use exec and test)
+                        'deploy and get it to work out of the gate' => [
+                            // TODO(hbt) NEXT fix the functionshub npm install + mapping directory (maybe use docker-compose instead)
+                            'use docker-compose',
+                        ],
+                        'fix speed and test on more cores if it solves it' => [
+                            // TODO(hbt) NEXT run speed test by optimizing it - (fix the build, use exec and test)
+                        ],
 
                         's - dockerfy and deploy on remote server and pass tests',
                         'wip node image and pass server status',
