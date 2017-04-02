@@ -2,6 +2,75 @@
 
 $t = [
 
+    'end2end' => [
+        'fh' => [
+
+            'next' => [
+
+                'added curl tests' => [
+                    'tests docker image using json over http',
+
+                    '' => [
+                        // TODO(hbt) NEXT fix the functionshub npm install + mapping directory (maybe use docker-compose instead)
+                        // TODO(hbt) NEXT run speed test by optimizing it - (fix the build, use exec and test)
+
+                        's - dockerfy and deploy on remote server and pass tests',
+                        'wip node image and pass server status',
+                        '' => [
+                            'dfile',
+                            'mount repo',
+                            'run nodemon ',
+                            'map port',
+                            'pass test',
+                        ],
+                        'wip docker compose and binded docker daemon',
+                        // TODO(hbt) NEXT use -v map functions hub  instead of copy for it to sync up on changes like
+                        // local
+// TODO(hbt) NEXT test restart by docker-compose when docker is killed
+                        'wip pass tests on remote',
+                        'wip added readme files',
+                        'd - dockerfy and deploy on remote server and pass tests',
+
+                    ],
+                ],
+                
+                'curl test replace over http',
+                'dockerfy and deploy ',
+                'run tests',
+
+            ],
+            'send http request' => [
+
+                'curl http://remote/string/replace?string=hello world&source=hello&replace=bye',
+                'same as above but with json  -- name, namespace, args',
+            ],
+            'server' => [
+                'parse',
+
+            ],
+        ],
+
+        'server' => [
+            'exposed http server',
+            'multi connections',
+            'pass docker socket',
+            'start stop docker container',
+            'json example...',
+        ],
+
+        'rm sshlabs2',
+
+        'add docker clean shortcuts',
+        'add shortcut to kill, rm, build and run',
+
+
+        'buy functionshub',
+        'gcloud' => [
+            'containers + pods + autoscaling + docker within docker',
+        ],
+
+
+    ],
 
     'strings prototype'              => [
 
