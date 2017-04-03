@@ -15,30 +15,9 @@ $t = [
 
 
             ],
-            'send http request' => [
-
-                'curl http://remote/string/replace?string=hello world&source=hello&replace=bye',
-                'same as above but with json  -- name, namespace, args',
-            ],
-            'server' => [
-                'parse',
-
-            ],
+            
         ],
-
-        'server' => [
-            'exposed http server',
-            'multi connections',
-            'pass docker socket',
-            'start stop docker container',
-            'json example...',
-        ],
-
-        'rm sshlabs2',
-
-        'add docker clean shortcuts',
-        'add shortcut to kill, rm, build and run',
-
+        
 
         'buy functionshub',
         'gcloud' => [
@@ -46,6 +25,13 @@ $t = [
         ],
 
 
+    ],
+
+    '4 pricing constants' => [
+        'cpu',
+        'memory',
+        'storage and IO access',
+        'bandwidth',
     ],
 
     'tag line' => 'Automate Anything Anywhere',
