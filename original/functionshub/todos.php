@@ -2,48 +2,17 @@
 
 $t = [
 
+
     'end2end' => [
         'fh' => [
 
-            'tag line' => 'Automate Anything Anywhere',
 
             'next' => [
 
-                'added curl tests' => [
-                    'tests docker image using json over http',
-
-                    '' => [
-                        'deploy and get it to work out of the gate' => [
-                            // TODO(hbt) NEXT fix the functionshub npm install + mapping directory (maybe use docker-compose instead)
-                            'use docker-compose',
-                        ],
-                        'fix speed and test on more cores if it solves it' => [
-                            // TODO(hbt) NEXT run speed test by optimizing it - (fix the build, use exec and test)
-                        ],
-
-                        's - dockerfy and deploy on remote server and pass tests',
-                        'wip node image and pass server status',
-                        '' => [
-                            'dfile',
-                            'mount repo',
-                            'run nodemon ',
-                            'map port',
-                            'pass test',
-                        ],
-                        'wip docker compose and binded docker daemon',
-                        // TODO(hbt) NEXT use -v map functions hub  instead of copy for it to sync up on changes like
-                        // local
-// TODO(hbt) NEXT test restart by docker-compose when docker is killed
-                        'wip pass tests on remote',
-                        'wip added readme files',
-                        'd - dockerfy and deploy on remote server and pass tests',
-
-                    ],
-                ],
+                // TODO(hbt) NEXT 
+                'clean up speed test',
                 
-                'curl test replace over http',
-                'dockerfy and deploy ',
-                'run tests',
+
 
             ],
             'send http request' => [
@@ -79,6 +48,8 @@ $t = [
 
     ],
 
+    'tag line' => 'Automate Anything Anywhere',
+    'find out how they got their ratings indexed here -- stars appear near google result https://www.google.ca/search?q=phpstorm+node+ide+completion&oq=phpstorm+node+ide+completion&aqs=chrome..69i57j0l2.4760j0j4&sourceid=chrome&ie=UTF-8',
     'strings prototype'              => [
 
         'plan' => [
