@@ -32,3 +32,19 @@ If you focus on users first, you need a set of functions for that demographic. e
 focus on allowing developers to build, release their stuff and use/integrate it with other people's stuff
 
 focus on OSS community but it doesn't mean shit is free.
+
+
+== minimal 
+
+. billing 
+. create/publish/use/sell new function
+
+== promotional marketing
+
+. take advantages of situations like netflix debacle. export ratings using a function + chrome extension
+
+
+== branding
+
+. flag as mvp / beta from the start
+. control speed perception. if string functions are released and they take 300ms due to container startup, people start spreading that the product is slow. Where as if a youtube-dl takes 300ms, it is fine.

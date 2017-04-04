@@ -1,0 +1,110 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== experimenting-with-end-to-end-55
+
+
+
+
+the end2end experiment proved a few things:
+
+== nodejs 
+
+is a solid backend despite the quality of some OSS apis. I haven't dug into the ecosystem since 2013/2014 but the fundamentals haven't changed, only the key players. 
+IDE sucks though. I couldn't get the autocompletion to work properly and I wanted code formatting and inspection that made sense out of the gate with minimal configuration. 
+
+Autocompletion works partially with different results between phpstorm and webstorm. 
+The code formatting can be configured but could not reuse existing xml files from google/airbnb style unless using eslint or an external tool.
+Will have to figure out how to integrate that into my workflow so it is mindless. 
+
+
+Finally, stackoverflow answers when it comes to nodejs are a hint at best, not answers. Anything dating 2011, 2013 etc. may as well be deprecated/gone despite the high votes etc.
+
+
+Debugging using IDE was pleasant though. I still believe it is the best tool for now in terms of productivitiy and delivering results.
+
+
+== docker functions  speed 
+
+faas using docker can achieve the desired speed. reached ~70ms call optimization and could reduce it further by establishing a stream with the socket, using caching etc. 
+
+== docker files
+ 
+building dockerfiles is a pain in the ass. 
+
+since updating an instruction involves downloading everything again and you have an incentive to bundle 
+instructions since it reduces image layers. basically, you have to write it as a draft then optimize it (at least for readability). there are tools to 
+squash the docker image git style. 
+
+The other issues are linux and internet related and I do not like relying on Dockerfile and assuming URLs are not go 404 next year. 
+Having the docker image is a must. 
+
+
+== user sophistication
+
+a lot of work will have to get done to dumb it down and make it easier. I want to be able to add a file in any language, some basic metadata or infer it by the tests/examples/asserts and have the function up and running. 
+
+I've already outlined the tools required but the current workflow is out of reach for the majority of users. At least, not without reading a shit ton of doc on multiple 3rd party system and dealing with the frustrations of linux first hand.
+
+
+== context switching was high
+
+I found myself dealing with 3 contexts. The local environment, the docker environment locally and the docker environment remotely. 
+
+
+Since docker caches the image and data volumes are mounted instead of copying, there is a possibility of a mismatch between local and remote environments despite using docker.  
+
+Example: I mounted the repository but had already executed npm install locally. The docker image worked fine locally but didn't remotely due to missing node_modules.
+
+Small errors like that can be a nightmare to debug without proper information, generic error messages, no access to the remote host etc. 
+
+
+== testing
+
+Another one was the testing, starting and stopping stuff (docker-compose is super slow at stopping containers). 
+Testing was harder than expected because it took me ahwile to make up my mind on which context I should be testing. 
+The docker context ofcourse, yes, but then active development becomes slow since the changes require image rebuilt and container reloading. 
+
+
+
+== hosting 
+
+this was also a pain in the ass. Mismatch between the docker client and docker engine api versions resulted in weird errors. 
+Install instructions for docker are so fucking confusing and verbose AND there are too many ways to install it.
+
+Dealing with named containers and errors.
+
+
+However, once that was sorted out. I hit docker-compose up and my local environment was replicated, passed all the tests and it was smooth. 
+
+I know for a fact that Dockerfile are not reliable though. Dealing with old example where the image on dockerhub works but building it from the dockerfile doesn't due to some wget http://doesntexit.com/install.tar
+
+
+
+== final thoughts
+
+I'm gonna ditch the end2end experiment despite all the todos and enhance, redesign it and iterate. 
+Solving the context switching is key. 
+
+Also, some quick experiments on scaling with docker swarm or kubernetes would be great. 
+I know scaling is too early at the moment but I don't want to find myself in a corner later.
+
+
+
+
+
