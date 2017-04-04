@@ -11,15 +11,64 @@ $t = [
 
                 // TODO(hbt) NEXT 
                 'clean up speed test',
-                
+
+                'workout kinks like express errors and tests ',
+                '',
+                'think about ditching it',
+
+                'fix code quality and formatting for js',
 
 
+                'scale functions -- make it easy to add new ones' => [
+                    'mkdir string',
+                    'function per file' => [
+                        
+                    ],
+                    'functions in one file' => [
+                        'require fh helper to parse json and redirect call',
+                    ],
+
+                    // TODO(hbt) NEXT inv json/yml schema definition tool -- required/optional fields, etc.
+                    'functions.yml / json definition' => [
+                        'fh def schema version ',
+                        'name',
+                        'description',
+                        'parameters/arguments' => [
+                            'arg1' => [
+                                'name',
+                                'description',
+                                'type',
+                                'required/optional',
+                            ], 
+                        ],
+                        'version -- do it later',
+                        'custom entry point -- pick one as default for now',
+                        'tests input/outputs/description (will be used as example. same as phpdoc)',
+                    ],
+
+                    'fhs utility -- helps with dev' => [
+                        'local/remote' => [
+                            'verbose',
+                            'detect language',
+                            'fix file -- interpreter line',
+                            'fix file perms',
+                            'dld best docker image',
+                            'solve docker issues -- missing deps and such automatically -- 26 other people experienced this issue and solved it using xx. attempting fix.',
+
+                            '-- docker smart assistant - help you write your images and solve auto problems ',
+                            'fhs kill -- in case of loops or such',
+
+                        ],
+                        'run tests',
+                        'sync ',
+                        'debug',
+                    ],
+                ],
             ],
             
         ],
         
 
-        'buy functionshub',
         'gcloud' => [
             'containers + pods + autoscaling + docker within docker',
         ],
