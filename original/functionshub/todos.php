@@ -3,28 +3,55 @@
 $t = [
 
 
-    'end2end' => [
-        'fh' => [
+    'end2end'                        => [
+        'fh'     => [
 
 
             'next' => [
 
-                // TODO(hbt) NEXT 
-                'clean up speed test',
 
-                'workout kinks like express errors and tests ',
-                '',
-                'think about ditching it',
+                'enhance end2end'                                 => [
 
-                'fix code quality and formatting for js',
+                    'workout kinks like express errors and tests ',
+                    '',
+                    'think about ditching it',
+                    'fix code quality and formatting for js',
+                ],
+
+
+                'video to mp3 - dld  or to drive' => [
+                    // -- maybe use transfer.sh for storage for now
+                    'youtubedl' => [
+                        'i - url',
+                        'o - file url',
+                    ],
+                    'avconv ' => [
+                        'i - file url',
+                        'o - file url',
+                    ],
+                    'gdrive' => [
+                        'i - folder , file url',
+                        'o - gdrive file url',
+                    ],
+                    'dld' => [
+                        'i - file url',
+                        'o - stream to dld content',
+                    ],
+
+                ],
 
 
                 'scale functions -- make it easy to add new ones' => [
                     'mkdir string',
-                    'function per file' => [
+
+                    'one entry point /main' => [
                         
                     ],
-                    'functions in one file' => [
+
+                    'function per file'               => [
+
+                    ],
+                    'functions in one file'           => [
                         'require fh helper to parse json and redirect call',
                     ],
 
@@ -39,14 +66,14 @@ $t = [
                                 'description',
                                 'type',
                                 'required/optional',
-                            ], 
+                            ],
                         ],
                         'version -- do it later',
                         'custom entry point -- pick one as default for now',
                         'tests input/outputs/description (will be used as example. same as phpdoc)',
                     ],
 
-                    'fhs utility -- helps with dev' => [
+                    'fhs utility -- helps with dev'   => [
                         'local/remote' => [
                             'verbose',
                             'detect language',
@@ -65,9 +92,9 @@ $t = [
                     ],
                 ],
             ],
-            
+
         ],
-        
+
 
         'gcloud' => [
             'containers + pods + autoscaling + docker within docker',
@@ -76,29 +103,29 @@ $t = [
 
     ],
 
-    '4 pricing constants' => [
+    '4 pricing constants'            => [
         'cpu',
         'memory',
         'storage and IO access',
         'bandwidth',
     ],
 
-    'tag line' => 'Automate Anything Anywhere',
+    'tag line'                       => 'Automate Anything Anywhere',
     'find out how they got their ratings indexed here -- stars appear near google result https://www.google.ca/search?q=phpstorm+node+ide+completion&oq=phpstorm+node+ide+completion&aqs=chrome..69i57j0l2.4760j0j4&sourceid=chrome&ie=UTF-8',
     'strings prototype'              => [
 
-        'plan' => [
-            
-            'domains' => [
+        'plan'                     => [
+
+            'domains'                               => [
                 'buy functionshub.com',
                 'github handle',
                 'twitter handle',
                 'aws account',
                 'review passwds',
             ],
-            
-            'create example with raw functions' => [
-                'unknowns' => [
+
+            'create example with raw functions'     => [
+                'unknowns'                                    => [
 
                     'protocol buffers or reinvent wheel with json',
                     'inv faas vs iron functions',
@@ -108,27 +135,26 @@ $t = [
                     'scaling requests -- lambda, ec2 orchestration?',
                 ],
 
-                'strings docker' => [
+                'strings docker'                              => [
                     'faas orchestration or iron functions?',
                     '',
                 ],
 
-                'server' => [
+                'server'                                      => [
                     'api.functionshub.com',
                     'validate call against registry',
                     'execs call',
                     'output with type',
                 ],
 
-                'create ruby wrapper' => [
+                'create ruby wrapper'                         => [
                     'bb repo',
                     'fh handle + call server',
                     'send post',
                     'verbose mode',
                     'token=X function=x/y/z or function=z params[array]',
                 ],
-                
-                
+
 
                 'create docker container of string functions' => [
                     'server relays request to function',
