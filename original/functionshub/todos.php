@@ -3,6 +3,36 @@
 $t = [
 
 
+    'metrics'                        => [
+        'profits' => [
+            'revenue streams' => [
+                'cloud' => [
+                    'nb users'              => [
+                        'nb functions'
+                    ],
+                    'nb executed functions' => [
+
+                    ],
+                    'nb functions'          => [
+
+                    ],
+                    'nb developers' => [
+                        
+                    ],
+                ],
+            ],
+
+            'costs'           => [
+                'domain names' => [
+                    'functionshub.com' => '10.87',
+                ],
+                'hosting'      => [
+                    'linode' => '20',
+                ],
+            ],
+        ],
+    ],
+
     'end2end'                        => [
         'fh'     => [
 
@@ -18,22 +48,55 @@ $t = [
                     'fix code quality and formatting for js',
                 ],
 
+                'easy function'                                   => [
+                    'empty dir '         => [
+                        'php file',
+                        'function',
+                    ],
+                    'json parser / exec' => [
 
-                'video to mp3 - dld  or to drive' => [
+                    ],
+                    'yml def fn'         => [
+                        'fn attrs',
+                    ],
+                    'dockerfile'         => [
+                        '',
+                    ],
+
+                ],
+
+                'helper'                                          => [
+                    'check fn def' => [
+
+                    ],
+                    'build docker' => [
+
+                    ],
+                    'run tests'    => [
+
+                    ],
+                    'local/remote' => [
+
+                    ],
+
+                ],
+
+
+                'video to mp3 - dld  or to drive'                 => [
                     // -- maybe use transfer.sh for storage for now
                     'youtubedl' => [
                         'i - url',
                         'o - file url',
                     ],
-                    'avconv ' => [
+                    'avconv '   => [
                         'i - file url',
                         'o - file url',
                     ],
-                    'gdrive' => [
+                    'gdrive'    => [
                         'i - folder , file url',
                         'o - gdrive file url',
                     ],
-                    'dld' => [
+                    'dld'       => [
                         'i - file url',
                         'o - stream to dld content',
                     ],
@@ -44,8 +107,8 @@ $t = [
                 'scale functions -- make it easy to add new ones' => [
                     'mkdir string',
 
-                    'one entry point /main' => [
-                        
+                    'one entry point /main'           => [
+
                     ],
 
                     'function per file'               => [
