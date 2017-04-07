@@ -30,10 +30,17 @@ $map = [
 
         'strings prototype'        => [
             'end goal'                 => '49',
-            'list of string functions' => '50',
-            'end result prototype'     => '53',
+            'list of string functions from various apis' => '50',
+            'end result usage example'     => '53',
             'experimenting with end to end '  => '55',
+            'not too sure about strings prototype idea' => '57',
+            'solving the high context switching and development workflow' => '58',
             
+            'experiments' => [
+                'video to mp3 experiment' => [
+                    'thoughts' => '56',
+                ],
+            ],
         ],
 
 

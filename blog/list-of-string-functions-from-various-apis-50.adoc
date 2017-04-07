@@ -16,7 +16,7 @@
 
 link:index[Home]
 
-== list-of-string-functions-50
+== list-of-string-functions-from-various-apis-50
 
 
 

@@ -1,0 +1,9 @@
+
+I dont think I'm gonna push the idea too far. Some aspects of it are common across all functions and it's worth building those components. 
+
+Strings prototyping offers an oversimplication. 
+
+However, I have no use for most of those functions at the moment and would rather not spend time writing wrappers / documentation for them. i.e the grunt work aspect of building them up once the all components exist.
+
+
+The video mp3 processing is something i use daily and offers even more complex problems such as storage etc. -- view 56

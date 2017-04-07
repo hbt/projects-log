@@ -1,0 +1,20 @@
+
+From 55, context switching was the most annoying and time consuming aspect. 
+
+If I can streamline that, I will reduce the dev of a function.
+
+
+== ideal workflow
+
+. create empty folder
+. create file in language x with functions in them
+. document functions inputs(main input)/outputs/assertions etc. with annotations in the file
+. use fh local test to:
+.. build the docker file
+.. build your functions definitions
+.. run your tests - if missing deps are found, auto-correct
+. fh remote deploy
+.. deploys image on functionhub 
+.. version it
+.. run tests
+

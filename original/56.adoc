@@ -1,0 +1,37 @@
+
+== end goal
+
+have a set functions callable over rest api that handle the current video-mp3-converter project 
+
+This mini project will help:
+
+- identify the components such as the fh-helper for building, deploying docker files 
+- have a functioning set of functions that can be mixed around based on needs
+- open door to further scaling experiments (i.e avconv and processing multiple files at the same time on multiple nodes etc.)
+- enhance storage service
+- identify user flow - how to handle multiple users, token management, parallel requests management in the same container etc.
+- pausing/canceling long requests like downloading/processing files
+- look into advanced optimizations e.g splitting the video file, processing the sound in multi cpu then reassembling it
+
+
+== list of functions
+
+. extractVideo - youtube-dl encapsulate - input url - output file array
+. extractSound - avconv - input file - output file
+. gdrive upload - input directorypath, file - output success/failure
+. downloadFile - file - output download stream
+
+
+== unknowns
+
+=== gdrive and google api token management. 
+
+Not sure the best way to manage those tokens or if I want to handle that aspect at all. 
+Maybe it's possible to reuse an existing platform like Zapier or ifttt and use the work they've done on integrations
+
+=== download file 
+
+I dont know if this should be stream based and ideally i want it to work both by script and on the browser. 
+
+On the browser, to prompt the download window and via scripting to generate a stream. 
+
