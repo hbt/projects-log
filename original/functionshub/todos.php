@@ -2,6 +2,8 @@
 
 $t = [
 
+    // TODO(hbt) NEXT transfer mapping to php 
+    // TODO(hbt) NEXT move metrics 
 
     'metrics'                        => [
         'profits' => [
@@ -15,8 +17,18 @@ $t = [
                     ],
                     'nb functions'          => [
 
+                        'nb functions in registry' => [
+                            'nb functions deploy tool / dockerhub images' => [
+                                'nb functions passing build tool' => [
+                                    
+                                ], 
+                            ],
+                        ],
                     ],
                     'nb developers' => [
+                        
+                    ],
+                    'uptime %' => [
                         
                     ],
                 ],
@@ -30,7 +42,36 @@ $t = [
                     'linode' => '20',
                 ],
             ],
+
+            'core user values' => [
+                'fast',
+                'cheap',
+                'effective',
+                'easy',
+
+                'applied to function' => [
+                    'minimal effort to create one',
+                    'time to insert input, select action and output',
+                    'low cost/bills',
+                    
+                ],
+            ],
         ],
+    ],
+
+    'workflows' => [
+        'developer' => [
+            'create function' => [
+                
+            ],
+        ],
+    ],
+
+    'systems' => [
+        'domain',
+        'creditcard',
+        'server',
+        'helper',
     ],
 
     'end2end'                        => [
