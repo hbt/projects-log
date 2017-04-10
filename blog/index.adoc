@@ -120,14 +120,24 @@ link:not-too-sure-about-strings-prototype-idea-57[not too sure about strings pro
 link:solving-the-high-context-switching-and-development-workflow-58[solving the high context switching and development workflow]
 ++++
 </li>
+</ul><li>
+++++
+link:building-a-basic-version-for-myself-59[building a basic version for myself ]
+++++
+</li>
 
-<li>experiments</li><ul>
+<li>basic version for self</li><ul><li>
+++++
+link:organizational-struggle-60[organizational struggle ]
+++++
+</li>
+</ul>
 <li>video to mp3 experiment</li><ul><li>
 ++++
 link:thoughts-56[thoughts]
 ++++
 </li>
-</ul></ul></ul></ul>
+</ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]

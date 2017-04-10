@@ -1,0 +1,19 @@
+
+It's too easy to get lost doing shit that doesn't matter or focusing on the wrong thing. 
+
+The strings prototype experiment did its job. Identify the components, build a quick prototype, run speed tests and determine feasibility.
+
+I have no interest in strings manipulation at the moment.
+
+
+== mvp or what?
+
+the focus on mvp, what customers want etc. is the wrong approach at this stage. The goals are aligned but spending time building something someone else *might* (big emphasis on might) find useful vs me simply needing it. 
+
+The latter is more of what I want. I need to dockerfy some programs because it's a nightmare to maintain them or have to deal with software updates or stuff breaking when it used to work. 
+Docker solves that. It simply works forever. Well, until the timestamps go to shit.
+
+
+== what i need
+
+What I need is the ability to create functions easily and use them via a wrapper. Basta. 

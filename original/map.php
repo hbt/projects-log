@@ -4,8 +4,8 @@ $map = [
 
 
     'functionshub'             => [
-        'bookmarks and ideas dump' => '54',
-        'brainstorming'            => [
+        'bookmarks and ideas dump'             => '54',
+        'brainstorming'                        => [
             'vision'                                => '20',
             'research'                              => '21',
             'redefining vision'                     => '22',
@@ -16,31 +16,37 @@ $map = [
             'investigate faas frameworks and tools' => '44',
             'roadmap'                               => '33',
         ],
-        'experimenting with tech'  => [
+        'experimenting with tech'              => [
             'iron functions' => '47',
         ],
-        'clarifying vision'        => '48',
+        'clarifying vision'                    => '48',
 
 
-        'mvp brainstorming'        => [
+        'mvp brainstorming'                    => [
             'vision'  => '51',
             'metrics' => '52',
         ],
 
 
-        'strings prototype'        => [
-            'end goal'                 => '49',
-            'list of string functions from various apis' => '50',
-            'end result usage example'     => '53',
-            'experimenting with end to end '  => '55',
-            'not too sure about strings prototype idea' => '57',
+        'strings prototype'                    => [
+            'end goal'                                                    => '49',
+            'list of string functions from various apis'                  => '50',
+            'end result usage example'                                    => '53',
+            'experimenting with end to end '                              => '55',
+            'not too sure about strings prototype idea'                   => '57',
             'solving the high context switching and development workflow' => '58',
-            
-            'experiments' => [
-                'video to mp3 experiment' => [
-                    'thoughts' => '56',
-                ],
-            ],
+
+
+        ],
+
+
+        'building a basic version for myself ' => '59',
+        'basic version for self' => [
+            'organizational struggle ' => '60',
+        ],
+
+        'video to mp3 experiment'              => [
+            'thoughts' => '56',
         ],
 
 
