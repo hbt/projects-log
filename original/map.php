@@ -43,11 +43,10 @@ $map = [
         'building a basic version for myself ' => '59',
         'basic version for self' => [
             'organizational struggle ' => '60',
+            'video to mp3 experiment - thoughts' => '56',
+            // TODO(hbt) NEXT fh vision blog official
         ],
 
-        'video to mp3 experiment'              => [
-            'thoughts' => '56',
-        ],
 
 
     ],

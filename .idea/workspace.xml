@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/54.adoc" afterPath="$PROJECT_DIR$/original/54.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/60.adoc" afterPath="$PROJECT_DIR$/original/60.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/map.php" afterPath="$PROJECT_DIR$/original/map.php" />
     </list>
     <ignored path="projects-log.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="map.php" pinned="true" current-in-tab="false">
+      <file leaf-file-name="map.php" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144">
-              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.42765275">
+              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
               <folding>
                 <element signature="e#772#821#1#PHP" expanded="false" />
               </folding>
@@ -37,13 +38,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todos.php" pinned="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
+      <file leaf-file-name="56.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/56.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8145766">
-              <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="60.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/60.adoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.366667">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todos.php" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.535714">
+              <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="54.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/54.adoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.566667">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="59.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/59.adoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.033334">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -156,9 +209,9 @@
         <option value="$PROJECT_DIR$/original/mouseless/todos.php" />
         <option value="$PROJECT_DIR$/original/59.adoc" />
         <option value="$PROJECT_DIR$/original/functionshub/todos.php" />
-        <option value="$PROJECT_DIR$/original/map.php" />
-        <option value="$PROJECT_DIR$/original/60.adoc" />
         <option value="$PROJECT_DIR$/original/54.adoc" />
+        <option value="$PROJECT_DIR$/original/60.adoc" />
+        <option value="$PROJECT_DIR$/original/map.php" />
       </list>
     </option>
   </component>
@@ -3230,16 +3283,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/56.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/50.adoc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3317,29 +3360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/59.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/60.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.4">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/54.adoc">
+    <entry file="file://$PROJECT_DIR$/original/58.adoc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3350,7 +3371,48 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/58.adoc">
+    <entry file="file://$PROJECT_DIR$/original/54.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.566667">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714">
+          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/59.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.033334">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/60.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.366667">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/56.adoc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3363,19 +3425,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/original/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.42765275">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
           <folding>
             <element signature="e#772#821#1#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8145766">
-          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>

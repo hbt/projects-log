@@ -17,3 +17,15 @@ There is no tool out there that I know of capable of providing a linkage between
 
 I think it's worth investigating a few tools related to metrics/analystics/logging. It will be a major component and I really want to keep it for later but just from the recent end2end prototype, I can already feel overwhelmed by the workflows, the number of components and their interractions and all the enhancements that need to be made.
 
+
+Update:
+
+Found a simpler approach that meets current needs. Define the workflows via testing like the 2013 todoapp. 
+Recursive metrics (deep/nested analytics) can wait later but I will still take a metrics approach and focus on big KPI to prioritize the work.
+
+This will solve the main problem: NOT feel overwhelmed by my OWN design.
+
+
+Side note:
+
+segment.io looks like a great tool for data collection. Good presentation with good tips regarding naming convention and such here https://www.youtube.com/watch?v=Tn5ABCAwCzQ

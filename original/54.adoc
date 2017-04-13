@@ -166,7 +166,11 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 == fh logging and analytics
 
 . reasonable pricing - https://keen.io/pricing/
-. good integrations https://segment.com/
+. good integrations https://segment.com/pricing
+
+== fh logging
+
+. https://www.loggly.com/
 
 == fh json manipulation in JS
 
