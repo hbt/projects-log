@@ -48,6 +48,10 @@ Place to track bookmarks and related ideas until I find something better
 . http://alternativeto.net/software/zapier/
 . comparison + review tool https://comparisons.financesonline.com/zapier-vs-workato
 
+== ipaas or building apps 
+
+. http://www.quickbase.com/ and other alternatives https://qz.com/778380/the-future-is-software-engineers-who-cant-code/
+
 
 == oss zapier ifttt 
 
@@ -127,6 +131,7 @@ Place to track bookmarks and related ideas until I find something better
 
 == fh blog writing 
 
+. good comment on hn regarding problem of deploying OSS (financial and operational) https://news.ycombinator.com/item?id=14091409
 . perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  - Since the solution he implemented is much different but we both agree on the problem. outline your solution 
 .. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
 . google acquisition writing 
@@ -187,7 +192,11 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 == fh logging and analytics
 
 . reasonable pricing - https://keen.io/pricing/
-. good integrations https://segment.com/
+. good integrations https://segment.com/pricing
+
+== fh logging
+
+. https://www.loggly.com/
 
 == fh json manipulation in JS
 
@@ -207,4 +216,8 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 
 . squash image layers instead of optimizing Dockerfile https://github.com/jwilder/docker-squash
 . experiment with docker and multiple hosts http://labs.play-with-docker.com/
-. 
+
+
+== great feature ideas
+
+. one click deploy of git repo https://blog.heroku.com/heroku-button

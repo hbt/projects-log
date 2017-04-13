@@ -4,8 +4,8 @@ $map = [
 
 
     'functionshub'             => [
-        'bookmarks and ideas dump'             => '54',
-        'brainstorming'                        => [
+        'bookmarks and ideas dump' => '54',
+        'brainstorming'            => [
             'vision'                                => '20',
             'research'                              => '21',
             'redefining vision'                     => '22',
@@ -16,19 +16,19 @@ $map = [
             'investigate faas frameworks and tools' => '44',
             'roadmap'                               => '33',
         ],
-        'experimenting with tech'              => [
+        'experimenting with tech'  => [
             'iron functions' => '47',
         ],
-        'clarifying vision'                    => '48',
+        'clarifying vision'        => '48',
 
 
-        'mvp brainstorming'                    => [
+        'mvp brainstorming'        => [
             'vision'  => '51',
             'metrics' => '52',
         ],
 
 
-        'strings prototype'                    => [
+        'strings prototype'        => [
             'end goal'                                                    => '49',
             'list of string functions from various apis'                  => '50',
             'end result usage example'                                    => '53',
@@ -40,13 +40,14 @@ $map = [
         ],
 
 
-        'building a basic version for myself ' => '59',
-        'basic version for self' => [
-            'organizational struggle ' => '60',
-            'video to mp3 experiment - thoughts' => '56',
-            // TODO(hbt) NEXT fh vision blog official
+        'basic version for self'   => [
+            'building a basic version for myself ' => '59',
+            'organizational struggle '             => '60',
+            'video to mp3 experiment - thoughts'   => '56',
+            'speed of execution'                   => '61',
+            // TODO(hbt) NEXT 
+            'why functionshub - official'          => '62',
         ],
-
 
 
     ],

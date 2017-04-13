@@ -1,0 +1,42 @@
+
+Although there are a few blog posts out there, I wanted to clarify the vision in a way that anyone can get it. 
+
+Understanding why functionshub must be built.
+
+
+A few blog posts to draw inspiration from:
+
+. good comment on hn regarding problem of deploying OSS (financial and operational) https://news.ycombinator.com/item?id=14091409
+. perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  - Since the solution he implemented is much different but we both agree on the problem. outline your solution 
+.. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
+- good format http://kakoune.org/why-kakoune/why-kakoune.html
+
+// TODO(hbt) NEXT review old vision posts
+
+
+
+== why functionshub
+
+== effectiveness and getting the job done
+
+. why we use software in the first place
+
+. issues with modern software
+
+- increasing frustration
+- software ux learning curve
+- inability to connect things together without a lot plumbing
+- communicating between programs - clojure guy talk
+- inaccessible open source
+. api deprecation and sites/services disappearing
+. it used to work, the fuck happened?
+. I only need that one thing, dont care about the rest
+. programming plumbing 
+. stackoverflow and ide and machine learning
+. inability to sell software easily or use it easily - app like instead of subscriptions and such
+. pay per use vs artificial scarcity
+- integration platforms and competitors
+- accelerate automation, information economy, ability to manipulate and accessibility
+- scalability portability accessibility easiness
+- emphasis on good old unix design . do one thing and do it well
+- the next level of usability in github repo

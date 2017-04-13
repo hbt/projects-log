@@ -120,21 +120,30 @@ link:not-too-sure-about-strings-prototype-idea-57[not too sure about strings pro
 link:solving-the-high-context-switching-and-development-workflow-58[solving the high context switching and development workflow]
 ++++
 </li>
-</ul><li>
+</ul>
+<li>basic version for self</li><ul><li>
 ++++
 link:building-a-basic-version-for-myself-59[building a basic version for myself ]
 ++++
 </li>
-
-<li>basic version for self</li><ul><li>
+<li>
 ++++
 link:organizational-struggle-60[organizational struggle ]
 ++++
 </li>
-</ul>
-<li>video to mp3 experiment</li><ul><li>
+<li>
 ++++
-link:thoughts-56[thoughts]
+link:video-to-mp3-experiment-thoughts-56[video to mp3 experiment - thoughts]
+++++
+</li>
+<li>
+++++
+link:speed-of-execution-61[speed of execution]
+++++
+</li>
+<li>
+++++
+link:why-functionshub-official-62[why functionshub - official]
 ++++
 </li>
 </ul></ul>

@@ -6,7 +6,8 @@ $t = [
     // TODO(hbt) NEXT create process/workflow to create function
     // TODO(hbt) NEXT transfer mapping to php 
     // TODO(hbt) NEXT move metrics -- integrate with 52.php -- maybe rename to metrics.php
-    
+    // TODO(hbt) NEXT really inv zapier for integrations with gdrive and such instead of reinventing
+
 
     'metrics'                        => [
         'profits' => [

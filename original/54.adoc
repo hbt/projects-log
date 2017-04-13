@@ -26,6 +26,10 @@ Place to track bookmarks and related ideas until I find something better
 . http://alternativeto.net/software/zapier/
 . comparison + review tool https://comparisons.financesonline.com/zapier-vs-workato
 
+== ipaas or building apps 
+
+. http://www.quickbase.com/ and other alternatives https://qz.com/778380/the-future-is-software-engineers-who-cant-code/
+
 
 == oss zapier ifttt 
 
@@ -190,4 +194,8 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 
 . squash image layers instead of optimizing Dockerfile https://github.com/jwilder/docker-squash
 . experiment with docker and multiple hosts http://labs.play-with-docker.com/
-. 
+
+
+== great feature ideas
+
+. one click deploy of git repo https://blog.heroku.com/heroku-button
