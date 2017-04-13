@@ -105,6 +105,7 @@ Place to track bookmarks and related ideas until I find something better
 
 == fh blog writing 
 
+. good comment on hn regarding problem of deploying OSS (financial and operational) https://news.ycombinator.com/item?id=14091409
 . perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  - Since the solution he implemented is much different but we both agree on the problem. outline your solution 
 .. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
 . google acquisition writing 
