@@ -1,47 +1,178 @@
 
+== why functionshub
+
 Although there are a few blog posts out there, I wanted to clarify the vision in a way that anyone can get it. 
+Also, using this document as personal incentive/reminder system whenever I get lost or forget why this must be done.
 
 Understanding why functionshub must be built.
 
 
+== fundamental goal 
+
+increase rate of automation and effectiveness: 
+
+- Make automation widely available, cheap and accessible (easy to use).
+- Use automation to increase personal effectiveness at goal completion. i.e Make ourselves smarter
+
+
+== problem everyone is trying to solve 
+
+Being effective. Achieving a goal. Getting the job done. Completing a task. Solving a problem. 
+
+Different sayings, same end result. Automation offers the ability to complete eliminate a problem. Not have to think about it or do any work. 
+It is a solution to a root problem. 
+
+Software, in many ways, solves that. If you understand something well enough, you can write in a way a computer can execute it. 
+This post is not about the benefits of software or automation. *It is about the problems that one must solve in order to achieve that end result.*
+
+== software problems (user perspective)
+
+=== too many hidden and inaccessible features (UI maze)
+
+Most users interact with software through an interface. Users do NOT care about UIs. They want to get a job done. They care about the end result. 
+
+Features in a software are not used by everybody. A small segment uses a set of features and another segment uses another and so on. 
+It is cheaper to maintain, brand, market and sell one piece of software than to have 50 flavors perfectly customized to each user segment to fullfill their workflow and needs. 
+
+
+This is not a new problem and it has already been solved by having tools that do one thing and one thing only. APIs with clear interfaces.
+
+
+FunctionsHub fixes that by following the same unix philosophy. One function with one purpose. 
+You can mash functions together to create your own workflow but by end of day, it is still a function. Input, Transformation, Output.
+
+=== used to work but no longer does (versioning, updates and end of life)
+
+Software should always work. No matter the version, no matter the year. Unless it is a bug incapable of handling some timestamps, it should work. Always. 
+
+There is nothing more frustrating than a piece of software that used to work, gets updated and now stops working. Or used to work on platform X, upgrade to platform X.0.0.2 and now no longer works. 
+
+
+You cannot build on top of startups with APIs that disappear due to bankruptcy, acquisition or other event out of your control. 
+Any investment in automation must require some form of reliability, certainty and promess of a future. 
+
+
+FunctionsHub solves this problem with containers and images. Every version of the software is an image that is executed in the same environment. If a user depends on version X, it will always be available and never be deprecated. 
+If the developer releases version Y, the user can choose to upgrade and can choose which functions they want upgraded. 
+You choose the functionality and once your automation is set up, you don't have to think about it again.
+
+
+=== works here but not there (platforms and environments)
+
+Platforms, packages, languages, environments, libraries, dependencies and all the noise around getting a piece of software to work is never abstracted. It is a constant source of interruption where in order to get the job done, you have to solve a myriad of tiny irrelevant problems due to your local environment. 
+
+FunctionsHub solves this by using images. Images contain everything in one big file. Even if the links required to build the image go 404, it won't matter. The image will always work, will contain everything and size will never be an issue since the user only interacts with the output produced by that image.
+
+
+=== works with this but not that (integration and plumbing)
+
+Software was never meant to exist in silos. The biggest silo of them all is a UI. 
+The unix philosophy encourages software that does one thing and does it well AND to communicate with text. 
+
+UIs take us backwards. Where the only way to communicate is with keyboard macros and other hackish methods. There is no API. 
+
+FunctionsHub is inspired by the recent work like Zapier and ifttt. Integration Platform As A Service. 
+By having strong types for inputs and outputs, matchers and other features; users can link the output of one function into another.
+This allows you to create highly complex functions easily without wasting time on plumbing (custom API SDK, input/output transformations, writing transformation code etc.)
+
+=== price
+
+Software should be as accessible as possible and reach as many people as possible. Why? because the cost of scaling is 0.
+The cloud is no exception. Scaling on the cloud using a pay per use model is infinite.
+
+With low costs, you can bypass the acquisition process of many enterprises AND bypass the price barrier many people have. 
+If we talk about fractions of a dollar to try a function and see if it can produce the desired end result vs having to buy, install software (hopefully those are the only 2 steps required to get the job done). 
+
+Users should pay primarily for the computation and the cost of maintenance. If the maintenance is done via OSS, then it is only the cost of computation. 
+
+FunctionsHub solves this problem by charging on a pay per use basis. You pay for the CPU/memory/IO/bandwidth your request costs us to execute. 
+It will also offer the ability for developers to define their own prices to cover the cost of maintenance. 
+Greed and unoptimal software is punished by the market. High prices can only be retained by superior algorithms that no one can replicate (low probability) or data sets no one can access (most likely).
+
+== Learning curve with software
+
+Learning curve is a major issue especially when dealing with UI mazes and poorly designed software. 
+
+
+FunctionsHub solves this by using a textual interface and allowing aliases based on domain knowledge.
+
+A good example of other software using similar strategy is git. People unfamilar with VCS can use Git wrappers like EasyGit where the domain knowledge speaks to users by using words like "save" instead of "commit". 
+
+FunctionsHub can use something similar for functions by allowing users to define aliases like "findCharacterPosition" instead of "indexOf" or "stripos".
+We can also include visuals to communicate the breadth of a model and provide live examples for users to experiment. 
+Since the cost of experimentation is low and easily accessible, users can try stuff and learn on the fly.
+
+
+== software problems (developer perspective)
+
+=== System design and feeling overwhelmed
+
+Developers quickly learn the best way to design software is by having small modules with a clear purpose rather than big monolithic code bases.
+Not only it makes it easy to debug but it is easier to collaborate with others and wrap your head around. 
+
+
+FunctionsHub follows that tradition by focusing on functions and making them the core building blocks. Developers are encouraged to not only think about the stuff they want to expose to end users but also the porcelain (like git commands) that make up the API.
+
+=== Choosing tools 
+
+Developers are not confined to one language, one framework, specific versions etc. 
+
+FunctionsHub encourages developers to adopt whatever gets the job done. From our perspective, it doesn't matter. An image is an image. JSON input is JSON input.
+
+== Fucking Programming Plumbing 
+
+The majority of code developers write is not unique, life changing code. It is programming plumbing. Getting stuff from library/API ABC to work with library/API XYZ.
+When it doesn't work, figure out why this version does but not this one, google around etc. 
+
+FunctionsHub can solve this by making it easier to communicate with other functions and by adopting machine learning. 
+As more people use and develop cloud functions, we will accumulate data. That data will range from simple input/output, to errors/warnings related to specific versions, dependencies etc. If someone solves that problem, you don't have to hunt for the solution on stackoverflow. The solution will be recorded in the cloud functions logs and automatically shared with you.
+
+=== Scaling
+
+Scaling software issues are a constant problem. This doesn't refer to winning the lottery ticket and having millions calling your software.
+Even desktop software has scaling issues. Your software is limited to the local memory and number of cpus. 
+
+FunctionsHub solves that problem by operating everything on the cloud. Was your marketing campaign successful and you suddenly have a million people calling a function? No problem, we scale the resources, the users (or you) pay for what they consume then scale it back down. 
+Do you have a large data set that you want to operate it on in parallel so you dont have to wait all day for it to finish computing linearly? Same idea. 
+Since the software is abstracted into an image, it is only a matter of deploying that image into as many computers as needed to fullfill the incoming requests.
+
+=== Distribution
+
+With GitHub, it is now easier than ever to host and distribute software. However, GitHub still has not solved the accessibility issue. 
+
+People who use github software are often developers and even them struggle to get the damn thing to work due to lack of dependency, wrong versions, packaging, platforms etc. 
+
+FunctionsHub solves distribution by hosting the code, facilitating the code execution and managing billing. As the user base grows, developers will find a market that isn't limited to developers and power users.
+
+=== Monetization
+
+Open Source should not be a dead end monetarily. If you produce something people use, make it easy for them to use it, maintain and enhance the software, you should be remunerated for the value you create. 
+
+If you don't choose to monetize, others will. As stated before, users don't want to install things locally and figure out some dubious interface, they simply want to state what they want and get the end result. Problem solved and move on with their lives.
+
+
+=== Jobs and business
+
+
+Although the ability to code is limited to a select few; the ability to specify systems, write proper requirements and think logically can be extended. 
+It might take you too long to figure out how to get a specific piece of code to work, but if you know the input, general algorithm and output you want, you can specify it.
+
+
+The key is building a system design software similar to video games (e.g factorio). Developers can then use those specifications, collaborate with the client and write the essential code.
+
+Similar approach for businesses can be adopted where users can contribute what they believe would generate value.
+
+
+== references used to write this 
+
 A few blog posts to draw inspiration from:
 
-. good comment on hn regarding problem of deploying OSS (financial and operational) https://news.ycombinator.com/item?id=14091409
-. perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  - Since the solution he implemented is much different but we both agree on the problem. outline your solution 
-.. followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
 - good format http://kakoune.org/why-kakoune/why-kakoune.html
-
-// TODO(hbt) NEXT review old vision posts
-
-
-
-== why functionshub
-
-== effectiveness and getting the job done
-
-. why we use software in the first place
-
-. issues with modern software
-
-- increasing frustration
-- software ux learning curve
-- inability to connect things together without a lot plumbing
-- communicating between programs - clojure guy talk
-- inaccessible open source
-. api deprecation and sites/services disappearing
-. it used to work, the fuck happened?
-. I only need that one thing, dont care about the rest
-. programming plumbing 
-. stackoverflow and ide and machine learning
-. inability to sell software easily or use it easily - app like instead of subscriptions and such
-. pay per use vs artificial scarcity
-- integration platforms and competitors
-- accelerate automation, information economy, ability to manipulate and accessibility
-- scalability portability accessibility easiness
-- emphasis on good old unix design . do one thing and do it well
-- the next level of usability in github repo
+- http://localhost:7075/future-of-oss-25
+- http://localhost:7075/redefining-vision-22
+- http://localhost:7075/vision-20
+- good comment on hn regarding problem of deploying OSS (financial and operational) https://news.ycombinator.com/item?id=14091409
+- perfect explanation of the problem and solution http://pchiusano.github.io/2013-05-22/future-of-software.html  - Since the solution he implemented is much different but we both agree on the problem. outline your solution 
+- followup http://pchiusano.github.io/2013-09-10/type-systems-and-ux-example.html http://unisonweb.org/2015-05-07/about.html
 
 
-- system design aspect and specing a new function / new functionality
-- jobs and contributing
-- oss contributing and monetization - like that project
