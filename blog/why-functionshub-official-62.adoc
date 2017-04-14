@@ -62,3 +62,8 @@ A few blog posts to draw inspiration from:
 - scalability portability accessibility easiness
 - emphasis on good old unix design . do one thing and do it well
 - the next level of usability in github repo
+
+
+- system design aspect and specing a new function / new functionality
+- jobs and contributing
+- oss contributing and monetization - like that project
