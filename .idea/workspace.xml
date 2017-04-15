@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c1970-875c-4fd2-9f53-aef772d35f25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/62.adoc" afterPath="$PROJECT_DIR$/original/62.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/why-functionshub-official-62.adoc" afterPath="$PROJECT_DIR$/blog/why-functionshub-official-62.adoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/why-functionshub-official-62.html" afterPath="$PROJECT_DIR$/docs/why-functionshub-official-62.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/functionshub/todos.php" afterPath="$PROJECT_DIR$/original/functionshub/todos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="projects-log.iws" />
@@ -40,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="62.adoc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="62.adoc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/62.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75510204">
-              <caret line="148" column="143" selection-start-line="148" selection-start-column="143" selection-end-line="148" selection-end-column="143" />
+            <state vertical-scroll-proportion="-6.9666667">
+              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todos.php" pinned="true" current-in-tab="false">
+      <file leaf-file-name="todos.php" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.428571">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.20364416">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -186,10 +184,10 @@
         <option value="$PROJECT_DIR$/original/59.adoc" />
         <option value="$PROJECT_DIR$/original/60.adoc" />
         <option value="$PROJECT_DIR$/original/61.adoc" />
-        <option value="$PROJECT_DIR$/original/functionshub/todos.php" />
         <option value="$PROJECT_DIR$/original/54.adoc" />
         <option value="$PROJECT_DIR$/original/map.php" />
         <option value="$PROJECT_DIR$/original/62.adoc" />
+        <option value="$PROJECT_DIR$/original/functionshub/todos.php" />
       </list>
     </option>
   </component>
@@ -326,7 +324,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -3405,14 +3403,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/original/map.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.642857">
@@ -3425,13 +3415,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/original/62.adoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75510204">
-          <caret line="148" column="143" selection-start-line="148" selection-start-column="143" selection-end-line="148" selection-end-column="143" />
+        <state vertical-scroll-proportion="-6.9666667">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/functionshub/todos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20364416">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

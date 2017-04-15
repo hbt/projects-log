@@ -2,7 +2,6 @@
 
 $t = [
 
-    // TODO(hbt) NEXT write why functionshub like http://kakoune.org/why-kakoune/why-kakoune.html
     // TODO(hbt) NEXT create process/workflow to create function
     // TODO(hbt) NEXT transfer mapping to php 
     // TODO(hbt) NEXT move metrics -- integrate with 52.php -- maybe rename to metrics.php
