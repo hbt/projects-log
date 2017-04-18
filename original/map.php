@@ -45,7 +45,6 @@ $map = [
             'organizational struggle '             => '60',
             'video to mp3 experiment - thoughts'   => '56',
             'speed of execution'                   => '61',
-            // TODO(hbt) NEXT 
             'why functionshub - official'          => '62',
         ],
 
