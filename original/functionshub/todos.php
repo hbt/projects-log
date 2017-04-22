@@ -2,70 +2,37 @@
 
 $t = [
 
-    // TODO(hbt) NEXT create process/workflow to create function
-    // TODO(hbt) NEXT transfer mapping to php 
-    // TODO(hbt) NEXT move metrics -- integrate with 52.php -- maybe rename to metrics.php
     // TODO(hbt) NEXT really inv zapier for integrations with gdrive and such instead of reinventing
-
-
-    'metrics'                        => [
-        'profits' => [
-            'revenue streams' => [
-                'cloud' => [
-                    'nb users'              => [
-                        'nb functions'
-                    ],
-                    'nb executed functions' => [
-
-                    ],
-                    'nb functions'          => [
-
-                        'nb functions in registry' => [
-                            'nb functions deploy tool / dockerhub images' => [
-                                'nb functions passing build tool' => [
-                                    
-                                ], 
-                            ],
-                        ],
-                    ],
-                    'nb developers' => [
-                        
-                    ],
-                    'uptime %' => [
-                        
-                    ],
-                ],
-            ],
-
-            'costs'           => [
-                'domain names' => [
-                    'functionshub.com' => '15',
-                ],
-                'hosting'      => [
-                    'linode' => '20',
-                ],
-            ],
-
-            'core user values' => [
-                'fast',
-                'cheap',
-                'effective',
-                'easy',
-
-                'applied to function' => [
-                    'minimal effort to create one',
-                    'time to insert input, select action and output',
-                    'low cost/bills',
-                    
-                ],
-            ],
-        ],
-    ],
+    // TODO(hbt) NEXT inv if c9 can be used as oss https://github.com/c9/core -- install locally and check editor in browser (use docker)
 
     'workflows' => [
         'developer' => [
             'create function' => [
-                
+                'quick php sample that can be scaled' => [
+                    'mkc functions/hello/php',
+                    'hello-php',
+                    'hello.php - echo hello',
+                    'dockerfile and compose',
+                    'test.php -- unit test assert',
+                    'test.sh',
+                    'main.sh',
+                ],
+
+                'call from url',
+                '' => [
+                    'run/hello-php',
+                    'not found, run git pull, compose up on all functions, and try again',
+                    'exec main or test sh',
+                ],
+
+                'deploy',
+                'test code update',
+
+                'scale function' => [
+                    'hello/js',
+                    'hello/ruby',
+                ],
+
             ],
         ],
     ],
@@ -84,13 +51,6 @@ $t = [
             'next' => [
 
 
-                'enhance end2end'                                 => [
-
-                    'workout kinks like express errors and tests ',
-                    '',
-                    'think about ditching it',
-                    'fix code quality and formatting for js',
-                ],
 
                 'easy function'                                   => [
                     'empty dir '         => [

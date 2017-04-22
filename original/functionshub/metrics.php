@@ -1,5 +1,65 @@
 <?php
+
 $m = [
+
+    // TODO(hbt) NEXT integrate both set of metrics
+
+
+    'metrics'         => [
+        'profits' => [
+            'revenue streams'  => [
+                'cloud' => [
+                    'nb users'              => [
+                        'nb functions'
+                    ],
+                    'nb executed functions' => [
+
+                    ],
+                    'nb functions'          => [
+
+                        'nb functions in registry' => [
+                            'nb functions deploy tool / dockerhub images' => [
+                                'nb functions passing build tool' => [
+
+                                ],
+                            ],
+                        ],
+                    ],
+                    'nb developers'         => [
+
+                    ],
+                    'uptime %'              => [
+
+                    ],
+                ],
+            ],
+
+            'costs'            => [
+                'domain names' => [
+                    'functionshub.com' => '15',
+                ],
+                'hosting'      => [
+                    'linode' => '20',
+                ],
+            ],
+
+            'core user values' => [
+                'fast',
+                'cheap',
+                'effective',
+                'easy',
+
+                'applied to function' => [
+                    'minimal effort to create one',
+                    'time to insert input, select action and output',
+                    'low cost/bills',
+
+                ],
+            ],
+        ],
+    ],
+
+
     'profits roadmap' => [
         'revenues' => [
             'pay per use computing' => [
