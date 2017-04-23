@@ -1,0 +1,91 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== dedication-focus-and-pomodoro-flow-63
+
+
+
+
+
+## dedicate the time it requires
+
+Already wrote about this in another project but should be extracted here as it applies to all projects.
+
+Having a schedule with dedicated daily chunk of time for the project helps accelerate the rate of progress.
+
+The issue is not finding the time but be willing to deprioritize other stuff; it is a matter of discipline rather than time management. 
+
+
+A good question to ask is: "can this wait?" Can it wait a day, a week, until the project is finished, can it wait forever, does it matter?
+Or take the psycho ROI approach and ask: "how will ABC improve my life compared to XYZ?" Pick the one that will have the biggest impact.
+
+
+## cost of focus
+
+Focus is the one thing constantly being repeated and it is rarely explained. 
+
+What it means is not only paying attention to what you are doing but picking the *right* thing. It means *NOT* undertaking other activities despite their appeal because they have no effect on advancing the goal. 
+
+Focus is not limited to actions but also your thoughts. Dealing with anxiety, apprehension about the future, events out of your control is one thing; focus is also about controlling a train of thought *not* because it will lead to nowhere but because it is not a priority. 
+
+Focus is about paying attention to the most effective path and rein in any deviation in thoughts or actions. 
+
+One way to think about it is: since focus is limited to one thing, find out if it worth the cost (time, energy, opportunities (other experiences/activities etc.)) and pay it or move on.
+
+It is not a sacrifice and it shouldn't cause you suffering if you believe it to be the best move for you.
+
+
+
+
+## podoro 
+
+Pomodoro technique supposedly helps with this. It's not just about working in 30 minutes chunk. 
+It's about organizing your work into tasks that fit that 30m chunk and recognizing deviations, distractions, interruptions. 
+
+
+It's rather difficult to write code that way because shit happens. A tool doesn't work as expected, something could be refactored now, you find a related bug, new idea for enhancement comes up etc. 
+The goal is not to ignore them, you write them down but do not deal with them immediately. 
+
+Pomodoro forces you to stick with that task because at the end of that 30m, you should have the envisioned end result or start questioning your planning. 
+
+What were the known unknows that you missed in your planning phase?
+
+
+## podoro workflow
+
+Planning:
+
+- pick most effective task with highest ROI
+- envision end result
+- break task into small chunks
+- assign a time block to each chunk. No larger than 30m
+- assign a metric (if relevant) applying lead/lag ideas
+
+
+Execution: 
+
+- execute the task 
+- when shit happens, work around it, log it for later and resume work. Stick to timeframe
+
+Review:
+
+- did you stick to timeframe? 
+-- Yes, great. Review the shit that happened and deal with it or schedule it for later.
+-- No? Find out why. Poor planning? lack of focus during execution?
+- adjust plan and continue
+

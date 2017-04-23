@@ -42,4 +42,4 @@ I already have todos.php files for each project, I should add them to the map as
 
 Also, I find metrics really help. Clarifying what is the metric you use to judge the success of that project really helps you focus and priotize features. 
 
-For a lot of projects, I don't have clear metrics and really, I often don't want *exactly* what I want.
+For a lot of projects, I don't have clear metrics and really, I often don't know *exactly* what I want.

@@ -289,6 +289,11 @@ link:writing-and-self-censorship-15[writing and self censorship]
 link:always-have-a-small-relevant-task-ready-27[Always have a small relevant task ready]
 ++++
 </li>
+<li>
+++++
+link:dedication-focus-and-pomodoro-flow-63[dedication focus and pomodoro flow]
+++++
+</li>
 </ul>
 <li>chromium white flash fix</li><ul><li>
 ++++
