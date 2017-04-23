@@ -96,6 +96,7 @@ $map = [
     ],
 
 
+    // TODO(hbt) NEXT write on consistent time block, small task and importance of speed based on previous projects
     'projects log'             => [
         'what is it?'                             => '1',
         'tech design decisions'                   => '11',

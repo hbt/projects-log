@@ -1,3 +1,5 @@
+
+```
 goal 
 . intelligence definition 
 . reduce time , eleminate waste (by removing) instead of focusing on increasing productivity (by adding)
@@ -112,8 +114,8 @@ jobs
 
 
 
+```
 
-======
 
 
 
