@@ -1,0 +1,113 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== workflow-64
+
+
+
+
+
+Ability to create a function and its workflow must be improved. There are too many tools that need to be stiched together and it requires too much expertise. 
+
+
+## current workflow
+
+- create file for function code
+- create file for testing
+- create dockerfile and configure based on chosen language and deps
+- create docker-compose
+- run/watch docker-compose for development
+- when satisfied, deploy
+
+This doesn't cover the function definition file (fndef.yml) and the deploy is nothing but whatever is in the git directory under /functions
+
+
+## ideal workflow
+
+Basically, aim to eliminate as many steps as possible. 
+
+### Coding 
+
+User still has to write code since we are targeting developers. However, after awhile, so many functions will be available that users could create functions using a simple interface (web or even voice)
+
+
+### function definition
+
+User would define the function via the web. We could even run static analysis on the code to come up with sane defaults for inputs/ouputs.
+Name, namespace, version etc. Some stuff is unavoidable but whatever can be determined automatically should be. 
+
+### testing
+
+this would be part of the function definition.
+
+Since every function's input/output is strongly typed, user can define input and expected output and the assertions are executed
+
+
+### dockerfile
+
+generated based on language. Static analysis to determine dependencies and run the dockerfile and the tests remotely. 
+When error occurs, it is logged and the solution is recorded. 
+When other users deal with similar errors, we can suggest an auto-fix. 
+
+This is useful for determining dependencies, wrong versions, weird configuration errors etc. 
+
+The generated docker image would be similar to iron/XXX. If you pick ruby, we have a docker image ready with ruby installed and sane defaults. 
+Even support dependency files like gems, package.json, composer etc.
+
+
+The goal is to have a dockerfile that works right out of the box and with minimal user input. The only time the user should edit the config file is when they do highly custom stuff (e.g install a third-party binary or unlisted stuff or custom configuration)
+
+### docker-compose
+
+For now, it is best to get rid of it. 
+I will be using it for active development until the dev-helper-cli tool is done. 
+It is highly useful but also a major security flaw allowing users to map the docker socket, create volumes, map stuff etc. 
+
+Technically, all the docker functions run inside docker and so far, it is not privileged. So, even if it gets hacked, the user can only mess with docker and maybe fill up the hdd. 
+However, it also means the user could kill other containers and maybe even mess with billing. 
+
+There are ways to secure it, e.g block the docker socket or remove volumes etc. But, it is simply not worth the risk since it is only being used for development.
+
+This must be replaced by the dev-helper-cli which will:
+
+- build the function 
+- run it
+- test it
+- deploy it
+- and do all of the above both locally (still within docker) and remotely. 
+
+### deployment
+
+Deployment is currently whatever sits in the git repo. 
+
+It has to be just as easy. The function will sit in a registry. 
+Also, deploys must take into account a live/debug version when shit doesn't work.
+
+
+## iterations and improvements
+
+Getting to that ideal state. Track/Brainstorm decisions/enhancements. 
+
+
+. <<Move away from the one image one function>>
+
+## Move away from the one image one function
+
+I dont want to write the registry just yet. Image name and container name should simply be the hashcode (aka the version)
+
+

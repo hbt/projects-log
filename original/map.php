@@ -46,6 +46,10 @@ $map = [
             'video to mp3 experiment - thoughts'   => '56',
             'speed of execution'                   => '61',
             'why functionshub - official'          => '62',
+
+            'function creation workflow' => [
+                'workflow' => '64',
+            ],
         ],
 
 

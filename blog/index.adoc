@@ -146,7 +146,13 @@ link:speed-of-execution-61[speed of execution]
 link:why-functionshub-official-62[why functionshub - official]
 ++++
 </li>
-</ul></ul>
+
+<li>function creation workflow</li><ul><li>
+++++
+link:workflow-64[workflow]
+++++
+</li>
+</ul></ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]
