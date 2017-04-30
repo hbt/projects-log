@@ -106,8 +106,20 @@ Getting to that ideal state. Track/Brainstorm decisions/enhancements.
 
 . <<Move away from the one image one function>>
 
-## Move away from the one image one function
+### Current flow
 
-I dont want to write the registry just yet. Image name and container name should simply be the hashcode (aka the version)
+- write test in functions.js using debug api
+- add function skeleton (based on /functions/skeleton)
+- fill skeleton 
+.. main file
+.. dockerfile
+.. fndef.json
+- watch and test
+- fhs deploy
+- remote build all
+- remote test (also used as build)
+- remote run
+
+
 
 

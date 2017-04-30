@@ -5,28 +5,92 @@ $t = [
     'next'  => [
 
 
-        'function creation'    => [
+        'function creation'           => [
 
-            'use docker compose for active dev - document workflow + decisions' => [
+            'endgoal' => [
+
+//                'doc workflow'           => [
+//                ],
+
+//                'fix crash msg'          => [
+//
+//                ],
+
+                'fix current workflow'   => [
+
+//                    'fix ar' => [
+//                        
+//                    ],
+
+//                    'add skeleton'               => [
+//                        'files',
+//                        'readme',
+//                    ],
+                    
+
+//                    'add build all'              => [
+//                        'get fndef',
+//                        'build docker',
+//                        'store version',
+//                    ],
+
+//                    'fix version' => [
+//                        'add version',
+//                        'add ignore',
+//                        'fix build all',
+//                        'update skeleton',
+//                    ],
+
+//                    'fix run'                    => [
+////                        'mv run to fns',
+////                        'flag js',
+////                        'add simple run test ',
+//                        'reuse debug flow',
+//                        'run',
+//                    ],
+
+
+//                    'add remote runner with api' => [
+//                        'test',
+//                        'deploy and pass',
+//                    ],
+
+
+//                    'test with hello php'        => [
+//                    ],
+                    
+                ],
+
+
+                'move hello/js and test' => [
+                ],
+
+                'srm hello2'             => [
+                ],
+
 
             ],
 
-            'fix build and run and update tests'                                => [
-                'build on the fly and look up the function in fndef.yml',
-            ],
-
 
         ],
 
-        'add input support'    => [
 
+        'fix image id' => [
         ],
 
-        'video-mp3 functions'  => [
-
+        'brainstorm mp3 example flow' => [
         ],
 
-        'add stress on gcloud' => [
+        'add input support'           => [
+        ],
+
+        'video-mp3 functions'         => [
+        ],
+
+        'refactor' => [
+        ],
+
+        'add stress on gcloud'        => [
 
         ],
 
@@ -54,6 +118,9 @@ ERROR: could not find an available, non-overlapping IPv4 address pool among the 
         ],
 
         'inv yml/json schemal validaton',
+
+        'accept custom names under run/XXX'              => [
+        ],
     ],
 
 
