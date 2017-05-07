@@ -16,10 +16,13 @@ $t = [
                 'youtubedl function' => [
 //                    'fn',
 //                    'docker test',
-                    'raw test',
-                    'add storage service',
+//                    'raw test',
+//                    'add storage service',
                 ],
                 'mp3 converter' => [
+//                    'test',
+//                    'avconv docker',
+                    'refactor',
                 ],
                 'gdrive upload' => [
                     // inv hashicopr vault and token storage
@@ -84,6 +87,9 @@ ERROR: could not find an available, non-overlapping IPv4 address pool among the 
         'inv yml/json schemal validaton',
 
         'accept custom names under run/XXX'              => [
+        ],
+
+        'same origin attacks and billing' => [
         ],
     ],
 
