@@ -22,14 +22,34 @@ $t = [
                 'mp3 converter' => [
 //                    'test',
 //                    'avconv docker',
-                    'refactor',
+//                    'refactor',
                 ],
                 'gdrive upload' => [
-                    // inv hashicopr vault and token storage
+//                    // inv hashicopr vault and token storage
+//                    'test',
+//                    'test' => [
+//                        'strfile, strfileo? check',
+//                        'drive ls',
+//                    ],
+//                    'code' => [
+//                        'drive/token/get',
+//                        'drive/upload',
+//                        'str filepath, destination drive folder',
+//                        'copy drive/token',
+//                        'upload',
+//                        'drive path and file',
+//                    ],
+//                    'deploy',
                 ],
                 'del file' => [
+//                    'test',
+//                    'file/rm',
+//                    'name,ok',
+//                    'check access',
                 ],
                 'multiple links' => [
+                    '2links',
+                    'dld to phone',
                 ],
             ],
         ],
@@ -40,6 +60,30 @@ $t = [
     ],
 
     'later' => [
+
+        'api support chain' => [
+//  fh('url').call('youtube/dld').call('audio/extract').upload('tmp').cleanUp()
+        ],
+
+        'all requests return json instead raw is passed. json is default' => [
+        ],
+
+        'js functions - add namespace e.g drive/token/get would map to Functions.drive.token.get instead of Functions.get',
+        
+        'use full filepath for storage service',
+
+        'load zsh and other stuff for debugging -- view pmr image' => [
+        ],
+
+        'safeguard kill' => [
+            'kill process or contain it during dev -- needed if bug or accident results in infinite loop or such. user shouldnt pay for that',
+            'limit container resources - specify resources and kill order in fndef -- resources monitoring. shouldnt scale a bug',
+        ],
+
+        'services storage' => [
+            'user storage vs permanent storage',
+            'one is billed to user, the other is billed for developer as permanent storage for their saas ',
+        ],
 
         'add asserts' => [
         ],
