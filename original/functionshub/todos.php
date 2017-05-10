@@ -4,11 +4,12 @@ $t = [
 
     'next'  => [
 
-
-        'function creation'           => [
-
-        ],
-
+        'fix tests to use post',
+        'fix next todos everywhere',
+        'fix phone.js',
+        'start using docker run --rm',
+        'clean up remote containers',
+        'fix remote tests',
 
 
         'brainstorm mp3 example flow' => [
@@ -48,8 +49,8 @@ $t = [
 //                    'check access',
                 ],
                 'multiple links' => [
-                    '2links',
-                    'dld to phone',
+//                    '2links',
+//                    'dld to phone',
                 ],
             ],
         ],
