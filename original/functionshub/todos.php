@@ -11,6 +11,9 @@ $t = [
         'clean up remote containers',
         'fix remote tests',
 
+        'separate logging from output for debugging purposes. consider using file',
+        'add helper to find image assoc to function',
+
 
         'brainstorm mp3 example flow' => [
             'functions' => [
