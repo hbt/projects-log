@@ -4,6 +4,10 @@ $t = [
 
     'next'  => [
 
+        'test nb processes' => [
+            'write file + random nb',
+        ],
+
         'fix tests to use post',
         'fix next todos everywhere',
         'fix phone.js',
