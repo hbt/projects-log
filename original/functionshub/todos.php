@@ -4,9 +4,11 @@ $t = [
 
     'next'  => [
 
-        'test nb processes' => [
-            'write file + random nb',
-        ],
+        'watch -- queue stuff',
+
+//        'test nb processes' => [
+//            'write file + random nb',
+//        ],
 
         'fix tests to use post',
         'fix next todos everywhere',
@@ -68,6 +70,8 @@ $t = [
     ],
 
     'later' => [
+
+        'think about services and building them separately from code -- like docker functinos?',
 
         'api support chain' => [
 //  fh('url').call('youtube/dld').call('audio/extract').upload('tmp').cleanUp()
@@ -142,6 +146,17 @@ ERROR: could not find an available, non-overlapping IPv4 address pool among the 
         ],
 
         'same origin attacks and billing' => [
+        ],
+
+        'docker image and container management' => [
+            'remove all the temporary ones and prevent code from creating new ones',
+            'also kill running containers on docker-compose down -- they are not treated as children containers',
+        ],
+
+        'readability' => [
+            'check -- ',
+            'https://github.com/luin/readability',
+            'implement as function -- make it easy to implement/reuse',
         ],
     ],
 
