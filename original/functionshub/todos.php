@@ -4,6 +4,16 @@ $t = [
 
     'next'  => [
 
+        'read' => [
+            'create',
+            'create' => [
+                'str',
+                'sha1',
+            ],
+            'deploy',
+            'map',
+        ],
+
         'watch -- queue stuff',
 
 //        'test nb processes' => [
@@ -157,6 +167,14 @@ ERROR: could not find an available, non-overlapping IPv4 address pool among the 
             'check -- ',
             'https://github.com/luin/readability',
             'implement as function -- make it easy to implement/reuse',
+        ],
+
+        'function args ' => [
+            'autoconvert single arg to array',
+        ],
+
+        'storage purge options' => [
+            'remove files older than X',
         ],
     ],
 
