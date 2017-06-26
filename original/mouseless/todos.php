@@ -5,6 +5,7 @@ $todos = [
 
         'next' => [
 
+
             'pick next tickets',
 
 
@@ -16,7 +17,7 @@ $todos = [
     ],
 
     'weekly checklist' => [
-        'review forks -- last count 131',
+        'review forks -- last count 134',
         'review commits + merge ',
         'check original fork' => [
             'git co 1995',
@@ -54,7 +55,7 @@ $todos = [
         'close ticket',
     ],
 
-    'releease' => [
+    'releease'         => [
         'https://hbt.github.io/mouseless/tips.html#_how_to_do_a_release',
     ],
 
