@@ -6,6 +6,7 @@ $todos = [
         'next' => [
 
 
+
             'pick next tickets',
 
 
@@ -56,7 +57,12 @@ $todos = [
     ],
 
     'releease'         => [
-        'https://hbt.github.io/mouseless/tips.html#_how_to_do_a_release',
+        '. edit manifest.json and update version
+. update changelog.adoc
+. render all adoc files
+. ./scripts/release.sh 1.3.0
+'
+//        'https://hbt.github.io/mouseless/tips.html#_how_to_do_a_release',
     ],
 
 ];
