@@ -6,6 +6,8 @@
 
 $t = [
 
+    'p2p monetize your local computer resources by processing requests',
+    
     'use webui to create/edit function definitions -- 1 file 1 function or 1 to many',
     'end files .fndef.yml',
 
