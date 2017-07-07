@@ -2,39 +2,75 @@
 
 $t = [
 
-    'bs'    => [
-        'init storage pool',
-        'st' => [
-            'map request folder' => [
-                'filepath must be fixed',
-                'no exec',
-            ],
-            'store-XXX' => [
-                'multi exec but content must be moved',
-                'minimal changes filepath',
-            ],
-            
-        ],
-    ],
-
 
     'next'  => [
 
         'refactoring'                 => [
-            'fix storage implementation' => [
+            'fix storage implementation'            => [
+                'init storage pool',
+                'st' => [
+                    'map request folder' => [
+                        'filepath must be fixed',
+                        'no exec',
+                    ],
+                    'store-XXX'          => [
+                        'multi exec but content must be moved',
+                        'minimal changes filepath',
+                    ],
+
+                ],
+
+                'read' => [
+                    'mount volumes passed as params' => [
+                        'mount them as readonly',
+                        'extra code to remove stuff',
+                    ],
+                    'mount storage as readonly' => [
+                    ],
+                    'user data dir' => [
+                        '',
+                    ],
+
+                    '1 ' => [
+                        'change arg - /storage/store-',
+                        'mount storage',
+                    ],
+                    '2' => [
+                        'mount every store folder as a volume',
+                    ],
+                    '3' => [
+                        'build type detection',
+                        'read and transform',
+                    ],
+                ],
             ],
-            'rethink token implementation' => [
+            'rethink token implementation'          => [
             ],
-            'refactor tmp-functions'     => [
+            'refactor tmp-functions'                => [
             ],
-            'replace phone js' => [
+            'replace phone js'                      => [
             ],
             'review todos and integrate next steps' => [
             ],
-            'run tests in browser to ease filtering' => [
-            ],
+
         ],
 
+        'post refactor'               => [
+            'run tests in browser to ease filtering' => [
+            ],
+            'add user + restrictions'                => [
+                'file exists',
+            ],
+            'add exec per user -- think billing'     => [
+            ],
+
+            'add fh helper in function -- parsing request, exec function, handling callback etc.' => [
+            ],
+
+            'review new node version with special block for sync vs async code -- removes dep on sync/wait/defer library' => [
+            ],
+
+        ],
 
         'read'                        => [
 
