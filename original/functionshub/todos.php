@@ -2,13 +2,25 @@
 
 $t = [
 
+    'roadmap' => [
+        'storage service',
+        'token service',
+        'multiuser support',
+        'scaling',
+        'youtube/phone replacement',
+        'improve development and add more services - ',
+        'readability',
+        'path to money??',
+        'static pages',
+        'add billing',
+    ],
 
-    'next'  => [
+    'next'    => [
 
         'refactoring'                 => [
             'fix storage implementation'            => [
                 'init storage pool',
-                'st' => [
+                'st'   => [
                     'map request folder' => [
                         'filepath must be fixed',
                         'no exec',
@@ -25,20 +37,20 @@ $t = [
                         'mount them as readonly',
                         'extra code to remove stuff',
                     ],
-                    'mount storage as readonly' => [
+                    'mount storage as readonly'      => [
                     ],
-                    'user data dir' => [
+                    'user data dir'                  => [
                         '',
                     ],
 
-                    '1 ' => [
+                    '1 '                             => [
                         'change arg - /storage/store-',
                         'mount storage',
                     ],
-                    '2' => [
+                    '2'                              => [
                         'mount every store folder as a volume',
                     ],
-                    '3' => [
+                    '3'                              => [
                         'build type detection',
                         'read and transform',
                     ],
@@ -56,15 +68,15 @@ $t = [
         ],
 
         'post refactor'               => [
-            'run tests in browser to ease filtering' => [
+            'run tests in browser to ease filtering'                                                                      => [
             ],
-            'add user + restrictions'                => [
+            'add user + restrictions'                                                                                     => [
                 'file exists',
             ],
-            'add exec per user -- think billing'     => [
+            'add exec per user -- think billing'                                                                          => [
             ],
 
-            'add fh helper in function -- parsing request, exec function, handling callback etc.' => [
+            'add fh helper in function -- parsing request, exec function, handling callback etc.'                         => [
             ],
 
             'review new node version with special block for sync vs async code -- removes dep on sync/wait/defer library' => [
@@ -148,7 +160,7 @@ $t = [
 
     ],
 
-    'later' => [
+    'later'   => [
 
         'think about services and building them separately from code -- like docker functinos?',
 
