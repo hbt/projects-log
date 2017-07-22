@@ -18,57 +18,30 @@ $t = [
     'next'    => [
 
         'refactoring'                 => [
-            'fix storage implementation'            => [
-                'init storage pool',
-                'st'   => [
-                    'map request folder' => [
-                        'filepath must be fixed',
-                        'no exec',
-                    ],
-                    'store-XXX'          => [
-                        'multi exec but content must be moved',
-                        'minimal changes filepath',
-                    ],
 
-                ],
-
-                'read' => [
-                    'mount volumes passed as params' => [
-                        'mount them as readonly',
-                        'extra code to remove stuff',
-                    ],
-                    'mount storage as readonly'      => [
-                    ],
-                    'user data dir'                  => [
-                        '',
-                    ],
-
-                    '1 '                             => [
-                        'change arg - /storage/store-',
-                        'mount storage',
-                    ],
-                    '2'                              => [
-                        'mount every store folder as a volume',
-                    ],
-                    '3'                              => [
-                        'build type detection',
-                        'read and transform',
-                    ],
-                ],
-            ],
-            'rethink token implementation'          => [
-            ],
             'refactor tmp-functions'                => [
+//                'reorg tests',
+                'fix gdrive test like audio test',
+                'pass invidual tests',
+                'data test' => [
+                    'copy to local data',
+                    'copy into docker',
+                    'request + filepath = /data/xxx',
+                ],
             ],
             'replace phone js'                      => [
             ],
-            'review todos and integrate next steps' => [
+            'auto clean requests data' => [
             ],
 
         ],
 
         'post refactor'               => [
+            'review todos and integrate next steps' => [
+            ],
             'run tests in browser to ease filtering'                                                                      => [
+            ],
+            'rethink token implementation'          => [
             ],
             'add user + restrictions'                                                                                     => [
                 'file exists',

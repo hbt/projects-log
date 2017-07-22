@@ -47,7 +47,7 @@ $map = [
             'speed of execution'                   => '61',
             'why functionshub - official'          => '62',
 
-            'function creation workflow' => [
+            'function creation workflow'           => [
                 'workflow' => '64',
             ],
         ],
