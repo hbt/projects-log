@@ -3,14 +3,17 @@
 $t = [
 
     'roadmap' => [
-        'storage service',
+//        'storage service',
+        'gcloud setup and experiments',
+        'caching',
+        'scaling & queuing',
+        'youtube/phone replacement',
+
+        'review',
         'token service',
         'multiuser support',
-        'scaling',
-        'youtube/phone replacement',
         'improve development and add more services - ',
         'readability',
-        'path to money??',
         'static pages',
         'add billing',
     ],
@@ -19,29 +22,57 @@ $t = [
 
         'refactoring'                 => [
 
-            'refactor tmp-functions'                => [
-//                'reorg tests',
-                'fix gdrive test like audio test',
-                'pass invidual tests',
-                'data test' => [
-                    'copy to local data',
-                    'copy into docker',
-                    'request + filepath = /data/xxx',
+            'set up functionhub.com on gcloud' => [
+                'check price functionhub.com',
+                'dns lookup',
+                'static homepage',
+                'set current linode on gcloud',
+
+                'gcloud experiments' => [
+
+                    'review products/services',
+
+                    'plan' => [
+                        'gcloud' => [
+                            'resiable instance cpu/memory / restart? / speed  ' => [
+                            ],
+                            'resizable storage -- flexible, remount? '          => [
+                            ],
+                        ],
+                    ],
                 ],
             ],
-            'replace phone js'                      => [
+
+
+            'cache'                            => [
+                'log request and get the file instead of downloading again',
             ],
-            'auto clean requests data' => [
+
+
+            'write cheap model'                => [
+                'queue using phone'                     => [
+                ],
+                'queue using server pool and resources' => [
+                ],
+                'using queue -- current computer only',
+            ],
+
+
+            'replace phone js'                 => [
+                'fix parallel processing or creating waiting pool based on resources',
+                'disk size checks',
+            ],
+            'auto clean requests data'         => [
             ],
 
         ],
 
         'post refactor'               => [
-            'review todos and integrate next steps' => [
+            'review todos and integrate next steps'                                                                       => [
             ],
             'run tests in browser to ease filtering'                                                                      => [
             ],
-            'rethink token implementation'          => [
+            'rethink token implementation'                                                                                => [
             ],
             'add user + restrictions'                                                                                     => [
                 'file exists',
