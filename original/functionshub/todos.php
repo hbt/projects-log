@@ -22,6 +22,86 @@ $t = [
 
         'refactoring'                 => [
 
+            'gcloud '               => [
+//                'disable stuff on playground (billing)',
+                'set up functionshub.com + basic static page' => [
+//                    'write static hello world via docker exposed /static' => [
+//                        'docker apache2 setup ',
+//                    ],
+//                    'basic vm and expose IP',
+                    'basic config vm' => [
+////                        'add ssh key',
+////                        'quick ssh test ',
+//                        'vcsh' => [
+////                            'config gitrepo similar to hbtlabs',
+////                            'update dfeXXX aliases',
+//                        ],
+////                        'set up vcsh and config',
+//                        
+                    ],
+
+//                    'start apache2' => [
+//                    ],
+
+                    'fix dns' => [
+                        'https://cloud.google.com/dns/quickstart',
+                        'https://console.cloud.google.com/net-services/dns/zones/functionshub?project=functionshub',
+                        'dns zone thing??',
+                        'added stuff to namecheap',
+                    ],
+                    'ssh aliases' => [
+                    ],
+                    'test' => [
+                        'shutdown vm / reboot / relaunch and verify storage + IP lookup',
+                    ],
+                    'add gnalaytics' => [
+                    ],
+                    'vm snapshot?' => [
+                    ],
+                    'update fhd -- xterm' => [
+                    ],
+                    'add cron prune images/cotnainers docker' => [
+                    ],
+                    'double check email forwarding' => [
+                    ],
+                ],
+                'set up docker server' => [
+                    'add permanent disk 50G',
+                    'put docker on 50G',
+                ],
+                'review config and make sure it is easy to set up / migrate ... i.e data is on persistent disk and vm can be replicated easily for load-balancing and scale' => [
+                ],
+                'backup vm image? or look into ansible script ' => [
+                ],
+                'fix node messaging queue to prevent too many concurrent requests -- 1 at the time for now' => [
+                ],
+                'add new phone system -- keep older as bak for now' => [
+                    'flag project as deprecated',
+                ],
+                'add https -- easy to do?' => [
+                ],
+                'write blog next goal/roadmap/next effective stuff/ major roadblock/bottleneck' => [
+                ],
+//
+////                'check products',
+//                'basic' => [
+////                    'free account',
+////                    'set up vm 4cpu 4gb',
+////                    'experiment resizable storage',
+//                ],
+//
+//                'resizable storage -- flexible, remount? '          => [
+//                    'exp cloud storage buckets -- check speed and access + share on multiple vms',
+//                    'https://stackoverflow.com/questions/26910960/share-a-persistent-disk-between-google-compute-engine-vms',
+//                ],
+//                'experiment with load balancer + stress + multiple vms and autoscaling options' => [
+//                ],
+//                'experiment with kubernetes and container engine' => [
+//                    'containers and autoscaling vs VM',
+//                    'gcp docker registry ',
+//                ],
+            ],
+
             'set up functionhub.com on gcloud' => [
                 'check price functionhub.com',
                 'dns lookup',
@@ -34,10 +114,7 @@ $t = [
 
                     'plan' => [
                         'gcloud' => [
-                            'resiable instance cpu/memory / restart? / speed  ' => [
-                            ],
-                            'resizable storage -- flexible, remount? '          => [
-                            ],
+
                         ],
                     ],
                 ],
