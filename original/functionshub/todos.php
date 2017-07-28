@@ -36,20 +36,42 @@ $t = [
 //                    ],
 //                    'put docker on 50G',
 //                    'fix scripts to work with new URL',
-                    'get docker server running and pass tests',
+//                    'get docker server running and pass tests',
                     'fix tests' => [
-                        'remote test',
-                        'storage token',
+//                        'remote test',
+                        'storage token' => [
+//                            'fix email forwarding',
+//                            'get fh token',
+//                            'token' => [
+//                                'remote',
+//                            ],
+//                            'ssh' => [
+//                                'add scpd scpu',
+//                            ],
+//                            'add phone token',
+//                            'save token and reuse that in test',
+//                            'add readme',
+                        ],
+//                        'hn',
                     ],
-                    'vcsh commit cron not working' => [
-                    ],
+//                    'vcsh commit cron not working' => [
+//                        
+//                        'res cron',
+//                    ],
 //                    're-enable boot static dc up',
                 ],
-                'set up incremental backup system on 50G '      => [
-                ],
-                'backup vm image? or look into ansible script ' => [
-                ],
+//                'set up incremental backup system on 50G '      => [
+//                    'install',
+//                    'review inc instruction',
+//                    'bak -- exclude /mnt/disk',
+//                    'cron',
+//                    'changeslog',
+//                ],
+//                'backup vm image? or look into ansible script ' => [
+//                ],
                 'add https -- easy to do?'                      => [
+                    'https://stackoverflow.com/questions/11744975/enabling-https-on-express-js',
+                    'https://certbot.eff.org/#ubuntuxenial-other',
                 ],
                 'test gmail email fowrard' => [
                 ],
@@ -65,6 +87,10 @@ $t = [
             ],
 
             'write blog next goal/roadmap/next effective stuff/ major roadblock/bottleneck'             => [
+            ],
+            'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/' => [
+            ],
+            'inv vault for keys + config' => [
             ],
 
 
