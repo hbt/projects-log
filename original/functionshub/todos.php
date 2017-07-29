@@ -69,8 +69,38 @@ $t = [
 //                ],
 //                'backup vm image? or look into ansible script ' => [
 //                ],
+                'move all into scripts in one repo and limit dotfiles to personal CLI stuff' => [
+                ],
+                'vault' => [
+                    'review vault tools',
+                    'knox' => [
+                    ],
+                ],
+                'borg exclude trash folder' => [
+                ],
                 'add https -- easy to do?'                      => [
-                    'https://stackoverflow.com/questions/11744975/enabling-https-on-express-js',
+                    'static first' => [
+                        'cert apache',
+                        'mount /etc/letsencrypt',
+                    ],
+                    'subdomain api.functionshub.com instead of port' => [
+                    ],
+                    'install certbot on docker' => [
+                    ],
+                    'produce crt/key files' => [
+                        'set path to webroot',
+                    ],
+                    'fix express to use https or http -- local vs remote' => [
+                        'mount key/crt files ' => [
+                            'https://stackoverflow.com/questions/11744975/enabling-https-on-express-js',
+                        ],
+                    ],
+                    'auto renew cert' => [
+                    ],
+                    'local and remote tests work' => [
+                    ],
+                    'https works and http redirects to https' => [
+                    ],
                     'https://certbot.eff.org/#ubuntuxenial-other',
                 ],
                 'test gmail email fowrard' => [
@@ -91,6 +121,8 @@ $t = [
             'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/' => [
             ],
             'inv vault for keys + config' => [
+            ],
+            'fix test.sh killing all docker containers -- keep static and start fh-server on boot' => [
             ],
 
 
