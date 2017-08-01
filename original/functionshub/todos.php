@@ -70,6 +70,63 @@ $t = [
 //                'backup vm image? or look into ansible script ' => [
 //                ],
                 'move all into scripts in one repo and limit dotfiles to personal CLI stuff' => [
+//                    'gcloud/scripts - cron -- scripts/bin',
+//                    '' => [
+//                        'mv',
+//                        'cron $path',
+//                        'cron path',
+//                        'reboot and check',
+//                        'rm bin scripts',
+//                    ],
+//                    'copy changeslog',
+//                    '' => [
+//                        'mv',
+//                        'ln -s',
+//                        'cron cp every minute',
+//                        'exists in 2 repos',
+//                    ],
+//                    'fix dotfiles',
+//                    
+//                    'doc scripts',
+//                    'reboot',
+//                    'copy keys',
+//                    '' => [
+//                        'ignore in repo',
+//                        'tar and gpg',
+//                        'put in lastpass',
+//                        'get install script or link symbollically?',
+//                        'reboot',
+//                    ],
+//                    'git crypt' => [
+//
+////                        'experiment' => [
+////                        ],
+//
+////                        'save key + use gpg' => [
+////                        ],
+//
+////                        'clean up current' => [
+////                        ],
+//                        
+////                        'use tar + name it as .secret and hide' => [
+////                            'http://crohr.ebarnouflant.ebarnouflant.com/posts/3-using-git-crypt-to-transparently-encrypt-sensitive-data-in-a-git-repository',
+////                        ],
+////                        'test folder idea',
+//                        'impl' => [
+//                            '',
+//                        ],
+//                        'add readme on how to use git-crypt' => [
+//                        ],
+//                    ],
+//                    'keys and changeslog' => [
+//                        'auto commit gcloud',
+//                        'cp files and commit + push ',
+//                        'limit changes to files in question ',
+//                    ],
+//                    
+                ],
+
+                'docker image for testing with full config' => [
                 ],
                 'vault' => [
                     'review vault tools',
