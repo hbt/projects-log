@@ -22,164 +22,46 @@ $t = [
 
         'refactoring'                 => [
 
-            'gcloud'                                                                                    => [
-//                'document changes done on server' => [
-//                ],
-//                'install etckeeper' => [
-//                ],
-                'set up docker server'                          => [
-//                    '20G',
-//                    'add permanent disk 50G',
-//                    '20g' => [
-//                        'add note fstab',
-//                        'test dynamic resize gcloud ',
-//                    ],
-//                    'put docker on 50G',
-//                    'fix scripts to work with new URL',
-//                    'get docker server running and pass tests',
-                    'fix tests' => [
-//                        'remote test',
-                        'storage token' => [
-//                            'fix email forwarding',
-//                            'get fh token',
-//                            'token' => [
-//                                'remote',
-//                            ],
-//                            'ssh' => [
-//                                'add scpd scpu',
-//                            ],
-//                            'add phone token',
-//                            'save token and reuse that in test',
-//                            'add readme',
-                        ],
-//                        'hn',
-                    ],
-//                    'vcsh commit cron not working' => [
-//                        
-//                        'res cron',
-//                    ],
-//                    're-enable boot static dc up',
-                ],
-//                'set up incremental backup system on 50G '      => [
-//                    'install',
-//                    'review inc instruction',
-//                    'bak -- exclude /mnt/disk',
-//                    'cron',
-//                    'changeslog',
-//                ],
-//                'backup vm image? or look into ansible script ' => [
-//                ],
-                'move all into scripts in one repo and limit dotfiles to personal CLI stuff' => [
-//                    'gcloud/scripts - cron -- scripts/bin',
-//                    '' => [
-//                        'mv',
-//                        'cron $path',
-//                        'cron path',
-//                        'reboot and check',
-//                        'rm bin scripts',
-//                    ],
-//                    'copy changeslog',
-//                    '' => [
-//                        'mv',
-//                        'ln -s',
-//                        'cron cp every minute',
-//                        'exists in 2 repos',
-//                    ],
-//                    'fix dotfiles',
-//                    
-//                    'doc scripts',
-//                    'reboot',
-//                    'copy keys',
-//                    '' => [
-//                        'ignore in repo',
-//                        'tar and gpg',
-//                        'put in lastpass',
-//                        'get install script or link symbollically?',
-//                        'reboot',
-//                    ],
-//                    'git crypt' => [
-//
-////                        'experiment' => [
-////                        ],
-//
-////                        'save key + use gpg' => [
-////                        ],
-//
-////                        'clean up current' => [
-////                        ],
-//                        
-////                        'use tar + name it as .secret and hide' => [
-////                            'http://crohr.ebarnouflant.ebarnouflant.com/posts/3-using-git-crypt-to-transparently-encrypt-sensitive-data-in-a-git-repository',
-////                        ],
-////                        'test folder idea',
-//                        'impl' => [
-//                            '',
-//                        ],
-//                        'add readme on how to use git-crypt' => [
-//                        ],
-//                    ],
-//                    'keys and changeslog' => [
-//                        'auto commit gcloud',
-//                        'cp files and commit + push ',
-//                        'limit changes to files in question ',
-//                    ],
-//                    
-                ],
-
-                'docker image for testing with full config' => [
-                ],
-                'vault' => [
-                    'review vault tools',
-                    'knox' => [
-                    ],
-                ],
-                'borg exclude trash folder' => [
-                ],
-                'add https -- easy to do?'                      => [
-                    'static first' => [
-                        'cert apache',
-                        'mount /etc/letsencrypt',
-                    ],
-                    'subdomain api.functionshub.com instead of port' => [
-                    ],
-                    'install certbot on docker' => [
-                    ],
-                    'produce crt/key files' => [
-                        'set path to webroot',
-                    ],
-                    'fix express to use https or http -- local vs remote' => [
-                        'mount key/crt files ' => [
-                            'https://stackoverflow.com/questions/11744975/enabling-https-on-express-js',
-                        ],
-                    ],
-                    'auto renew cert' => [
-                    ],
-                    'local and remote tests work' => [
-                    ],
-                    'https works and http redirects to https' => [
-                    ],
-                    'https://certbot.eff.org/#ubuntuxenial-other',
-                ],
-                'test gmail email fowrard' => [
-                ],
-                'update .ssh gpg-keys' => [
-                ],
-            ],
+           
             'fix node messaging queue to prevent too many concurrent requests -- 1 at the time for now' => [
+                'mysql' => [
+//                    'config cnf',
+//                    'fix ' => [
+//                        'storage',
+//                        'storage' => [
+//                            'php check if data empty',
+//                            'purge and reinstall',
+//                            'then start',
+//                        ],
+//                        'logs',
+//                    ],
+//                    'copy docker',
+//                    'start',
+//                    'check on storage',
+                    'request table',
+                ],
+                'push/pop system' => [
+                ],
+                'api request/clear' => [
+                ],
+                'how it handles crashes?' => [
+                ],
+                'post max load -- longvarchar ' => [
+                ],
             ],
             'add new phone system -- keep older as bak for now'                                         => [
                 'flag project as deprecated',
             ],
-            'fix the .env and env_XXX  files ' => [
+            'fix the .env and env_XXX  files '                                                          => [
             ],
 
             'write blog next goal/roadmap/next effective stuff/ major roadblock/bottleneck'             => [
             ],
-            'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/' => [
+            'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/'      => [
             ],
-            'inv vault for keys + config' => [
+            'inv vault for keys + config'                                                               => [
             ],
-            'fix test.sh killing all docker containers -- keep static and start fh-server on boot' => [
+            'fix test.sh killing all docker containers -- keep static and start fh-server on boot'      => [
             ],
 
 
@@ -409,7 +291,33 @@ ERROR: could not find an available, non-overlapping IPv4 address pool among the 
 
     'issues todos' => [
 
-        'docker prune #13' => [
+        '#17 add https -- easy to do?' => [
+            'static first'                                        => [
+                'cert apache',
+                'mount /etc/letsencrypt',
+            ],
+            'subdomain api.functionshub.com instead of port'      => [
+            ],
+            'install certbot on docker'                           => [
+            ],
+            'produce crt/key files'                               => [
+                'set path to webroot',
+            ],
+            'fix express to use https or http -- local vs remote' => [
+                'mount key/crt files ' => [
+                    'https://stackoverflow.com/questions/11744975/enabling-https-on-express-js',
+                ],
+            ],
+            'auto renew cert'                                     => [
+            ],
+            'local and remote tests work'                         => [
+            ],
+            'https works and http redirects to https'             => [
+            ],
+            'https://certbot.eff.org/#ubuntuxenial-other',
+        ],
+
+        '#13 docker prune'             => [
             'upgrade docker to get the --filter option',
             'auto remove images and containers -- use until=XXX filter',
             'docker image prune --filter "until=6h"',
