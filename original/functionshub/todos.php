@@ -55,6 +55,10 @@ $t = [
             'fix the .env and env_XXX  files '                                                          => [
             ],
 
+            'bak docker images + add borg backups incremental' => [
+                'latest folder and incremental that',
+            ],
+
             'write blog next goal/roadmap/next effective stuff/ major roadblock/bottleneck'             => [
             ],
             'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/'      => [
