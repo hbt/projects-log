@@ -119,6 +119,10 @@ $t = [
                 'https://docs.docker.com/engine/security/security/#other-kernel-security-features',
             ],
 
+            'rename docker images on host' => [
+                'anything that is related to fh -- flag it or label it as such ... the rest, either delete or flag/name accordingly',
+            ],
+
         ],
 
         'read'                        => [
