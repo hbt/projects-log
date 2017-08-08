@@ -20,11 +20,32 @@ $t = [
 
     'next'         => [
 
+        'phone'                       => [
+//            'messaging queue' => [
+//                'test',
+//            ],
+//            'replace phone'   => [
+//            ],
+            'think'           => [
+                'caching'         => [
+                ],
+                'disk management' => [
+                ],
+            ],
+        ],
+
+        'review below'                => [
+        ],
+
         'refactoring'                 => [
 
-           
+            'fix max buffer error -- and error output/logging in crashes instead of JSON unnexpected parsing' => [
+            ],
+
+            'think about billing and requests when done nested -- e.g call a function which calls another set of functions ... who gets billed for sub function calls and how to track properly?' => [
+            ],
             'fix node messaging queue to prevent too many concurrent requests -- 1 at the time for now' => [
-                'mysql' => [
+                'mysql'                         => [
 //                    'config cnf',
 //                    'fix ' => [
 //                        'storage',
@@ -40,11 +61,11 @@ $t = [
 //                    'check on storage',
                     'request table',
                 ],
-                'push/pop system' => [
+                'push/pop system'               => [
                 ],
-                'api request/clear' => [
+                'api request/clear'             => [
                 ],
-                'how it handles crashes?' => [
+                'how it handles crashes?'       => [
                 ],
                 'post max load -- longvarchar ' => [
                 ],
@@ -55,7 +76,7 @@ $t = [
             'fix the .env and env_XXX  files '                                                          => [
             ],
 
-            'bak docker images + add borg backups incremental' => [
+            'bak docker images + add borg backups incremental'                                          => [
                 'latest folder and incremental that',
             ],
 
@@ -97,30 +118,36 @@ $t = [
         ],
 
         'post refactor'               => [
-            'review todos and integrate next steps'                                                                       => [
+            'review todos and integrate next steps'                                                                                      => [
             ],
-            'run tests in browser to ease filtering'                                                                      => [
+            'run tests in browser to ease filtering'                                                                                     => [
             ],
-            'rethink token implementation'                                                                                => [
+            'rethink token implementation'                                                                                               => [
             ],
-            'add user + restrictions'                                                                                     => [
+            'add user + restrictions'                                                                                                    => [
                 'file exists',
             ],
-            'add exec per user -- think billing'                                                                          => [
+            'add exec per user -- think billing'                                                                                         => [
             ],
 
-            'add fh helper in function -- parsing request, exec function, handling callback etc.'                         => [
+            'add fh helper in function -- parsing request, exec function, handling callback etc.'                                        => [
             ],
 
-            'review new node version with special block for sync vs async code -- removes dep on sync/wait/defer library' => [
+            'review new node version with special block for sync vs async code -- removes dep on sync/wait/defer library'                => [
             ],
 
-            'rethink docker security and container breaches' => [
+            'rethink docker security and container breaches'                                                                             => [
                 'https://docs.docker.com/engine/security/security/#other-kernel-security-features',
             ],
 
-            'rename docker images on host' => [
+            'rename docker images on host'                                                                                               => [
                 'anything that is related to fh -- flag it or label it as such ... the rest, either delete or flag/name accordingly',
+            ],
+
+            'inv graphql -- especially the create operations / normal REST stuff -- inv github graphql api'                              => [
+            ],
+
+            'vision -- think about ok google add calendar workflow ui on mobile and building something similar when defining a function' => [
             ],
 
         ],
