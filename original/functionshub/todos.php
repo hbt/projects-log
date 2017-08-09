@@ -20,6 +20,18 @@ $t = [
 
     'next'         => [
 
+        'replicate usability/ease-of-use of cloud functions (gcloud/aws-lambda/iron etc.)' => [
+            
+            ],
+
+        'fix max ' => [
+            'response, request sizes',
+            'max buffer issue (input/output) cli',
+        ],
+        'disk management' => [
+            'delete requests',
+        ],
+
         'phone'                       => [
 //            'messaging queue' => [
 //                'test',
@@ -28,8 +40,6 @@ $t = [
 //            ],
             'think'           => [
                 'caching'         => [
-                ],
-                'disk management' => [
                 ],
             ],
         ],
