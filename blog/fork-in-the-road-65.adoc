@@ -1,0 +1,47 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== fork-in-the-road-65
+
+
+
+
+I've learned a lot over the past few months and the vision has solidified and not changed that much. 
+
+I still want a functions as a service hub that will be used by intelligent systems.
+
+However, I'm going the wrong way about it. I'm spending a lot of time building a faas platform over GCP and eliminating the steps to dockerfy and restify software. 
+
+Although I will need this, it is taking too fucking long and some systems are being reinvented poorly.
+
+
+The current system is scalable but is not the right approach at this point in time. I believe focusing on the platform is not the most effective way to achieve my goal.
+Instead, I should be focusing on connecting existing APIs. 
+
+There are already API marketplaces like mashape.com or listing on github like https://github.com/toddmotto/public-apis
+
+Even when I finish my faas platform, it will be competing with other platforms and developers still have to "convert" their software to faas. 
+Although I can use the platform for my personal projects, that is not the end goal. 
+
+The best way to achieve exponential progress at this point in time is to:
+
+
+. focus on existing REST APIs
+. connect them using a schema (json schema or protocol buffer or whatever)
+
+

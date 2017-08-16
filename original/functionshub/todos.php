@@ -2,24 +2,29 @@
 
 $t = [
 
-    'roadmap'      => [
-//        'storage service',
-//        'gcloud setup and experiments',
-        'caching',
-        'scaling & queuing',
-        'youtube/phone replacement',
-
-        'review',
-        'token service',
-        'multiuser support',
-        'improve development and add more services - ',
-        'readability',
-        'static pages',
-        'add billing',
+    'next' => [
+        'blog on end vision',
+        'break down json schema and protocol buffers',
     ],
 
-    'next'         => [
 
+    'review'         => [
+
+
+        'roadmap'      => [
+//        'storage service',
+//        'gcloud setup and experiments',
+            'caching',
+            'scaling & queuing',
+            'youtube/phone replacement',
+            'review',
+            'token service',
+            'multiuser support',
+            'improve development and add more services - ',
+            'readability',
+            'static pages',
+            'add billing',
+        ],
         'replicate usability/ease-of-use of cloud functions (gcloud/aws-lambda/iron etc.)' => [
             
             ],

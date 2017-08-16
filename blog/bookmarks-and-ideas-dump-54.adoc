@@ -188,6 +188,9 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 . writing and copyright https://material.io/guidelines/style/writing.html
 . interesting idea to explain stuff and document http://explainshell.com/explain?cmd=cut%20-d%20%27%20%27%20-f%201%20/var/log/apache2/access_logs%20%7C%20uniq%20-c%20%7C%20sort%20-n
 . mobile response visual http://www.responsinator.com/?url=hanselman.com
+. programming UIs https://docs.google.com/presentation/d/1MD-CgzODFWzdpnYXr8bEgysfDmb8PDV6iCAjH5JIvaI/preview?slide=id.g1da0625f1b_0_43
+. EVE philosophy http://incidentalcomplexity.com/2014/10/16/retrospective/
+. envision http://www.pm.inf.ethz.ch/research/envision.html code bubbles http://cs.brown.edu/~spr/codebubbles/index.html
 
 == fh logging and analytics
 

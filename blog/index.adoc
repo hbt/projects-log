@@ -152,7 +152,19 @@ link:why-functionshub-official-62[why functionshub - official]
 link:workflow-64[workflow]
 ++++
 </li>
-</ul></ul></ul>
+</ul><li>
+++++
+link:fork-in-the-road-65[fork in the road]
+++++
+</li>
+</ul>
+<li>intelligent systems</li><ul><li>
+++++
+link:the-plan-66[the plan]
+++++
+</li>
+
+<li>connect REST APIs</li><ul></ul></ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]

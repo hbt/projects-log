@@ -50,6 +50,14 @@ $map = [
             'function creation workflow'           => [
                 'workflow' => '64',
             ],
+
+            'fork in the road'          => '65',
+        ],
+
+        'intelligent systems' => [
+            'the plan'            => '66',
+            'connect REST APIs' => [
+            ],
         ],
 
 

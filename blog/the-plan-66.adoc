@@ -1,0 +1,94 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== the-plan-66
+
+
+
+
+## what I want 
+
+I've been using "Ok Google" lately. It's extremely limited and defaults to a web search for most requests.
+But the idea is a solid one. That's how we should interact with computational knowledge and APIs.
+
+
+I want to tell the machine what to do, it breaks it down and does it. This is achievable with current technological state.
+
+
+## Step 1 - Add more actions to make assistants smarter
+
+Current assistants have hardcoded tasks like "set an alarm", "add a calendar event" etc. 
+They perform those tasks because they've been programmed to do so. 
+
+The first step is adding more actions by making available all those online APIs. 
+
+The issue with APIs is they are:
+
+- scattered
+- inaccessible 
+- "machine unreadable" 
+
+### Scattered
+
+There is a few collection of APIs like https://github.com/toddmotto/public-apis or mashape.com or programmableweb.com
+If you visit those sites, you will see a list of URLs with general descriptions. 
+That's with official APIs and REST apis. 
+Some are hidden behing private API gateways. Most have no UI and are hidden behind code or regular binaries. 
+
+
+This is solved by: 
+
+- Centralizing the REST APIs in one location (like github did for OSS) and breaking down the actions of the API rather than marketing buzzword descriptions
+
+
+### Inaccessible
+
+
+// TODO(hbt) NEXT reuse previous 
+tons of OSS completely inaccessible to regular people and even developers.
+current rest apis are inaccessible -- unreable prices, rest/json is like wtf for normal people, weird json
+
+
+advantages of dockeerfying and restying
+
+- Dockerfying and Restifying binaries. Example: https://rg3.github.io/youtube-dl/ as a service or ffmpeg as a service
+
+
+It is barely usable as a human and completely useless to machines
+
+
+### Machine unreadable
+
+too much boilerplate and buggy spagetting code
+json-schema / protocol buffers
+
+
+## Step 2 - Connect actions. Compute knowledge
+
+Wolframalpha 
+create complexity
+what it means to compute
+exploration of actions through schema
+
+
+## Step 3 - Make it easier to build APIs
+
+why starting here was the wrong approach
+existing attempts
+people will spaghetti
+
