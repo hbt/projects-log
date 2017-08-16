@@ -551,6 +551,9 @@ They perform those tasks because they&#8217;ve been programmed to do so.</p>
 <li>
 <p>"machine unreadable"</p>
 </li>
+<li>
+<p>hosting/scalability &amp; pricing</p>
+</li>
 </ul>
 </div>
 <div class="sect2">
@@ -575,28 +578,37 @@ Some are hidden behing private API gateways. Most have no UI and are hidden behi
 <div class="sect2">
 <h3 id="_inaccessible">Inaccessible</h3>
 <div class="paragraph">
-<p>tons of OSS completely inaccessible to regular people and even developers.
-current rest apis are inaccessible&#8201;&#8212;&#8201;unreable prices, rest/json is like wtf for normal people, weird json</p>
+<p>view 62 for listing of problems</p>
 </div>
 <div class="paragraph">
-<p>advantages of dockeerfying and restying</p>
+<p>This is solved by:</p>
 </div>
 <div class="ulist">
 <ul>
+<li>
+<p>dockerfying - fixes the dependencies/platform/packaging problems</p>
+</li>
+<li>
+<p>restifying - make the API easily accessible</p>
+</li>
 <li>
 <p>Dockerfying and Restifying binaries. Example: <a href="https://rg3.github.io/youtube-dl/" class="bare">https://rg3.github.io/youtube-dl/</a> as a service or ffmpeg as a service</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>It is barely usable as a human and completely useless to machines</p>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_machine_unreadable">Machine unreadable</h3>
 <div class="paragraph">
-<p>too much boilerplate and buggy spagetting code
-json-schema / protocol buffers</p>
+<p>Even though we have tons of REST APIs on mashape.com and are accessible in a somewhat programmable way, it remains complete giberrish to a machine (and even a human with minimal domain knowledge) without a schema.</p>
+</div>
+<div class="paragraph">
+<p>A schema to represent what the data means allows you not only to validate input/output but manipulate the data and convert it.
+This is the key missing element despite the technology already existing in the form of json-schema, protocol buffers, rpc etc.</p>
+</div>
+<div class="paragraph">
+<p>Without a schema, you have to write boilerplate code to connect APIs together. Boilerplate means human input.
+Eliminating the boilerplate code means a machine can use multiple REST APIs through schema and mappers.</p>
 </div>
 </div>
 </div>
@@ -605,10 +617,14 @@ json-schema / protocol buffers</p>
 <h2 id="_step_2_connect_actions_compute_knowledge">Step 2 - Connect actions. Compute knowledge</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wolframalpha
-create complexity
-what it means to compute
-exploration of actions through schema</p>
+<p>With centralized list of APIs that are schematized, you can connect REST calls to perform complex actions.
+You could say "get all gmail attachments and upload them to S3". The NLP could get this right with a proper schema knowing that gmail is a service, attachments are objects, S3 is another service, upload is an action etc.</p>
+</div>
+<div class="paragraph">
+<p>This is not possible today without writing boilerplate code to connect all those REST calls.</p>
+</div>
+<div class="paragraph">
+<p>I believe in Wolfram vision of computational knowledge. We have to break down API to a single unit of computation and build the links in order to perform complex tasks.</p>
 </div>
 </div>
 </div>
@@ -616,9 +632,14 @@ exploration of actions through schema</p>
 <h2 id="_step_3_make_it_easier_to_build_apis">Step 3 - Make it easier to build APIs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>why starting here was the wrong approach
-existing attempts
-people will spaghetti</p>
+<p>This is the step I started at and it was "sort of a mistake".
+There is no point in making it easier to build APIs; people already build them. The problem is lack of discovery/exploration/accessibility etc.</p>
+</div>
+<div class="paragraph">
+<p>Developers who want to build an API will figure out a way to build it. Even if it is a single file exposing a web server and responding to get/post requests; it still counts as an API.</p>
+</div>
+<div class="paragraph">
+<p>The idea of a platform is a great one but there is tons of competition and having a platform will not fix the fact that we have APIs that are inacessible.</p>
 </div>
 </div>
 </div>

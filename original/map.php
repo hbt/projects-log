@@ -57,6 +57,7 @@ $map = [
         'intelligent systems' => [
             'the plan'            => '66',
             'connect REST APIs' => [
+                'inv schema idea' => '67',
             ],
         ],
 

@@ -1,0 +1,40 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== inv-schema-idea-67
+
+
+
+
+Since the idea of a schema to connect REST apis is what I believe is holding us back. I need to investigate + prototype a system where
+
+### existing REST APIs can be schematized *without* any work/permission from API developer.
+
+- Take an output from a REST API
+- Schematize it
+- Take another output with different params. Run Schema for validation + mapping
+
+
+If the API developer does not have to provide a schema, it means less people to convince and faster growth.
+
+### convert/manipulate data from one schema to another. 
+
+- Schematize 2 APIs
+- Write a converter/mapper from one schema to another
+- Feed output from API 1 into API 2 with minimal boilerplate code
+- Add more schemas and mappers to convert recursively

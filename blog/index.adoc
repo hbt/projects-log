@@ -164,7 +164,12 @@ link:the-plan-66[the plan]
 ++++
 </li>
 
-<li>connect REST APIs</li><ul></ul></ul></ul>
+<li>connect REST APIs</li><ul><li>
+++++
+link:inv-schema-idea-67[inv schema idea]
+++++
+</li>
+</ul></ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]
