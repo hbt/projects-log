@@ -21,6 +21,9 @@ link:index[Home]
 
 
 
+
+## Idea
+
 Since the idea of a schema to connect REST apis is what I believe is holding us back. I need to investigate + prototype a system where
 
 ### existing REST APIs can be schematized *without* any work/permission from API developer.
@@ -38,3 +41,9 @@ If the API developer does not have to provide a schema, it means less people to 
 - Write a converter/mapper from one schema to another
 - Feed output from API 1 into API 2 with minimal boilerplate code
 - Add more schemas and mappers to convert recursively
+
+
+## Research
+
+- swagger 
+- list of apis using swagger https://apis.guru/browse-apis/

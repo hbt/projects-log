@@ -97,12 +97,17 @@ Place to track bookmarks and related ideas until I find something better
 . visualize container information - reverse engineer code for logging and billing https://bcicen.github.io/ctop/
 
 
-== api definition and documentation
+== api definition specification and documentation
  
 . http://swagger.io/ aka OpenAPI
 . https://apiblueprint.org/
 . http://raml.org/
 . more and comparisons http://nordicapis.com/top-specification-formats-for-rest-apis/
+
+== swagger resources
+
+. list of apis using a swagger definition swaggerhub https://apis.guru/browse-apis/
+
 
 == containers
 
@@ -224,3 +229,5 @@ autocompletion using fh registry and smart problem solver using matchers and mac
 == great feature ideas
 
 . one click deploy of git repo https://blog.heroku.com/heroku-button
+
+

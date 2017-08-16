@@ -2,16 +2,67 @@
 
 $t = [
 
-    'next' => [
-        'blog on end vision',
+    'next'         => [
+//        'blog on end vision',
         'break down json schema and protocol buffers',
+        'research'    => [
+
+            'reorg',
+
+
+            'inv differences',
+            'http://nordicapis.com/top-specification-formats-for-rest-apis/',
+
+            'is there a swaggerhub? ramlhub? grcphub?'                                                                  => [
+            ],
+            'is swagger really the most popular'                                                                        => [
+            ],
+            'hn opinion on swagger/raml etc'                                                                            => [
+            ],
+            'subreddit on swagger etc'                                                                                  => [
+            ],
+
+
+            'find more swagger list of apis'                                                                            => [
+                'use github',
+                'check other listing like apis.guru',
+            ],
+
+            'swagger tools'                                                                                             => [
+            ],
+
+            'inv mapping idea if already using swagger or something else'                                               => [
+            ],
+
+            'inv api discovery problem'                                                                                 => [
+            ],
+
+
+            'nlp'                                                                                                       => [
+                'find the bot maker. nlp.ai or something -- check br/fh/54' => [
+                ],
+            ],
+
+            'end 2 end experiment with bot hubot okgoogle nlp + custom actions and adding new ones easily with swagger' => [
+            ],
+
+            'inv quick swagger expeiement uploading something to gdrive and dropbox?'                                   => [
+            ],
+
+            'inv mapper idea -- linking actions + API discovery'                                                        => [
+            ],
+        ],
+        'json schema' => [
+            'schematize json output of a service' => [
+            ],
+        ],
     ],
 
 
-    'review'         => [
+    'review'       => [
 
 
-        'roadmap'      => [
+        'roadmap'                                                                          => [
 //        'storage service',
 //        'gcloud setup and experiments',
             'caching',
@@ -26,33 +77,33 @@ $t = [
             'add billing',
         ],
         'replicate usability/ease-of-use of cloud functions (gcloud/aws-lambda/iron etc.)' => [
-            
-            ],
 
-        'fix max ' => [
+        ],
+
+        'fix max '                                                                         => [
             'response, request sizes',
             'max buffer issue (input/output) cli',
         ],
-        'disk management' => [
+        'disk management'                                                                  => [
             'delete requests',
         ],
 
-        'phone'                       => [
+        'phone'                                                                            => [
 //            'messaging queue' => [
 //                'test',
 //            ],
 //            'replace phone'   => [
 //            ],
-            'think'           => [
-                'caching'         => [
+            'think' => [
+                'caching' => [
                 ],
             ],
         ],
 
-        'review below'                => [
+        'review below'                                                                     => [
         ],
 
-        'refactoring'                 => [
+        'refactoring'                                                                      => [
 
             'fix max buffer error -- and error output/logging in crashes instead of JSON unnexpected parsing' => [
             ],
@@ -85,27 +136,27 @@ $t = [
                 'post max load -- longvarchar ' => [
                 ],
             ],
-            'add new phone system -- keep older as bak for now'                                         => [
+            'add new phone system -- keep older as bak for now' => [
                 'flag project as deprecated',
             ],
-            'fix the .env and env_XXX  files '                                                          => [
+            'fix the .env and env_XXX  files ' => [
             ],
 
-            'bak docker images + add borg backups incremental'                                          => [
+            'bak docker images + add borg backups incremental' => [
                 'latest folder and incremental that',
             ],
 
-            'write blog next goal/roadmap/next effective stuff/ major roadblock/bottleneck'             => [
+            'write blog next goal/roadmap/next effective stuff/ major roadblock/bottleneck' => [
             ],
-            'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/'      => [
+            'inv strong typing in schema -- view https://developer.github.com/v4/reference/query/' => [
             ],
-            'inv vault for keys + config'                                                               => [
+            'inv vault for keys + config' => [
             ],
-            'fix test.sh killing all docker containers -- keep static and start fh-server on boot'      => [
+            'fix test.sh killing all docker containers -- keep static and start fh-server on boot' => [
             ],
 
 
-            'review'                                                                                    => [
+            'review' => [
 
                 'cache'                    => [
                     'log request and get the file instead of downloading again',
@@ -132,7 +183,7 @@ $t = [
 
         ],
 
-        'post refactor'               => [
+        'post refactor'                                                                    => [
             'review todos and integrate next steps'                                                                                      => [
             ],
             'run tests in browser to ease filtering'                                                                                     => [
@@ -167,7 +218,7 @@ $t = [
 
         ],
 
-        'read'                        => [
+        'read'                                                                             => [
 
 //            'fh',
 //        'fh readability - http://www.economist.com/news/finance-and-economics/21702756-abenomics-may-have-failed-live-up-hype-it-has-not-failed-and',
@@ -197,7 +248,7 @@ $t = [
         'add helper to find image assoc to function',
 
 
-        'brainstorm mp3 example flow' => [
+        'brainstorm mp3 example flow'                                                      => [
             'functions' => [
                 'youtubedl function' => [
 //                    'fn',
