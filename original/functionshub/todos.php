@@ -7,34 +7,44 @@ $t = [
         'break down json schema and protocol buffers',
         'research'    => [
 
-            'reorg',
-
-
-            'inv differences',
-            'http://nordicapis.com/top-specification-formats-for-rest-apis/',
-
-            'is there a swaggerhub? ramlhub? grcphub?'                                                                  => [
-            ],
-            'is swagger really the most popular'                                                                        => [
-            ],
-            'hn opinion on swagger/raml etc'                                                                            => [
-            ],
-            'subreddit on swagger etc'                                                                                  => [
-            ],
-
-
-            'find more swagger list of apis'                                                                            => [
-                'use github',
-                'check other listing like apis.guru',
-            ],
-
-            'swagger tools'                                                                                             => [
-            ],
 
             'inv mapping idea if already using swagger or something else'                                               => [
             ],
+            'inv mapper idea -- linking actions + API discovery'                                                        => [
+                'build something',
+            ],
+
+            'swagger'                                                                                                   => [
+
+                'inv differences',
+                'http://nordicapis.com/top-specification-formats-for-rest-apis/',
+
+                'is there a swaggerhub? ramlhub? grcphub?' => [
+                ],
+                'is swagger really the most popular'       => [
+                ],
+                'hn opinion on swagger/raml etc'           => [
+                ],
+                'subreddit on swagger etc'                 => [
+                ],
+
+
+                'find more swagger list of apis'           => [
+                    'use github',
+                    'check other listing like apis.guru',
+                ],
+
+                'swagger tools'                            => [
+                ],
+
+                'inv quick swagger expeiement uploading something to gdrive and dropbox?'                                   => [
+                ],
+            ],
+
+
 
             'inv api discovery problem'                                                                                 => [
+                'explore / find apis -- other sites?',
             ],
 
 
@@ -46,11 +56,7 @@ $t = [
             'end 2 end experiment with bot hubot okgoogle nlp + custom actions and adding new ones easily with swagger' => [
             ],
 
-            'inv quick swagger expeiement uploading something to gdrive and dropbox?'                                   => [
-            ],
 
-            'inv mapper idea -- linking actions + API discovery'                                                        => [
-            ],
         ],
         'json schema' => [
             'schematize json output of a service' => [
