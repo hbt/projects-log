@@ -1,0 +1,75 @@
+
+
+## What I want
+
+I want to speak/type in plain english general actions to perform and for the machine to do it.
+
+Example:
+
+- I visit a youtube music video and want the music on phone. 
+- I say: download the video then extract the audio then upload file to google drive
+- the assistant will get it done
+
+
+## Is this possible today in 2017?
+
+Yes, it is. The technology is mature enough to build stuff like this. 
+
+What is needed is:
+
+- voice recognition 
+- basic natural language processing and matching to commands
+- programs/functions sitting on the cloud waiting to be called
+- user interface for feedback and clarifications
+
+
+## technology breakdown
+
+
+### voice recognition
+
+google api is as good as it gets - https://cloud.google.com/speech/
+
+### natural language processing
+
+Several apis like
+
+- api.ai
+- wit.ai 
+// TODO(hbt) NEXT  find the oss alternative
+
+### cloud functions
+
+Plenty of open source programs that are inaccessible to the public as cloud functions.
+
+All we need to do is dockerfy the code, restify it as a service, schematize the inputs/outputs and associate the "trigger words" for NLP. 
+Then faas it, scale as you wish and pay per compute.
+
+// TODO(hbt) NEXT add breakdown of jargon
+
+
+### UI & feedback
+
+Same as google assistant command requesting a clarification as an input. This is doable at a larger scale if the inputs/output are schematized.
+
+
+## current state of intelligent assistants
+
+Before reinventing the wheel, let's look at existing intelligent assistants
+
+// TODO(hbt) NEXT inv list
+
+List of top 22 https://www.predictiveanalyticstoday.com/top-intelligent-personal-assistants-automated-personal-assistants/
+
+// TODO(hbt) NEXT expand what google assistant lacks
+What they all lack:
+
+// TODO(hbt) NEXT expand on process for adding new GA commands/actions
+- easy to extend and add new commands
+// TODO(hbt) NEXT expand on calendar example
+- handling any complexity or diverging from expected input (no adaptation/learning either)
+// TODO(hbt) NEXT expand on abstraction/new keywords
+- customization
+// TODO(hbt) NEXT list features/actions available
+- highly limited
+

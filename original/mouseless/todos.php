@@ -12,7 +12,12 @@ $todos = [
 
 
                 'next week' => [
-                    // TODO(hbt) NEXT fix recently added bookmark commands  -- view commit checklist
+                    'add chrome restore focus code to hbt github' => [
+                        'rm from bitbucket',
+                        'update projects-log',
+                        'link in mouseless as a feature',
+                        'link in the ctrl+k extension too ',
+                    ],
                     'https://github.com/hbt/mouseless/issues/126',
                 ],
             ],
@@ -66,7 +71,7 @@ $todos = [
             'close ticket',
         ],
 
-        'releease checklist'   => [
+        'release checklist'   => [
             '. edit manifest.json and update version',
             '. update changelog.adoc',
             ' render all adoc files',

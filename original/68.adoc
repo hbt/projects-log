@@ -1,0 +1,14 @@
+
+## latest binary fixes
+
+Fixed the youtube live issue due to codec missing. 
+
+## docker
+
+Dockerfied the project here for https://github.com/hbt/chromium-white-flash-docker and docker image available under hbtlabs https://hub.docker.com/u/hbtlabs/
+
+## latest code update
+
+Building for latest versions will require a new fix since the code has changed (even though it is only 2 lines). Works up to v59 maybe v60
+
+

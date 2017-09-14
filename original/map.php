@@ -4,60 +4,67 @@ $map = [
 
 
     'functionshub'             => [
-        'bookmarks and ideas dump' => '54',
-        'brainstorming'            => [
-            'vision'                                => '20',
-            'research'                              => '21',
-            'redefining vision'                     => '22',
-            'brainstorming prototype'               => '23',
-            'deciding on key metrics'               => '24',
-            'future of OSS'                         => '25',
-            'take over the world'                   => '45',
-            'investigate faas frameworks and tools' => '44',
-            'roadmap'                               => '33',
+        'build smart assistants ' => [
+            'vision' => '70',
+            
         ],
-        'experimenting with tech'  => [
-            'iron functions' => '47',
-        ],
-        'clarifying vision'        => '48',
+        'old brainstorming and prototyping stuff' => [
+
+            'bookmarks and ideas dump' => '54',
+            'brainstorming'            => [
+                'vision'                                => '20',
+                'research'                              => '21',
+                'redefining vision'                     => '22',
+                'brainstorming prototype'               => '23',
+                'deciding on key metrics'               => '24',
+                'future of OSS'                         => '25',
+                'take over the world'                   => '45',
+                'investigate faas frameworks and tools' => '44',
+                'roadmap'                               => '33',
+            ],
+            'experimenting with tech'  => [
+                'iron functions' => '47',
+            ],
+            'clarifying vision'        => '48',
 
 
-        'mvp brainstorming'        => [
-            'vision'  => '51',
-            'metrics' => '52',
-        ],
-
-
-        'strings prototype'        => [
-            'end goal'                                                    => '49',
-            'list of string functions from various apis'                  => '50',
-            'end result usage example'                                    => '53',
-            'experimenting with end to end '                              => '55',
-            'not too sure about strings prototype idea'                   => '57',
-            'solving the high context switching and development workflow' => '58',
-
-
-        ],
-
-
-        'basic version for self'   => [
-            'building a basic version for myself ' => '59',
-            'organizational struggle '             => '60',
-            'video to mp3 experiment - thoughts'   => '56',
-            'speed of execution'                   => '61',
-            'why functionshub - official'          => '62',
-
-            'function creation workflow'           => [
-                'workflow' => '64',
+            'mvp brainstorming'        => [
+                'vision'  => '51',
+                'metrics' => '52',
             ],
 
-            'fork in the road'          => '65',
-        ],
 
-        'intelligent systems' => [
-            'the plan'            => '66',
-            'connect REST APIs' => [
-                'inv schema idea' => '67',
+            'strings prototype'        => [
+                'end goal'                                                    => '49',
+                'list of string functions from various apis'                  => '50',
+                'end result usage example'                                    => '53',
+                'experimenting with end to end '                              => '55',
+                'not too sure about strings prototype idea'                   => '57',
+                'solving the high context switching and development workflow' => '58',
+
+
+            ],
+
+
+            'basic version for self'   => [
+                'building a basic version for myself ' => '59',
+                'organizational struggle '             => '60',
+                'video to mp3 experiment - thoughts'   => '56',
+                'speed of execution'                   => '61',
+                'why functionshub - official'          => '62',
+
+                'function creation workflow'           => [
+                    'workflow' => '64',
+                ],
+
+                'fork in the road'                     => '65',
+            ],
+
+            'intelligent systems'      => [
+                'the plan'          => '66',
+                'connect REST APIs' => [
+                    'inv schema idea' => '67',
+                ],
             ],
         ],
 
@@ -118,12 +125,17 @@ $map = [
     ],
 
     'chromium white flash fix' => [
-        'My history with this bug'                                => '2',
-        'Forking and fixing a bug in 2016'                        => '3',
-        'thinking about vision and end goal'                      => '4',
-        'Someone built the windows binaries based on my work ;-)' => '5',
-        'Sleazy marketing'                                        => '6',
-        'Conclusion'                                              => '7',
+        'the fix'     => [
+            'My history with this bug'                                => '2',
+            'Forking and fixing a bug in 2016'                        => '3',
+            'thinking about vision and end goal'                      => '4',
+            'Someone built the windows binaries based on my work ;-)' => '5',
+            'Sleazy marketing'                                        => '6',
+            'Conclusion'                                              => '7',
+        ],
+        'maintenance' => [
+            'dockerfication' => '68',
+        ],
     ],
 
 

@@ -21,7 +21,13 @@ link:index[Home]
 
 
 
+## DEPRECATED
+
 Place to track bookmarks and related ideas until I find something better
+
+Replaced by chrome bookmarks 
+
+## DEPRECATED
 
 
 == ipaas - integration platform as a service. alternatives

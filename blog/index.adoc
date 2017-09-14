@@ -16,7 +16,14 @@
 
 ++++
 <ul>
-<li>functionshub</li><ul><li>
+<li>functionshub</li><ul>
+<li>build smart assistants </li><ul><li>
+++++
+link:vision-70[vision]
+++++
+</li>
+</ul>
+<li>old brainstorming and prototyping stuff</li><ul><li>
 ++++
 link:bookmarks-and-ideas-dump-54[bookmarks and ideas dump]
 ++++
@@ -169,7 +176,7 @@ link:the-plan-66[the plan]
 link:inv-schema-idea-67[inv schema idea]
 ++++
 </li>
-</ul></ul></ul>
+</ul></ul></ul></ul>
 <li>thinking about software</li><ul><li>
 ++++
 link:3-related-ideas-26[3 related ideas]
@@ -318,7 +325,8 @@ link:dedication-focus-and-pomodoro-flow-63[dedication focus and pomodoro flow]
 ++++
 </li>
 </ul>
-<li>chromium white flash fix</li><ul><li>
+<li>chromium white flash fix</li><ul>
+<li>the fix</li><ul><li>
 ++++
 link:my-history-with-this-bug-2[My history with this bug]
 ++++
@@ -349,6 +357,12 @@ link:conclusion-7[Conclusion]
 ++++
 </li>
 </ul>
+<li>maintenance</li><ul><li>
+++++
+link:dockerfication-68[dockerfication]
+++++
+</li>
+</ul></ul>
 <li>business</li><ul>
 <li>rambling</li><ul><li>
 ++++
