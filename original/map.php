@@ -4,9 +4,12 @@ $map = [
 
 
     'functionshub'             => [
-        'build smart assistants ' => [
+
+        
+        
+        'build smart assistants (wip)'                 => [
             'vision' => '70',
-            
+
         ],
         'old brainstorming and prototyping stuff' => [
 

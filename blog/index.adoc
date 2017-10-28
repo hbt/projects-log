@@ -17,7 +17,7 @@
 ++++
 <ul>
 <li>functionshub</li><ul>
-<li>build smart assistants </li><ul><li>
+<li>build smart assistants (wip)</li><ul><li>
 ++++
 link:vision-70[vision]
 ++++
