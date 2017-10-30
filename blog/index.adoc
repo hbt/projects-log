@@ -17,6 +17,12 @@
 ++++
 <ul>
 <li>functionshub</li><ul>
+<li>improving software development cycle</li><ul><li>
+++++
+link:putting-a-video-on-my-phone-71[putting a video on my phone]
+++++
+</li>
+</ul>
 <li>build smart assistants (wip)</li><ul><li>
 ++++
 link:vision-70[vision]

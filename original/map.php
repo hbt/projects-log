@@ -5,12 +5,16 @@ $map = [
 
     'functionshub'             => [
 
+        'improving software development cycle' => [
+            'putting a video on my phone' => '71',
+            
+        ],
         
         
         'build smart assistants (wip)'                 => [
             'vision' => '70',
-
         ],
+        
         'old brainstorming and prototyping stuff' => [
 
             'bookmarks and ideas dump' => '54',
