@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>putting-a-video-on-my-phone-71</title>
+<title>basic-scripting-and-automation-72</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -510,260 +510,358 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_putting_a_video_on_my_phone_71">putting-a-video-on-my-phone-71</h2>
+<h2 id="_basic_scripting_and_automation_72">basic-scripting-and-automation-72</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="_end_goal">end goal</h2>
+<h2 id="_iteration_3">Iteration 3</h2>
 <div class="sectionbody">
-<div class="literalblock">
+<div class="paragraph">
+<p>Let&#8217;s automate those repetitive steps from earlier.</p>
+</div>
+<div class="paragraph">
+<p>A few solutions:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Use a keyboard macro program like xmacro to record the pressed keys and mouse clicks</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>You have to get the timing right. If there is any problem like the video taking too long or the site changing, it will fail.</p>
+</li>
+<li>
+<p>When it fails, you have no idea why until you examine each step.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>use a robot software like "selenium" to control complex states like waiting, status codes etc.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>gets more complicated and requires knowledge in selenium</p>
+</li>
+<li>
+<p>still has to be maintained every time the site is updated</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Search and use tools on github</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>too complicated for majority of users to find right keywords, domain language and identify the right tool</p>
+</li>
+<li>
+<p>too complicated to install the tool on their computer and test it</p>
+</li>
+<li>
+<p>too complicated to diagnose why the tool stopped working and how to fix it</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>After using the <a href="https://www.onlinevideoconverter.com/video-converter" class="bare">https://www.onlinevideoconverter.com/video-converter</a> site, you realize they have a quota + hard limit on the size of the video that <strong>they never mention anywhere&#8230;&#8203; just fails silently</strong>.
+So, option 1 &amp; 2 are out and you&#8217;re left with option 3.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s get this done!</p>
+</div>
+<div class="sect2">
+<h3 id="_download_the_youtube_video">download the youtube video</h3>
+<div class="paragraph">
+<p>Found youtube-dl <a href="https://github.com/rg3/youtube-dl" class="bare">https://github.com/rg3/youtube-dl</a></p>
+</div>
+<div class="paragraph">
+<p>Install it</p>
+</div>
+<div class="listingblock">
 <div class="content">
-<pre>"I want to listen to podcast/lectures from youtube while I run errands."</pre>
+<pre class="pygments highlight"><code>pip install youtube-dl</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Try it</p>
+</div>
+<div class="paragraph">
+<p><code>youtube-dl <a href="https://www.youtube.com/watch?v=vt9UZo32KMk" class="bare">https://www.youtube.com/watch?v=vt9UZo32KMk</a></code></p>
+</div>
+<div class="paragraph">
+<p>We have the video file. Awesome.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s stop for a second and look what a user needed to know to achieve this:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>github, github repositories, open-source software and what it is expected from you as a user</p>
+</li>
+<li>
+<p>basic understanding command line</p>
+</li>
+<li>
+<p>pip is a package manager for python and python is a programming language amongst many</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>OK. This assumes we did not run into any issues:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>installing python/pip and upgrading libraries or dealing with incompatible platforms</p>
+</li>
+<li>
+<p>youtube-dl working out of the gate. No cache issues, no need to upgrade, no permissions problems etc.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_convert_the_video_to_audio">Convert the video to audio</h3>
+<div class="paragraph">
+<p>We can go back to hunting for software interfaces with GUI that force you to do everything manually</p>
+</div>
+<div class="paragraph">
+<p><strong>OR</strong></p>
+</div>
+<div class="paragraph">
+<p>We magically figure out that a piece of software with the most obscure of names already exists.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>sudo apt-get install avconv
+avconv -i a1.m4b -vn a1.mp3</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>OK. Let&#8217;s stop again. Here is what the user needed to know:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>sound can be extracted from a video using software.</p>
+</li>
+<li>
+<p>although there is tons of software with GUIs, you really want the one with command line because that&#8217;s the only one you can automate</p>
+</li>
+<li>
+<p>when you go online and look for "command line video sound extraction" you keep seeing "ffmpeg" but you can&#8217;t install it</p>
+</li>
+<li>
+<p>instead you can install avconv which comes with your distribution, is a fork of ffmpeg but you can install ffmpeg from another repository source or the latest distribution</p>
+</li>
+<li>
+<p>you can copy/paste the avconv parameters you saw on stackoverflow or spend time reading the help and the tons of features/flag/arguments/parameters to figure out how to do what you want to do.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_put_the_audio_file_on_my_phone">put the audio file on my phone</h3>
+<div class="paragraph">
+<p>Remember what this whole thing was about again? Yeah, don&#8217;t lose track and waste time!!</p>
+</div>
+<div class="paragraph">
+<p>OK. So I have the sound file on my computer and want it on my phone. Easy Peasy.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Plug the phone into my computer and transfer using usb/mtp/whatever</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Sucks to have to plug the phone every time you want to transfer</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Look into blutooth</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>pain in the ass to pair the devices, too slow, still manual</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Look into installing an FTP/SSH app on the phone and automatically start it.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>too clunky</p>
+</li>
+<li>
+<p>service doesn&#8217;t start automatically</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Look into uploading the file to google drive / dropbox and use the app to automatically sync</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>downloading is fine but upload speed sucks (Thanks Canadian telecoms)</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Again, since the google drive site UI is useless for automation, the API involves too much programming we find a utility called "drive" on github</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code># Install drive
+mkdir -p /goroot &amp;&amp; \
+    curl https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz | tar xvzf - -C /goroot --strip-components=1
+ENV GOROOT /goroot
+ENV GOPATH /gopath
+ENV PATH $GOROOT/bin:$GOPATH/bin:$PATH
+go get -u github.com/odeke-em/drive/cmd/drive</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>I&#8217;m not even gonna bother listing the things the user needs to know at this point.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>drive is installed</p>
+</li>
+<li>
+<p>we get a token/credential to the google drive account</p>
+</li>
+<li>
+<p>we push the file to google drive</p>
+</li>
+<li>
+<p>file is automatically synced on the phone</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_putting_it_all_together">Putting it all together.</h3>
+<div class="paragraph">
+<p>A quick bash script to link things together.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>It accepts a url</p>
+</li>
+<li>
+<p>downloads it</p>
+</li>
+<li>
+<p>extracts the audio</p>
+</li>
+<li>
+<p>uploads the audio</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_still_handling_one_video_at_the_time">still handling one video at the time</h3>
+<div class="paragraph">
+<p>that&#8217;s easy. Put a bunch of urls into a file. use xargs or a loop to go through them.
+You don&#8217;t get parallel processing since you don&#8217;t have the computational resources though.</p>
+</div>
+<div class="listingblock">
+<div class="title">video-converter</div>
+<div class="content">
+<pre class="pygments highlight"><code data-lang="bash">sudo pip install --upgrade --quiet youtube-dl
+youtube-dl --rm-cache-dir
+youtube-dl -v --no-playlist <span class="tok-nv">$1</span>
+
+<span class="tok-k">for</span> i in *.mkv<span class="tok-p">;</span> <span class="tok-k">do</span> avconv -i <span class="tok-nv">$i</span> -vn <span class="tok-nv">$i</span>.mp3<span class="tok-p">;</span><span class="tok-k">done</span>
+<span class="tok-k">for</span> i in *.webm<span class="tok-p">;</span> <span class="tok-k">do</span> avconv -i <span class="tok-nv">$i</span> -vn <span class="tok-nv">$i</span>.mp3<span class="tok-p">;</span><span class="tok-k">done</span>
+<span class="tok-k">for</span> i in *.mp4<span class="tok-p">;</span> <span class="tok-k">do</span> avconv -i <span class="tok-nv">$i</span> -vn <span class="tok-nv">$i</span>.mp3<span class="tok-p">;</span><span class="tok-k">done</span>
+
+drive push --no-prompt *.mp3
+srm -rf *</code></pre>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_iteration_1">Iteration 1</h2>
+<h2 id="_iteration_4">Iteration 4</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Easy peasy.</p>
+<p>OK. We have a script to download/convert/upload anything.</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="paragraph">
+<p>Issues:</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
-<p>Download the youtube app</p>
+<p>youtube-dl breaks and require an upgrade because it uses a crawler. you need to ugprade when youtube site changes its code</p>
 </li>
 <li>
-<p>Play the video</p>
+<p>download bandwidth and speed are limited on local computer</p>
 </li>
-</ol>
+<li>
+<p>ffmpeg consumes a whole CPU and also takes time</p>
+</li>
+<li>
+<p>upload process takes even more time since it is a fraction of the download speed.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s improve it further and see the cost + ease of improvements.</p>
 </div>
 <div class="sect2">
-<h3 id="_issues">Issues</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Internet is not cheap nor fast in Canada.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Find a youtube offline app</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Advertisements in the youtube app are distracting/annoying</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Find another app like "youtube red" to skip/remove advertisements</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Often don&#8217;t need the video since I can&#8217;t watch it, only need the audio. Turning off the phone, pauses the video.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Download the video and extract the audio</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Nothing can be done with the phone while youtube app is on.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Use a regular media player to play downloaded content</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Sometimes content is from other sources too e.g vimeo or soundcloud</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>download video from more than source.</p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_iteration_2">Iteration 2</h2>
-<div class="sectionbody">
+<h3 id="_internet_speed_issues">Internet speed issues</h3>
 <div class="paragraph">
-<p>You can search the google play store for a multitude of youtube apps that do what you want. Trying them one at the time and perhaps even buying some.
-Normally at this point, people accept a compromise. I can do this but not that, too bad, "c&#8217;est la vie". They get frustrated and move on.</p>
+<p>Run it on the cloud.</p>
 </div>
-<div class="paragraph">
-<p>For the small minority of people technologically savvy enough, they will do a google search.
-A google search is only fruitful if you know the domain. Otherwise, you are inundated by sleazy websites promising what you want and under delivering.</p>
-</div>
-<div class="paragraph">
-<p>Examples:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p><a href="https://www.google.ca/search?ei=c5r3WYK1H6u4jwS1-bjYAg&amp;q=extract+audio+from+youtube&amp;oq=extract+audio+from+&amp;gs_l=psy-ab.3.0.0i20i263k1j0l9.1921.11631.0.12449.32.25.7.0.0.0.208.2813.5j15j2.23.0&#8230;&#8203;.0&#8230;&#8203;1.1.64.psy-ab..2.30.2940.6..35i39k1j0i67k1j0i131k1j0i131i46k1j46i131k1.116.yTlo1smHOko" class="bare">https://www.google.ca/search?ei=c5r3WYK1H6u4jwS1-bjYAg&amp;q=extract+audio+from+youtube&amp;oq=extract+audio+from+&amp;gs_l=psy-ab.3.0.0i20i263k1j0l9.1921.11631.0.12449.32.25.7.0.0.0.208.2813.5j15j2.23.0&#8230;&#8203;.0&#8230;&#8203;1.1.64.psy-ab..2.30.2940.6..35i39k1j0i67k1j0i131k1j0i131i46k1j46i131k1.116.yTlo1smHOko</a></p>
+<p>find cheap vm  where bandwidth is not an issue e.g linode</p>
 </li>
 <li>
-<p><a href="https://www.google.ca/search?ei=PJr3WePSNaXijwTllqSIDg&amp;q=download+youtube+videos&amp;oq=download+youtube&amp;gs_l=psy-ab.3.0.0i131k1j0i20i263k1j0l8.49991.51720.0.53560.16.12.0.0.0.0.275.1573.0j7j2.9.0&#8230;&#8203;.0&#8230;&#8203;1.1.64.psy-ab..7.9.1564&#8230;&#8203;35i39k1.0.dbEocb1DBOI" class="bare">https://www.google.ca/search?ei=PJr3WePSNaXijwTllqSIDg&amp;q=download+youtube+videos&amp;oq=download+youtube&amp;gs_l=psy-ab.3.0.0i131k1j0i20i263k1j0l8.49991.51720.0.53560.16.12.0.0.0.0.275.1573.0j7j2.9.0&#8230;&#8203;.0&#8230;&#8203;1.1.64.psy-ab..7.9.1564&#8230;&#8203;35i39k1.0.dbEocb1DBOI</a></p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>You can actually find really great tools e.g <a href="https://www.onlinevideoconverter.com/video-converter" class="bare">https://www.onlinevideoconverter.com/video-converter</a></p>
-</div>
-<div class="paragraph">
-<p>Problem solved!</p>
-</div>
-<div class="paragraph">
-<p>Here are the steps the user has to perform each time they want a video on their phone:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>copy the youtube url</p>
+<p>install the software (repeat steps above) and replicate state of your local machine</p>
 </li>
 <li>
-<p>go to <a href="https://www.onlinevideoconverter.com/video-converter" class="bare">https://www.onlinevideoconverter.com/video-converter</a></p>
+<p>copy the bash script we created earlier</p>
 </li>
 <li>
-<p>paste the youtube url</p>
+<p>use SCP to upload the file listing the youtube urls</p>
 </li>
 <li>
-<p>click "Start"</p>
+<p>run it over SSH</p>
 </li>
-<li>
-<p>wait</p>
-</li>
-<li>
-<p>Click "Download mp3"</p>
-</li>
-</ol>
+</ul>
 </div>
-<div class="paragraph">
-<p>If you have multiple videos or a playlist, repeat this process for each one.</p>
-</div>
-<div class="sect2">
-<h3 id="_issues_2">Issues</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>This is tedious and repetitive (especially if you want multiple videos)</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Automate the download to audio conversion</p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_a_quick_recap">A quick recap</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>At this point, we lost the vast majority of users. At each iteration, the solutions get better but accessibility to said solution gets worse.</p>
-</div>
-<div class="paragraph">
-<p>To recap, here is what we are asking from users:</p>
-</div>
-<div class="sect2">
-<h3 id="_notice_a_problem_and_be_proactive">notice a problem and be proactive.</h3>
-<div class="literalblock">
+<div class="listingblock">
 <div class="content">
-<pre>"I want to play youtube videos but it is not economical to do it on my cellphone plan. Do I give up on what I want? blame government sanctioned oligopolies and rant about rich greedy telecom owners?  or do I look for an alternative solution?"</pre>
+<pre class="pygments highlight"><code>scp -r "links.txt" hbt@hbtlabs.com:links.txt
+ssh hbt@hbtlabs.com video-converter.sh</code></pre>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_understand_the_domain_and_basic_concepts">understand the domain and basic concepts.</h3>
-<div class="literalblock">
-<div class="content">
-<pre>"Youtube is an app. Advertisements are not ingrained in the video but are separate. A video is a file and can be broken download into images and sound. The data does not reside in youtube but on a site/server. Can I use something other than an app to access that data? Can I use a browser? Another app?"</pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_find_alternative_solutions_and_evaluate_them">find alternative solutions and evaluate them</h3>
-<div class="literalblock">
-<div class="content">
-<pre>"If youtube is an app and not just a magic icon that was installed on my phone when I bought it. Can I go to the playstore, find other apps, install them, evaluate them, breakdown their features as independent systems, compare them and find a better fit?"
-"If the youtube app on my phone is just an interface, can I do a google search with the right keywords, find another tool to access the video, download it ... ?"</pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_identify_the_manual_steps_involved_in_the_solution">Identify the manual steps involved in the solution</h3>
-<div class="literalblock">
-<div class="content">
-<pre>"I have to do all these steps, maybe I don't have to. Maybe there is a better way. Maybe I can do something about improving this solution"</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>People are not stupid but generally ignorant about the domain and its complexity. They often build their own model of reality and belief system and use them to operate around the world.</p>
-</div>
-<div class="paragraph">
-<p>This doesn&#8217;t account for personality and emotions; people who get angry/frustrated easily, people who give up at the first sign of a challenge, people who are "afraid to break it" because no one is around to fix it etc.</p>
-</div>
-<div class="paragraph">
-<p>All of these people with their different backgrounds and understanding of the world force you to fragment your product. They each represent a significant enough market segment and yet you cannot design something to be a perfect fit for all of them.</p>
-</div>
-<div class="paragraph">
-<p>That is the frustration of product development. You have to pick your market segment, build a solution for each one of them.
-The language used by the software has to fit how your segment models reality.</p>
-</div>
-<div class="paragraph">
-<p>More people using your product means it has to please the lowest common denominator. Needs of the many &#8230;&#8203;</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_what_if">What if</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>What if you could create an interface that anyone could wrap their heads around?
-A simple pattern anyone can understand.</p>
-</div>
-<div class="paragraph">
-<p><code>Input &#8594; Transformation &#8594; Output</code></p>
-</div>
-<div class="paragraph">
-<p>What if the interface was just plain english and it adjusted automatically to your understanding of the world by learning from people like you? No matter how small your customer segment, <strong>someone alreayd tried to do what you want to do</strong>.</p>
-</div>
-<div class="paragraph">
-<p>Why are repeating the same work individually over and over?</p>
-</div>
-<div class="paragraph">
-<p>What if you could easily create, share and consume automated systems (software)?</p>
-</div>
-<div class="paragraph">
-<p>What if independent systems could communicate with each other with no prior agreement?</p>
-</div>
-<div class="paragraph">
-<p>What if you could easily scale your computational resources based on your needs?</p>
-</div>
-<div class="paragraph">
-<p>This is what we are going to build</p>
 </div>
 </div>
 </div>

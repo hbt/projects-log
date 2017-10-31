@@ -1,0 +1,109 @@
+
+## Iteration 5
+
+
+Issues:
+
+- maintaining the state of the remote machine is annoying. e.g upgrading youtube-dl and making sure things don't break
+- cannot have dedicated vm for just a script. installing other software could break the script by unintentionally upgrading other libraries
+- ffmpeg consumes a whole CPU and also takes time
+- copy/pasting multiple urls manually is time consuming.
+
+### Software dependencies and deployment issues
+
+Use containers instead of only VMs. 
+
+Dockerfy the whole project and its dependencies. Deploy locally or on any vm easy and use easily.
+
+.Dockerfile
+[source,Dockerfile]
+----
+
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y curl git python g++ build-essential python-pip ffmpeg sudo php7.0
+
+# install youtube-dl
+RUN pip install youtube-dl
+
+# Install drive
+RUN mkdir -p /goroot && \
+    curl https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz | tar xvzf - -C /goroot --strip-components=1
+ENV GOROOT /goroot
+ENV GOPATH /gopath
+ENV PATH $GOROOT/bin:$GOPATH/bin:$PATH
+RUN go get -u github.com/odeke-em/drive/cmd/drive
+
+
+# Add a user that can `sudo`.
+RUN useradd --create-home --shell /bin/bash user \
+ && echo "user ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/use
+
+# Don't be root.
+USER user
+ENV HOME /home/user
+
+RUN mkdir /home/user/project
+WORKDIR /home/user/project
+
+----
+
+
+.docker-compose.yml
+[source,yaml]
+----
+
+version: '3'
+
+services: 
+  video-converter:
+    build:  
+      context: . 
+    image: hbtlabs/video-converter
+    volumes:
+      - .:/home/user/project
+      - /tmp/linux-tmp/gdrive/.gd/credentials.json:/home/user/credentials.json
+
+----
+
+
+Usage
+
+docker-compose run video-converter ./video-converter.sh
+
+
+### CPU Issues
+
+push the image on docker hub and scale up in the VM or using https://www.hyper.sh/
+
+
+### Copy/pasting links
+
+Use mouseless `yankWindowUrls` https://hbt.github.io/mouseless/commands.html
+
+
+
+### Recap
+
+
+- We have our automation script and it can be deployed anywhere (including locally) 
+- Although local resources are limited, we can easily scale up in the cloud and process an entire playlist of videos
+- Pretty much majority of users could not have achieved this without serious software development chops 
+- Although a docker image is available, it is not easily discoverable nor accessible and requires too much work to use (install docker etc.)
+- As a developer, all of this took too much time and work and is still somewhat clunky.
+- Any additional features require more scripting/coding and work
+- Tons of programming plumbing to glue things together
+
+
+The most frustrating part here is that I did really build anything. youtube-dl, ffmpeg, drive and docker are the core utilities. I just wasted my time glueing things together so they can communicate. *That's the problem with programming plumbing*.
+
+
+## What if 
+
+- all these utilities provided a machine interface other than raw text?
+- the output of one could be fed/piped into another without parsing and plumbing?
+- all these tools were available as building blocks online?
+- you could connect those blocks, execute them locally and if you don't have the computational resources, you execute them on the cloud easily?
+- you could easily share your solution and people could easily *discover* your solution?
+
+
