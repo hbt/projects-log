@@ -91,7 +91,7 @@ services:
 
 Usage
 
-docker-compose run video-converter ./video-converter.sh
+docker-compose run --rm -d video-converter ./video-converter.sh
 
 
 ### CPU Issues

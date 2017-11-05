@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<title>dockerfication-and-scaling-73</title>
+<title>breaking-components-into-docker-executable-images-74</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -510,59 +510,141 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_dockerfication_and_scaling_73">dockerfication-and-scaling-73</h2>
+<h2 id="_breaking_components_into_docker_executable_images_74">breaking-components-into-docker-executable-images-74</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="_iteration_5">Iteration 5</h2>
+<h2 id="_iteration_6">Iteration 6</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>OK. We have a script which does what we want.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Download</p>
+</li>
+<li>
+<p>convert</p>
+</li>
+<li>
+<p>upload.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>There are a few more issues</p>
+</div>
 <div class="paragraph">
 <p>Issues:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>maintaining the state of the remote machine is annoying. e.g upgrading youtube-dl and making sure things don&#8217;t break</p>
+<p>Sometimes I don&#8217;t want to convert the video</p>
 </li>
 <li>
-<p>cannot have dedicated vm for just a script. installing other software could break the script by unintentionally upgrading other libraries</p>
+<p>Sometimes I don&#8217;t want to upload it and sync it to my phone. Just download it locally only.</p>
 </li>
 <li>
-<p>ffmpeg consumes a whole CPU and also takes time</p>
-</li>
-<li>
-<p>copy/pasting multiple urls manually is time consuming.</p>
+<p>After listening to a video, I delete it. It gets deleted from my gdrive too. However, music videos stay. they should be uploaded to a different folder.</p>
 </li>
 </ul>
 </div>
-<div class="sect2">
-<h3 id="_software_dependencies_and_deployment_issues">Software dependencies and deployment issues</h3>
 <div class="paragraph">
-<p>Use containers instead of only VMs.</p>
+<p>Normally, if you want additional features you have 2 options:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>create separate scripts</p>
+</li>
+<li>
+<p>have one script and add arguments/parameters e.g <code>--sync</code> <code>--extract-audio</code> etc.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>Dockerfy the whole project and its dependencies. Deploy locally or on any vm easy and use easily.</p>
+<p>Now here is the problem, what I&#8217;m doing has been done before by somebody else. That solution/work is not <strong>accessible</strong> though.
+All of these issues have to be solved with additional scripting and <strong>glue</strong>&#8230;&#8203;again.</p>
+</div>
+<div class="paragraph">
+<p>So, since this is not my first rodeo, let&#8217;s look into how we could make these scripts <strong>accessible</strong> and <strong>useful</strong>.</p>
+</div>
+<div class="paragraph">
+<p>For starters, we need to break down the project into major components. This is easy.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>youtube-dl (downloads video)</p>
+</li>
+<li>
+<p>ffmpeg (video manipulation)</p>
+</li>
+<li>
+<p>gdrive (upload/syncing)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Now, each one of these programs has tons of arguments/parameters to do complicated things. Like download a video or the whole playlist? Upload to google drive and specify which folder? Prompt or not, overwrite files or not etc.</p>
+</div>
+<div class="paragraph">
+<p>These tools are not accessible to advanced users in the first place. They are not easy to use nor install.</p>
+</div>
+<div class="paragraph">
+<p>That has to be the first fix. I don&#8217;t want pip/go/npm/apt-get/yum/rpm or whatever. I just want to use it asap.</p>
+</div>
+<div class="paragraph">
+<p>Ideally, I want a single binary that works cross-platform. There are a few projects like AppImage  <a href="https://appimage.org/" class="bare">https://appimage.org/</a> where the user can download one binary, that has everything needed into it and works everywhere.
+Producing said binary is a nightmare though.</p>
+</div>
+<div class="paragraph">
+<p>Next up is Docker where you can build an image containing your binary and all its dependencies. The biggest downside ofcourse is you need docker.
+This idea is not new. People are working on contained apps <a href="https://www.opencontainers.org/" class="bare">https://www.opencontainers.org/</a> and perhaps we can come up later with a way to turn a docker image into its own executable and easy to distribute. There is even work to put the docker image into the binary. <a href="https://github.com/jessfraz/binctr" class="bare">https://github.com/jessfraz/binctr</a></p>
+</div>
+<div class="paragraph">
+<p>A few links:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.opencontainers.org/" class="bare">https://www.opencontainers.org/</a></p>
+</li>
+<li>
+<p><a href="https://github.com/jessfraz/binctr" class="bare">https://github.com/jessfraz/binctr</a></p>
+</li>
+<li>
+<p><a href="https://www.joyent.com/smartos" class="bare">https://www.joyent.com/smartos</a></p>
+</li>
+<li>
+<p><a href="https://boxfuse.com/" class="bare">https://boxfuse.com/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>For now though, we can easily turn the 3 components above into executable containers. This guide helps <a href="https://www.infoq.com/articles/docker-executable-images" class="bare">https://www.infoq.com/articles/docker-executable-images</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dockerfy_all_executables">Dockerfy all executables</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dockerfy all 3 executables into their images.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s start with ffmpeg</p>
 </div>
 <div class="listingblock">
 <div class="title">Dockerfile</div>
 <div class="content">
 <pre class="pygments highlight"><code data-lang="Dockerfile"><span class="tok-k">FROM</span><span class="tok-s"> ubuntu:16.04</span>
 
-<span class="tok-k">RUN</span> apt-get update <span class="tok-o">&amp;&amp;</span> apt-get install -y curl git python g++ build-essential python-pip ffmpeg sudo php7.0
-
-<span class="tok-c"># install youtube-dl</span>
-<span class="tok-k">RUN</span> pip install youtube-dl
-
-<span class="tok-c"># Install drive</span>
-<span class="tok-k">RUN</span> mkdir -p /goroot <span class="tok-o">&amp;&amp;</span> <span class="tok-se">\</span>
-    curl https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz <span class="tok-p">|</span> tar xvzf - -C /goroot --strip-components<span class="tok-o">=</span><span class="tok-m">1</span>
-<span class="tok-k">ENV</span><span class="tok-s"> GOROOT /goroot</span>
-<span class="tok-k">ENV</span><span class="tok-s"> GOPATH /gopath</span>
-<span class="tok-k">ENV</span><span class="tok-s"> PATH $GOROOT/bin:$GOPATH/bin:$PATH</span>
-<span class="tok-k">RUN</span> go get -u github.com/odeke-em/drive/cmd/drive
-
+<span class="tok-k">RUN</span> apt-get update <span class="tok-o">&amp;&amp;</span> apt-get install -y ffmpeg sudo
 
 <span class="tok-c"># Add a user that can `sudo`.</span>
 <span class="tok-k">RUN</span> useradd --create-home --shell /bin/bash user <span class="tok-se">\</span>
@@ -572,8 +654,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 USER user
 <span class="tok-k">ENV</span><span class="tok-s"> HOME /home/user</span>
 
-<span class="tok-k">RUN</span> mkdir /home/user/project
-<span class="tok-k">WORKDIR</span><span class="tok-s"> /home/user/project</span></code></pre>
+
+<span class="tok-k">ENTRYPOINT</span><span class="tok-s"> [&quot;/usr/bin/ffmpeg&quot;]</span></code></pre>
 </div>
 </div>
 <div class="listingblock">
@@ -582,88 +664,47 @@ USER user
 <pre class="pygments highlight"><code data-lang="yaml"><span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">version</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-s">&#39;3&#39;</span>
 
 <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">services</span><span class="tok-p tok-p-Indicator">:</span>
-  <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">video-converter</span><span class="tok-p tok-p-Indicator">:</span>
+  <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">ffmpeg</span><span class="tok-p tok-p-Indicator">:</span>
     <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">build</span><span class="tok-p tok-p-Indicator">:</span>
       <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">context</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">.</span>
-    <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">image</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">hbtlabs/video-converter</span>
+    <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">image</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">hbtlabs/ffmpeg</span>
     <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">volumes</span><span class="tok-p tok-p-Indicator">:</span>
-      <span class="tok-p tok-p-Indicator">-</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">.:/home/user/project</span>
-      <span class="tok-p tok-p-Indicator">-</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">/tmp/linux-tmp/gdrive/.gd/credentials.json:/home/user/credentials.json</span></code></pre>
+      <span class="tok-p tok-p-Indicator">-</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">/var/run/docker.sock:/var/run/docker.sock</span>
+      <span class="tok-p tok-p-Indicator">-</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">$PWD:/mounted</span>
+    <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">networks</span><span class="tok-p tok-p-Indicator">:</span>
+      <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">hostnet</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-p tok-p-Indicator">{}</span>
+    <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">working_dir</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">/mounted</span>
+
+
+<span class="tok-c1"># needed because docker-compose create an additional network layer and that doesnt play well with VPN/Proxies</span>
+<span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">networks</span><span class="tok-p tok-p-Indicator">:</span>
+  <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">hostnet</span><span class="tok-p tok-p-Indicator">:</span>
+    <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">external</span><span class="tok-p tok-p-Indicator">:</span>
+      <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">name</span><span class="tok-p tok-p-Indicator">:</span> <span class="tok-l tok-l-Scalar tok-l-Scalar-Plain">host</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Usage</p>
+<p>Usage:</p>
 </div>
 <div class="paragraph">
-<p>docker-compose run --rm -d video-converter ./video-converter.sh</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_cpu_issues">CPU Issues</h3>
-<div class="paragraph">
-<p>push the image on docker hub and scale up in the VM or using <a href="https://www.hyper.sh/" class="bare">https://www.hyper.sh/</a></p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_copy_pasting_links">Copy/pasting links</h3>
-<div class="paragraph">
-<p>Use mouseless <code>yankWindowUrls</code> <a href="https://hbt.github.io/mouseless/commands.html" class="bare">https://hbt.github.io/mouseless/commands.html</a></p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_recap">Recap</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>We have our automation script and it can be deployed anywhere (including locally)</p>
-</li>
-<li>
-<p>Although local resources are limited, we can easily scale up in the cloud and process an entire playlist of videos</p>
-</li>
-<li>
-<p>Pretty much majority of users could not have achieved this without serious software development chops</p>
-</li>
-<li>
-<p>Although a docker image is available, it is not easily discoverable nor accessible and requires too much work to use (install docker etc.)</p>
-</li>
-<li>
-<p>As a developer, all of this took too much time and work and is still somewhat clunky.</p>
-</li>
-<li>
-<p>Any additional features require more scripting/coding and work</p>
-</li>
-<li>
-<p>Tons of programming plumbing to glue things together</p>
-</li>
-</ul>
+<p><code>docker-compose run  ffmpeg -i test/v.webm -vn test/v.mp3</code></p>
 </div>
 <div class="paragraph">
-<p>The most frustrating part here is that I did really build anything. youtube-dl, ffmpeg, drive and docker are the core utilities. I just wasted my time glueing things together so they can communicate. <strong>That&#8217;s the problem with programming plumbing</strong>.</p>
+<p>Let&#8217;s improve it further and remove the docker-compose part.</p>
+</div>
+<div class="listingblock">
+<div class="title">ffmpeg</div>
+<div class="content">
+<pre class="pygments highlight"><code data-lang="bash"><span class="tok-ch">#!/bin/bash</span>
+
+docker-compose -f /home/hassen/workspace/docker-files/ffmpeg/docker-compose.yml run --rm ffmpeg <span class="tok-s2">&quot;</span><span class="tok-nv">$@</span><span class="tok-s2">&quot;</span></code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Now, usable in the cli as <code>ffmpeg</code></p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_what_if">What if</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>all these utilities provided a machine interface other than raw text?</p>
-</li>
-<li>
-<p>the output of one could be fed/piped into another without parsing and plumbing?</p>
-</li>
-<li>
-<p>all these tools were available as building blocks online?</p>
-</li>
-<li>
-<p>you could connect those blocks, execute them locally and if you don&#8217;t have the computational resources, you execute them on the cloud easily?</p>
-</li>
-<li>
-<p>you could easily share your solution and people could easily <strong>discover</strong> your solution?</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>Repeat the same thing with <code>youtube-dl</code> and <code>drive</code></p>
 </div>
 </div>
 </div>

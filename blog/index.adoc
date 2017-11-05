@@ -32,6 +32,11 @@ link:basic-scripting-and-automation-72[basic scripting and automation]
 link:dockerfication-and-scaling-73[dockerfication and scaling]
 ++++
 </li>
+<li>
+++++
+link:breaking-components-into-docker-executable-images-74[breaking components into docker executable images]
+++++
+</li>
 </ul>
 <li>build smart assistants (wip)</li><ul><li>
 ++++

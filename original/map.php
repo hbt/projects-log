@@ -10,6 +10,7 @@ $map = [
             'putting a video on my phone' => '71',
             'basic scripting and automation' => '72',
             'dockerfication and scaling' => '73',
+            'breaking components into docker executable images' => '74',
         ],
         
         

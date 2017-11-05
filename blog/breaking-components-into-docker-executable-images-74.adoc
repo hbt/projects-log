@@ -1,0 +1,160 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== breaking-components-into-docker-executable-images-74
+
+
+
+## Iteration 6
+
+OK. We have a script which does what we want. 
+
+- Download
+- convert
+- upload. 
+
+
+There are a few more issues
+
+Issues:
+
+- Sometimes I don't want to convert the video
+- Sometimes I don't want to upload it and sync it to my phone. Just download it locally only.
+- After listening to a video, I delete it. It gets deleted from my gdrive too. However, music videos stay. they should be uploaded to a different folder.
+
+
+Normally, if you want additional features you have 2 options:
+
+- create separate scripts 
+- have one script and add arguments/parameters e.g `--sync` `--extract-audio` etc.
+
+
+Now here is the problem, what I'm doing has been done before by somebody else. That solution/work is not *accessible* though. 
+All of these issues have to be solved with additional scripting and *glue*...again.
+
+So, since this is not my first rodeo, let's look into how we could make these scripts *accessible* and *useful*. 
+
+
+For starters, we need to break down the project into major components. This is easy.
+
+- youtube-dl (downloads video)
+- ffmpeg (video manipulation)
+- gdrive (upload/syncing)
+
+
+Now, each one of these programs has tons of arguments/parameters to do complicated things. Like download a video or the whole playlist? Upload to google drive and specify which folder? Prompt or not, overwrite files or not etc.
+
+
+These tools are not accessible to advanced users in the first place. They are not easy to use nor install.
+
+That has to be the first fix. I don't want pip/go/npm/apt-get/yum/rpm or whatever. I just want to use it asap.
+
+
+Ideally, I want a single binary that works cross-platform. There are a few projects like AppImage  https://appimage.org/ where the user can download one binary, that has everything needed into it and works everywhere. 
+Producing said binary is a nightmare though.
+
+Next up is Docker where you can build an image containing your binary and all its dependencies. The biggest downside ofcourse is you need docker. 
+This idea is not new. People are working on contained apps https://www.opencontainers.org/ and perhaps we can come up later with a way to turn a docker image into its own executable and easy to distribute. There is even work to put the docker image into the binary. https://github.com/jessfraz/binctr
+
+
+A few links:
+
+- https://www.opencontainers.org/
+- https://github.com/jessfraz/binctr
+- https://www.joyent.com/smartos
+- https://boxfuse.com/
+
+For now though, we can easily turn the 3 components above into executable containers. This guide helps https://www.infoq.com/articles/docker-executable-images
+
+
+
+## Dockerfy all executables
+
+
+Dockerfy all 3 executables into their images. 
+
+
+Let's start with ffmpeg
+
+.Dockerfile
+[source, Dockerfile]
+----
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y ffmpeg sudo
+
+# Add a user that can `sudo`.
+RUN useradd --create-home --shell /bin/bash user \
+ && echo "user ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/use
+
+# Don't be root.
+USER user
+ENV HOME /home/user
+
+
+ENTRYPOINT ["/usr/bin/ffmpeg"]
+----
+
+
+.docker-compose.yml
+[source, yaml]
+----
+version: '3'
+
+services: 
+  ffmpeg:
+    build:  
+      context: . 
+    image: hbtlabs/ffmpeg
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - $PWD:/mounted
+    networks:
+      hostnet: {} 
+    working_dir: /mounted      
+      
+
+# needed because docker-compose create an additional network layer and that doesnt play well with VPN/Proxies
+networks:
+  hostnet:
+    external:
+      name: host        
+      
+----
+
+
+Usage:
+
+`docker-compose run  ffmpeg -i test/v.webm -vn test/v.mp3`
+
+
+
+Let's improve it further and remove the docker-compose part. 
+
+.ffmpeg
+[source, bash]
+----
+#!/bin/bash
+
+docker-compose -f /home/hassen/workspace/docker-files/ffmpeg/docker-compose.yml run --rm ffmpeg "$@"
+----
+
+Now, usable in the cli as `ffmpeg`
+
+
+Repeat the same thing with `youtube-dl` and `drive`
