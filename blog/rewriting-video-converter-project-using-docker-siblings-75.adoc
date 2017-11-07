@@ -1,0 +1,62 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== rewriting-video-converter-project-using-docker-siblings-75
+
+
+
+
+## Iteration 7
+
+Now that we have all the utilities dockerfied and easily callable using docker compose with entrypoints. 
+
+We can rewrite the video converter script to use the dockerfied utils. 
+
+Since we moved from one docker image to multiple images, it means we scale up the components as needed.
+Example: we can run youtube-dl on one vm but use ffmpeg on different vms since it takes 1 CPU per file
+
+
+The problem with docker components is how to link them. We have 3 options:
+
+- docker siblings
+- docker in docker
+- docker duh
+
+
+### Docker siblings 
+
+Install docker in the dockerfile
+Mount the docker socket and use docker. 
+
+This does not make more secure. docker will run on the host and mounting volumes uses the host's path instead of the container
+
+
+### Docker in Docker
+
+Run it with `--priviliged` flag and put docker in docker. 
+
+- You have to start the docker service each time which defeats the purpose of small scripts with many dependencies.
+- It takes more disk space since you have to pull the dependencies in a separate docker volume
+
+### Docker 
+
+Put everything in the image. Basically keep what we have done in previous iterations. 
+
+In the case of something like the video-converter project, it's fine. However, since the goal here is to build a framework to add/publish/run functions easily, it's worth skipping this option.
+
+We don't need to break the image to scale up either. We can simply run the same image and use different entrypoints. 

@@ -37,6 +37,11 @@ link:dockerfication-and-scaling-73[dockerfication and scaling]
 link:breaking-components-into-docker-executable-images-74[breaking components into docker executable images]
 ++++
 </li>
+<li>
+++++
+link:rewriting-video-converter-project-using-docker-siblings-75[rewriting video converter project using docker siblings]
+++++
+</li>
 </ul>
 <li>build smart assistants (wip)</li><ul><li>
 ++++

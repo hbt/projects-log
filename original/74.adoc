@@ -56,6 +56,9 @@ A few links:
 - https://github.com/jessfraz/binctr
 - https://www.joyent.com/smartos
 - https://boxfuse.com/
+- snap https://www.ubuntu.com/desktop/snappy
+- http://flatpak.org/hello-world
+- https://appimage.org/
 
 For now though, we can easily turn the 3 components above into executable containers. This guide helps https://www.infoq.com/articles/docker-executable-images
 
