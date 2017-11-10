@@ -26,10 +26,10 @@ $todos = [
     ],
 
     'checklist' => [
-        'weekly checklist'     => [
+        'monthly checklist'     => [
 
             'check new changes from main repo worth having' => [
-                'review forks in network -- last count 141',
+                'review forks in network -- last count 149',
                 'review commits + merge ',
 
                 'merging checklist' => [
