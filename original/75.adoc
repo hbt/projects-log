@@ -38,3 +38,7 @@ Put everything in the image. Basically keep what we have done in previous iterat
 In the case of something like the video-converter project, it's fine. However, since the goal here is to build a framework to add/publish/run functions easily, it's worth skipping this option.
 
 We don't need to break the image to scale up either. We can simply run the same image and use different entrypoints. 
+
+
+
+*None of these options will work remotely since we cannot allow any user to mount/access everything in the VM*
