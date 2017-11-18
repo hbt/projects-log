@@ -60,3 +60,55 @@ Put everything in the image. Basically keep what we have done in previous iterat
 In the case of something like the video-converter project, it's fine. However, since the goal here is to build a framework to add/publish/run functions easily, it's worth skipping this option.
 
 We don't need to break the image to scale up either. We can simply run the same image and use different entrypoints. 
+
+
+
+*None of these options will work remotely since we cannot allow any user to mount/access everything in the VM*
+
+
+## Iteration 8
+
+
+### Issues
+
+- user id and docker user mapping
+
+Docker user mapping is one of those hidden issues. The docker container user id must match the host's user id in order to work. 
+Everything worked fine on my desktop and vms because I'm the only user and therefore have id 1000
+But it failed when deployed on prod. 
+
+Potential solutions:
+
+- creating user in container with same user id and group id https://gist.github.com/renzok/29c9e5744f1dffa392cf
+- configuring the docker daemon itself https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine
+
+
+The whole point of mapping users is for the files created/modified by the container to not have root permissions.
+for now since everything runs in a wrapper anyway, I could easily chown before/after
+
+
+### utilities as entrypoints
+
+this has been modified by using helpers scripts. 
+It means you cannot simply download the docker image and docker compose file but you need the whole git repo in order to mount the source code as a volume.
+
+This makes development much easier (by not having to build a docker image to execute new code) but makes production deployment require an extra resource (the git repo (ssh keys, git updates etc.))
+
+
+
+
+### writing helpers
+
+This has been a breeze. With the dependencies and configuration in docker, the code can be broken into small functions and shared easily, refactored easily etc.
+It is not strongly typed yet and that makes exploration/discovery a problem.
+
+It all follows the same pattern and that makes it easy to grasp. Limiting the number of patterns to learn, understand and manipulate accelerates things.
+
+
+### multiple scripts to ease development
+
+- in dp-scripts (runs in containers)
+- in scripts (bash only runs locally)
+
+
+

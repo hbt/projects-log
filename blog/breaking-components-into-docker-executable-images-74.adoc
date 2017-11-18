@@ -84,6 +84,8 @@ A few links:
 
 For now though, we can easily turn the 3 components above into executable containers. This guide helps https://www.infoq.com/articles/docker-executable-images
 
+Discussion on single binary vs docker containers https://news.ycombinator.com/item?id=15578147
+
 
 
 ## Dockerfy all executables
