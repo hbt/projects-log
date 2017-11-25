@@ -42,6 +42,11 @@ link:breaking-components-into-docker-executable-images-74[breaking components in
 link:rewriting-video-converter-project-using-docker-siblings-75[rewriting video converter project using docker siblings]
 ++++
 </li>
+<li>
+++++
+link:investigating-faas-tools-to-expose-functions-over-the-web-76[investigating faas tools to expose functions over the web]
+++++
+</li>
 </ul>
 <li>build smart assistants (wip)</li><ul><li>
 ++++

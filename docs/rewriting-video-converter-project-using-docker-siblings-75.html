@@ -615,6 +615,9 @@ But it failed when deployed on prod.</p>
 <li>
 <p>configuring the docker daemon itself <a href="https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine" class="bare">https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine</a></p>
 </li>
+<li>
+<p>look into chown like utilities <a href="https://github.com/ncopa/su-exec/blob/master/README.md" class="bare">https://github.com/ncopa/su-exec/blob/master/README.md</a></p>
+</li>
 </ul>
 </div>
 <div class="paragraph">
@@ -653,6 +656,79 @@ It is not strongly typed yet and that makes exploration/discovery a problem.</p>
 <p>in scripts (bash only runs locally)</p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_communication_between_processes_across_containers">communication between processes across containers</h3>
+<div class="paragraph">
+<p>Other than an API gateway, this is possible by mounting the docker socket (aka docker siblings).
+Then running the docker-compose utility.</p>
+</div>
+<div class="paragraph">
+<p>Sharing data is best done through shared volumes. Example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>version: '3.4'
+
+services:
+  youtube-dl:
+    image: hbtlabs/youtube-dl
+  video-converter:
+    build:
+      context: .
+      labels:
+        com.functionshub.dpm: "video-converter"
+    image: hbtlabs/video-converter
+    environment:
+      - USER_PWD=$PWD
+      - USER_HOME=$HOME
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+#      - $HOME/docker-files/src/php/config/php.ini:/etc/php/7.0/cli/php.ini
+      - $PWD:/mounted
+      - shared_data:/shared_data
+      - $HOME/docker-files:/home/user/docker-files
+      - /etc/localtime:/etc/localtime:ro
+      - $HOME/.dpm:/home/user/.dpm
+#      - $HOME/docker-files/secrets/secrets/ssmtp.conf:/etc/ssmtp/ssmtp.conf
+    working_dir: /mounted
+
+volumes:
+  shared_data:
+    external: true</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="pygments highlight"><code>version: '3.3'
+
+services:
+  youtube-dl:
+    build:
+      context: .
+      labels:
+        com.functionshub.dpm: "youtube-dl"
+    image: hbtlabs/youtube-dl
+#    entrypoint: /usr/local/bin/youtube-dl
+    volumes:
+      - $PWD:/mounted
+      - shared_data:/shared_data
+      - $HOME/docker-files:/home/user/docker-files
+    working_dir: /mounted
+
+
+volumes:
+  shared_data:
+    external: true</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Running docker compose will run on the host and not the container. Therefore paths, environment variables have to be adjusted if called from a container.
+Also, possible to use docker-compose fragments to overwrite config in other images and load partials using <code>-f</code></p>
+</div>
+<div class="paragraph">
+<p>This is not needed at the moment since I can simply put everything in the same image and I&#8217;m not sure I want to go in that direction; I&#8217;d rather work on an API gateway.</p>
 </div>
 </div>
 </div>

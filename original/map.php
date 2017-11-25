@@ -12,6 +12,7 @@ $map = [
             'dockerfication and scaling' => '73',
             'breaking components into docker executable images' => '74',
             'rewriting video converter project using docker siblings' => '75',
+            'investigating faas tools to expose functions over the web' => '76',
             
         ],
         

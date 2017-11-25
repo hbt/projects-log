@@ -1,0 +1,45 @@
+:uri-asciidoctor: http://asciidoctor.org
+:icons: font
+:source-highlighter: pygments
+:nofooter:
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90513711-1', 'auto');
+  ga('send', 'pageview');
+</script>
+++++
+
+link:index[Home]
+
+== investigating-faas-tools-to-expose-functions-over-the-web-76
+
+
+
+
+## Iteration 7
+
+
+## Issues:
+
+- cross-communication between containers is better achieved with a gateway than docker-compose
+
+even if the mounting of volumes is solved in docker siblings, it still requires a lot of hackish and know-how to make it work
+
+
+- existing gateway tools are either buggy or barely developed
+
+
+iron-functions has barely been touched and is lacking. openfaas is actively being developed but buggy.
+Forking + Patching the existing work would create a maintenance nightmare. Writing indepedent patches to work around the normal behavior would take more time than simply building properly in the first place.
+
+- docker package management and scripting should be limited until this is solved
+
+Exposing binaries via docker containers is okay. Configuration of binaries + services. Scripting however should be limited to 1 container. No communication for now.
+
+
+

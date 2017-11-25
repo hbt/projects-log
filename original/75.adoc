@@ -59,10 +59,12 @@ Potential solutions:
 
 - creating user in container with same user id and group id https://gist.github.com/renzok/29c9e5744f1dffa392cf
 - configuring the docker daemon itself https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine
+- look into chown like utilities https://github.com/ncopa/su-exec/blob/master/README.md
 
 
 The whole point of mapping users is for the files created/modified by the container to not have root permissions.
 for now since everything runs in a wrapper anyway, I could easily chown before/after
+
 
 
 ### utilities as entrypoints
@@ -89,4 +91,69 @@ It all follows the same pattern and that makes it easy to grasp. Limiting the nu
 - in scripts (bash only runs locally)
 
 
+### communication between processes across containers
 
+Other than an API gateway, this is possible by mounting the docker socket (aka docker siblings).
+Then running the docker-compose utility. 
+
+Sharing data is best done through shared volumes. Example:
+
+```
+version: '3.4'
+
+services: 
+  youtube-dl:
+    image: hbtlabs/youtube-dl
+  video-converter:
+    build:  
+      context: . 
+      labels:
+        com.functionshub.dpm: "video-converter"
+    image: hbtlabs/video-converter
+    environment:
+      - USER_PWD=$PWD
+      - USER_HOME=$HOME
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+#      - $HOME/docker-files/src/php/config/php.ini:/etc/php/7.0/cli/php.ini
+      - $PWD:/mounted
+      - shared_data:/shared_data
+      - $HOME/docker-files:/home/user/docker-files
+      - /etc/localtime:/etc/localtime:ro
+      - $HOME/.dpm:/home/user/.dpm
+#      - $HOME/docker-files/secrets/secrets/ssmtp.conf:/etc/ssmtp/ssmtp.conf
+    working_dir: /mounted      
+    
+volumes: 
+  shared_data:
+    external: true
+```    
+
+```
+version: '3.3'
+
+services: 
+  youtube-dl:
+    build:  
+      context: . 
+      labels:
+        com.functionshub.dpm: "youtube-dl"
+    image: hbtlabs/youtube-dl
+#    entrypoint: /usr/local/bin/youtube-dl
+    volumes:
+      - $PWD:/mounted
+      - shared_data:/shared_data
+      - $HOME/docker-files:/home/user/docker-files
+    working_dir: /mounted      
+      
+
+volumes: 
+  shared_data:
+    external: true
+```
+
+
+Running docker compose will run on the host and not the container. Therefore paths, environment variables have to be adjusted if called from a container.
+Also, possible to use docker-compose fragments to overwrite config in other images and load partials using `-f`
+
+This is not needed at the moment since I can simply put everything in the same image and I'm not sure I want to go in that direction; I'd rather work on an API gateway.

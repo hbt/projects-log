@@ -52,6 +52,7 @@ This idea is not new. People are working on contained apps https://www.openconta
 
 A few links:
 
+- firejail https://ownyourbits.com/2017/10/29/sandbox-your-applications-with-firejail/
 - https://www.opencontainers.org/
 - https://github.com/jessfraz/binctr
 - https://www.joyent.com/smartos
